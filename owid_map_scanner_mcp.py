@@ -1,8 +1,8 @@
 """
 OWID Grapher Map Scanner (MCP Version)
-مسح جميع صفحات Grapher باستخدام OWID MCP
+Scan all Grapher pages for map tab support
 
-المخرجات: CSV file مع جميع الرسوم البيانية التي تدعم tab=map
+Output: CSV file with all charts that support tab=map
 """
 
 import csv
@@ -17,13 +17,13 @@ GRAPHER_BASE_URL = "https://ourworldindata.org/grapher"
 
 def fetch_map_charts_from_sql() -> List[Dict]:
     """
-    جلب جميع الرسوم البيانية التي تحتوي على hasMapTab أو tab=map
-    باستخدام استعلام SQL مباشر
+    Fetch all charts that have hasMapTab or tab=map
+    Using direct SQL query
     """
-    print("جلب جميع الرسوم البيانية من قاعدة بيانات OWID...")
+    print("Fetching all charts from OWID database...")
 
-    # استعلام محسّن للعثور على جميع الرسوم البيانية التي تحتوي على خريطة
-    # ملاحظة: JSON في Datasette يُخزن مع quotes مزدوجة (مثال: ""key"")
+    # Optimized query to find all charts with map support
+    # Note: JSON in Datasette is stored with double quotes (e.g. ""key"")
     sql = """
     SELECT id, slug, title, type, isPublished, config
     FROM charts
@@ -35,7 +35,7 @@ def fetch_map_charts_from_sql() -> List[Dict]:
 
     params = {
         "sql": sql,
-        "_size": "50"  # اختبار بـ 50 نتيجة فقط
+        "_size": "50"  # Test with 50 results only
     }
 
     try:
@@ -68,7 +68,7 @@ def fetch_map_charts_from_sql() -> List[Dict]:
 
 def parse_config_for_map_info(config_str: str) -> Dict:
     """
-    تحليل config JSON لاستخراج معلومات الخريطة
+    Parse config JSON to extract map information
     """
     info = {
         "has_map_tab": False,
@@ -80,30 +80,30 @@ def parse_config_for_map_info(config_str: str) -> Dict:
     }
 
     try:
-        # تنظيف JSON (إزالة التكرارات المزدوجة)
+        # Clean JSON (remove double quotes)
         config_str = config_str.replace('""', '"')
         config = json.loads(config_str)
 
-        # التحقق من hasMapTab
+        # Check for hasMapTab
         if config.get("hasMapTab"):
             info["has_map_tab"] = True
 
-        # التحقق من tab الافتراضي
+        # Check for default tab
         if config.get("tab") == "map":
             info["default_tab"] = "map"
             info["has_map_tab"] = True
 
-        # معلومات الخريطة
+        # Map information
         if "map" in config:
             map_config = config["map"]
             info["map_column_slug"] = map_config.get("columnSlug")
             info["map_time"] = map_config.get("time")
 
-            # التحقق من hideTimeline
+            # Check for hideTimeline
             if map_config.get("hideTimeline"):
                 info["has_timeline"] = False
 
-        # نوع الكيان
+        # Entity type
         info["entity_type"] = config.get("entityType")
 
     except Exception:
@@ -114,7 +114,7 @@ def parse_config_for_map_info(config_str: str) -> Dict:
 
 def fetch_chart_data_years(slug: str) -> Set[int]:
     """
-    جلب البيانات من CSV لاستخراج السنوات المتاحة
+    Fetch data from CSV to extract available years
     """
     url = f"{GRAPHER_BASE_URL}/{slug}.csv"
 
@@ -128,7 +128,7 @@ def fetch_chart_data_years(slug: str) -> Set[int]:
 
         headers = lines[0].split(",")
 
-        # البحث عن عمود السنة
+        # Find year column
         year_col_idx = None
         for i, h in enumerate(headers):
             if h.strip().lower() in ["year", "time", "date"]:
@@ -151,19 +151,19 @@ def fetch_chart_data_years(slug: str) -> Set[int]:
         return years
 
     except Exception as e:
-        print(f"خطأ في جلب البيانات لـ {slug}: {e}")
+        print(f"Error fetching data for {slug}: {e}")
         return set()
 
 
 def check_single_year_map(slug: str, map_info: Dict) -> Optional[bool]:
     """
-    التحقق مما إذا كانت الخريطة تحتوي على بيانات سنة واحدة فقط
+    Check if map has single year data only
     """
-    # إذا كانت hideTimeline = true، فهي سنة واحدة
+    # If hideTimeline = true, it's single year
     if not map_info.get("has_timeline", True):
         return True
 
-    # إذا كان map_time محدد، فهي سنة واحدة
+    # If map_time is specified, it's single year
     if map_info.get("map_time"):
         return True
 
@@ -179,26 +179,26 @@ def check_single_year_map(slug: str, map_info: Dict) -> Optional[bool]:
 
 def scan_all_charts(output_file: str = "owid_grapher_maps_complete.csv") -> List[Dict]:
     """
-    مسح جميع الرسوم البيانية وإنشاء قائمة كاملة
+    Scan all charts and create complete list
     """
     print("=" * 60)
     print("OWID Grapher Map Scanner - Full Scan")
     print("=" * 60)
     print()
 
-    # جلب جميع الرسوم البيانية
+    # Fetch all charts
     charts = fetch_map_charts_from_sql()
 
     if not charts:
-        print("لم يتم العثور على رسوم بيانية")
+        print("No charts found")
         return []
 
     results = []
 
-    print("\nتحليل الرسوم البيانية...")
+    print("\nAnalyzing charts...")
     print("-" * 60)
 
-    # تشغيل 50 فقط للاختبار
+    # Run 50 only for testing
     for chart in charts[:50]:
         chart_id = chart.get("id", "")
         slug = chart.get("slug", "")
@@ -206,14 +206,14 @@ def scan_all_charts(output_file: str = "owid_grapher_maps_complete.csv") -> List
         is_published = chart.get("isPublished", "")
         config_str = chart.get("config", "")
 
-        # تحليل config
+        # Parse config
         map_info = parse_config_for_map_info(config_str)
 
-        # إنشاء URL
+        # Create URL
         base_url = f"{GRAPHER_BASE_URL}/{slug}"
         map_url = f"{base_url}?tab=map" if map_info["has_map_tab"] else base_url
 
-        # التحقق من السنة الواحدة
+        # Check for single year
         single_year = check_single_year_map(slug, map_info)
 
         result = {
@@ -240,10 +240,10 @@ def scan_all_charts(output_file: str = "owid_grapher_maps_complete.csv") -> List
 
 def save_results(results: List[Dict], output_file: str):
     """
-    حفظ النتائج إلى CSV
+    Save results to CSV
     """
     print("\n" + "=" * 60)
-    print(f"حفظ النتائج إلى {output_file}...")
+    print(f"Saving results to {output_file}...")
     print("=" * 60)
 
     fieldnames = [
@@ -257,20 +257,20 @@ def save_results(results: List[Dict], output_file: str):
         writer.writeheader()
         writer.writerows(results)
 
-    # إحصائيات
+    # Statistics
     map_charts = [r for r in results if r["has_map_tab"] == "Yes"]
     published = [r for r in results if r["is_published"] == "True"]
     single_year = [r for r in results if r["single_year_data"] == "Yes"]
 
     print()
-    print("=== الإحصائيات ===")
-    print(f"إجمالي الرسوم البيانية الممسوحة: {len(results)}")
-    print(f"الرسوم البيانية مع خريطة: {len(map_charts)}")
-    print(f"الرسوم البيانية المنشورة: {len(published)}")
-    print(f"الخرائط ببيانات سنة واحدة: {len(single_year)}")
+    print("=== Statistics ===")
+    print(f"Total charts scanned: {len(results)}")
+    print(f"Charts with map: {len(map_charts)}")
+    print(f"Published charts: {len(published)}")
+    print(f"Single year maps: {len(single_year)}")
     print()
 
-    # إنشاء ملف منفصل للخرائط المنشورة فقط
+    # Create separate file for published maps only
     published_map_charts = [r for r in map_charts if r["is_published"] == "True"]
     if published_map_charts:
         published_file = output_file.replace(".csv", "_published_only.csv")
@@ -278,17 +278,17 @@ def save_results(results: List[Dict], output_file: str):
             writer = csv.DictWriter(f, fieldnames=fieldnames)
             writer.writeheader()
             writer.writerows(published_map_charts)
-        print(f"تم حفظ {len(published_map_charts)} خريطة منشورة إلى: {published_file}")
+        print(f"Saved {len(published_map_charts)} published maps to: {published_file}")
 
 
 def main():
     """
-    الدالة الرئيسية
+    Main function
     """
     import sys
     import io
 
-    # إصلاح ترميز الإخراج للنوافذ
+    # Fix output encoding for Windows
     if sys.platform == "win32":
         sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf-8', errors='replace')
 
@@ -305,11 +305,11 @@ def main():
         save_results(results, "owid_grapher_maps_complete.csv")
 
         print()
-        print("✓ تم!")
+        print("Done!")
         print()
-        print("الملفات المُنشأة:")
-        print("  1. owid_grapher_maps_complete.csv - جميع النتائج")
-        print("  2. owid_grapher_maps_complete_published_only.csv - المنشورة فقط")
+        print("Files created:")
+        print("  1. owid_grapher_maps_complete.csv - All results")
+        print("  2. owid_grapher_maps_complete_published_only.csv - Published only")
 
 
 if __name__ == "__main__":
