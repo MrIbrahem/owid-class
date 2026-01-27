@@ -23,13 +23,13 @@ def fetch_map_charts_from_sql() -> List[Dict]:
     print("جلب جميع الرسوم البيانية من قاعدة بيانات OWID...")
 
     # استعلام محسّن للعثور على جميع الرسوم البيانية التي تحتوي على خريطة
+    # ملاحظة: JSON في Datasette يُخزن مع quotes مزدوجة (مثال: ""key"")
     sql = """
     SELECT id, slug, title, type, isPublished, config
     FROM charts
-    WHERE config LIKE '%"hasMapTab":1%'
-       OR config LIKE '%"hasMapTab":true%'
+    WHERE config LIKE '%hasMapTab%'
+       OR config LIKE '%"tab": "map"%'
        OR config LIKE '%"tab":"map"%'
-       OR config LIKE '%"map":{%'
     ORDER BY id
     """
 
@@ -42,22 +42,27 @@ def fetch_map_charts_from_sql() -> List[Dict]:
         response = requests.get(DATASETTE_API, params=params, timeout=120)
         response.raise_for_status()
 
-        csv_data = response.text
-        lines = csv_data.strip().split("\n")
+        # Datasette returns JSON, not CSV
+        data = response.json()
 
-        if len(lines) < 2:
-            print("لم يتم العثور على نتائج")
+        if not data.get("rows"):
+            print("No results found")
             return []
 
-        # قراءة CSV
-        reader = csv.DictReader(lines)
-        charts = list(reader)
+        # Convert rows to list of dicts
+        columns = data.get("columns", [])
+        rows = data.get("rows", [])
 
-        print(f"تم العثور على {len(charts)} رسم بياني محتمل يحتوي على خريطة")
+        charts = []
+        for row in rows:
+            chart = dict(zip(columns, row))
+            charts.append(chart)
+
+        print(f"Found {len(charts)} charts with potential map support")
         return charts
 
     except Exception as e:
-        print(f"خطأ في جلب البيانات: {e}")
+        print(f"Error fetching data: {e}")
         return []
 
 
