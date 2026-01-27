@@ -35,7 +35,7 @@ def fetch_map_charts_from_sql() -> List[Dict]:
 
     params = {
         "sql": sql,
-        "_size": "5000"  # عدد كبير من النتائج
+        "_size": "50"  # اختبار بـ 50 نتيجة فقط
     }
 
     try:
