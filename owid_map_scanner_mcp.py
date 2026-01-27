@@ -198,7 +198,8 @@ def scan_all_charts(output_file: str = "owid_grapher_maps_complete.csv") -> List
     print("\nتحليل الرسوم البيانية...")
     print("-" * 60)
 
-    for chart in charts:
+    # تشغيل 50 فقط للاختبار
+    for chart in charts[:50]:
         chart_id = chart.get("id", "")
         slug = chart.get("slug", "")
         title = chart.get("title", "")
