@@ -307,16 +307,16 @@ def main():
     print()
 
     results = scan_all_charts()
-
+    save_file = Path(__file__).parent / "owid_grapher_maps_complete.csv"
     if results:
-        save_results(results, "owid_grapher_maps_complete.csv")
+        save_results(results, save_file)
 
         print()
         print("Done!")
         print()
         print("Files created:")
-        print("  1. owid_grapher_maps_complete.csv - All results")
-        print("  2. owid_grapher_maps_complete_published_only.csv - Published only")
+        print(f"  1. {save_file} - All results")
+        print(f"  2. {save_file.with_name(save_file.stem + '_published_only.csv')} - Published only")
 
 
 if __name__ == "__main__":
