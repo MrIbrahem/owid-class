@@ -3239,12 +3239,12 @@
         "url": "https://ourworldindata.org/grapher/total-agricultural-land-use-per-person?tab=map",
         "has_map_tab": "Yes",
         "max_time": 2023,
-        "min_time": -10000,
+        "min_time": 0,
         "default_tab": null,
         "is_published": true,
         "entity_type": "region",
         "single_year_data": "No",
-        "len_years": 126,
+        "len_years": 116,
         "has_timeline": "Yes"
     },
     {
@@ -3911,12 +3911,12 @@
         "url": "https://ourworldindata.org/grapher/average-per-capita-fruit-intake-vs-minimum-recommended-guidelines?tab=map",
         "has_map_tab": "Yes",
         "max_time": 2024,
-        "min_time": -10000,
+        "min_time": 0,
         "default_tab": "map",
         "is_published": true,
         "entity_type": null,
         "single_year_data": "No",
-        "len_years": 266,
+        "len_years": 256,
         "has_timeline": "Yes"
     },
     {
@@ -7063,12 +7063,12 @@
         "url": "https://ourworldindata.org/grapher/population?tab=map",
         "has_map_tab": "Yes",
         "max_time": 2023,
-        "min_time": -10000,
+        "min_time": 0,
         "default_tab": null,
         "is_published": true,
         "entity_type": null,
         "single_year_data": "No",
-        "len_years": 265,
+        "len_years": 255,
         "has_timeline": "Yes"
     },
     {
@@ -10423,12 +10423,12 @@
         "url": "https://ourworldindata.org/grapher/long-term-urban-population-region?tab=map",
         "has_map_tab": "Yes",
         "max_time": 2023,
-        "min_time": -10000,
+        "min_time": 0,
         "default_tab": null,
         "is_published": true,
         "entity_type": null,
         "single_year_data": "No",
-        "len_years": 126,
+        "len_years": 116,
         "has_timeline": "Yes"
     },
     {
@@ -11095,12 +11095,12 @@
         "url": "https://ourworldindata.org/grapher/urban-vs-rural-majority?tab=map",
         "has_map_tab": "Yes",
         "max_time": 2050,
-        "min_time": -10000,
+        "min_time": 0,
         "default_tab": "map",
         "is_published": true,
         "entity_type": null,
         "single_year_data": "No",
-        "len_years": 153,
+        "len_years": 143,
         "has_timeline": "Yes"
     },
     {
@@ -11111,12 +11111,12 @@
         "url": "https://ourworldindata.org/grapher/urban-population-share-2050?tab=map",
         "has_map_tab": "Yes",
         "max_time": 2050,
-        "min_time": -10000,
+        "min_time": 0,
         "default_tab": "map",
         "is_published": true,
         "entity_type": null,
         "single_year_data": "No",
-        "len_years": 153,
+        "len_years": 143,
         "has_timeline": "Yes"
     },
     {
@@ -11143,12 +11143,12 @@
         "url": "https://ourworldindata.org/grapher/population-density?tab=map",
         "has_map_tab": "Yes",
         "max_time": 2100,
-        "min_time": -10000,
+        "min_time": 0,
         "default_tab": "map",
         "is_published": true,
         "entity_type": null,
         "single_year_data": "No",
-        "len_years": 341,
+        "len_years": 331,
         "has_timeline": "Yes"
     },
     {
@@ -11319,12 +11319,12 @@
         "url": "https://ourworldindata.org/grapher/projected-share-extreme-poverty?tab=map",
         "has_map_tab": "Yes",
         "max_time": 2025,
-        "min_time": -10000,
+        "min_time": 0,
         "default_tab": "map",
         "is_published": false,
         "entity_type": "country, region or grouping",
         "single_year_data": "No",
-        "len_years": 267,
+        "len_years": 257,
         "has_timeline": "Yes"
     },
     {
@@ -11351,12 +11351,12 @@
         "url": "https://ourworldindata.org/grapher/significant-volcanic-eruptions?tab=map",
         "has_map_tab": "Yes",
         "max_time": 2024,
-        "min_time": -4360,
+        "min_time": 46,
         "default_tab": "map",
         "is_published": true,
         "entity_type": null,
         "single_year_data": "No",
-        "len_years": 366,
+        "len_years": 341,
         "has_timeline": "Yes"
     },
     {
@@ -11367,12 +11367,12 @@
         "url": "https://ourworldindata.org/grapher/significant-earthquakes?tab=map",
         "has_map_tab": "Yes",
         "max_time": 2024,
-        "min_time": -2150,
+        "min_time": 10,
         "default_tab": "map",
         "is_published": true,
         "entity_type": null,
         "single_year_data": "No",
-        "len_years": 967,
+        "len_years": 922,
         "has_timeline": "Yes"
     },
     {
@@ -11388,7 +11388,7 @@
         "is_published": true,
         "entity_type": null,
         "single_year_data": "No",
-        "len_years": 515,
+        "len_years": 509,
         "has_timeline": "Yes"
     },
     {
@@ -12199,12 +12199,12 @@
         "url": "https://ourworldindata.org/grapher/population-long-run-with-projections?tab=map",
         "has_map_tab": "Yes",
         "max_time": 2100,
-        "min_time": -10000,
+        "min_time": 0,
         "default_tab": null,
         "is_published": true,
         "entity_type": null,
         "single_year_data": "No",
-        "len_years": 342,
+        "len_years": 332,
         "has_timeline": "Yes"
     },
     {
@@ -19351,12 +19351,12 @@
         "url": "https://ourworldindata.org/grapher/extent-of-intensive-agriculture?tab=map",
         "has_map_tab": "Yes",
         "max_time": 1850,
-        "min_time": -8000,
+        "min_time": 0,
         "default_tab": "map",
         "is_published": true,
         "entity_type": null,
         "single_year_data": "No",
-        "len_years": 10,
+        "len_years": 5,
         "has_timeline": "Yes"
     },
     {
@@ -20023,12 +20023,12 @@
         "url": "https://ourworldindata.org/grapher/extent-of-foraging?tab=map",
         "has_map_tab": "Yes",
         "max_time": 1850,
-        "min_time": -8000,
+        "min_time": 0,
         "default_tab": "map",
         "is_published": true,
         "entity_type": null,
         "single_year_data": "No",
-        "len_years": 10,
+        "len_years": 5,
         "has_timeline": "Yes"
     },
     {
@@ -20039,12 +20039,12 @@
         "url": "https://ourworldindata.org/grapher/extent-of-pastoralism?tab=map",
         "has_map_tab": "Yes",
         "max_time": 1850,
-        "min_time": -8000,
+        "min_time": 0,
         "default_tab": "map",
         "is_published": true,
         "entity_type": null,
         "single_year_data": "No",
-        "len_years": 10,
+        "len_years": 5,
         "has_timeline": "Yes"
     },
     {
@@ -20055,12 +20055,12 @@
         "url": "https://ourworldindata.org/grapher/extent-of-extensive-agriculture?tab=map",
         "has_map_tab": "Yes",
         "max_time": 1850,
-        "min_time": -8000,
+        "min_time": 0,
         "default_tab": "map",
         "is_published": true,
         "entity_type": null,
         "single_year_data": "No",
-        "len_years": 10,
+        "len_years": 5,
         "has_timeline": "Yes"
     },
     {
@@ -20903,12 +20903,12 @@
         "url": "https://ourworldindata.org/grapher/share-of-population-in-extreme-poverty?tab=map",
         "has_map_tab": "Yes",
         "max_time": 2025,
-        "min_time": -10000,
+        "min_time": 0,
         "default_tab": "map",
         "is_published": true,
         "entity_type": null,
         "single_year_data": "No",
-        "len_years": 267,
+        "len_years": 257,
         "has_timeline": "Yes"
     },
     {
@@ -20967,12 +20967,12 @@
         "url": "https://ourworldindata.org/grapher/share-living-with-less-than-10-int--per-day?tab=map",
         "has_map_tab": "Yes",
         "max_time": 2025,
-        "min_time": -10000,
+        "min_time": 0,
         "default_tab": "map",
         "is_published": true,
         "entity_type": null,
         "single_year_data": "No",
-        "len_years": 267,
+        "len_years": 257,
         "has_timeline": "Yes"
     },
     {
@@ -21175,12 +21175,12 @@
         "url": "https://ourworldindata.org/grapher/daily-mean-income?tab=map",
         "has_map_tab": "Yes",
         "max_time": 2025,
-        "min_time": -10000,
+        "min_time": 0,
         "default_tab": "map",
         "is_published": true,
         "entity_type": null,
         "single_year_data": "No",
-        "len_years": 267,
+        "len_years": 257,
         "has_timeline": "Yes"
     },
     {
@@ -28791,12 +28791,12 @@
         "url": "https://ourworldindata.org/grapher/population-marimekko?tab=map",
         "has_map_tab": "Yes",
         "max_time": 2023,
-        "min_time": -10000,
+        "min_time": 0,
         "default_tab": null,
         "is_published": true,
         "entity_type": null,
         "single_year_data": "No",
-        "len_years": 265,
+        "len_years": 255,
         "has_timeline": "Yes"
     },
     {
@@ -35175,12 +35175,12 @@
         "url": "https://ourworldindata.org/grapher/number-of-tsunamis?tab=map",
         "has_map_tab": "Yes",
         "max_time": 2024,
-        "min_time": -1610,
+        "min_time": 46,
         "default_tab": "map",
         "is_published": true,
         "entity_type": null,
         "single_year_data": "No",
-        "len_years": 393,
+        "len_years": 389,
         "has_timeline": "Yes"
     },
     {
@@ -35191,12 +35191,12 @@
         "url": "https://ourworldindata.org/grapher/tsunami-deaths?tab=map",
         "has_map_tab": "Yes",
         "max_time": 2024,
-        "min_time": -426,
+        "min_time": 79,
         "default_tab": null,
         "is_published": true,
         "entity_type": null,
         "single_year_data": "No",
-        "len_years": 247,
+        "len_years": 246,
         "has_timeline": "Yes"
     },
     {
@@ -39031,12 +39031,12 @@
         "url": "https://ourworldindata.org/grapher/lack-of-access-to-clean-fuels-for-cooking-vs-gdp-per-capita?tab=map",
         "has_map_tab": "Yes",
         "max_time": 2100,
-        "min_time": -10000,
+        "min_time": 0,
         "default_tab": null,
         "is_published": true,
         "entity_type": null,
         "single_year_data": "No",
-        "len_years": 342,
+        "len_years": 332,
         "has_timeline": "Yes"
     },
     {
