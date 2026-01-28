@@ -16,6 +16,11 @@ from typing import Dict, List, Optional, Set
 DATASETTE_API = "https://datasette-public.owid.io/owid.json"
 GRAPHER_BASE_URL = "https://ourworldindata.org/grapher"
 
+try:
+    path_dir = Path(__file__).parent
+except NameError:
+    path_dir = Path("/content/")
+
 
 def fetch_map_charts_from_sql() -> List[Dict]:
     """
@@ -90,7 +95,7 @@ def fetch_map_charts_from_sql() -> List[Dict]:
         chart["slug"]: {**chart, "config": parse_chart_config(chart["config"])} for chart in all_charts
     }
     # save first page data to file for debugging
-    with open(Path(__file__).parent / "all_charts.json", "w", encoding="utf-8") as f:
+    with open(path_dir / "all_charts.json", "w", encoding="utf-8") as f:
         json.dump(all_charts_by_slug, f, ensure_ascii=False, indent=4)
 
     print(f"Found {len(all_charts)} charts with potential map support")
@@ -136,11 +141,19 @@ def parse_config_for_map_info(config_str: str) -> Dict:
         "map_column_slug": None,
         "map_time": None,
         "has_timeline": True,
-        "entity_type": None
+        "entity_type": None,
+        "max_time": None,
+        "min_time": None,
     }
 
     # Clean JSON (remove double quotes)
     config = parse_chart_config(config_str)
+
+    timelineMaxTime = config.get("timelineMaxTime") or config.get("MaxTime")
+    timelineMinTime = config.get("timelineMinTime") or config.get("MinTime")
+
+    info["max_time"] = timelineMaxTime
+    info["min_time"] = timelineMinTime
 
     # Check for hasMapTab
     if config.get("hasMapTab"):
@@ -222,7 +235,15 @@ def check_single_year_map(slug: str, map_info: Dict) -> Optional[bool]:
     if map_info.get("map_time"):
         return True
 
-    return None
+    timelineMaxTime = map_info.get("timelineMaxTime") or map_info.get("MaxTime")
+    timelineMinTime = map_info.get("timelineMinTime") or map_info.get("MinTime")
+    if timelineMaxTime is not None and timelineMinTime is not None:
+        if timelineMaxTime == timelineMinTime:
+            return True
+        else:
+            return False
+
+    # return None
 
     # Otherwise, fetch data to check
     years = fetch_chart_data_years(slug)
@@ -280,6 +301,8 @@ def scan_all_charts() -> List[Dict]:
             "title": title,
             "url": map_url,
             "has_map_tab": "Yes" if map_info["has_map_tab"] else "No",
+            "max_time": map_info.get("max_time", ""),
+            "min_time": map_info.get("min_time", ""),
             "default_tab": map_info.get("default_tab", ""),
             "is_published": is_published,
             "entity_type": map_info.get("entity_type", ""),
@@ -306,7 +329,7 @@ def save_results(results: List[Dict], output_file: str):
 
     fieldnames = [
         "chart_id", "slug", "csv_url", "title", "url",
-        "has_map_tab", "default_tab", "is_published",
+        "has_map_tab", "max_time", "min_time", "default_tab", "is_published",
         "entity_type", "single_year_data", "has_timeline"
     ]
 
@@ -355,12 +378,12 @@ def main():
     print()
 
     results = scan_all_charts()
-    save_file_json = Path(__file__).parent / "owid_grapher_maps_complete.json"
+    save_file_json = path_dir / "owid_grapher_maps_complete.json"
 
     with open(save_file_json, "w", encoding="utf-8") as f:
         json.dump(results, f, ensure_ascii=False, indent=4)
 
-    save_file = Path(__file__).parent / "owid_grapher_maps_complete.csv"
+    save_file = path_dir / "owid_grapher_maps_complete.csv"
     if results:
         save_results(results, save_file)
 
