@@ -267,7 +267,7 @@ def check_single_year_map(slug: str, map_info: Dict) -> Optional[bool]:
         if timelineMaxTime == timelineMinTime:
             return True
 
-    return None
+    # return None
 
     # Otherwise, fetch data to check
     years = fetch_chart_data_years(slug)
@@ -302,45 +302,46 @@ def scan_all_charts() -> List[Dict]:
 
     # Run 50 only for testing
     for chart in tqdm(charts):  # [:50]:
-        chart_id = chart.get("id", "")
-        slug = chart.get("slug", "")
-        title = chart.get("title", "")
-        is_published = chart.get("isPublished", "")
-        config_str = chart.get("config", "")
-
-        # Parse config
-        map_info = parse_config_for_map_info(config_str)
-
-        # Create URL
-        base_url = f"{GRAPHER_BASE_URL}/{slug}"
-        map_url = f"{base_url}?tab=map" if map_info["has_map_tab"] else base_url
-
-        # Check for single year
-        single_year = check_single_year_map(slug, map_info)
-        csv_url = f"{GRAPHER_BASE_URL}/{slug}.csv"
-        result = {
-            "chart_id": chart_id,
-            "slug": slug,
-            "csv_url": csv_url,
-            "title": title,
-            "url": map_url,
-            "has_map_tab": "Yes" if map_info["has_map_tab"] else "No",
-            "max_time": map_info.get("max_time", ""),
-            "min_time": map_info.get("min_time", ""),
-            "default_tab": map_info.get("default_tab", ""),
-            "is_published": is_published,
-            "entity_type": map_info.get("entity_type", ""),
-            "single_year_data": "Yes" if single_year else ("No" if single_year is False else "Unknown"),
-            "has_timeline": "Yes" if map_info.get("has_timeline") else "No"
-        }
-
+        result = generate_chart_result(chart)
         results.append(result)
 
-        status = "MAP" if map_info["has_map_tab"] else "no map"
-        published = "PUB" if is_published == "True" else "draft"
-        # print(f"[{status}] [{published}] {slug}: {title[:50]}")
-
     return results
+
+
+def generate_chart_result(chart):
+    chart_id = chart.get("id", "")
+    slug = chart.get("slug", "")
+    title = chart.get("title", "")
+    is_published = chart.get("isPublished", "")
+    config_str = chart.get("config", "")
+
+    # Parse config
+    map_info = parse_config_for_map_info(config_str)
+
+    # Create URL
+    base_url = f"{GRAPHER_BASE_URL}/{slug}"
+    map_url = f"{base_url}?tab=map" if map_info["has_map_tab"] else base_url
+
+    # Check for single year
+    single_year = check_single_year_map(slug, map_info)
+    csv_url = f"{GRAPHER_BASE_URL}/{slug}.csv"
+    result = {
+        "chart_id": chart_id,
+        "slug": slug,
+        "csv_url": csv_url,
+        "title": title,
+        "url": map_url,
+        "has_map_tab": "Yes" if map_info["has_map_tab"] else "No",
+        "max_time": map_info.get("max_time", ""),
+        "min_time": map_info.get("min_time", ""),
+        "default_tab": map_info.get("default_tab", ""),
+        "is_published": is_published,
+        "entity_type": map_info.get("entity_type", ""),
+        "single_year_data": "Yes" if single_year else ("No" if single_year is False else "Unknown"),
+        "has_timeline": "Yes" if map_info.get("has_timeline") else "No"
+    }
+
+    return result
 
 
 def save_results(results: List[Dict], output_file: str):
