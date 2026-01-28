@@ -9,6 +9,7 @@ https://datasette-public.owid.io/owid/charts
 import csv
 import json
 import requests
+from tqdm import tqdm
 from pathlib import Path
 from typing import Dict, List, Optional, Set
 
@@ -243,7 +244,7 @@ def check_single_year_map(slug: str, map_info: Dict) -> Optional[bool]:
         else:
             return False
 
-    # return None
+    return None
 
     # Otherwise, fetch data to check
     years = fetch_chart_data_years(slug)
@@ -277,7 +278,7 @@ def scan_all_charts() -> List[Dict]:
     print("-" * 60)
 
     # Run 50 only for testing
-    for chart in charts:  # [:50]:
+    for chart in tqdm(charts):  # [:50]:
         chart_id = chart.get("id", "")
         slug = chart.get("slug", "")
         title = chart.get("title", "")
@@ -314,7 +315,7 @@ def scan_all_charts() -> List[Dict]:
 
         status = "MAP" if map_info["has_map_tab"] else "no map"
         published = "PUB" if is_published == "True" else "draft"
-        print(f"[{status}] [{published}] {slug}: {title[:50]}")
+        # print(f"[{status}] [{published}] {slug}: {title[:50]}")
 
     return results
 
@@ -342,6 +343,7 @@ def save_results(results: List[Dict], output_file: str):
     map_charts = [r for r in results if r["has_map_tab"] == "Yes"]
     published = [r for r in results if r["is_published"] == "True"]
     single_year = [r for r in results if r["single_year_data"] == "Yes"]
+    year_status_unknown = [r for r in results if r["single_year_data"] == "Unknown"]
 
     print()
     print("=== Statistics ===")
@@ -349,6 +351,7 @@ def save_results(results: List[Dict], output_file: str):
     print(f"Charts with map: {len(map_charts)}")
     print(f"Published charts: {len(published)}")
     print(f"Single year maps: {len(single_year)}")
+    print(f"Maps with unknown year status: {len(year_status_unknown)}")
     print()
 
     # Create separate file for published maps only
