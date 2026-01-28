@@ -10,7 +10,6 @@ import csv
 import json
 import requests
 from pathlib import Path
-from urllib.parse import urlencode
 from typing import Dict, List, Optional, Set
 
 # OWID Datasette API
