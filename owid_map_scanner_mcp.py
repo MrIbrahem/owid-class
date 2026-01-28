@@ -5,6 +5,7 @@ Scan all Grapher pages for map tab support
 Output: CSV file with all charts that support tab=map
 https://datasette-public.owid.io/owid/charts
 https://api.ourworldindata.org/v1/indicators/930012.metadata.json
+https://api.ourworldindata.org/v1/indicators/930012.data.json
 https://colab.research.google.com/drive/1f84soyHqXfcjcsJ-rxM2-SLdOn5ym3Oe#scrollTo=nFJ7jbHQKpSr
 """
 
@@ -24,6 +25,9 @@ try:
     path_dir = Path(__file__).parent
 except NameError:
     path_dir = Path("/content/")
+
+path_dir_csv_data = path_dir / "csv_data"
+path_dir_csv_data.mkdir(parents=True, exist_ok=True)
 
 
 def fetch_map_charts_from_sql() -> List[Dict]:
@@ -189,43 +193,60 @@ def fetch_chart_data_years(slug: str) -> Set[int]:
     """
     Fetch data from CSV to extract available years
     """
-    url = f"{GRAPHER_BASE_URL}/{slug}.csv"
 
+    response_text = fetch_csv_data(slug)
+
+    lines = response_text.strip().split("\n")
+    if len(lines) < 2:
+        return set()
+
+    headers = lines[0].split(",")
+
+    # Find year column
+    year_col_idx = None
+    for i, h in enumerate(headers):
+        if h.strip().lower() in ["year", "time", "date"]:
+            year_col_idx = i
+            break
+
+    if year_col_idx is None:
+        return set()
+
+    years = set()
+    for line in lines[1:]:
+        values = line.split(",")
+        if len(values) > year_col_idx:
+            try:
+                year = int(float(values[year_col_idx]))
+                years.add(year)
+            except (ValueError, IndexError):
+                continue
+
+    return years
+
+
+def fetch_csv_data(slug) -> str:
+    csv_file_path = path_dir_csv_data / f"{slug}.csv"
+    if csv_file_path.exists():
+        with open(csv_file_path, "r", encoding="utf-8") as f:
+            return f.read()
     try:
+        url = f"{GRAPHER_BASE_URL}/{slug}.csv"
         response = requests.get(url, timeout=30)
         response.raise_for_status()
-
-        lines = response.text.strip().split("\n")
-        if len(lines) < 2:
-            return set()
-
-        headers = lines[0].split(",")
-
-        # Find year column
-        year_col_idx = None
-        for i, h in enumerate(headers):
-            if h.strip().lower() in ["year", "time", "date"]:
-                year_col_idx = i
-                break
-
-        if year_col_idx is None:
-            return set()
-
-        years = set()
-        for line in lines[1:]:
-            values = line.split(",")
-            if len(values) > year_col_idx:
-                try:
-                    year = int(float(values[year_col_idx]))
-                    years.add(year)
-                except (ValueError, IndexError):
-                    continue
-
-        return years
-
     except Exception as e:
-        print(f"Error fetching data for {slug}: {e}")
-        return set()
+        print(f"Error fetching CSV for {slug}: {e}")
+        # Error fetching data for None: 404 Client Error: Not Found for url
+        if "404 Client Error" in str(e):
+            with open(csv_file_path, "w", encoding="utf-8") as f:
+                f.write("")
+        return ""
+
+    text = response.text
+
+    with open(csv_file_path, "w", encoding="utf-8") as f:
+        f.write(text)
+    return text
 
 
 def check_single_year_map(slug: str, map_info: Dict) -> Optional[bool]:
@@ -245,8 +266,6 @@ def check_single_year_map(slug: str, map_info: Dict) -> Optional[bool]:
     if timelineMaxTime is not None and timelineMinTime is not None:
         if timelineMaxTime == timelineMinTime:
             return True
-        else:
-            return False
 
     return None
 
