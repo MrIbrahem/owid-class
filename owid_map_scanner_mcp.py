@@ -245,7 +245,8 @@ def fetch_chart_data_years(slug: str) -> Set[int]:
             break
 
     if year_col_idx is None:
-        return set()
+        # return set()
+        year_col_idx = 2
 
     years = set()
     for line in lines[1:]:
@@ -496,4 +497,5 @@ def main():
 
 if __name__ == "__main__":
     print(try_with_dimensions([{"property": "y", "variableId": 922894}]))
+    print(fetch_chart_data_years("weekly-hospital-admissions-covid-per-million"))
     main()

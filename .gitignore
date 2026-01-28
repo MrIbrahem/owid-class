@@ -1,3 +1,4 @@
 .claude/settings.local.json
 debug_data.json
 all_charts.json
+/csv_data
