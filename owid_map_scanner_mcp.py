@@ -31,6 +31,12 @@ path_dir_csv_data = path_dir / "csv_data"
 path_dir_csv_data.mkdir(parents=True, exist_ok=True)
 
 
+def split_date(y):
+    if isinstance(y, int):
+        return y
+    return y.split("-")[0]
+
+
 def try_with_dimensions(dimensions: Optional[List[Dict]]) :
     """
     Try to determine single year map from dimensions
@@ -55,7 +61,7 @@ def try_with_dimensions(dimensions: Optional[List[Dict]]) :
         return years
     # {"dimensions": { "years": { "values": [ { "id": 1980 }, { "id": 1981 }, ...}
     years_info = data.get("dimensions", {}).get("years", {}).get("values", [])
-    years = [y.get("id") for y in years_info if "id" in y]
+    years = [split_date(y.get("id")) for y in years_info if "id" in y]
     years = list(set(years))
     return years
 
@@ -246,7 +252,8 @@ def fetch_chart_data_years(slug: str) -> Set[int]:
         values = line.split(",")
         if len(values) > year_col_idx:
             try:
-                year = int(float(values[year_col_idx]))
+                year_str = split_date(values[year_col_idx].strip())
+                year = int(float(year_str))
                 years.add(year)
             except (ValueError, IndexError):
                 continue
