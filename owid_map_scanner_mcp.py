@@ -8,6 +8,8 @@ Output: CSV file with all charts that support tab=map
 import csv
 import json
 import requests
+from pathlib import Path
+from urllib.parse import urlencode
 from typing import Dict, List, Optional, Set
 
 # OWID Datasette API
@@ -38,7 +40,11 @@ def fetch_map_charts_from_sql() -> List[Dict]:
         "_size": "50"  # Test with 50 results only
     }
 
+    url = f"{DATASETTE_API}?" + urlencode(params)
+    print(f"Requesting URL: {url}")
+
     try:
+        # print url with params
         response = requests.get(DATASETTE_API, params=params, timeout=120)
         response.raise_for_status()
 
@@ -48,6 +54,10 @@ def fetch_map_charts_from_sql() -> List[Dict]:
         if not data.get("rows"):
             print("No results found")
             return []
+
+        # save data to file for debugging
+        with open(Path(__file__).parent / "debug_data.json", "w", encoding="utf-8") as f:
+            json.dump(data, f, ensure_ascii=False, indent=4)
 
         # Convert rows to list of dicts
         columns = data.get("columns", [])
@@ -214,8 +224,8 @@ def scan_all_charts(output_file: str = "owid_grapher_maps_complete.csv") -> List
         map_url = f"{base_url}?tab=map" if map_info["has_map_tab"] else base_url
 
         # Check for single year
-        single_year = check_single_year_map(slug, map_info)
-
+        # single_year = check_single_year_map(slug, map_info)
+        single_year = None
         result = {
             "chart_id": chart_id,
             "slug": slug,
@@ -285,12 +295,9 @@ def main():
     """
     Main function
     """
-    import sys
-    import io
 
     # Fix output encoding for Windows
-    if sys.platform == "win32":
-        sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf-8', errors='replace')
+    # if sys.platform == "win32": sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf-8', errors='replace')
 
     print()
     print("=" * 60)
