@@ -430,7 +430,7 @@ def save_results(results: List[Dict], output_file: str):
 
     # Statistics
     map_charts = [r for r in results if r["has_map_tab"] == "Yes"]
-    published = [r for r in results if r["is_published"] == "True"]
+    published = [r for r in results if (r["is_published"] == "True" or r["is_published"] is True)]
     single_year = [r for r in results if r["single_year_data"] == "Yes"]
     year_status_unknown = [r for r in results if r["single_year_data"] == "Unknown"]
 
@@ -444,7 +444,7 @@ def save_results(results: List[Dict], output_file: str):
     print()
 
     # Create separate file for published maps only
-    published_map_charts = [r for r in map_charts if r["is_published"] == "True"]
+    published_map_charts = [r for r in map_charts if (r["is_published"] == "True" or r["is_published"] is True)]
     if published_map_charts:
         published_file = output_file.with_name(output_file.stem + "_published_only.csv")
         with open(published_file, "w", newline="", encoding="utf-8-sig") as f:
