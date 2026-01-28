@@ -21,60 +21,69 @@ GRAPHER_BASE_URL = "https://ourworldindata.org/grapher"
 def fetch_map_charts_from_sql() -> List[Dict]:
     """
     Fetch all charts that have hasMapTab or tab=map
-    Using direct SQL query
+    Using direct SQL query with pagination (LIMIT/OFFSET)
     """
     print("Fetching all charts from OWID database...")
 
-    # Optimized query to find all charts with map support
-    # Note: JSON in Datasette is stored with double quotes (e.g. ""key"")
-    sql = """
+    # Base SQL query - note we add LIMIT and OFFSET dynamically
+    sql_template = """
     SELECT id, slug, title, type, isPublished, config
     FROM charts
     WHERE config LIKE '%hasMapTab%'
        OR config LIKE '%"tab": "map"%'
        OR config LIKE '%"tab":"map"%'
     ORDER BY id
+    LIMIT {limit} OFFSET {offset}
     """
 
-    params = {
-        "sql": sql,
-        "_size": "6000"  # Test with 50 results only
-    }
+    all_charts = []
+    offset = 0
+    page_size = 1000  # Max results per page in Datasette
 
-    url = f"{DATASETTE_API}?" + urlencode(params)
-    print(f"Requesting URL: {url}")
+    while True:
+        sql = sql_template.format(limit=page_size, offset=offset)
 
-    try:
-        # print url with params
-        response = requests.get(DATASETTE_API, params=params, timeout=120)
-        response.raise_for_status()
+        params = {
+            "sql": sql,
+            "_size": str(page_size)
+        }
 
-        # Datasette returns JSON, not CSV
-        data = response.json()
+        try:
+            response = requests.get(DATASETTE_API, params=params, timeout=120)
+            response.raise_for_status()
+            data = response.json()
 
-        if not data.get("rows"):
-            print("No results found")
-            return []
+            rows = data.get("rows", [])
+            if not rows:
+                # No more results
+                break
 
-        # save data to file for debugging
-        with open(Path(__file__).parent / "debug_data.json", "w", encoding="utf-8") as f:
-            json.dump(data, f, ensure_ascii=False, indent=4)
+            # Get columns from first page
+            if offset == 0:
+                columns = data.get("columns", [])
+                # save first page data to file for debugging
+                with open(Path(__file__).parent / "debug_data.json", "w", encoding="utf-8") as f:
+                    json.dump(data, f, ensure_ascii=False, indent=4)
 
-        # Convert rows to list of dicts
-        columns = data.get("columns", [])
-        rows = data.get("rows", [])
+            # Convert rows to dicts
+            for row in rows:
+                chart = dict(zip(columns, row))
+                all_charts.append(chart)
 
-        charts = []
-        for row in rows:
-            chart = dict(zip(columns, row))
-            charts.append(chart)
+            print(f"Fetched {len(rows)} charts (offset: {offset}, total so far: {len(all_charts)})")
 
-        print(f"Found {len(charts)} charts with potential map support")
-        return charts
+            # If we got less than page_size, we're done
+            if len(rows) < page_size:
+                break
 
-    except Exception as e:
-        print(f"Error fetching data: {e}")
-        return []
+            offset += page_size
+
+        except Exception as e:
+            print(f"Error fetching data at offset {offset}: {e}")
+            break
+
+    print(f"Found {len(all_charts)} charts with potential map support")
+    return all_charts
 
 
 def parse_config_for_map_info(config_str: str) -> Dict:
