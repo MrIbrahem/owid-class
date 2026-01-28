@@ -16,6 +16,7 @@ import requests
 from tqdm import tqdm
 from pathlib import Path
 from typing import Dict, List, Optional, Set
+from multiprocessing import Pool
 
 # OWID Datasette API
 DATASETTE_API = "https://datasette-public.owid.io/owid.json"
@@ -28,6 +29,39 @@ except NameError:
 
 path_dir_csv_data = path_dir / "csv_data"
 path_dir_csv_data.mkdir(parents=True, exist_ok=True)
+
+
+def try_with_dimensions(dimensions: Optional[List[Dict]]) -> Optional[bool]:
+    """
+    Try to determine single year map from dimensions
+    """
+    _example = [{"property": "y", "variableId": 923410}]
+
+    if not dimensions:
+        return None, 0
+    dimensions_dict = {dim.get("property"): dim.get("variableId") for dim in dimensions if "variableId" in dim}
+    variableId = dimensions_dict.get("y")
+    if not variableId:
+        return None, 0
+
+    # load api
+    url = f"https://api.ourworldindata.org/v1/indicators/{variableId}.metadata.json"
+    data = {}
+    try:
+        response = requests.get(url, timeout=30)
+        response.raise_for_status()
+        data = response.json()
+    except Exception:
+        return None, 0
+    # {"dimensions": { "years": { "values": [ { "id": 1980 }, { "id": 1981 }, ...}
+    years_info = data.get("dimensions", {}).get("years", {}).get("values", [])
+
+    if len(years_info) == 1:
+        return True, 1
+    elif len(years_info) > 1:
+        return False, len(years_info)
+
+    return None, 0
 
 
 def fetch_map_charts_from_sql() -> List[Dict]:
@@ -139,7 +173,7 @@ def fetch_total_chart_count():
     return total_count
 
 
-def parse_config_for_map_info(config_str: str) -> Dict:
+def parse_config_for_map_info(config: dict) -> Dict:
     """
     Parse config JSON to extract map information
     """
@@ -153,9 +187,6 @@ def parse_config_for_map_info(config_str: str) -> Dict:
         "max_time": None,
         "min_time": None,
     }
-
-    # Clean JSON (remove double quotes)
-    config = parse_chart_config(config_str)
 
     timelineMaxTime = config.get("timelineMaxTime") or config.get("MaxTime")
     timelineMinTime = config.get("timelineMinTime") or config.get("MinTime")
@@ -193,6 +224,8 @@ def fetch_chart_data_years(slug: str) -> Set[int]:
     """
     Fetch data from CSV to extract available years
     """
+    if not slug:
+        return set()
 
     response_text = fetch_csv_data(slug)
 
@@ -230,53 +263,50 @@ def fetch_csv_data(slug) -> str:
     if csv_file_path.exists():
         with open(csv_file_path, "r", encoding="utf-8") as f:
             return f.read()
+    text = ""
+
     try:
         url = f"{GRAPHER_BASE_URL}/{slug}.csv"
         response = requests.get(url, timeout=30)
         response.raise_for_status()
+        text = response.text
     except Exception as e:
         print(f"Error fetching CSV for {slug}: {e}")
-        # Error fetching data for None: 404 Client Error: Not Found for url
-        if "404 Client Error" in str(e):
-            with open(csv_file_path, "w", encoding="utf-8") as f:
-                f.write("")
-        return ""
-
-    text = response.text
 
     with open(csv_file_path, "w", encoding="utf-8") as f:
         f.write(text)
+
     return text
 
 
-def check_single_year_map(slug: str, map_info: Dict) -> Optional[bool]:
+def check_single_year_map(slug: str, map_info: Dict):
     """
     Check if map has single year data only
     """
     # If hideTimeline = true, it's single year
     if not map_info.get("has_timeline", True):
-        return True
+        return True, "-"
 
     # If map_time is specified, it's single year
     if map_info.get("map_time"):
-        return True
+        return True, "-"
 
     timelineMaxTime = map_info.get("timelineMaxTime") or map_info.get("MaxTime")
     timelineMinTime = map_info.get("timelineMinTime") or map_info.get("MinTime")
     if timelineMaxTime is not None and timelineMinTime is not None:
         if timelineMaxTime == timelineMinTime:
-            return True
+            return True, "-"
 
     # return None
 
     # Otherwise, fetch data to check
     years = fetch_chart_data_years(slug)
     if len(years) == 1:
-        return True
+        return True, 1
     elif len(years) > 1:
-        return False
+        return False, len(years)
 
-    return None  # Unknown
+    return None, 0
 
 
 def scan_all_charts() -> List[Dict]:
@@ -308,6 +338,33 @@ def scan_all_charts() -> List[Dict]:
     return results
 
 
+def scan_all_charts_with_pool() -> List[Dict]:
+    """
+    Scan all charts and create complete list
+    """
+    print("=" * 60)
+    print("OWID Grapher Map Scanner - Full Scan")
+    print("=" * 60)
+    print()
+
+    # Fetch all charts
+    charts = fetch_map_charts_from_sql()
+
+    if not charts:
+        print("No charts found")
+        return []
+
+    results = []
+
+    print("\nAnalyzing charts...")
+    print("-" * 60)
+
+    with Pool(processes=4) as pool:
+        results = list(pool.imap(generate_chart_result, charts))
+
+    return results
+
+
 def generate_chart_result(chart):
     chart_id = chart.get("id", "")
     slug = chart.get("slug", "")
@@ -315,15 +372,23 @@ def generate_chart_result(chart):
     is_published = chart.get("isPublished", "")
     config_str = chart.get("config", "")
 
+    # Clean JSON (remove double quotes)
+    config = parse_chart_config(config_str)
+
     # Parse config
-    map_info = parse_config_for_map_info(config_str)
+    map_info = parse_config_for_map_info(config)
 
     # Create URL
     base_url = f"{GRAPHER_BASE_URL}/{slug}"
     map_url = f"{base_url}?tab=map" if map_info["has_map_tab"] else base_url
 
+    len_years = 0
     # Check for single year
-    single_year = check_single_year_map(slug, map_info)
+    single_year, len_years= check_single_year_map(slug, map_info)
+
+    if single_year is None:
+        single_year, len_years = try_with_dimensions(config.get("dimensions"))
+
     csv_url = f"{GRAPHER_BASE_URL}/{slug}.csv"
     result = {
         "chart_id": chart_id,
@@ -338,6 +403,7 @@ def generate_chart_result(chart):
         "is_published": is_published,
         "entity_type": map_info.get("entity_type", ""),
         "single_year_data": "Yes" if single_year else ("No" if single_year is False else "Unknown"),
+        "len_years": len_years,
         "has_timeline": "Yes" if map_info.get("has_timeline") else "No"
     }
 
@@ -355,7 +421,7 @@ def save_results(results: List[Dict], output_file: str):
     fieldnames = [
         "chart_id", "slug", "csv_url", "title", "url",
         "has_map_tab", "max_time", "min_time", "default_tab", "is_published",
-        "entity_type", "single_year_data", "has_timeline"
+        "entity_type", "single_year_data", "len_years", "has_timeline"
     ]
 
     with open(output_file, "w", newline="", encoding="utf-8-sig") as f:
@@ -404,7 +470,7 @@ def main():
     print("=" * 60)
     print()
 
-    results = scan_all_charts()
+    results = scan_all_charts_with_pool()
     save_file_json = path_dir / "owid_grapher_maps_complete.json"
 
     with open(save_file_json, "w", encoding="utf-8") as f:
@@ -423,4 +489,5 @@ def main():
 
 
 if __name__ == "__main__":
-    main()
+    print(try_with_dimensions([{"property": "y", "variableId": 922894}]))
+    # main()
