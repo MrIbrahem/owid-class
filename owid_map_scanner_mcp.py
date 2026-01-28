@@ -24,6 +24,26 @@ def fetch_map_charts_from_sql() -> List[Dict]:
     """
     print("Fetching all charts from OWID database...")
 
+    # First, get the total count
+    count_sql = """
+    SELECT count(id) as total
+    FROM charts
+    WHERE config LIKE '%hasMapTab%'
+       OR config LIKE '%"tab": "map"%'
+       OR config LIKE '%"tab":"map"%'
+    """
+
+    try:
+        response = requests.get(DATASETTE_API, params={"sql": count_sql}, timeout=30)
+        response.raise_for_status()
+        data = response.json()
+        total_count = data.get("rows", [[0]])[0][0]
+        print(f"Total charts to fetch: {total_count}")
+        print("-" * 50)
+    except Exception as e:
+        print(f"Warning: Could not get count: {e}")
+        total_count = None
+
     # Base SQL query - note we add LIMIT and OFFSET dynamically
     sql_template = """
     SELECT id, slug, title, type, isPublished, config
