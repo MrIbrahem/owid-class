@@ -29,13 +29,13 @@ def fetch_map_charts_from_sql() -> List[Dict]:
 
     # Base SQL query - note we add LIMIT and OFFSET dynamically
     sql_template = """
-    SELECT id, slug, title, type, isPublished, config
-    FROM charts
-    WHERE config LIKE '%hasMapTab%'
-       OR config LIKE '%"tab": "map"%'
-       OR config LIKE '%"tab":"map"%'
-    ORDER BY id
-    LIMIT {limit} OFFSET {offset}
+        SELECT id, slug, title, type, isPublished, config
+        FROM charts
+        WHERE config LIKE '%hasMapTab%'
+        OR config LIKE '%"tab": "map"%'
+        OR config LIKE '%"tab":"map"%'
+        ORDER BY id
+        LIMIT {limit} OFFSET {offset}
     """
 
     all_charts = []
@@ -264,10 +264,12 @@ def scan_all_charts() -> List[Dict]:
 
         # Check for single year
         # single_year = check_single_year_map(slug, map_info)
+        csv_url = f"{GRAPHER_BASE_URL}/{slug}.csv"
         single_year = None
         result = {
             "chart_id": chart_id,
             "slug": slug,
+            "csv_url": csv_url,
             "title": title,
             "url": map_url,
             "has_map_tab": "Yes" if map_info["has_map_tab"] else "No",
