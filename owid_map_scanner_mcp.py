@@ -489,4 +489,4 @@ def main():
 
 if __name__ == "__main__":
     print(try_with_dimensions([{"property": "y", "variableId": 922894}]))
-    # main()
+    main()
