@@ -298,7 +298,7 @@ def save_results(results: List[Dict], output_file: str):
     print("=" * 60)
 
     fieldnames = [
-        "chart_id", "slug", "title", "url",
+        "chart_id", "slug", "csv_url", "title", "url",
         "has_map_tab", "default_tab", "is_published",
         "entity_type", "single_year_data", "has_timeline"
     ]
