@@ -77,7 +77,7 @@ def fetch_map_charts_from_sql() -> List[Dict]:
     total_count = fetch_total_chart_count()
 
     # Base SQL query - note we add LIMIT and OFFSET dynamically
-    sql_template = """
+    sql_template_0 = """
         SELECT id, slug, title, type, isPublished, config
         FROM charts
         WHERE config LIKE '%hasMapTab%'
@@ -86,7 +86,12 @@ def fetch_map_charts_from_sql() -> List[Dict]:
         ORDER BY id
         LIMIT {limit} OFFSET {offset}
     """
-
+    sql_template = """
+        SELECT id, slug, title, type, isPublished, config
+        FROM charts
+        ORDER BY id
+        LIMIT {limit} OFFSET {offset}
+    """
     all_charts = []
     offset = 0
     page_size = 1000  # Max results per page in Datasette
@@ -160,6 +165,12 @@ def fetch_total_chart_count():
     WHERE config LIKE '%hasMapTab%'
        OR config LIKE '%"tab": "map"%'
        OR config LIKE '%"tab":"map"%'
+    """
+
+    count_sql = """
+        SELECT count(id) as total
+        FROM charts
+        WHERE isPublished = 'true'
     """
 
     try:
@@ -313,35 +324,6 @@ def check_single_year_map(slug: str, map_info: Dict):
     return None, 0
 
 
-def scan_all_charts() -> List[Dict]:
-    """
-    Scan all charts and create complete list
-    """
-    print("=" * 60)
-    print("OWID Grapher Map Scanner - Full Scan")
-    print("=" * 60)
-    print()
-
-    # Fetch all charts
-    charts = fetch_map_charts_from_sql()
-
-    if not charts:
-        print("No charts found")
-        return []
-
-    results = []
-
-    print("\nAnalyzing charts...")
-    print("-" * 60)
-
-    # Run 50 only for testing
-    for chart in tqdm(charts):  # [:50]:
-        result = generate_chart_result(chart)
-        results.append(result)
-
-    return results
-
-
 def scan_all_charts_with_pool() -> List[Dict]:
     """
     Scan all charts and create complete list
@@ -396,11 +378,9 @@ def generate_chart_result(chart):
     max_time = map_info.get("max_time") or (max(years) if years else None)
     min_time = map_info.get("min_time") or (min(years) if years else None)
 
-    csv_url = f"{GRAPHER_BASE_URL}/{slug}.csv"
     result = {
         "chart_id": chart_id,
         "slug": slug,
-        "csv_url": csv_url,
         "title": title,
         "url": map_url,
         "has_map_tab": "Yes" if map_info["has_map_tab"] else "No",
@@ -426,7 +406,7 @@ def save_results(results: List[Dict], output_file: str):
     print("=" * 60)
 
     fieldnames = [
-        "chart_id", "slug", "csv_url", "title", "url",
+        "chart_id", "slug", "title", "url",
         "has_map_tab", "max_time", "min_time", "default_tab", "is_published",
         "entity_type", "single_year_data", "len_years", "has_timeline"
     ]
