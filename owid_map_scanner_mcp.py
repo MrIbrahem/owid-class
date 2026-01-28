@@ -25,24 +25,7 @@ def fetch_map_charts_from_sql() -> List[Dict]:
     print("Fetching all charts from OWID database...")
 
     # First, get the total count
-    count_sql = """
-    SELECT count(id) as total
-    FROM charts
-    WHERE config LIKE '%hasMapTab%'
-       OR config LIKE '%"tab": "map"%'
-       OR config LIKE '%"tab":"map"%'
-    """
-
-    try:
-        response = requests.get(DATASETTE_API, params={"sql": count_sql}, timeout=30)
-        response.raise_for_status()
-        data = response.json()
-        total_count = data.get("rows", [[0]])[0][0]
-        print(f"Total charts to fetch: {total_count}")
-        print("-" * 50)
-    except Exception as e:
-        print(f"Warning: Could not get count: {e}")
-        total_count = None
+    total_count = fetch_total_chart_count()
 
     # Base SQL query - note we add LIMIT and OFFSET dynamically
     sql_template = """
@@ -108,6 +91,28 @@ def fetch_map_charts_from_sql() -> List[Dict]:
 
     print(f"Found {len(all_charts)} charts with potential map support")
     return all_charts
+
+
+def fetch_total_chart_count():
+    count_sql = """
+    SELECT count(id) as total
+    FROM charts
+    WHERE config LIKE '%hasMapTab%'
+       OR config LIKE '%"tab": "map"%'
+       OR config LIKE '%"tab":"map"%'
+    """
+
+    try:
+        response = requests.get(DATASETTE_API, params={"sql": count_sql}, timeout=30)
+        response.raise_for_status()
+        data = response.json()
+        total_count = data.get("rows", [[0]])[0][0]
+        print(f"Total charts to fetch: {total_count}")
+        print("-" * 50)
+    except Exception as e:
+        print(f"Warning: Could not get count: {e}")
+        total_count = None
+    return total_count
 
 
 def parse_config_for_map_info(config_str: str) -> Dict:
