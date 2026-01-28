@@ -89,7 +89,12 @@ def fetch_map_charts_from_sql() -> List[Dict]:
                 chart = dict(zip(columns, row))
                 all_charts.append(chart)
 
-            print(f"Fetched {len(rows)} charts (offset: {offset}, total so far: {len(all_charts)})")
+            # Progress message
+            if total_count:
+                progress = (len(all_charts) / total_count) * 100
+                print(f"Fetched {len(rows)} charts (offset: {offset}, total: {len(all_charts)}/{total_count} - {progress:.1f}%)")
+            else:
+                print(f"Fetched {len(rows)} charts (offset: {offset}, total so far: {len(all_charts)})")
 
             # If we got less than page_size, we're done
             if len(rows) < page_size:
