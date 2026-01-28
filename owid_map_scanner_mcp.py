@@ -187,7 +187,7 @@ def check_single_year_map(slug: str, map_info: Dict) -> Optional[bool]:
     return None  # Unknown
 
 
-def scan_all_charts(output_file: str = "owid_grapher_maps_complete.csv") -> List[Dict]:
+def scan_all_charts() -> List[Dict]:
     """
     Scan all charts and create complete list
     """
@@ -283,7 +283,7 @@ def save_results(results: List[Dict], output_file: str):
     # Create separate file for published maps only
     published_map_charts = [r for r in map_charts if r["is_published"] == "True"]
     if published_map_charts:
-        published_file = output_file.replace(".csv", "_published_only.csv")
+        published_file = output_file.with_name(output_file.stem + "_published_only.csv")
         with open(published_file, "w", newline="", encoding="utf-8-sig") as f:
             writer = csv.DictWriter(f, fieldnames=fieldnames)
             writer.writeheader()
