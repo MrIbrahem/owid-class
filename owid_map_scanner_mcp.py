@@ -3,6 +3,7 @@ OWID Grapher Map Scanner (MCP Version)
 Scan all Grapher pages for map tab support
 
 Output: CSV file with all charts that support tab=map
+https://datasette-public.owid.io/owid/charts
 """
 
 import csv
@@ -37,7 +38,7 @@ def fetch_map_charts_from_sql() -> List[Dict]:
 
     params = {
         "sql": sql,
-        "_size": "50"  # Test with 50 results only
+        "_size": "6000"  # Test with 50 results only
     }
 
     url = f"{DATASETTE_API}?" + urlencode(params)
@@ -209,7 +210,7 @@ def scan_all_charts() -> List[Dict]:
     print("-" * 60)
 
     # Run 50 only for testing
-    for chart in charts[:50]:
+    for chart in charts:  # [:50]:
         chart_id = chart.get("id", "")
         slug = chart.get("slug", "")
         title = chart.get("title", "")
