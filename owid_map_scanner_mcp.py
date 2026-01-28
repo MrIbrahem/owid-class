@@ -4,8 +4,11 @@ Scan all Grapher pages for map tab support
 
 Output: CSV file with all charts that support tab=map
 https://datasette-public.owid.io/owid/charts
+https://api.ourworldindata.org/v1/indicators/930012.metadata.json
+https://colab.research.google.com/drive/1f84soyHqXfcjcsJ-rxM2-SLdOn5ym3Oe#scrollTo=nFJ7jbHQKpSr
 """
 
+import functools
 import csv
 import json
 import requests
@@ -181,6 +184,7 @@ def parse_config_for_map_info(config_str: str) -> Dict:
     return info
 
 
+@functools.lru_cache(maxsize=None)
 def fetch_chart_data_years(slug: str) -> Set[int]:
     """
     Fetch data from CSV to extract available years
