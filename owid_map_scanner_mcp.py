@@ -31,18 +31,18 @@ path_dir_csv_data = path_dir / "csv_data"
 path_dir_csv_data.mkdir(parents=True, exist_ok=True)
 
 
-def try_with_dimensions(dimensions: Optional[List[Dict]]) -> Optional[bool]:
+def try_with_dimensions(dimensions: Optional[List[Dict]]) :
     """
     Try to determine single year map from dimensions
     """
     _example = [{"property": "y", "variableId": 923410}]
-
+    years = set()
     if not dimensions:
-        return None, 0
+        return years
     dimensions_dict = {dim.get("property"): dim.get("variableId") for dim in dimensions if "variableId" in dim}
     variableId = dimensions_dict.get("y")
     if not variableId:
-        return None, 0
+        return years
 
     # load api
     url = f"https://api.ourworldindata.org/v1/indicators/{variableId}.metadata.json"
@@ -52,16 +52,12 @@ def try_with_dimensions(dimensions: Optional[List[Dict]]) -> Optional[bool]:
         response.raise_for_status()
         data = response.json()
     except Exception:
-        return None, 0
+        return years
     # {"dimensions": { "years": { "values": [ { "id": 1980 }, { "id": 1981 }, ...}
     years_info = data.get("dimensions", {}).get("years", {}).get("values", [])
-
-    if len(years_info) == 1:
-        return True, 1
-    elif len(years_info) > 1:
-        return False, len(years_info)
-
-    return None, 0
+    years = [y.get("id") for y in years_info if "id" in y]
+    years = list(set(years))
+    return years
 
 
 def fetch_map_charts_from_sql() -> List[Dict]:
@@ -382,12 +378,15 @@ def generate_chart_result(chart):
     base_url = f"{GRAPHER_BASE_URL}/{slug}"
     map_url = f"{base_url}?tab=map" if map_info["has_map_tab"] else base_url
 
-    len_years = 0
-    # Check for single year
-    single_year, len_years= check_single_year_map(slug, map_info)
+    years = fetch_chart_data_years(slug)
 
-    if single_year is None:
-        single_year, len_years = try_with_dimensions(config.get("dimensions"))
+    if not years:
+        years = try_with_dimensions(config.get("dimensions"))
+
+    len_years = len(years)
+
+    max_time = map_info.get("max_time") or (max(years) if years else None)
+    min_time = map_info.get("min_time") or (min(years) if years else None)
 
     csv_url = f"{GRAPHER_BASE_URL}/{slug}.csv"
     result = {
@@ -397,12 +396,12 @@ def generate_chart_result(chart):
         "title": title,
         "url": map_url,
         "has_map_tab": "Yes" if map_info["has_map_tab"] else "No",
-        "max_time": map_info.get("max_time", ""),
-        "min_time": map_info.get("min_time", ""),
+        "max_time": max_time,
+        "min_time": min_time,
         "default_tab": map_info.get("default_tab", ""),
         "is_published": is_published,
         "entity_type": map_info.get("entity_type", ""),
-        "single_year_data": "Yes" if single_year else ("No" if single_year is False else "Unknown"),
+        "single_year_data": "Yes" if len(years) == 1 else ("No" if len(years) > 1 else "Unknown"),
         "len_years": len_years,
         "has_timeline": "Yes" if map_info.get("has_timeline") else "No"
     }
