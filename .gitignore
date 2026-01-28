@@ -1,3 +1,4 @@
 .claude/settings.local.json
 debug_data.json
 owid_grapher_maps_complete.csv
+all_charts.json

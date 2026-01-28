@@ -63,9 +63,6 @@ def fetch_map_charts_from_sql() -> List[Dict]:
             # Get columns from first page
             if offset == 0:
                 columns = data.get("columns", [])
-                # save first page data to file for debugging
-                with open(Path(__file__).parent / "debug_data.json", "w", encoding="utf-8") as f:
-                    json.dump(data, f, ensure_ascii=False, indent=4)
 
             # Convert rows to dicts
             for row in rows:
@@ -89,8 +86,22 @@ def fetch_map_charts_from_sql() -> List[Dict]:
             print(f"Error fetching data at offset {offset}: {e}")
             break
 
+    all_charts_by_slug = {
+        chart["slug"]: {**chart, "config": parse_chart_config(chart["config"])} for chart in all_charts
+    }
+    # save first page data to file for debugging
+    with open(Path(__file__).parent / "all_charts.json", "w", encoding="utf-8") as f:
+        json.dump(all_charts_by_slug, f, ensure_ascii=False, indent=4)
+
     print(f"Found {len(all_charts)} charts with potential map support")
     return all_charts
+
+
+def parse_chart_config(config_str):
+    try:
+        return json.loads(config_str.replace('""', '"'))
+    except Exception:
+        return json.loads(config_str)
 
 
 def fetch_total_chart_count():
@@ -128,35 +139,30 @@ def parse_config_for_map_info(config_str: str) -> Dict:
         "entity_type": None
     }
 
-    try:
-        # Clean JSON (remove double quotes)
-        config_str = config_str.replace('""', '"')
-        config = json.loads(config_str)
+    # Clean JSON (remove double quotes)
+    config = parse_chart_config(config_str)
 
-        # Check for hasMapTab
-        if config.get("hasMapTab"):
-            info["has_map_tab"] = True
+    # Check for hasMapTab
+    if config.get("hasMapTab"):
+        info["has_map_tab"] = True
 
-        # Check for default tab
-        if config.get("tab") == "map":
-            info["default_tab"] = "map"
-            info["has_map_tab"] = True
+    # Check for default tab
+    if config.get("tab") == "map":
+        info["default_tab"] = "map"
+        info["has_map_tab"] = True
 
-        # Map information
-        if "map" in config:
-            map_config = config["map"]
-            info["map_column_slug"] = map_config.get("columnSlug")
-            info["map_time"] = map_config.get("time")
+    # Map information
+    if "map" in config:
+        map_config = config["map"]
+        info["map_column_slug"] = map_config.get("columnSlug")
+        info["map_time"] = map_config.get("time")
 
-            # Check for hideTimeline
-            if map_config.get("hideTimeline"):
-                info["has_timeline"] = False
+        # Check for hideTimeline
+        if map_config.get("hideTimeline"):
+            info["has_timeline"] = False
 
-        # Entity type
-        info["entity_type"] = config.get("entityType")
-
-    except Exception:
-        pass
+    # Entity type
+    info["entity_type"] = config.get("entityType")
 
     return info
 
