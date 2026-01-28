@@ -222,6 +222,8 @@ def check_single_year_map(slug: str, map_info: Dict) -> Optional[bool]:
     if map_info.get("map_time"):
         return True
 
+    return None
+
     # Otherwise, fetch data to check
     years = fetch_chart_data_years(slug)
     if len(years) == 1:
@@ -269,9 +271,8 @@ def scan_all_charts() -> List[Dict]:
         map_url = f"{base_url}?tab=map" if map_info["has_map_tab"] else base_url
 
         # Check for single year
-        # single_year = check_single_year_map(slug, map_info)
+        single_year = check_single_year_map(slug, map_info)
         csv_url = f"{GRAPHER_BASE_URL}/{slug}.csv"
-        single_year = None
         result = {
             "chart_id": chart_id,
             "slug": slug,
@@ -354,6 +355,11 @@ def main():
     print()
 
     results = scan_all_charts()
+    save_file_json = Path(__file__).parent / "owid_grapher_maps_complete.json"
+
+    with open(save_file_json, "w", encoding="utf-8") as f:
+        json.dump(results, f, ensure_ascii=False, indent=4)
+
     save_file = Path(__file__).parent / "owid_grapher_maps_complete.csv"
     if results:
         save_results(results, save_file)
