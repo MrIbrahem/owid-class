@@ -1,0 +1,487 @@
+File:absolute number of deaths from household air pollution, World, 1990.svg
+File:absolute number of deaths from outdoor air pollution, World, 1990.svg
+File:access to clean fuels and technologies for cooking, World, 2000.svg
+File:accessibility of statins in the public health sector, World, 2013.svg
+File:affordability cigarettes, World, 2012.svg
+File:age standardized deaths from all causes, World, 1980.svg
+File:agriculture share gdp, World, 1960.svg
+File:air passenger kilometers, World, 2017.svg
+File:air passengers carried, World, 1970.svg
+File:air pollution deaths country, World, 1990.svg
+File:air transport freight ton km, World, 1970.svg
+File:air trips per capita, World, 2018.svg
+File:alcohol disorders dalys age standardized rate, World, 1990.svg
+File:alcohol drug use disorders share total disease, World, 1990.svg
+File:alcohol expenditure as share of total, World, 1990.svg
+File:annual healthcare expenditure per capita, World, 2000.svg
+File:antibiotic consumption rate, World, 2016.svg
+File:antibiotic usage in children, World, 2000.svg
+File:antidepressants per capita, World, 2010.svg
+File:antiretroviral therapy coverage among people living with hiv, World, 2000.svg
+File:anxiety disorders prevalence, World, 1990.svg
+File:apple production, World, 1961.svg
+File:armed forces personnel of total labor force, World, 1990.svg
+File:armed forces personnel percent, World, 1985.svg
+File:art coverage for pregnant women, World, 2000.svg
+File:asthma prevalence, World, 1990.svg
+File:autopsy rate, World, 1970.svg
+File:average cost of tuberculosis treatment multi drug resistant, World, 2017.svg
+File:average exposure pm25 pollution, World, 1990.svg
+File:average non hdl cholesterol levels, World, 1980.svg
+File:avocado production, World, 1961.svg
+File:banana production, World, 1961.svg
+File:barley production, World, 1961.svg
+File:bcg immunization coverage for tb among 1 year olds, World, 1980.svg
+File:bean production, World, 1961.svg
+File:beef and buffalo meat production tonnes, World, 1961.svg
+File:beer consumption per person, World, 1960.svg
+File:bipolar disorder prevalence, World, 1990.svg
+File:births attended by health staff sdgs, World, 1980.svg
+File:burden of disease rates from communicable neonatal maternal nutritional diseases, World, 1990.svg
+File:burden of disease rates from injuries, World, 1990.svg
+File:burden of disease rates from ncds, World, 1990.svg
+File:burden of disease, World, 1990.svg
+File:cancer death rate who mdb, World, 1950.svg
+File:cancer incidence, World, 1990.svg
+File:cancer-death-rates,World,1980.svg
+File:carbon intensity electricity, World, 2000.svg
+File:cardiovascular-disease-death-rates,World,1980.svg
+File:cases of extensively drug resistant tuberculosis, World, 1990.svg
+File:cases of multidrug resistant tuberculosis, World, 1990.svg
+File:cases of paralytic polio from vaccine derived viruses, World, 2001.svg
+File:cases of paralytic polio from wild polioviruses, World, 2001.svg
+File:cashew nut production, World, 1961.svg
+File:cassava production, World, 1961.svg
+File:cattle meat yields hectograms 100 grams per animal, World, 1961.svg
+File:cereal production, World, 1961.svg
+File:cervical cancer death rate in women, World, 1950.svg
+File:chicken meat production, World, 1961.svg
+File:child adolescent obesity, World, 1990.svg
+File:child deaths from invasive non typhoidal salmonella, World, 1981.svg
+File:child deaths from malaria number, World, 1980.svg
+File:child deaths from malaria, World, 1980.svg
+File:child mortality around the world, World, 1950.svg
+File:child mortality, World, 1751.svg
+File:children living with hiv, World, 1990.svg
+File:children sleeping under treated bednet, World, 1999.svg
+File:children who are overweight sdgs, World, 2000.svg
+File:children who receive ors, World, 1985.svg
+File:co2 emissions transport, World, 1990.svg
+File:coal consumption per capita, World, 1965.svg
+File:coal energy share, World, 1965.svg
+File:cobalt production, World, 1995.svg
+File:cocoa bean production, World, 1961.svg
+File:coffee bean production, World, 1961.svg
+File:colon and rectum cancer death rate, World, 1950.svg
+File:condom use at last high risk sex, World, 2000.svg
+File:condom use between men, World, 2020.svg
+File:congenital birth defect mortality rates in children under 5, World, 1981.svg
+File:consumption per smoker per day, World, 1980.svg
+File:coverage of the human papillomavirus vaccine, World, 2010.svg
+File:criminal penalties or civil remedies sexual harassment in employment, World, 1970.svg
+File:crude birth rate, World, 1950.svg
+File:crude death rate, World, 1950.svg
+File:daily meat consumption per person, World, 1961.svg
+File:daily median income, World, 1963.svg
+File:daily smoking prevalence bounds, World, 1980.svg
+File:daily-per-capita-protein-supply,World,1961.svg
+File:dalys particulate matter, World, 1991.svg
+File:dalys-rate-from-all-causes,World,1990.svg
+File:death rate amphetamine who, World, 2000.svg
+File:death rate from air pollution per 100000, World, 1990.svg
+File:death rate from alzheimers other dementias gbd, World, 1980.svg
+File:death rate from cancer gbd, World, 1980.svg
+File:death rate from cancer, World, 2000.svg
+File:death rate from diabetes gbd, World, 1980.svg
+File:death rate from diabetes, World, 1980.svg
+File:death rate from diarrheal diseases, World, 1980.svg
+File:death rate from digestive diseases gbd, World, 1980.svg
+File:death rate from drowning ghe, World, 2000.svg
+File:death rate from falls gbd rate, World, 1980.svg
+File:death rate from fires and burns ihme, World, 1980.svg
+File:death rate from hivaids who, World, 2000.svg
+File:death rate from hivaids, World, 1980.svg
+File:death rate from hypertensive heart disease who ghe age standardized, World, 2000.svg
+File:death rate from ischaemic heart disease who ghe age standardized, World, 2000.svg
+File:death rate from malaria ghe, World, 2000.svg
+File:death rate from malaria ihme, World, 1980.svg
+File:death rate from malaria, World, 2000.svg
+File:death rate from maternal disorders ihme, World, 1980.svg
+File:death rate from meningitis who, World, 2000.svg
+File:death rate from mental health and substance use disorders who, World, 2000.svg
+File:death rate from obesity gbd, World, 1990.svg
+File:Death rate from obesity, World, 1990.svg
+File:death rate from ozone pollution gbd, World, 1990.svg
+File:death rate from ozone pollution, World, 1990.svg
+File:death rate from poisoning, World, 1980.svg
+File:death rate from poisonings, World, 2000.svg
+File:death rate from rheumatic heart disease who ghe age standardized, World, 2000.svg
+File:death rate from road accidents, World, 1980.svg
+File:death rate from smoking, World, 1990.svg
+File:death rate from strokes who, World, 2000.svg
+File:death rate from suicides gho, World, 2000.svg
+File:death rate from suicides, World, 1980.svg
+File:death rate from unsafe sanitation gbd, World, 1990.svg
+File:death rate from venomous animal, World, 1980.svg
+File:death rate invasive non typhoidal salmonella children under 5, World, 1980.svg
+File:death rate lead exposure, World, 1990.svg
+File:death rate smoking, World, 1990.svg
+File:death rate typhoid paratyphoid fever children under 5, World, 1980.svg
+File:death rates cocaine who, World, 2000.svg
+File:death rates due to low physical activity, World, 1990.svg
+File:death rates from drug use, World, 1990.svg
+File:death rates from high blood pressure gbd, World, 1990.svg
+File:death rates from high blood pressure, World, 1990.svg
+File:death rates from no access to handwashing facilities, World, 1990.svg
+File:death rates from unsafe water sources gbd, World, 1990.svg
+File:death rates substance disorders who, World, 2000.svg
+File:death rates substance disorders, World, 1980.svg
+File:death-rate-by-source-from-indoor-air-pollution,World,1990.svg
+File:death-rate-from-opioid-use,World,1980.svg
+File:death-rate-from-suicides-ghe,World,2000.svg
+File:death-rate-road-traffic-injuries,World,2000.svg
+File:death-rates-cocaine,World,1980.svg
+File:deaths due to unsafe sex, World, 1990.svg
+File:deaths from aids ihme, World, 1981.svg
+File:deaths from cancer gbd, World, 1980.svg
+File:deaths from cancer who, World, 2000.svg
+File:deaths from cardiovascular disease ghe, World, 2000.svg
+File:deaths from cysticercosis, World, 1980.svg
+File:deaths from diarrheal diseases, World, 1980.svg
+File:deaths from fires and burns, World, 1980.svg
+File:deaths from liver disease, World, 1980.svg
+File:deaths from malnutrition ghe, World, 2000.svg
+File:deaths from mental health and substance use disorders who, World, 2000.svg
+File:deaths from natural disasters, World, 2000.svg
+File:deaths from ozone pollution, World, 1990.svg
+File:deaths from parkinsons disease ghe, World, 2000.svg
+File:deaths from preterm birth complications, World, 1980.svg
+File:deaths from secondhand smoke, World, 1990.svg
+File:deaths from substance disorders who, World, 2000.svg
+File:deaths from substance disorders, World, 1980.svg
+File:deaths lead exposure, World, 1990.svg
+File:deaths registered with an ill defined cause of death, World, 1950.svg
+File:dementia death rates, World, 1980.svg
+File:dengue fever deaths, World, 2000.svg
+File:dengue incidence, World, 1990.svg
+File:depressive disorders prevalence ihme, World, 1990.svg
+File:diarrheal disease death rates, World, 1980.svg
+File:difference in female and male life expectancy at birth, World, 1751.svg
+File:disease burden lead, World, 1991.svg
+File:drinkers had a heavy session in past 30 days, World, 2000.svg
+File:drowning death rates under 5, World, 1980.svg
+File:dtp3 children unvaccinated, World, 1980.svg
+File:eating disorders prevalence, World, 1990.svg
+File:egg production thousand tonnes, World, 1961.svg
+File:electric car sales share, World, 2010.svg
+File:electricity as a share of primary energy, World, 1985.svg
+File:electricity coal, World, 1985.svg
+File:electricity demand, World, 1990.svg
+File:enforcement of bans on tobacco advertising, World, 2007.svg
+File:exclusive breastfeeding rate, World, 1986.svg
+File:fatal occupational injuries among employees, World, 2000.svg
+File:fish seafood production, World, 1961.svg
+File:flu vaccines older people recommendation, World, 2013.svg
+File:fossil fuel subsidies gdp, World, 2010.svg
+File:fossil fuel subsidies per capita, World, 2010.svg
+File:fossil fuels share energy, World, 1965.svg
+File:gap to reaching the target of art, World, 2010.svg
+File:gdp per capita worldbank, World, 1990.svg
+File:gdp worldbank, World, 1990.svg
+File:gini coefficient of lifespan inequality in females, World, 1751.svg
+File:global hunger index, World, 2000.svg
+File:good cholesterol levels age standardized, World, 1980.svg
+File:grapes production, World, 1961.svg
+File:health-expenditure-government-expenditure,World,2000.svg
+File:hepatitis b incidence sdgs, World, 1990.svg
+File:hepatitis death rate, World, 1980.svg
+File:hepatitis-c-number-of-deaths,World,1980.svg
+File:hib vaccine, World, 1991.svg
+File:hiv death rates, World, 1980.svg
+File:hiv expenditure, World, 2002.svg
+File:homicide rate unodc, World, 1990.svg
+File:homicide-rate-unodc,World,1990.svg
+File:human trafficking victims, World, 2007.svg
+File:human-development-index,World,1990.svg
+File:hydro share energy, World, 1965.svg
+File:hypertension adults 30 79, World, 1990.svg
+File:icd code version used to classify causes of death, World, 1950.svg
+File:imports of ppe related products per capita, World, 1988.svg
+File:incidence of diarrheal diseases, World, 1990.svg
+File:incidence of hivaids, World, 1990.svg
+File:incidence of meningitis, World, 1990.svg
+File:incidence of tuberculosis, World, 1990.svg
+File:incidence of venomous animal contact, World, 1990.svg
+File:incidence rate of cardiovascular disease, World, 1990.svg
+File:incidence-of-malaria,World,2000.svg
+File:Incidence-of-tuberculosis-sdgs,World,2000.svg
+File:infant mortality, World, 1932.svg
+File:infectious and parasitic diseases death rate who mdb, World, 1950.svg
+File:infectious disease death rates, World, 1980.svg
+File:influenza vaccination rate elderly oecd, World, 2000.svg
+File:influenza vaccination rate elderly who unicef, World, 2018.svg
+File:insecticide use, World, 1990.svg
+File:interventions ntds sdgs, World, 2010.svg
+File:ipv vaccine coverage, World, 2015.svg
+File:ipv1 number unvaccinated, World, 2015.svg
+File:labor productivity per hour pennworldtable, World, 1950.svg
+File:landline internet subscriptions, World, 1998.svg
+File:large household expenditures health, World, 1985.svg
+File:law mandate nondiscrimination hiring, World, 1970.svg
+File:lead paint over 90ppm, World, 2009.svg
+File:lead petrol ban, World, 1986.svg
+File:leading broad cause of death, World, 1980.svg
+File:leading cancer types causing death in men, World, 1950.svg
+File:leading cancer types causing death in women, World, 1950.svg
+File:leading cause of child mortality among children under five, World, 1980.svg
+File:leading cause of death, World, 1980.svg
+File:learning-adjusted-years-of-school-lays,World,2010.svg
+File:legislation domestic violence, World, 1970.svg
+File:life expectancy hmd unwpp, World, 1751.svg
+File:lifetime risk of maternal death, World, 1985.svg
+File:lithium production, World, 1995.svg
+File:long run birth rate, World, 1751.svg
+File:low carbon share energy, World, 1965.svg
+File:malaria deaths ihme, World, 1980.svg
+File:male high blood pressure, World, 1991.svg
+File:malnutrition death rates, World, 1980.svg
+File:maternal deaths ihme, World, 1985.svg
+File:maternal mortality ratio who gho, World, 1985.svg
+File:maternal-mortality,World,1751.svg
+File:mean body mass index bmi in adult males, World, 1975.svg
+File:mean body mass index bmi in adult women, World, 1975.svg
+File:measles number unvaccinated, World, 1980.svg
+File:meat-supply-per-person,World,1961.svg
+File:mens life expectancy at birth, World, 1950.svg
+File:mental and substance use as share of disease, World, 1990.svg
+File:military expenditure as a share of government spending, World, 1988.svg
+File:military spending sipri, World, 1949.svg
+File:milk production tonnes, World, 1961.svg
+File:milk yields per animal, World, 1961.svg
+File:mortality from ncds sdgs, World, 2000.svg
+File:mortality neonatal asphyxia and trauma, World, 1980.svg
+File:neonatal-mortality-wdi,World,1951.svg
+File:new cases of hiv infection, World, 1990.svg
+File:new infections with tetanus, World, 1990.svg
+File:new neonatal tetanus cases per million, World, 1974.svg
+File:nuclear primary energy, World, 1965.svg
+File:number airline passengers, World, 1970.svg
+File:number of child deaths igme, World, 1955.svg
+File:number of children dying from diarrheal diseases, World, 1980.svg
+File:number of children newly infected with hiv, World, 1990.svg
+File:number of deaths from cervical cancer, World, 1980.svg
+File:number of deaths from hivaids who, World, 2000.svg
+File:number of deaths from malaria ghe, World, 2000.svg
+File:number of deaths from suicide ghe, World, 2000.svg
+File:number of estimated paralytic polio cases by world region, World, 1980.svg
+File:number of internet users, World, 1960.svg
+File:number of new hiv infections per year, World, 1990.svg
+File:number of new hivaids infections who, World, 2000.svg
+File:number of people living with hiv, World, 1990.svg
+File:number of people severely food insecure, World, 2015.svg
+File:number of people with cancer, World, 1991.svg
+File:number of refugees per 100000, World, 1960.svg
+File:number of reported guinea worm dracunculiasis cases, World, 1980.svg
+File:number of reported smallpox cases, World, 1886.svg
+File:number of reported yaws cases, World, 2008.svg
+File:number of tuberculosis cases, World, 2000.svg
+File:number reported cases of cholera, World, 1949.svg
+File:number suicide deaths, World, 1980.svg
+File:number-of-deaths-from-malaria-who,World,2000.svg
+File:number-of-deaths-from-tetanus,World,1980.svg
+File:obesity prevalence adults who gho, World, 1990.svg
+File:oil share energy, World, 1965.svg
+File:orange production, World, 1961.svg
+File:out of pocket expenditure per capita on healthcare, World, 2000.svg
+File:outdoor pollution death rate, World, 1990.svg
+File:overarching-legal-frameworks-regarding-gender-equality,World,2018.svg
+File:ozone o3 concentration in ppb, World, 1990.svg
+File:pancreatic cancer death rate, World, 1979.svg
+File:parkinsons-disease-prevalence-ihme,World,1990.svg
+File:pcv3 number unvaccinated, World, 2008.svg
+File:pea production, World, 1961.svg
+File:per capita co2 aviation, World, 2013.svg
+File:per capita co2 emissions from domestic aviation, World, 2013.svg
+File:per capita co2 transport, World, 1990.svg
+File:per capita egg consumption kilograms per year, World, 1961.svg
+File:per capita electricity demand, World, 1990.svg
+File:per capita energy use, World, 1965.svg
+File:per capita gas, World, 1965.svg
+File:per capita hydro, World, 1965.svg
+File:per capita nuclear, World, 1965.svg
+File:per capita oil, World, 1965.svg
+File:per capita solar, World, 1965.svg
+File:per capita wind, World, 1965.svg
+File:period average age of mothers, World, 1891.svg
+File:pesticide use per hectare of cropland, World, 1990.svg
+File:pesticide use tonnes, World, 1990.svg
+File:pig yields meat per animal in hectograms 100 grams, World, 1961.svg
+File:pigmeat production tonnes, World, 1961.svg
+File:pm25 air pollution, World, 2010.svg
+File:pneumococcal conjugate vaccine immunization schedule, World, 2000.svg
+File:pneumonia careseeking, World, 2001.svg
+File:pneumonia death rates age standardized, World, 1980.svg
+File:pneumonia death rates in children under 5, World, 1980.svg
+File:polio vaccine coverage of one year olds, World, 1980.svg
+File:potato production, World, 1961.svg
+File:prevalence cysticercosis, World, 1990.svg
+File:prevalence of onchocerciasis, World, 1990.svg
+File:prevalence of tobacco use sdgs, World, 2000.svg
+File:prevalence rate of cardiovascular disease, World, 1990.svg
+File:private health expenditure per person, World, 2000.svg
+File:progress towards guinea worm disease eradication, World, 1996.svg
+File:progress towards polio eradication, World, 1910.svg
+File:proportion of women in senior and middle management positions, World, 2000.svg
+File:prosperity gap, World, 1963.svg
+File:prostate cancer death rate in men, World, 1950.svg
+File:protein energy malnutrition mortality rates in children, World, 1980.svg
+File:rapeseed production, World, 1961.svg
+File:rate disease burden lead, World, 1990.svg
+File:rate of premature deaths due to alcohol gbd, World, 1990.svg
+File:ratio of female to male labor force participation rates ilo wdi, World, 1990.svg
+File:refugee population by country or territory of asylum, World, 1951.svg
+File:refugee population by country or territory of origin, World, 1951.svg
+File:reported cases of human african trypanosomiasis t b gambiense, World, 1990.svg
+File:reported cases of leprosy, World, 2005.svg
+File:reported cases of measles, World, 1974.svg
+File:reported paralytic polio cases per 1 million people, World, 1980.svg
+File:reported rabies deaths, World, 2010.svg
+File:respiratory disease death rate gbd, World, 1980.svg
+File:respiratory disease death rate, World, 1980.svg
+File:respiratory infection death rate who mdb, World, 1950.svg
+File:rice production, World, 1961.svg
+File:risk of impoverishing expenditure for surgical care, World, 2003.svg
+File:road accident deaths per passenger kilometers, World, 1970.svg
+File:rotavirus number unvaccinated, World, 2006.svg
+File:rotavirus vaccine immunization schedule, World, 2006.svg
+File:rubella number unvaccinated, World, 1980.svg
+File:rye production, World, 1961.svg
+File:sales of cigarettes per adult per day, World, 1865.svg
+File:schistosomiasis treatment coverage, World, 2006.svg
+File:schizophrenia prevalence, World, 1990.svg
+File:scientific publications per million, World, 1996.svg
+File:sesame seed production, World, 1961.svg
+File:sex ratio at birth, World, 1950.svg
+File:share agrees vaccines are important wellcome, World, 2015.svg
+File:share car stocks electric, World, 2010.svg
+File:share cereal human food, World, 1961.svg
+File:share cereals animal feed, World, 1961.svg
+File:share cereals industrial uses, World, 1961.svg
+File:share deaths air pollution, World, 1990.svg
+File:share deaths cardiovascular disease, World, 1980.svg
+File:share deaths indoor pollution, World, 1990.svg
+File:share deaths outdoor pollution, World, 1990.svg
+File:share deaths secondhand smoke, World, 1990.svg
+File:share deaths smoking, World, 1990.svg
+File:share electricity low carbon, World, 1985.svg
+File:share firms top female manager, World, 2007.svg
+File:share of adults defined as obese, World, 1990.svg
+File:share of adults who are overweight, World, 1990.svg
+File:share of adults who drank alcohol in last year, World, 2000.svg
+File:share of cancer deaths attributed to tobacco, World, 1990.svg
+File:share of central government expenditures funded by taxes, World, 2000.svg
+File:share of children immunized dtp3, World, 1980.svg
+File:share of children under fifteen years old with hiv, World, 1990.svg
+File:share of children vaccinated with mcv2, World, 2000.svg
+File:share of children who are overweight, World, 2000.svg
+File:share of children with a fever receiving antimalarial drugs, World, 1998.svg
+File:share of children with diarrhea receiving oral rehydration salts and zinc, World, 2005.svg
+File:share of children with diarrhea receiving treatment, World, 1986.svg
+File:share of children with diarrhea receiving zinc, World, 2005.svg
+File:share of deaths from opioid overdoses, World, 1980.svg
+File:share of deaths from terrorism, World, 1970.svg
+File:share of deaths obesity, World, 1990.svg
+File:share of deaths registered, World, 2015.svg
+File:share of e coli bloodstream infections due to antimicrobial resistant bacteria, World, 2016.svg
+File:share of females defined as obese, World, 1990.svg
+File:share of females defined as overweight, World, 1990.svg
+File:share of individuals using the internet, World, 1960.svg
+File:share of lung cancer deaths attributed to air pollution, World, 1990.svg
+File:share of married women ages 15 49 years whose need for family planning is satisfied, World, 2000.svg
+File:share of men defined as obese, World, 1990.svg
+File:share of men defined as overweight, World, 1990.svg
+File:share of men who are smoking, World, 2000.svg
+File:share of mothers receiving at least one antenatal visit during pregnancy, World, 1984.svg
+File:share of one year olds who received the final dose of pneumococcal vaccine, World, 2008.svg
+File:share of one year olds who received the rotavirus vaccine, World, 2006.svg
+File:share of out of pocket expenditure on healthcare, World, 2000.svg
+File:share of population who never drink alcohol, World, 2000.svg
+File:share of population with cancer age standardized, World, 1990.svg
+File:share of population with cancer crude, World, 1990.svg
+File:share of population with severe food insecurity, World, 2015.svg
+File:share of public expenditure on healthcare by country, World, 2000.svg
+File:share of s aureus bloodstream infections that are resistant to antibiotics, World, 2016.svg
+File:share of the population at risk of catastrophic expenditure when surgical care is required, World, 2004.svg
+File:share of the population infected with hiv, World, 1990.svg
+File:share of the population with access to electricity, World, 1990.svg
+File:share of the population with latent tuberculosis infection, World, 1990.svg
+File:share of the population with malaria, World, 1990.svg
+File:share of women among the population living with hiv, World, 1990.svg
+File:share of women in local government, World, 2007.svg
+File:share of women in ministerial positions, World, 2005.svg
+File:share of women in parliament, World, 1900.svg
+File:share of women using modern contraceptive methods, World, 1961.svg
+File:share of women who are smoking, World, 2000.svg
+File:share population mobile phone, World, 2013.svg
+File:share who have not drank alcohol in last year, World, 2000.svg
+File:share with alcohol use disorders, World, 1990.svg
+File:share with mental health or development disorder, World, 1990.svg
+File:share-of-children-younger-than-5-who-suffer-from-stunting,World,1990.svg
+File:share-of-married-women-ages-15-49-years-whose-need-for-family-planning-is-satisfied,World,2000.svg
+File:share-of-population-in-extreme-poverty,World,1963.svg
+File:share-with-drug-use-disorders,World,1990.svg
+File:share-with-mental-and-substance-disorders,World,1990.svg
+File:sites providing rapid tuberculosis diagnostics per million people, World, 2020.svg
+File:smoking bans in public places, World, 2007.svg
+File:solar share energy, World, 1965.svg
+File:soybean production, World, 1961.svg
+File:spirits consumption per person, World, 1960.svg
+File:stillbirth rate, World, 2000.svg
+File:sugar beet production, World, 1961.svg
+File:sugar cane production, World, 1961.svg
+File:suicide death rates, World, 1980.svg
+File:suicide rate who mdb, World, 1950.svg
+File:sunflower seed production, World, 1961.svg
+File:support to help to quit tobacco use, World, 2007.svg
+File:sweet potato production, World, 1961.svg
+File:tax revenues as a share of gdp unu wider, World, 1980.svg
+File:taxes as a share of cigarette price, World, 2008.svg
+File:taxes on goods and services gdp, World, 1980.svg
+File:taxes on incomes of individuals and corporations gdp, World, 1980.svg
+File:tb related deaths hiv, World, 2000.svg
+File:terrorism deaths, World, 1970.svg
+File:terrorist attacks, World, 1970.svg
+File:tetanus death rate, World, 1980.svg
+File:the share of tuberculosis tests that are positive, World, 2021.svg
+File:tobacco production, World, 1961.svg
+File:tomato production, World, 1961.svg
+File:total alcohol consumption per capita litres of pure alcohol, World, 2000.svg
+File:total disease burden who, World, 2000.svg
+File:total disease burden, World, 1990.svg
+File:total healthcare expenditure gdp, World, 2001.svg
+File:total-government-expenditure-on-education-gdp,World,1870.svg
+File:trachoma prevalence age standardized ihme, World, 1990.svg
+File:tuberculosis case detection rate, World, 2000.svg
+File:tuberculosis case fatality rate, World, 2000.svg
+File:tuberculosis death rate, World, 2001.svg
+File:tuberculosis deaths under five ihme, World, 1980.svg
+File:tuberculosis patients with hiv share, World, 2000.svg
+File:tuberculosis-deaths-who,World,2000.svg
+File:urban agglomerations 1 million percent, World, 1960.svg
+File:were flu vaccines available in the country, World, 2018.svg
+File:wheat production, World, 1961.svg
+File:wine consumption per capita, World, 1960.svg
+File:wine production, World, 1961.svg
+File:women believe husband justified beating wife, World, 1999.svg
+File:women business and the law index, World, 1970.svg
+File:women civil liberties index, World, 1789.svg
+File:women civil society participation index, World, 1789.svg
+File:women high blood pressure, World, 1990.svg
+File:women married by age 15, World, 2003.svg
+File:women married by age 18, World, 1985.svg
+File:women political empowerment index, World, 1789.svg
+File:women political participation index, World, 1789.svg
+File:womens life expectancy at birth, World, 1950.svg
+File:yams production, World, 1961.svg
+File:young people with knowledge on hiv prevention, World, 2000.svg
+File:youth mortality rate, World, 1950.svg
