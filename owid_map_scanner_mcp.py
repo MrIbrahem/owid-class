@@ -433,7 +433,9 @@ def save_results(results: List[Dict], output_file: str):
 
     # Create separate file for published maps only
     published_map_charts = [r for r in map_charts if (r["is_published"] == "True" or r["is_published"] is True)]
+
     if published_map_charts:
+        # owid_grapher_maps_complete_published_only.csv
         published_file = output_file.with_name(output_file.stem + "_published_only.csv")
         with open(published_file, "w", newline="", encoding="utf-8-sig") as f:
             writer = csv.DictWriter(f, fieldnames=fieldnames)
