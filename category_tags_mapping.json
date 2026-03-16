@@ -1,0 +1,823 @@
+{
+    "Category:Our World in Data - Education and Knowledge": [
+        {
+            "id": 294,
+            "name": "Global Education",
+            "slug": "global-education"
+        },
+        {
+            "id": 302,
+            "name": "Literacy",
+            "slug": "literacy"
+        },
+        {
+            "id": 293,
+            "name": "Education Spending",
+            "slug": "financing-education"
+        },
+        {
+            "id": 110,
+            "name": "Research & Development",
+            "slug": "research-and-development"
+        },
+        {
+            "id": 314,
+            "name": "Internet",
+            "slug": "internet"
+        },
+        {
+            "id": 313,
+            "name": "Books",
+            "slug": "books"
+        }
+    ],
+    "Category:Our World in Data - Energy and Environment": [
+        {
+            "id": 93,
+            "name": "Climate Change",
+            "slug": "climate-change"
+        },
+        {
+            "id": 71,
+            "name": "CO2 & Greenhouse Gas Emissions",
+            "slug": "co2-and-greenhouse-gas-emissions"
+        },
+        {
+            "id": 106,
+            "name": "Air Pollution",
+            "slug": "air-pollution"
+        },
+        {
+            "id": 1819,
+            "name": "Outdoor Air Pollution",
+            "slug": "outdoor-air-pollution"
+        },
+        {
+            "id": 89,
+            "name": "Indoor Air Pollution",
+            "slug": "indoor-air-pollution"
+        },
+        {
+            "id": 105,
+            "name": "Ozone Layer",
+            "slug": "ozone-layer"
+        },
+        {
+            "id": 72,
+            "name": "Energy",
+            "slug": "energy"
+        },
+        {
+            "id": 1791,
+            "name": "Access to Energy",
+            "slug": "energy-access"
+        },
+        {
+            "id": 1812,
+            "name": "Energy Mix",
+            "slug": "energy-mix"
+        },
+        {
+            "id": 82,
+            "name": "Fossil Fuels",
+            "slug": "fossil-fuels"
+        },
+        {
+            "id": 80,
+            "name": "Nuclear Energy",
+            "slug": "nuclear-energy"
+        },
+        {
+            "id": 70,
+            "name": "Bioenergy and Biofuels",
+            "slug": "bioenergy-biofuels"
+        },
+        {
+            "id": 81,
+            "name": "Renewable Energy",
+            "slug": "renewable-energy"
+        },
+        {
+            "id": 86,
+            "name": "Metals & Minerals",
+            "slug": "metals-minerals"
+        },
+        {
+            "id": 91,
+            "name": "Natural Disasters",
+            "slug": "natural-disasters"
+        },
+        {
+            "id": 99,
+            "name": "Biodiversity",
+            "slug": "biodiversity"
+        },
+        {
+            "id": 1796,
+            "name": "Environmental Impacts of Food Production",
+            "slug": "environmental-impacts-of-food"
+        },
+        {
+            "id": 1795,
+            "name": "Fish & Overfishing",
+            "slug": "fish-and-overfishing"
+        },
+        {
+            "id": 291,
+            "name": "Animal Welfare",
+            "slug": "animal-welfare"
+        },
+        {
+            "id": 90,
+            "name": "Land Use",
+            "slug": "land-use"
+        },
+        {
+            "id": 102,
+            "name": "Water Use & Stress",
+            "slug": "water-use-stress"
+        },
+        {
+            "id": 88,
+            "name": "Forests & Deforestation",
+            "slug": "forests-and-deforestation"
+        },
+        {
+            "id": 1836,
+            "name": "Wildfires",
+            "slug": "wildfires"
+        },
+        {
+            "id": 1575,
+            "name": "Plastic Pollution",
+            "slug": "plastic-pollution"
+        },
+        {
+            "id": 92,
+            "name": "Oil Spills",
+            "slug": "oil-spills"
+        },
+        {
+            "id": 1797,
+            "name": "Lead Pollution",
+            "slug": "lead-pollution"
+        },
+        {
+            "id": 107,
+            "name": "Waste Management",
+            "slug": "waste-management"
+        },
+        {
+            "id": 1810,
+            "name": "Clean Water & Sanitation",
+            "slug": "clean-water-sanitation"
+        },
+        {
+            "id": 1827,
+            "name": "Clean Water",
+            "slug": "clean-water"
+        },
+        {
+            "id": 1576,
+            "name": "Sanitation",
+            "slug": "sanitation"
+        },
+        {
+            "id": 1811,
+            "name": "Electricity Mix",
+            "slug": "electricity-mix"
+        }
+    ],
+    "Category:Our World in Data - Food and Agriculture": [
+        {
+            "id": 46,
+            "name": "Agricultural Production",
+            "slug": "agricultural-production"
+        },
+        {
+            "id": 67,
+            "name": "Meat & Dairy Production",
+            "slug": "meat-production"
+        },
+        {
+            "id": 1795,
+            "name": "Fish & Overfishing",
+            "slug": "fish-and-overfishing"
+        },
+        {
+            "id": 1792,
+            "name": "Crop Yields",
+            "slug": "crop-yields"
+        },
+        {
+            "id": 291,
+            "name": "Animal Welfare",
+            "slug": "animal-welfare"
+        },
+        {
+            "id": 1796,
+            "name": "Environmental Impacts of Food Production",
+            "slug": "environmental-impacts-of-food"
+        },
+        {
+            "id": 1801,
+            "name": "Farm Size",
+            "slug": "farm-size"
+        },
+        {
+            "id": 90,
+            "name": "Land Use",
+            "slug": "land-use"
+        },
+        {
+            "id": 43,
+            "name": "Fertilizers",
+            "slug": "fertilizers"
+        },
+        {
+            "id": 1573,
+            "name": "Pesticides",
+            "slug": "pesticides"
+        },
+        {
+            "id": 40,
+            "name": "Employment in Agriculture",
+            "slug": "employment-in-agriculture"
+        },
+        {
+            "id": 37,
+            "name": "Hunger & Undernourishment",
+            "slug": "hunger-and-undernourishment"
+        },
+        {
+            "id": 36,
+            "name": "Food Supply",
+            "slug": "food-supply"
+        },
+        {
+            "id": 44,
+            "name": "Food Prices",
+            "slug": "food-prices"
+        },
+        {
+            "id": 62,
+            "name": "Obesity",
+            "slug": "obesity"
+        },
+        {
+            "id": 38,
+            "name": "Famines",
+            "slug": "famines"
+        },
+        {
+            "id": 58,
+            "name": "Diet Compositions",
+            "slug": "diet-compositions"
+        },
+        {
+            "id": 1603,
+            "name": "Micronutrient Deficiency",
+            "slug": "micronutrient-deficiency"
+        },
+        {
+            "id": 39,
+            "name": "Human Height",
+            "slug": "human-height"
+        },
+        {
+            "id": 70,
+            "name": "Bioenergy and Biofuels",
+            "slug": "bioenergy-biofuels"
+        }
+    ],
+    "Category:Our World in Data - Health": [
+        {
+            "id": 1815,
+            "name": "Global Health",
+            "slug": "health-meta"
+        },
+        {
+            "id": 24,
+            "name": "Causes of Death",
+            "slug": "causes-of-death"
+        },
+        {
+            "id": 5,
+            "name": "Child & Infant Mortality",
+            "slug": "child-mortality"
+        },
+        {
+            "id": 25,
+            "name": "Burden of Disease",
+            "slug": "burden-of-disease"
+        },
+        {
+            "id": 7,
+            "name": "Life Expectancy",
+            "slug": "life-expectancy"
+        },
+        {
+            "id": 35,
+            "name": "Mental Health",
+            "slug": "mental-health"
+        },
+        {
+            "id": 17,
+            "name": "Suicides",
+            "slug": "suicide"
+        },
+        {
+            "id": 28,
+            "name": "Cardiovascular Diseases",
+            "slug": "cardiovascular-diseases"
+        },
+        {
+            "id": 19,
+            "name": "Cancer",
+            "slug": "cancer"
+        },
+        {
+            "id": 15,
+            "name": "Maternal Mortality",
+            "slug": "maternal-mortality"
+        },
+        {
+            "id": 106,
+            "name": "Air Pollution",
+            "slug": "air-pollution"
+        },
+        {
+            "id": 1819,
+            "name": "Outdoor Air Pollution",
+            "slug": "outdoor-air-pollution"
+        },
+        {
+            "id": 89,
+            "name": "Indoor Air Pollution",
+            "slug": "indoor-air-pollution"
+        },
+        {
+            "id": 1797,
+            "name": "Lead Pollution",
+            "slug": "lead-pollution"
+        },
+        {
+            "id": 1572,
+            "name": "Alcohol Consumption",
+            "slug": "alcohol-consumption"
+        },
+        {
+            "id": 1825,
+            "name": "Illicit Drug Use",
+            "slug": "illicit-drug-use"
+        },
+        {
+            "id": 62,
+            "name": "Obesity",
+            "slug": "obesity"
+        },
+        {
+            "id": 16,
+            "name": "Smoking",
+            "slug": "smoking"
+        },
+        {
+            "id": 1807,
+            "name": "Pandemics",
+            "slug": "pandemics"
+        },
+        {
+            "id": 1793,
+            "name": "COVID-19",
+            "slug": "coronavirus"
+        },
+        {
+            "id": 14,
+            "name": "Malaria",
+            "slug": "malaria"
+        },
+        {
+            "id": 13,
+            "name": "HIV/AIDS",
+            "slug": "hiv-aids"
+        },
+        {
+            "id": 1560,
+            "name": "Diarrheal Diseases",
+            "slug": "diarrheal-diseases"
+        },
+        {
+            "id": 30,
+            "name": "Tuberculosis",
+            "slug": "tuberculosis"
+        },
+        {
+            "id": 1563,
+            "name": "Polio",
+            "slug": "polio"
+        },
+        {
+            "id": 26,
+            "name": "Neglected Tropical Diseases",
+            "slug": "neglected-tropical-diseases"
+        },
+        {
+            "id": 1804,
+            "name": "Influenza",
+            "slug": "influenza"
+        },
+        {
+            "id": 1821,
+            "name": "Pneumonia",
+            "slug": "pneumonia"
+        },
+        {
+            "id": 1639,
+            "name": "Tetanus",
+            "slug": "tetanus"
+        },
+        {
+            "id": 1818,
+            "name": "Mpox (monkeypox)",
+            "slug": "mpox"
+        },
+        {
+            "id": 1557,
+            "name": "Smallpox",
+            "slug": "smallpox"
+        },
+        {
+            "id": 11,
+            "name": "Eradication of Diseases",
+            "slug": "eradication-of-diseases"
+        },
+        {
+            "id": 18,
+            "name": "Vaccination",
+            "slug": "vaccination"
+        },
+        {
+            "id": 32,
+            "name": "Antibiotics & Antibiotic Resistance",
+            "slug": "antibiotics"
+        },
+        {
+            "id": 22,
+            "name": "Healthcare Spending",
+            "slug": "financing-healthcare"
+        },
+        {
+            "id": 1864,
+            "name": "Sexual & Reproductive Health",
+            "slug": null
+        }
+    ],
+    "Category:Our World in Data - Human Rights and Democracy": [
+        {
+            "id": 285,
+            "name": "Human Rights",
+            "slug": "human-rights"
+        },
+        {
+            "id": 255,
+            "name": "Democracy",
+            "slug": "democracy"
+        },
+        {
+            "id": 1823,
+            "name": "State Capacity",
+            "slug": "state-capacity"
+        },
+        {
+            "id": 282,
+            "name": "Women's Rights",
+            "slug": "women-rights"
+        },
+        {
+            "id": 290,
+            "name": "LGBT+ Rights",
+            "slug": "lgbt-rights"
+        },
+        {
+            "id": 1584,
+            "name": "Corruption",
+            "slug": "corruption"
+        },
+        {
+            "id": 147,
+            "name": "Economic Inequality by Gender",
+            "slug": "economic-inequality-by-gender"
+        },
+        {
+            "id": 186,
+            "name": "Child Labor",
+            "slug": "child-labor"
+        },
+        {
+            "id": 289,
+            "name": "Violence Against Children & Children's Rights",
+            "slug": "violence-against-rights-for-children"
+        },
+        {
+            "id": 284,
+            "name": "Crime",
+            "slug": null
+        }
+    ],
+    "Category:Our World in Data - Innovation and Technological Change": [
+        {
+            "id": 111,
+            "name": "Technological Change",
+            "slug": "technological-change"
+        },
+        {
+            "id": 110,
+            "name": "Research & Development",
+            "slug": "research-and-development"
+        },
+        {
+            "id": 1800,
+            "name": "Artificial Intelligence",
+            "slug": "artificial-intelligence"
+        },
+        {
+            "id": 314,
+            "name": "Internet",
+            "slug": "internet"
+        },
+        {
+            "id": 114,
+            "name": "Space Exploration & Satellites",
+            "slug": "space-exploration-satellites"
+        },
+        {
+            "id": 1578,
+            "name": "Transport",
+            "slug": "transport"
+        },
+        {
+            "id": 1579,
+            "name": "Medicine & Biotechnology",
+            "slug": "medicine-biotech"
+        }
+    ],
+    "Category:Our World in Data - Living Conditions, Community, and Wellbeing": [
+        {
+            "id": 180,
+            "name": "Homelessness",
+            "slug": "homelessness"
+        },
+        {
+            "id": 1791,
+            "name": "Access to Energy",
+            "slug": "energy-access"
+        },
+        {
+            "id": 89,
+            "name": "Indoor Air Pollution",
+            "slug": "indoor-air-pollution"
+        },
+        {
+            "id": 1810,
+            "name": "Clean Water & Sanitation",
+            "slug": "clean-water-sanitation"
+        },
+        {
+            "id": 1827,
+            "name": "Clean Water",
+            "slug": "clean-water"
+        },
+        {
+            "id": 1576,
+            "name": "Sanitation",
+            "slug": "sanitation"
+        },
+        {
+            "id": 161,
+            "name": "Light at Night",
+            "slug": "light-at-night"
+        },
+        {
+            "id": 163,
+            "name": "Working Hours",
+            "slug": "working-hours"
+        },
+        {
+            "id": 325,
+            "name": "Marriages & Divorces",
+            "slug": "marriages-and-divorces"
+        },
+        {
+            "id": 1817,
+            "name": "Loneliness & Social Connections",
+            "slug": "social-connections-and-loneliness"
+        },
+        {
+            "id": 324,
+            "name": "Trust",
+            "slug": "trust"
+        },
+        {
+            "id": 159,
+            "name": "Happiness & Life Satisfaction",
+            "slug": "happiness-and-life-satisfaction"
+        },
+        {
+            "id": 160,
+            "name": "Human Development Index (HDI)",
+            "slug": null
+        },
+        {
+            "id": 1862,
+            "name": "Religion",
+            "slug": "religion"
+        }
+    ],
+    "Category:Our World in Data - Population and Demographic Change": [
+        {
+            "id": 1,
+            "name": "Population Growth",
+            "slug": "population-growth"
+        },
+        {
+            "id": 4,
+            "name": "Age Structure",
+            "slug": "age-structure"
+        },
+        {
+            "id": 8,
+            "name": "Gender Ratio",
+            "slug": "gender-ratio"
+        },
+        {
+            "id": 7,
+            "name": "Life Expectancy",
+            "slug": "life-expectancy"
+        },
+        {
+            "id": 3,
+            "name": "Fertility Rate",
+            "slug": "fertility-rate"
+        },
+        {
+            "id": 5,
+            "name": "Child & Infant Mortality",
+            "slug": "child-mortality"
+        },
+        {
+            "id": 175,
+            "name": "Urbanization",
+            "slug": "urbanization"
+        },
+        {
+            "id": 233,
+            "name": "Migration",
+            "slug": "migration"
+        }
+    ],
+    "Category:Our World in Data - Poverty and Economic Development": [
+        {
+            "id": 1602,
+            "name": "Poverty",
+            "slug": "poverty"
+        },
+        {
+            "id": 134,
+            "name": "Economic Growth",
+            "slug": "economic-growth"
+        },
+        {
+            "id": 135,
+            "name": "Economic Inequality",
+            "slug": "economic-inequality"
+        },
+        {
+            "id": 229,
+            "name": "Foreign Aid",
+            "slug": "foreign-aid"
+        },
+        {
+            "id": 147,
+            "name": "Economic Inequality by Gender",
+            "slug": "economic-inequality-by-gender"
+        },
+        {
+            "id": 206,
+            "name": "Government Spending",
+            "slug": "government-spending"
+        },
+        {
+            "id": 1823,
+            "name": "State Capacity",
+            "slug": "state-capacity"
+        },
+        {
+            "id": 1582,
+            "name": "Taxation",
+            "slug": "taxation"
+        },
+        {
+            "id": 1584,
+            "name": "Corruption",
+            "slug": "corruption"
+        },
+        {
+            "id": 22,
+            "name": "Healthcare Spending",
+            "slug": "financing-healthcare"
+        },
+        {
+            "id": 293,
+            "name": "Education Spending",
+            "slug": "financing-education"
+        },
+        {
+            "id": 1826,
+            "name": "Military Personnel & Spending",
+            "slug": "military-personnel-spending"
+        },
+        {
+            "id": 1589,
+            "name": "Women's Employment",
+            "slug": "female-labor-supply"
+        },
+        {
+            "id": 163,
+            "name": "Working Hours",
+            "slug": "working-hours"
+        },
+        {
+            "id": 194,
+            "name": "Unemployment",
+            "slug": null
+        },
+        {
+            "id": 217,
+            "name": "Trade & Globalization",
+            "slug": "trade-and-globalization"
+        },
+        {
+            "id": 233,
+            "name": "Migration",
+            "slug": "migration"
+        },
+        {
+            "id": 231,
+            "name": "Tourism",
+            "slug": "tourism"
+        },
+        {
+            "id": 1810,
+            "name": "Clean Water & Sanitation",
+            "slug": "clean-water-sanitation"
+        },
+        {
+            "id": 1827,
+            "name": "Clean Water",
+            "slug": "clean-water"
+        },
+        {
+            "id": 1576,
+            "name": "Sanitation",
+            "slug": "sanitation"
+        }
+    ],
+    "Category:Our World in Data - Violence and War": [
+        {
+            "id": 246,
+            "name": "War & Peace",
+            "slug": "war-and-peace"
+        },
+        {
+            "id": 242,
+            "name": "Nuclear Weapons",
+            "slug": "nuclear-weapons"
+        },
+        {
+            "id": 279,
+            "name": "Homicides",
+            "slug": "homicides"
+        },
+        {
+            "id": 244,
+            "name": "Terrorism",
+            "slug": "terrorism"
+        },
+        {
+            "id": 1823,
+            "name": "State Capacity",
+            "slug": "state-capacity"
+        },
+        {
+            "id": 1826,
+            "name": "Military Personnel & Spending",
+            "slug": "military-personnel-spending"
+        },
+        {
+            "id": 289,
+            "name": "Violence Against Children & Children's Rights",
+            "slug": "violence-against-rights-for-children"
+        }
+    ],
+    "Category:Our World in Data - Other": []
+}
