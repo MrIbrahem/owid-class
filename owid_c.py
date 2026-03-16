@@ -90,18 +90,12 @@ def parse_chart_config(config_str):
 
 
 def fetch_total_chart_count():
-    count_sql = """
-    SELECT count(id) as total
-    FROM charts
-    WHERE config LIKE '%hasMapTab%'
-       OR config LIKE '%"tab": "map"%'
-       OR config LIKE '%"tab":"map"%'
-    """
 
     count_sql = """
-        SELECT count(id) as total
-        FROM charts
-        WHERE isPublished = 'true'
+        select count(*)
+        from chart_tags
+        left join charts cc ON cc.id = chartId
+        left join tags ta ON ta.id = tagId
     """
 
     try:
