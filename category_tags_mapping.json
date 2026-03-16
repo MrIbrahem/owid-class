@@ -465,11 +465,6 @@
             "id": 22,
             "name": "Healthcare Spending",
             "slug": "financing-healthcare"
-        },
-        {
-            "id": 1864,
-            "name": "Sexual & Reproductive Health",
-            "slug": null
         }
     ],
     "Category:Our World in Data - Human Rights and Democracy": [
@@ -517,11 +512,6 @@
             "id": 289,
             "name": "Violence Against Children & Children's Rights",
             "slug": "violence-against-rights-for-children"
-        },
-        {
-            "id": 284,
-            "name": "Crime",
-            "slug": null
         }
     ],
     "Category:Our World in Data - Innovation and Technological Change": [
@@ -598,6 +588,11 @@
             "slug": "light-at-night"
         },
         {
+            "id": 1824,
+            "name": "Time Use",
+            "slug": "time-use"
+        },
+        {
             "id": 163,
             "name": "Working Hours",
             "slug": "working-hours"
@@ -621,11 +616,6 @@
             "id": 159,
             "name": "Happiness & Life Satisfaction",
             "slug": "happiness-and-life-satisfaction"
-        },
-        {
-            "id": 160,
-            "name": "Human Development Index (HDI)",
-            "slug": null
         },
         {
             "id": 1862,
@@ -737,6 +727,11 @@
             "slug": "military-personnel-spending"
         },
         {
+            "id": 1853,
+            "name": "Work & Employment",
+            "slug": "work-employment"
+        },
+        {
             "id": 1589,
             "name": "Women's Employment",
             "slug": "female-labor-supply"
@@ -745,11 +740,6 @@
             "id": 163,
             "name": "Working Hours",
             "slug": "working-hours"
-        },
-        {
-            "id": 194,
-            "name": "Unemployment",
-            "slug": null
         },
         {
             "id": 217,
