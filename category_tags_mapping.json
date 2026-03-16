@@ -11,21 +11,6 @@
             "slug": "literacy"
         },
         {
-            "id": 293,
-            "name": "Education Spending",
-            "slug": "financing-education"
-        },
-        {
-            "id": 110,
-            "name": "Research & Development",
-            "slug": "research-and-development"
-        },
-        {
-            "id": 314,
-            "name": "Internet",
-            "slug": "internet"
-        },
-        {
             "id": 313,
             "name": "Books",
             "slug": "books"
@@ -43,21 +28,6 @@
             "slug": "co2-and-greenhouse-gas-emissions"
         },
         {
-            "id": 106,
-            "name": "Air Pollution",
-            "slug": "air-pollution"
-        },
-        {
-            "id": 1819,
-            "name": "Outdoor Air Pollution",
-            "slug": "outdoor-air-pollution"
-        },
-        {
-            "id": 89,
-            "name": "Indoor Air Pollution",
-            "slug": "indoor-air-pollution"
-        },
-        {
             "id": 105,
             "name": "Ozone Layer",
             "slug": "ozone-layer"
@@ -66,11 +36,6 @@
             "id": 72,
             "name": "Energy",
             "slug": "energy"
-        },
-        {
-            "id": 1791,
-            "name": "Access to Energy",
-            "slug": "energy-access"
         },
         {
             "id": 1812,
@@ -86,11 +51,6 @@
             "id": 80,
             "name": "Nuclear Energy",
             "slug": "nuclear-energy"
-        },
-        {
-            "id": 70,
-            "name": "Bioenergy and Biofuels",
-            "slug": "bioenergy-biofuels"
         },
         {
             "id": 81,
@@ -111,26 +71,6 @@
             "id": 99,
             "name": "Biodiversity",
             "slug": "biodiversity"
-        },
-        {
-            "id": 1796,
-            "name": "Environmental Impacts of Food Production",
-            "slug": "environmental-impacts-of-food"
-        },
-        {
-            "id": 1795,
-            "name": "Fish & Overfishing",
-            "slug": "fish-and-overfishing"
-        },
-        {
-            "id": 291,
-            "name": "Animal Welfare",
-            "slug": "animal-welfare"
-        },
-        {
-            "id": 90,
-            "name": "Land Use",
-            "slug": "land-use"
         },
         {
             "id": 102,
@@ -158,29 +98,9 @@
             "slug": "oil-spills"
         },
         {
-            "id": 1797,
-            "name": "Lead Pollution",
-            "slug": "lead-pollution"
-        },
-        {
             "id": 107,
             "name": "Waste Management",
             "slug": "waste-management"
-        },
-        {
-            "id": 1810,
-            "name": "Clean Water & Sanitation",
-            "slug": "clean-water-sanitation"
-        },
-        {
-            "id": 1827,
-            "name": "Clean Water",
-            "slug": "clean-water"
-        },
-        {
-            "id": 1576,
-            "name": "Sanitation",
-            "slug": "sanitation"
         },
         {
             "id": 1811,
@@ -200,34 +120,14 @@
             "slug": "meat-production"
         },
         {
-            "id": 1795,
-            "name": "Fish & Overfishing",
-            "slug": "fish-and-overfishing"
-        },
-        {
             "id": 1792,
             "name": "Crop Yields",
             "slug": "crop-yields"
         },
         {
-            "id": 291,
-            "name": "Animal Welfare",
-            "slug": "animal-welfare"
-        },
-        {
-            "id": 1796,
-            "name": "Environmental Impacts of Food Production",
-            "slug": "environmental-impacts-of-food"
-        },
-        {
             "id": 1801,
             "name": "Farm Size",
             "slug": "farm-size"
-        },
-        {
-            "id": 90,
-            "name": "Land Use",
-            "slug": "land-use"
         },
         {
             "id": 43,
@@ -260,11 +160,6 @@
             "slug": "food-prices"
         },
         {
-            "id": 62,
-            "name": "Obesity",
-            "slug": "obesity"
-        },
-        {
             "id": 38,
             "name": "Famines",
             "slug": "famines"
@@ -283,11 +178,6 @@
             "id": 39,
             "name": "Human Height",
             "slug": "human-height"
-        },
-        {
-            "id": 70,
-            "name": "Bioenergy and Biofuels",
-            "slug": "bioenergy-biofuels"
         }
     ],
     "Category:Our World in Data - Health": [
@@ -302,19 +192,9 @@
             "slug": "causes-of-death"
         },
         {
-            "id": 5,
-            "name": "Child & Infant Mortality",
-            "slug": "child-mortality"
-        },
-        {
             "id": 25,
             "name": "Burden of Disease",
             "slug": "burden-of-disease"
-        },
-        {
-            "id": 7,
-            "name": "Life Expectancy",
-            "slug": "life-expectancy"
         },
         {
             "id": 35,
@@ -342,26 +222,6 @@
             "slug": "maternal-mortality"
         },
         {
-            "id": 106,
-            "name": "Air Pollution",
-            "slug": "air-pollution"
-        },
-        {
-            "id": 1819,
-            "name": "Outdoor Air Pollution",
-            "slug": "outdoor-air-pollution"
-        },
-        {
-            "id": 89,
-            "name": "Indoor Air Pollution",
-            "slug": "indoor-air-pollution"
-        },
-        {
-            "id": 1797,
-            "name": "Lead Pollution",
-            "slug": "lead-pollution"
-        },
-        {
             "id": 1572,
             "name": "Alcohol Consumption",
             "slug": "alcohol-consumption"
@@ -370,11 +230,6 @@
             "id": 1825,
             "name": "Illicit Drug Use",
             "slug": "illicit-drug-use"
-        },
-        {
-            "id": 62,
-            "name": "Obesity",
-            "slug": "obesity"
         },
         {
             "id": 16,
@@ -460,11 +315,6 @@
             "id": 32,
             "name": "Antibiotics & Antibiotic Resistance",
             "slug": "antibiotics"
-        },
-        {
-            "id": 22,
-            "name": "Healthcare Spending",
-            "slug": "financing-healthcare"
         }
     ],
     "Category:Our World in Data - Human Rights and Democracy": [
@@ -479,11 +329,6 @@
             "slug": "democracy"
         },
         {
-            "id": 1823,
-            "name": "State Capacity",
-            "slug": "state-capacity"
-        },
-        {
             "id": 282,
             "name": "Women's Rights",
             "slug": "women-rights"
@@ -494,24 +339,9 @@
             "slug": "lgbt-rights"
         },
         {
-            "id": 1584,
-            "name": "Corruption",
-            "slug": "corruption"
-        },
-        {
-            "id": 147,
-            "name": "Economic Inequality by Gender",
-            "slug": "economic-inequality-by-gender"
-        },
-        {
             "id": 186,
             "name": "Child Labor",
             "slug": "child-labor"
-        },
-        {
-            "id": 289,
-            "name": "Violence Against Children & Children's Rights",
-            "slug": "violence-against-rights-for-children"
         }
     ],
     "Category:Our World in Data - Innovation and Technological Change": [
@@ -521,19 +351,9 @@
             "slug": "technological-change"
         },
         {
-            "id": 110,
-            "name": "Research & Development",
-            "slug": "research-and-development"
-        },
-        {
             "id": 1800,
             "name": "Artificial Intelligence",
             "slug": "artificial-intelligence"
-        },
-        {
-            "id": 314,
-            "name": "Internet",
-            "slug": "internet"
         },
         {
             "id": 114,
@@ -558,31 +378,6 @@
             "slug": "homelessness"
         },
         {
-            "id": 1791,
-            "name": "Access to Energy",
-            "slug": "energy-access"
-        },
-        {
-            "id": 89,
-            "name": "Indoor Air Pollution",
-            "slug": "indoor-air-pollution"
-        },
-        {
-            "id": 1810,
-            "name": "Clean Water & Sanitation",
-            "slug": "clean-water-sanitation"
-        },
-        {
-            "id": 1827,
-            "name": "Clean Water",
-            "slug": "clean-water"
-        },
-        {
-            "id": 1576,
-            "name": "Sanitation",
-            "slug": "sanitation"
-        },
-        {
             "id": 161,
             "name": "Light at Night",
             "slug": "light-at-night"
@@ -591,11 +386,6 @@
             "id": 1824,
             "name": "Time Use",
             "slug": "time-use"
-        },
-        {
-            "id": 163,
-            "name": "Working Hours",
-            "slug": "working-hours"
         },
         {
             "id": 325,
@@ -640,29 +430,14 @@
             "slug": "gender-ratio"
         },
         {
-            "id": 7,
-            "name": "Life Expectancy",
-            "slug": "life-expectancy"
-        },
-        {
             "id": 3,
             "name": "Fertility Rate",
             "slug": "fertility-rate"
         },
         {
-            "id": 5,
-            "name": "Child & Infant Mortality",
-            "slug": "child-mortality"
-        },
-        {
             "id": 175,
             "name": "Urbanization",
             "slug": "urbanization"
-        },
-        {
-            "id": 233,
-            "name": "Migration",
-            "slug": "migration"
         }
     ],
     "Category:Our World in Data - Poverty and Economic Development": [
@@ -687,44 +462,14 @@
             "slug": "foreign-aid"
         },
         {
-            "id": 147,
-            "name": "Economic Inequality by Gender",
-            "slug": "economic-inequality-by-gender"
-        },
-        {
             "id": 206,
             "name": "Government Spending",
             "slug": "government-spending"
         },
         {
-            "id": 1823,
-            "name": "State Capacity",
-            "slug": "state-capacity"
-        },
-        {
             "id": 1582,
             "name": "Taxation",
             "slug": "taxation"
-        },
-        {
-            "id": 1584,
-            "name": "Corruption",
-            "slug": "corruption"
-        },
-        {
-            "id": 22,
-            "name": "Healthcare Spending",
-            "slug": "financing-healthcare"
-        },
-        {
-            "id": 293,
-            "name": "Education Spending",
-            "slug": "financing-education"
-        },
-        {
-            "id": 1826,
-            "name": "Military Personnel & Spending",
-            "slug": "military-personnel-spending"
         },
         {
             "id": 1853,
@@ -737,39 +482,14 @@
             "slug": "female-labor-supply"
         },
         {
-            "id": 163,
-            "name": "Working Hours",
-            "slug": "working-hours"
-        },
-        {
             "id": 217,
             "name": "Trade & Globalization",
             "slug": "trade-and-globalization"
         },
         {
-            "id": 233,
-            "name": "Migration",
-            "slug": "migration"
-        },
-        {
             "id": 231,
             "name": "Tourism",
             "slug": "tourism"
-        },
-        {
-            "id": 1810,
-            "name": "Clean Water & Sanitation",
-            "slug": "clean-water-sanitation"
-        },
-        {
-            "id": 1827,
-            "name": "Clean Water",
-            "slug": "clean-water"
-        },
-        {
-            "id": 1576,
-            "name": "Sanitation",
-            "slug": "sanitation"
         }
     ],
     "Category:Our World in Data - Violence and War": [
@@ -792,6 +512,103 @@
             "id": 244,
             "name": "Terrorism",
             "slug": "terrorism"
+        }
+    ],
+    "Category:Our World in Data - Other": [
+        {
+            "id": 7,
+            "name": "Life Expectancy",
+            "slug": "life-expectancy"
+        },
+        {
+            "id": 5,
+            "name": "Child & Infant Mortality",
+            "slug": "child-mortality"
+        },
+        {
+            "id": 233,
+            "name": "Migration",
+            "slug": "migration"
+        },
+        {
+            "id": 106,
+            "name": "Air Pollution",
+            "slug": "air-pollution"
+        },
+        {
+            "id": 1819,
+            "name": "Outdoor Air Pollution",
+            "slug": "outdoor-air-pollution"
+        },
+        {
+            "id": 89,
+            "name": "Indoor Air Pollution",
+            "slug": "indoor-air-pollution"
+        },
+        {
+            "id": 1797,
+            "name": "Lead Pollution",
+            "slug": "lead-pollution"
+        },
+        {
+            "id": 62,
+            "name": "Obesity",
+            "slug": "obesity"
+        },
+        {
+            "id": 22,
+            "name": "Healthcare Spending",
+            "slug": "financing-healthcare"
+        },
+        {
+            "id": 1791,
+            "name": "Access to Energy",
+            "slug": "energy-access"
+        },
+        {
+            "id": 70,
+            "name": "Bioenergy and Biofuels",
+            "slug": "bioenergy-biofuels"
+        },
+        {
+            "id": 1796,
+            "name": "Environmental Impacts of Food Production",
+            "slug": "environmental-impacts-of-food"
+        },
+        {
+            "id": 1795,
+            "name": "Fish & Overfishing",
+            "slug": "fish-and-overfishing"
+        },
+        {
+            "id": 291,
+            "name": "Animal Welfare",
+            "slug": "animal-welfare"
+        },
+        {
+            "id": 90,
+            "name": "Land Use",
+            "slug": "land-use"
+        },
+        {
+            "id": 1810,
+            "name": "Clean Water & Sanitation",
+            "slug": "clean-water-sanitation"
+        },
+        {
+            "id": 1827,
+            "name": "Clean Water",
+            "slug": "clean-water"
+        },
+        {
+            "id": 1576,
+            "name": "Sanitation",
+            "slug": "sanitation"
+        },
+        {
+            "id": 147,
+            "name": "Economic Inequality by Gender",
+            "slug": "economic-inequality-by-gender"
         },
         {
             "id": 1823,
@@ -799,15 +616,39 @@
             "slug": "state-capacity"
         },
         {
+            "id": 1584,
+            "name": "Corruption",
+            "slug": "corruption"
+        },
+        {
+            "id": 293,
+            "name": "Education Spending",
+            "slug": "financing-education"
+        },
+        {
             "id": 1826,
             "name": "Military Personnel & Spending",
             "slug": "military-personnel-spending"
+        },
+        {
+            "id": 163,
+            "name": "Working Hours",
+            "slug": "working-hours"
+        },
+        {
+            "id": 110,
+            "name": "Research & Development",
+            "slug": "research-and-development"
+        },
+        {
+            "id": 314,
+            "name": "Internet",
+            "slug": "internet"
         },
         {
             "id": 289,
             "name": "Violence Against Children & Children's Rights",
             "slug": "violence-against-rights-for-children"
         }
-    ],
-    "Category:Our World in Data - Other": []
+    ]
 }

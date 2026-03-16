@@ -1,4 +1,5 @@
 import json
+from collections import defaultdict
 
 def extract_leaf_tags(node):
     """Recursively extract all leaf tags (nodes with slug) from a tree node."""
@@ -28,20 +29,54 @@ def main():
     # Get root children (the main categories in the topic graph)
     root_children = topic_tag_graph.get('children', [])
 
+    # Track tag ID occurrences across all categories
+    tag_id_to_categories = defaultdict(list)
+    category_tags = {}
+
+    # First pass: collect tags for all categories and track duplicates
     for category_key, category_value in tags_categories.items():
-        # Extract category name from the key (e.g., "Education and Knowledge")
         category_name = category_key
+
+        # Skip "Other" for now
+        if category_key == "Other":
+            continue
 
         # Find matching category in topic graph
         tags = []
         for category_node in root_children:
             if category_node.get('name') == category_name:
-                # Extract all leaf tags from this category
                 tags = extract_leaf_tags(category_node)
                 break
 
-        # Map to the category value from tags_categories.json
-        result[category_value] = tags
+        category_tags[category_value] = tags
+
+        # Track which categories each tag appears in
+        for tag in tags:
+            tag_id_to_categories[tag['id']].append(category_value)
+
+    # Find duplicate tag IDs (tags that appear in multiple categories)
+    duplicate_tag_ids = {tag_id for tag_id, cats in tag_id_to_categories.items() if len(cats) > 1}
+
+    # Build final result, removing duplicates from regular categories
+    for category_value, tags in category_tags.items():
+        # Filter out duplicate tags
+        unique_tags = [tag for tag in tags if tag['id'] not in duplicate_tag_ids]
+        result[category_value] = unique_tags
+
+    # Collect all duplicate tags for "Other" category
+    other_tags = []
+    seen_ids = set()
+    for category_node in root_children:
+        tags = extract_leaf_tags(category_node)
+        for tag in tags:
+            if tag['id'] in duplicate_tag_ids and tag['id'] not in seen_ids:
+                other_tags.append(tag)
+                seen_ids.add(tag['id'])
+
+    # Add "Other" category with duplicate tags
+    other_category_value = tags_categories.get("Other")
+    if other_category_value:
+        result[other_category_value] = other_tags
 
     # Write output
     with open('category_tags_mapping.json', 'w', encoding='utf-8') as f:
