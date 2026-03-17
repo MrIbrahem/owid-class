@@ -85,7 +85,11 @@ with open(main_dir / "topicTagGraph.json", "r", encoding="utf-8") as f:
 # Simplify the structure
 simplified_data = simplify_node(data)
 simplified_data2 = simplify_node2(data)
+simplified_data2 = simplified_data2.get("tag-graph-root", simplified_data2)
+
 simplified_data_id = simplify_node_id(data)
+
+simplified_data_id = dict(sorted(simplified_data_id.items(), key=lambda item: item[0]))
 
 # Write the new simplified JSON file
 with open(main_dir / "topicTagGraph_simple.json", "w", encoding="utf-8") as f:
