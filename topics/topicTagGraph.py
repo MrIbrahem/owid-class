@@ -1,4 +1,5 @@
 import json
+from pathlib import Path
 
 
 def filter_json_structure(data):
@@ -19,16 +20,17 @@ def filter_json_structure(data):
 
 
 def process_file(input_filename, output_filename):
+    main_dir = Path(__file__).parent
     try:
         # Load the original JSON data
-        with open(input_filename, 'r', encoding='utf-8') as f:
+        with open(main_dir / input_filename, 'r', encoding='utf-8') as f:
             original_data = json.load(f)
 
         # Filter the data
         new_data = filter_json_structure(original_data)
 
         # Save the filtered data to a new file
-        with open(output_filename, 'w', encoding='utf-8') as f:
+        with open(main_dir / output_filename, 'w', encoding='utf-8') as f:
             json.dump(new_data, f, indent=4)
 
         print(f"Successfully created: {output_filename}")
