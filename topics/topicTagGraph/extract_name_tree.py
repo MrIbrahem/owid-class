@@ -34,7 +34,7 @@ def simplify_node(node):
 
 def simplify_node2(node):
     """
-    Extract only name and children from a node.
+    Extract only name and children from a node as nested dict.
     example of output:
     {
         "tag-graph-root": {
@@ -44,13 +44,17 @@ def simplify_node2(node):
         }
     }
     """
-    simplified = {
-        "name": node["name"],
-        "children": []
-    }
+    result = {}
+    name = node["name"]
     if node.get("children"):
-        simplified["children"] = [simplify_node(child) for child in node["children"]]
-    return simplified
+        children_dict = {}
+        for child in node["children"]:
+            child_result = simplify_node2(child)
+            children_dict.update(child_result)
+        result[name] = children_dict
+    else:
+        result[name] = {}
+    return result
 
 
 main_dir = Path(__file__).parent
