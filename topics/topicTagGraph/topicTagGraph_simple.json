@@ -1,0 +1,826 @@
+{
+  "name": "tag-graph-root",
+  "children": [
+    {
+      "name": "Population and Demographic Change",
+      "children": [
+        {
+          "name": "Population Change",
+          "children": [
+            {
+              "name": "Population Growth",
+              "children": []
+            },
+            {
+              "name": "Age Structure",
+              "children": []
+            },
+            {
+              "name": "Gender Ratio",
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "Births & Deaths",
+          "children": [
+            {
+              "name": "Life Expectancy",
+              "children": []
+            },
+            {
+              "name": "Fertility Rate",
+              "children": []
+            },
+            {
+              "name": "Child & Infant Mortality",
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "Geography of the World Population",
+          "children": [
+            {
+              "name": "Urbanization",
+              "children": []
+            },
+            {
+              "name": "Migration",
+              "children": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Health",
+      "children": [
+        {
+          "name": "Life & Death",
+          "children": [
+            {
+              "name": "Global Health",
+              "children": []
+            },
+            {
+              "name": "Causes of Death",
+              "children": []
+            },
+            {
+              "name": "Child & Infant Mortality",
+              "children": []
+            },
+            {
+              "name": "Burden of Disease",
+              "children": []
+            },
+            {
+              "name": "Life Expectancy",
+              "children": []
+            },
+            {
+              "name": "Mental Health",
+              "children": []
+            },
+            {
+              "name": "Suicides",
+              "children": []
+            },
+            {
+              "name": "Cardiovascular Diseases",
+              "children": []
+            },
+            {
+              "name": "Cancer",
+              "children": []
+            },
+            {
+              "name": "Maternal Mortality",
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "Health Risks",
+          "children": [
+            {
+              "name": "Air Pollution",
+              "children": [
+                {
+                  "name": "Outdoor Air Pollution",
+                  "children": []
+                },
+                {
+                  "name": "Indoor Air Pollution",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "name": "Lead Pollution",
+              "children": []
+            },
+            {
+              "name": "Alcohol Consumption",
+              "children": []
+            },
+            {
+              "name": "Illicit Drug Use",
+              "children": []
+            },
+            {
+              "name": "Obesity",
+              "children": []
+            },
+            {
+              "name": "Smoking",
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "Infectious Diseases",
+          "children": [
+            {
+              "name": "Pandemics",
+              "children": []
+            },
+            {
+              "name": "COVID-19",
+              "children": []
+            },
+            {
+              "name": "Malaria",
+              "children": []
+            },
+            {
+              "name": "HIV/AIDS",
+              "children": []
+            },
+            {
+              "name": "Diarrheal Diseases",
+              "children": []
+            },
+            {
+              "name": "Tuberculosis",
+              "children": []
+            },
+            {
+              "name": "Polio",
+              "children": []
+            },
+            {
+              "name": "Neglected Tropical Diseases",
+              "children": []
+            },
+            {
+              "name": "Influenza",
+              "children": []
+            },
+            {
+              "name": "Pneumonia",
+              "children": []
+            },
+            {
+              "name": "Tetanus",
+              "children": []
+            },
+            {
+              "name": "Mpox (monkeypox)",
+              "children": []
+            },
+            {
+              "name": "Smallpox",
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "Health Institutions & Interventions",
+          "children": [
+            {
+              "name": "Eradication of Diseases",
+              "children": []
+            },
+            {
+              "name": "Vaccination",
+              "children": []
+            },
+            {
+              "name": "Antibiotics & Antibiotic Resistance",
+              "children": []
+            },
+            {
+              "name": "Healthcare Spending",
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "Sexual & Reproductive Health",
+          "children": []
+        }
+      ]
+    },
+    {
+      "name": "Energy and Environment",
+      "children": [
+        {
+          "name": "Climate & Air",
+          "children": [
+            {
+              "name": "Climate Change",
+              "children": []
+            },
+            {
+              "name": "CO2 & Greenhouse Gas Emissions",
+              "children": []
+            },
+            {
+              "name": "Air Pollution",
+              "children": [
+                {
+                  "name": "Outdoor Air Pollution",
+                  "children": []
+                },
+                {
+                  "name": "Indoor Air Pollution",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "name": "Ozone Layer",
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "Energy Systems",
+          "children": [
+            {
+              "name": "Energy",
+              "children": [
+                {
+                  "name": "Access to Energy",
+                  "children": []
+                },
+                {
+                  "name": "Energy Mix",
+                  "children": []
+                },
+                {
+                  "name": "Fossil Fuels",
+                  "children": []
+                },
+                {
+                  "name": "Nuclear Energy",
+                  "children": []
+                },
+                {
+                  "name": "Bioenergy and Biofuels",
+                  "children": []
+                },
+                {
+                  "name": "Renewable Energy",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "name": "Metals & Minerals",
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "Environment & Ecosystems",
+          "children": [
+            {
+              "name": "Natural Disasters",
+              "children": []
+            },
+            {
+              "name": "Biodiversity",
+              "children": []
+            },
+            {
+              "name": "Environmental Impacts of Food Production",
+              "children": []
+            },
+            {
+              "name": "Fish & Overfishing",
+              "children": []
+            },
+            {
+              "name": "Animal Welfare",
+              "children": []
+            },
+            {
+              "name": "Land Use",
+              "children": []
+            },
+            {
+              "name": "Water Use & Stress",
+              "children": []
+            },
+            {
+              "name": "Forests & Deforestation",
+              "children": []
+            },
+            {
+              "name": "Wildfires",
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "Waste & Pollution",
+          "children": [
+            {
+              "name": "Plastic Pollution",
+              "children": []
+            },
+            {
+              "name": "Oil Spills",
+              "children": []
+            },
+            {
+              "name": "Lead Pollution",
+              "children": []
+            },
+            {
+              "name": "Waste Management",
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "Clean Water & Sanitation",
+          "children": [
+            {
+              "name": "Clean Water",
+              "children": []
+            },
+            {
+              "name": "Sanitation",
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "Electricity",
+          "children": [
+            {
+              "name": "Electricity Mix",
+              "children": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Food and Agriculture",
+      "children": [
+        {
+          "name": "Food Production",
+          "children": [
+            {
+              "name": "Agricultural Production",
+              "children": []
+            },
+            {
+              "name": "Meat & Dairy Production",
+              "children": []
+            },
+            {
+              "name": "Fish & Overfishing",
+              "children": []
+            },
+            {
+              "name": "Crop Yields",
+              "children": []
+            },
+            {
+              "name": "Animal Welfare",
+              "children": []
+            },
+            {
+              "name": "Environmental Impacts of Food Production",
+              "children": []
+            },
+            {
+              "name": "Farm Size",
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "Agricultural Inputs",
+          "children": [
+            {
+              "name": "Land Use",
+              "children": []
+            },
+            {
+              "name": "Fertilizers",
+              "children": []
+            },
+            {
+              "name": "Pesticides",
+              "children": []
+            },
+            {
+              "name": "Employment in Agriculture",
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "Nutrition",
+          "children": [
+            {
+              "name": "Hunger & Undernourishment",
+              "children": []
+            },
+            {
+              "name": "Food Supply",
+              "children": []
+            },
+            {
+              "name": "Food Prices",
+              "children": []
+            },
+            {
+              "name": "Obesity",
+              "children": []
+            },
+            {
+              "name": "Famines",
+              "children": []
+            },
+            {
+              "name": "Diet Compositions",
+              "children": []
+            },
+            {
+              "name": "Micronutrient Deficiency",
+              "children": []
+            },
+            {
+              "name": "Human Height",
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "Bioenergy and Biofuels",
+          "children": []
+        }
+      ]
+    },
+    {
+      "name": "Poverty and Economic Development",
+      "children": [
+        {
+          "name": "Poverty & Prosperity",
+          "children": [
+            {
+              "name": "Poverty",
+              "children": []
+            },
+            {
+              "name": "Economic Growth",
+              "children": []
+            },
+            {
+              "name": "Economic Inequality",
+              "children": []
+            },
+            {
+              "name": "Foreign Aid",
+              "children": []
+            },
+            {
+              "name": "Economic Inequality by Gender",
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "Public Sector",
+          "children": [
+            {
+              "name": "Government Spending",
+              "children": []
+            },
+            {
+              "name": "State Capacity",
+              "children": []
+            },
+            {
+              "name": "Taxation",
+              "children": []
+            },
+            {
+              "name": "Corruption",
+              "children": []
+            },
+            {
+              "name": "Healthcare Spending",
+              "children": []
+            },
+            {
+              "name": "Education Spending",
+              "children": []
+            },
+            {
+              "name": "Military Personnel & Spending",
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "Work & Employment",
+          "children": [
+            {
+              "name": "Women's Employment",
+              "children": []
+            },
+            {
+              "name": "Working Hours",
+              "children": []
+            },
+            {
+              "name": "Unemployment",
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "Global Connections",
+          "children": [
+            {
+              "name": "Trade & Globalization",
+              "children": []
+            },
+            {
+              "name": "Migration",
+              "children": []
+            },
+            {
+              "name": "Tourism",
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "Clean Water & Sanitation",
+          "children": [
+            {
+              "name": "Clean Water",
+              "children": []
+            },
+            {
+              "name": "Sanitation",
+              "children": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Education and Knowledge",
+      "children": [
+        {
+          "name": "Education",
+          "children": [
+            {
+              "name": "Global Education",
+              "children": []
+            },
+            {
+              "name": "Literacy",
+              "children": []
+            },
+            {
+              "name": "Education Spending",
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "Knowledge",
+          "children": [
+            {
+              "name": "Research & Development",
+              "children": []
+            },
+            {
+              "name": "Internet",
+              "children": []
+            },
+            {
+              "name": "Books",
+              "children": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Innovation and Technological Change",
+      "children": [
+        {
+          "name": "Technological Change",
+          "children": []
+        },
+        {
+          "name": "Research & Development",
+          "children": []
+        },
+        {
+          "name": "Artificial Intelligence",
+          "children": []
+        },
+        {
+          "name": "Internet",
+          "children": []
+        },
+        {
+          "name": "Space Exploration & Satellites",
+          "children": []
+        },
+        {
+          "name": "Transport",
+          "children": []
+        },
+        {
+          "name": "Medicine & Biotechnology",
+          "children": []
+        }
+      ]
+    },
+    {
+      "name": "Living Conditions, Community and Wellbeing",
+      "children": [
+        {
+          "name": "Housing & Infrastructure",
+          "children": [
+            {
+              "name": "Homelessness",
+              "children": []
+            },
+            {
+              "name": "Access to Energy",
+              "children": []
+            },
+            {
+              "name": "Indoor Air Pollution",
+              "children": []
+            },
+            {
+              "name": "Clean Water & Sanitation",
+              "children": [
+                {
+                  "name": "Clean Water",
+                  "children": []
+                },
+                {
+                  "name": "Sanitation",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "name": "Light at Night",
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "Time Use",
+          "children": [
+            {
+              "name": "Working Hours",
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "Relationships",
+          "children": [
+            {
+              "name": "Marriages & Divorces",
+              "children": []
+            },
+            {
+              "name": "Loneliness & Social Connections",
+              "children": []
+            },
+            {
+              "name": "Trust",
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "Happiness & Wellbeing",
+          "children": [
+            {
+              "name": "Happiness & Life Satisfaction",
+              "children": []
+            },
+            {
+              "name": "Human Development Index (HDI)",
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "Religion",
+          "children": []
+        }
+      ]
+    },
+    {
+      "name": "Human Rights and Democracy",
+      "children": [
+        {
+          "name": "Human Rights",
+          "children": []
+        },
+        {
+          "name": "Democracy",
+          "children": []
+        },
+        {
+          "name": "State Capacity",
+          "children": []
+        },
+        {
+          "name": "Women's Rights",
+          "children": []
+        },
+        {
+          "name": "LGBT+ Rights",
+          "children": []
+        },
+        {
+          "name": "Corruption",
+          "children": []
+        },
+        {
+          "name": "Economic Inequality by Gender",
+          "children": []
+        },
+        {
+          "name": "Child Labor",
+          "children": []
+        },
+        {
+          "name": "Violence Against Children & Children's Rights",
+          "children": []
+        },
+        {
+          "name": "Crime",
+          "children": []
+        }
+      ]
+    },
+    {
+      "name": "Violence and War",
+      "children": [
+        {
+          "name": "War & Peace",
+          "children": []
+        },
+        {
+          "name": "Nuclear Weapons",
+          "children": []
+        },
+        {
+          "name": "Homicides",
+          "children": []
+        },
+        {
+          "name": "Terrorism",
+          "children": []
+        },
+        {
+          "name": "State Capacity",
+          "children": []
+        },
+        {
+          "name": "Military Personnel & Spending",
+          "children": []
+        },
+        {
+          "name": "Violence Against Children & Children's Rights",
+          "children": []
+        }
+      ]
+    }
+  ]
+}
