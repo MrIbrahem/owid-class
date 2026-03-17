@@ -76,38 +76,6 @@ def simplify_node_id(node):
     return result
 
 
-def simplify_node_id_nested(node):
-    """
-    Extract name:id mapping from a node as nested dict.
-    example of output:
-    {
-        "tag-graph-root": {
-            "id": 1837,
-            "children": {
-                "Population and Demographic Change": {
-                    "id": 1500,
-                    "children": {
-                        "Population Change": {
-                            "id": 1841,
-                            "children": {}
-                        }
-                    }
-                }
-            }
-        }
-    }
-    """
-    result = {
-        "id": node["id"],
-        "children": {}
-    }
-    if node.get("children"):
-        for child in node["children"]:
-            child_result = simplify_node_id_nested(child)
-            result["children"][child["name"]] = child_result
-    return result
-
-
 main_dir = Path(__file__).parent
 
 # Read the original file
@@ -118,7 +86,6 @@ with open(main_dir / "topicTagGraph.json", "r", encoding="utf-8") as f:
 simplified_data = simplify_node(data)
 simplified_data2 = simplify_node2(data)
 simplified_data_id = simplify_node_id(data)
-simplified_data_id_nested = simplify_node_id_nested(data)
 
 # Write the new simplified JSON file
 with open(main_dir / "topicTagGraph_simple.json", "w", encoding="utf-8") as f:
@@ -132,11 +99,6 @@ with open(main_dir / "topicTagGraph_2.json", "w", encoding="utf-8") as f:
 with open(main_dir / "topicTagGraph_id.json", "w", encoding="utf-8") as f:
     json.dump(simplified_data_id, f, indent=4, ensure_ascii=False)
 
-# Write the nested name:id mapping JSON file
-with open(main_dir / "topicTagGraph_id_nested.json", "w", encoding="utf-8") as f:
-    json.dump(simplified_data_id_nested, f, indent=4, ensure_ascii=False)
-
 print("Generated topicTagGraph_simple.json successfully!")
 print("Original structure simplified to only include 'name' and 'children' fields.")
 print("Generated topicTagGraph_id.json successfully!")
-print("Generated topicTagGraph_id_nested.json successfully!")
