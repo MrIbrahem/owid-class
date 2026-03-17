@@ -69,11 +69,11 @@ simplified_data2 = simplify_node2(data)
 
 # Write the new simplified JSON file
 with open(main_dir / "topicTagGraph_simple.json", "w", encoding="utf-8") as f:
-    json.dump(simplified_data, f, indent=2, ensure_ascii=False)
+    json.dump(simplified_data, f, indent=4, ensure_ascii=False)
 
 # Write the new simplified JSON file
 with open(main_dir / "topicTagGraph_2.json", "w", encoding="utf-8") as f:
-    json.dump(simplified_data2, f, indent=2, ensure_ascii=False)
+    json.dump(simplified_data2, f, indent=4, ensure_ascii=False)
 
 print("Generated topicTagGraph_simple.json successfully!")
 print("Original structure simplified to only include 'name' and 'children' fields.")

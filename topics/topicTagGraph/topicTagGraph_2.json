@@ -1,0 +1,240 @@
+{
+    "tag-graph-root": {
+        "Population and Demographic Change": {
+            "Population Change": {
+                "Population Growth": {},
+                "Age Structure": {},
+                "Gender Ratio": {}
+            },
+            "Births & Deaths": {
+                "Life Expectancy": {},
+                "Fertility Rate": {},
+                "Child & Infant Mortality": {}
+            },
+            "Geography of the World Population": {
+                "Urbanization": {},
+                "Migration": {}
+            }
+        },
+        "Health": {
+            "Life & Death": {
+                "Global Health": {},
+                "Causes of Death": {},
+                "Child & Infant Mortality": {},
+                "Burden of Disease": {},
+                "Life Expectancy": {},
+                "Mental Health": {},
+                "Suicides": {},
+                "Cardiovascular Diseases": {},
+                "Cancer": {},
+                "Maternal Mortality": {}
+            },
+            "Health Risks": {
+                "Air Pollution": {
+                    "Outdoor Air Pollution": {},
+                    "Indoor Air Pollution": {}
+                },
+                "Lead Pollution": {},
+                "Alcohol Consumption": {},
+                "Illicit Drug Use": {},
+                "Obesity": {},
+                "Smoking": {}
+            },
+            "Infectious Diseases": {
+                "Pandemics": {},
+                "COVID-19": {},
+                "Malaria": {},
+                "HIV/AIDS": {},
+                "Diarrheal Diseases": {},
+                "Tuberculosis": {},
+                "Polio": {},
+                "Neglected Tropical Diseases": {},
+                "Influenza": {},
+                "Pneumonia": {},
+                "Tetanus": {},
+                "Mpox (monkeypox)": {},
+                "Smallpox": {}
+            },
+            "Health Institutions & Interventions": {
+                "Eradication of Diseases": {},
+                "Vaccination": {},
+                "Antibiotics & Antibiotic Resistance": {},
+                "Healthcare Spending": {}
+            },
+            "Sexual & Reproductive Health": {}
+        },
+        "Energy and Environment": {
+            "Climate & Air": {
+                "Climate Change": {},
+                "CO2 & Greenhouse Gas Emissions": {},
+                "Air Pollution": {
+                    "Outdoor Air Pollution": {},
+                    "Indoor Air Pollution": {}
+                },
+                "Ozone Layer": {}
+            },
+            "Energy Systems": {
+                "Energy": {
+                    "Access to Energy": {},
+                    "Energy Mix": {},
+                    "Fossil Fuels": {},
+                    "Nuclear Energy": {},
+                    "Bioenergy and Biofuels": {},
+                    "Renewable Energy": {}
+                },
+                "Metals & Minerals": {}
+            },
+            "Environment & Ecosystems": {
+                "Natural Disasters": {},
+                "Biodiversity": {},
+                "Environmental Impacts of Food Production": {},
+                "Fish & Overfishing": {},
+                "Animal Welfare": {},
+                "Land Use": {},
+                "Water Use & Stress": {},
+                "Forests & Deforestation": {},
+                "Wildfires": {}
+            },
+            "Waste & Pollution": {
+                "Plastic Pollution": {},
+                "Oil Spills": {},
+                "Lead Pollution": {},
+                "Waste Management": {}
+            },
+            "Clean Water & Sanitation": {
+                "Clean Water": {},
+                "Sanitation": {}
+            },
+            "Electricity": {
+                "Electricity Mix": {}
+            }
+        },
+        "Food and Agriculture": {
+            "Food Production": {
+                "Agricultural Production": {},
+                "Meat & Dairy Production": {},
+                "Fish & Overfishing": {},
+                "Crop Yields": {},
+                "Animal Welfare": {},
+                "Environmental Impacts of Food Production": {},
+                "Farm Size": {}
+            },
+            "Agricultural Inputs": {
+                "Land Use": {},
+                "Fertilizers": {},
+                "Pesticides": {},
+                "Employment in Agriculture": {}
+            },
+            "Nutrition": {
+                "Hunger & Undernourishment": {},
+                "Food Supply": {},
+                "Food Prices": {},
+                "Obesity": {},
+                "Famines": {},
+                "Diet Compositions": {},
+                "Micronutrient Deficiency": {},
+                "Human Height": {}
+            },
+            "Bioenergy and Biofuels": {}
+        },
+        "Poverty and Economic Development": {
+            "Poverty & Prosperity": {
+                "Poverty": {},
+                "Economic Growth": {},
+                "Economic Inequality": {},
+                "Foreign Aid": {},
+                "Economic Inequality by Gender": {}
+            },
+            "Public Sector": {
+                "Government Spending": {},
+                "State Capacity": {},
+                "Taxation": {},
+                "Corruption": {},
+                "Healthcare Spending": {},
+                "Education Spending": {},
+                "Military Personnel & Spending": {}
+            },
+            "Work & Employment": {
+                "Women's Employment": {},
+                "Working Hours": {},
+                "Unemployment": {}
+            },
+            "Global Connections": {
+                "Trade & Globalization": {},
+                "Migration": {},
+                "Tourism": {}
+            },
+            "Clean Water & Sanitation": {
+                "Clean Water": {},
+                "Sanitation": {}
+            }
+        },
+        "Education and Knowledge": {
+            "Education": {
+                "Global Education": {},
+                "Literacy": {},
+                "Education Spending": {}
+            },
+            "Knowledge": {
+                "Research & Development": {},
+                "Internet": {},
+                "Books": {}
+            }
+        },
+        "Innovation and Technological Change": {
+            "Technological Change": {},
+            "Research & Development": {},
+            "Artificial Intelligence": {},
+            "Internet": {},
+            "Space Exploration & Satellites": {},
+            "Transport": {},
+            "Medicine & Biotechnology": {}
+        },
+        "Living Conditions, Community and Wellbeing": {
+            "Housing & Infrastructure": {
+                "Homelessness": {},
+                "Access to Energy": {},
+                "Indoor Air Pollution": {},
+                "Clean Water & Sanitation": {
+                    "Clean Water": {},
+                    "Sanitation": {}
+                },
+                "Light at Night": {}
+            },
+            "Time Use": {
+                "Working Hours": {}
+            },
+            "Relationships": {
+                "Marriages & Divorces": {},
+                "Loneliness & Social Connections": {},
+                "Trust": {}
+            },
+            "Happiness & Wellbeing": {
+                "Happiness & Life Satisfaction": {},
+                "Human Development Index (HDI)": {}
+            },
+            "Religion": {}
+        },
+        "Human Rights and Democracy": {
+            "Human Rights": {},
+            "Democracy": {},
+            "State Capacity": {},
+            "Women's Rights": {},
+            "LGBT+ Rights": {},
+            "Corruption": {},
+            "Economic Inequality by Gender": {},
+            "Child Labor": {},
+            "Violence Against Children & Children's Rights": {},
+            "Crime": {}
+        },
+        "Violence and War": {
+            "War & Peace": {},
+            "Nuclear Weapons": {},
+            "Homicides": {},
+            "Terrorism": {},
+            "State Capacity": {},
+            "Military Personnel & Spending": {},
+            "Violence Against Children & Children's Rights": {}
+        }
+    }
+}
