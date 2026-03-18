@@ -24,11 +24,11 @@ to_save = {}
 @functools.lru_cache(maxsize=1)
 def initialize_site_connection(username, password):
     site_mw = mwclient.Site('commons.wikimedia.org')
-    try:
-        site_mw.login(username, password)
-
-    except mwclient.errors.LoginError as e:
-        print(f"Error logging in: {e}")
+    site_mw.login(username, password)
+    if site_mw.logged_in:
+        print("Logged in successfully")
+    else:
+        print("Failed to log in")
     return site_mw
 
 
