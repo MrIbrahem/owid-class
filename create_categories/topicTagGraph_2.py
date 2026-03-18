@@ -1,7 +1,7 @@
 
 
 import functools
-# import sys
+import sys
 import os
 import json
 import mwclient
@@ -53,11 +53,16 @@ class page_mwclient:
     def exists(self):
         return self.page.exists
 
+    def ask(self, summary):
+        if "ask" in sys.argv:
+            ask = input(f"Do you want to save the changes? (y/n): {summary=}")
+            yess = ["", "y", "a"]
+            if ask not in yess:
+                return False
+        return True
+
     def save(self, newtext: str, summary: str):
-        # if "ask" in sys.argv:
-        ask = input(f"Do you want to save the changes? (y/n): {summary=}")
-        yess = ["", "y", "a"]
-        if ask not in yess:
+        if not self.ask(summary):
             return False
 
         result = self.page.save(newtext, summary=summary)
@@ -65,10 +70,9 @@ class page_mwclient:
         return result
 
     def create(self, newtext: str, summary: str):
-        ask = input(f"Do you want to create the page? (y/n): {summary=}")
-        yess = ["", "y", "a"]
-        if ask not in yess:
+        if not self.ask(summary):
             return False
+
         result = self.page.save(newtext, summary=summary)
         print(f"Created page {self.title} with result: {result}")
         return result

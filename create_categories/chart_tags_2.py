@@ -3,7 +3,8 @@ import json
 from pathlib import Path
 from typing import DefaultDict
 
-file_path = Path(__file__).parent.parent / "topics/chart_tags_2.json"
+# file_path = Path(__file__).parent.parent / "topics/chart_tags_2.json"
+file_path = Path(__file__).parent / "chart_tags_2.json"
 
 """
 [
