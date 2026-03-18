@@ -5,7 +5,7 @@ from tqdm import tqdm
 from pathlib import Path
 
 from chart_tags_2 import get_list
-from api_client import add_category_to_pages, create_category, get_global_saves
+from api_client import add_category_to_pages, get_exists_pages, create_category
 
 not_exists_pages = []
 exists_pages = []
@@ -19,6 +19,20 @@ data_list = json.loads(file_path.read_text(encoding="utf-8"))
 ids_slug_data = json.loads(ids_slug_path.read_text(encoding="utf-8"))
 
 to_save = {}
+
+main_categories_data = {
+    "Education and Knowledge": "Category:Our World in Data - Education and Knowledge",
+    "Energy and Environment": "Category:Our World in Data - Energy and Environment",
+    "Food and Agriculture": "Category:Our World in Data - Food and Agriculture",
+    "Health": "Category:Our World in Data - Health",
+    "Human Rights and Democracy": "Category:Our World in Data - Human Rights and Democracy",
+    "Innovation and Technological Change": "Category:Our World in Data - Innovation and Technological Change",
+    "Living Conditions, Community and Wellbeing": "Category:Our World in Data - Living Conditions, Community, and Wellbeing",
+    "Population and Demographic Change": "Category:Our World in Data - Population and Demographic Change",
+    "Poverty and Economic Development": "Category:Our World in Data - Poverty and Economic Development",
+    "Violence and War": "Category:Our World in Data - Violence and War",
+    "Other": "Category:Our World in Data - Other"
+}
 
 
 def create_category_text(main_categories, category_name, sub_categories) -> str:
@@ -36,7 +50,8 @@ def create_category_text(main_categories, category_name, sub_categories) -> str:
         text.extend(text_cats)
 
     for main_category in main_categories:
-        text.append(f"[[Category:Our World in Data - {main_category}| ]]")
+        cat = main_categories_data.get(main_category, f"Category:Our World in Data - {main_category}")
+        text.append(f"[[{cat}| ]]")
 
     return "\n".join(text)
 
@@ -61,7 +76,8 @@ def create_main_category_text(main_categories) -> str:
     list_cats = []
 
     for main_category in main_categories:
-        list_cats.append(f"[[:Category:Our World in Data - {main_category}|{main_category}]]")
+        cat = main_categories_data.get(main_category, f"Category:Our World in Data - {main_category}")
+        list_cats.append(f"[[:{cat}|{main_category}]]")
 
     if len(list_cats) == 1:
         return list_cats[0]
@@ -101,7 +117,7 @@ with open(main_dir / "to_create.json", "w", encoding="utf-8") as f:
 for n, (category, v) in enumerate(to_create.items(), start=1):
     print(f"{n}/{len(to_create)}: {category=}")
 
-    if n == 5 and "break" in sys.argv:
+    if n > 5 and "break" in sys.argv:
         break
 
     sub_categories = v["sub_categories"]
@@ -114,8 +130,18 @@ for n, (category, v) in enumerate(to_create.items(), start=1):
 
     to_save[category_name] = text
 
-    create_category(category_name, text)
-
     titles = get_list(list(sub_categories), category)
 
-    add_category_to_pages(category_name, titles)
+    if not titles:
+        print(f"not titles for category_name: {category_name}")
+        continue
+
+    titles_exists = get_exists_pages(titles)
+
+    if not titles_exists:
+        print(f"not titles_exists for category_name: {category_name}")
+        continue
+
+    create_category(category_name, text)
+
+    add_category_to_pages(category_name, titles_exists)
