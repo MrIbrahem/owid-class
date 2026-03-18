@@ -69,6 +69,9 @@ class page_mwclient:
         if self.title in exists_pages:
             return True
 
+        if self.title in not_exists_pages:
+            return False
+
         exists: bool = self.page.exists
 
         if exists:
@@ -131,22 +134,22 @@ def filter_titles(titles) -> list:
     return titles
 
 
-def get_exists_pages(titles) -> list[page_mwclient]:
+def get_exists_pages(titles) -> list[str]:
     print(f"get_exists_pages, titles: {len(titles)}")
 
     # titles = filter_titles(titles)
-    exists_list = [get_page(x) for x in titles if x in exists_pages]
-    titles = [x for x in titles if x not in not_exists_pages]
+    exists_list = [x for x in titles if x in exists_pages]
+    titles = [x for x in titles if x not in not_exists_pages and x not in exists_pages]
 
     for x in tqdm(titles):
         page = get_page(x)
         if page.exists():
-            exists_list.append(page)
+            exists_list.append(x)
 
     return exists_list
 
 
-def add_category_to_pages(category_name: str, titles: list[page_mwclient]) -> None:
+def add_category_to_pages(category_name: str, titles: list[str]) -> None:
     category_page = get_page(category_name)
     if not category_page.exists():
         print(f"Category {category_name} does not exist")
@@ -154,7 +157,8 @@ def add_category_to_pages(category_name: str, titles: list[page_mwclient]) -> No
 
     print(f"add_category_to_pages, titles: {len(titles)}")
 
-    for page in tqdm(titles):
+    for x in tqdm(titles):
+        page = get_page(x)
         page_text = page.get_text()
         if category_name in page_text:
             print(f"category {category_name} already in page {page.title}")
