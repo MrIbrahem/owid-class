@@ -87,6 +87,27 @@ simplified_data = simplify_node(data)
 simplified_data2 = simplify_node2(data)
 simplified_data2 = simplified_data2.get("tag-graph-root", simplified_data2)
 
+
+def fltten_keys(d)-> list[str]:
+    data = list(d.keys())
+    for k in d:
+        if isinstance(d[k], dict):
+            data.extend(fltten_keys(d[k]))
+    return data
+
+
+simplified_data2_fletten = {
+    x: fltten_keys(v) for x, v in simplified_data2.items()
+}
+
+simplified_data2_fletten_reverced = {}
+
+for x, v in simplified_data2_fletten.items():
+    for y in v:
+        if y not in simplified_data2_fletten_reverced:
+            simplified_data2_fletten_reverced[y] = []
+        simplified_data2_fletten_reverced[y].append(x)
+
 simplified_data_id = simplify_node_id(data)
 
 simplified_data_id = dict(sorted(simplified_data_id.items(), key=lambda item: item[0]))
@@ -106,3 +127,11 @@ with open(main_dir / "topicTagGraph_id.json", "w", encoding="utf-8") as f:
 print("Generated topicTagGraph_simple.json successfully!")
 print("Original structure simplified to only include 'name' and 'children' fields.")
 print("Generated topicTagGraph_id.json successfully!")
+
+# Write the new simplified JSON file
+with open(main_dir / "simplified_data2_fletten.json", "w", encoding="utf-8") as f:
+    json.dump(simplified_data2_fletten, f, indent=4, ensure_ascii=False)
+
+# Write the new simplified JSON file
+with open(main_dir / "simplified_data2_fletten_reverced.json", "w", encoding="utf-8") as f:
+    json.dump(simplified_data2_fletten_reverced, f, indent=4, ensure_ascii=False)
