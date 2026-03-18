@@ -34,11 +34,19 @@ for x in templates_data:
 file_data = json.loads(file_path.read_text(encoding="utf-8"))
 
 data = DefaultDict(list)
+slug_data = {}
 
 for x in file_data:
     page_slug = x["slug"]
+    slug_data.setdefault(page_slug, [])
+    if x["tag_name"] not in slug_data[page_slug]:
+        slug_data[page_slug].append(x["tag_name"])
+
     page_name = templates.get(page_slug, f"OWID/{x['title']}")
     data[x["tag_name"]].append(page_name)
+
+slug_data_path = Path(__file__).parent / "slug_data.json"
+slug_data_path.write_text(json.dumps(slug_data, indent=4, ensure_ascii=False), encoding="utf-8")
 
 
 def get_list(tags_names, category) -> list[str]:
