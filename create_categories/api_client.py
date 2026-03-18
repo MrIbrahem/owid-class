@@ -113,6 +113,11 @@ class page_mwclient:
         return result
 
 
+@functools.lru_cache(maxsize=1)
+def get_page(title: str) -> page_mwclient:
+    return page_mwclient(title)
+
+
 def filter_titles(titles) -> list:
     titles_exists = [x for x in titles if x in exists_pages]
     if titles_exists:
@@ -126,42 +131,39 @@ def filter_titles(titles) -> list:
     return titles
 
 
-def get_exists_pages(titles) -> list:
-    print(f"add_category_to_pages, titles: {len(titles)}")
+def get_exists_pages(titles) -> list[page_mwclient]:
+    print(f"get_exists_pages, titles: {len(titles)}")
 
     titles = filter_titles(titles)
-
+    exists_pages = []
     for x in tqdm(titles):
-        page = page_mwclient(x)
+        page = get_page(x)
         if page.exists():
-            return [x]
+            exists_pages.append(page)
     return []
 
 
-def add_category_to_pages(category_name, titles) -> None:
-    category_page = page_mwclient(category_name)
+def add_category_to_pages(category_name: str, titles: list[page_mwclient]) -> None:
+    category_page = get_page(category_name)
     if not category_page.exists():
         print(f"Category {category_name} does not exist")
         return
 
     print(f"add_category_to_pages, titles: {len(titles)}")
 
-    for x in tqdm(titles):
-        page = page_mwclient(x)
-        if page.exists():
-            page_text = page.get_text()
-            if category_name in page_text:
-                print(f"category {category_name} already in page {x}")
-                return
+    for page in tqdm(titles):
+        page_text = page.get_text()
+        if category_name in page_text:
+            print(f"category {category_name} already in page {page.title}")
+            continue
 
-            text = page_text + f"\n[[{category_name}]]"
-            page.save(text, f"Adding [[{category_name}]]")
-            print(f"save page: {x} success.")
-            return
+        text = page_text + f"\n[[{category_name}]]"
+        page.save(text, f"Adding [[{category_name}]]")
+        print(f"save page: {page.title} success.")
 
 
 def create_category(category_name, text):
-    page = page_mwclient(category_name)
+    page = get_page(category_name)
 
     if not page.exists():
         print(f"Creating Category {category_name}")
