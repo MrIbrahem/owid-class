@@ -1257,3 +1257,123 @@
 {"title": "OWID/Country position on the Partial Nuclear-Test-Ban Treaty", "exists": false}
 {"title": "OWID/Number of countries that approve of nuclear weapons treaties", "exists": false}
 {"title": "OWID/Military personnel", "exists": true}
+{"title": "OWID/Deaths from abortion and miscarriage per 100000 people", "exists": true}
+{"title": "OWID/share cereals industrial uses", "exists": true}
+{"title": "OWID/share of individuals using the internet", "exists": true}
+{"title": "OWID/Cumulative number of objects launched into outer space", "exists": true}
+{"title": "OWID/air passengers carried", "exists": true}
+{"title": "OWID/Trust churches religious organizations", "exists": true}
+{"title": "OWID/Press freedom fh", "exists": true}
+{"title": "OWID/Gender gap in average wages ilo", "exists": true}
+{"title": "OWID/Country position nuclear weapons", "exists": true}
+{"title": "OWID/Population growth rate by level of development", "exists": false}
+{"title": "OWID/Birth rate vs. death rate", "exists": false}
+{"title": "OWID/Annual population growth", "exists": true}
+{"title": "OWID/Crude death rate: the share of the population that dies per year", "exists": false}
+{"title": "OWID/Population", "exists": true}
+{"title": "OWID/Population growth rates", "exists": true}
+{"title": "OWID/Population with un projections", "exists": true}
+{"title": "OWID/Natural population growth rate vs. child mortality rate", "exists": false}
+{"title": "OWID/The demographic transition in England and Wales", "exists": false}
+{"title": "OWID/Population, comparison of United Nations projections", "exists": false}
+{"title": "OWID/World population, comparison of UN projections", "exists": false}
+{"title": "OWID/England's economy over the long run: GDP per capita vs. population", "exists": false}
+{"title": "OWID/Children per woman vs. Natural population growth", "exists": false}
+{"title": "OWID/World population by region, including UN projections", "exists": false}
+{"title": "OWID/Number of deaths, by world region", "exists": false}
+{"title": "OWID/Births by year and world region", "exists": false}
+{"title": "OWID/Births and deaths per year", "exists": false}
+{"title": "OWID/Number of one-year-olds", "exists": false}
+{"title": "OWID/Population by income level", "exists": false}
+{"title": "OWID/Children under age 5, by world region", "exists": false}
+{"title": "OWID/Natural population growth rate vs. median age", "exists": false}
+{"title": "OWID/Population of young, working-age and elderly", "exists": false}
+{"title": "OWID/Population by age group", "exists": false}
+{"title": "OWID/Population growth rate with and without migration", "exists": false}
+{"title": "OWID/Population long run with projections", "exists": true}
+{"title": "OWID/Fertility rate: children per woman, World Bank vs. UN Population Division", "exists": false}
+{"title": "OWID/Fertility rate with projections", "exists": true}
+{"title": "OWID/Children under age 15, by world region", "exists": false}
+{"title": "OWID/Population by age group", "exists": false}
+{"title": "OWID/Population of young, working-age and elderly", "exists": false}
+{"title": "OWID/Contraceptive prevalence any methods of women ages 15 49", "exists": true}
+{"title": "OWID/Births per year", "exists": false}
+{"title": "OWID/Number of births per year", "exists": true}
+{"title": "OWID/Number of deaths per year", "exists": true}
+{"title": "OWID/Population of England over history", "exists": false}
+{"title": "OWID/Number of child deaths unwpp", "exists": true}
+{"title": "OWID/Deaths per year, by age group", "exists": false}
+{"title": "OWID/Population marimekko", "exists": true}
+{"title": "OWID/Children under age 5", "exists": true}
+{"title": "OWID/Time for the world population to double", "exists": false}
+{"title": "OWID/England's economy over the long run: GDP vs. population", "exists": false}
+{"title": "OWID/Annual change in GDP, population and CO₂ emissions", "exists": false}
+{"title": "OWID/Population unwpp", "exists": true}
+{"title": "OWID/Share of population living on less than $5 per day", "exists": false}
+{"title": "OWID/Fertility rate: children per woman", "exists": false}
+{"title": "OWID/Crude death rate: the share of the population that dies each year", "exists": false}
+{"title": "OWID/Crude death rate the share of the population that dies each year gbd", "exists": true}
+{"title": "OWID/Change in global population, GDP and meat production", "exists": false}
+{"title": "OWID/How do UN Population projections compare to the previous revision?", "exists": false}
+{"title": "OWID/Population growth rate", "exists": true}
+{"title": "OWID/Birth rate and death rate", "exists": false}
+{"title": "OWID/Share of global consumption-based CO₂ emissions and population", "exists": false}
+{"title": "OWID/Population by age group", "exists": false}
+{"title": "OWID/Age group with the largest population", "exists": true}
+{"title": "OWID/Birth rates and death rates", "exists": false}
+{"title": "OWID/Population growth of high-income countries with and without migrants", "exists": false}
+{"title": "OWID/Population growth of high-income countries with and without migrants", "exists": false}
+{"title": "OWID/Number of people older than 65 years", "exists": false}
+{"title": "OWID/Population growth across continents", "exists": false}
+{"title": "OWID/Total live births hfd", "exists": true}
+{"title": "OWID/Share of women who have the next birth", "exists": false}
+{"title": "OWID/Crude death rate hmd", "exists": true}
+{"title": "OWID/Number of one-year-olds", "exists": false}
+{"title": "OWID/Children under age 15, by world region", "exists": false}
+{"title": "OWID/Population by age group", "exists": false}
+{"title": "OWID/Number of children under 5 years old", "exists": false}
+{"title": "OWID/Natural population growth rate vs. median age", "exists": false}
+{"title": "OWID/Age dependency ratio of working age population", "exists": true}
+{"title": "OWID/Age dependency breakdown by young and old dependents", "exists": false}
+{"title": "OWID/Age dependency ratio young of working age population", "exists": true}
+{"title": "OWID/Age dependency ratio old", "exists": true}
+{"title": "OWID/Population of young, working-age and elderly", "exists": false}
+{"title": "OWID/Population by age group", "exists": false}
+{"title": "OWID/Median age vs. births per woman", "exists": false}
+{"title": "OWID/Population of young, working-age and elderly", "exists": false}
+{"title": "OWID/Age dependency ratio projected to 2100", "exists": true}
+{"title": "OWID/Deaths by age", "exists": false}
+{"title": "OWID/Drowning deaths rate by age", "exists": false}
+{"title": "OWID/Death rate from fires and burns by age", "exists": false}
+{"title": "OWID/Death rate by age group in England and Wales", "exists": false}
+{"title": "OWID/Deaths by age group in England and Wales", "exists": false}
+{"title": "OWID/Number of deaths by age group", "exists": false}
+{"title": "OWID/Projected change in dependency ratio depending on labor force participation", "exists": false}
+{"title": "OWID/Population by young, working age and older groups", "exists": false}
+{"title": "OWID/Percentage of one-person households", "exists": false}
+{"title": "OWID/Women survival to age 65", "exists": true}
+{"title": "OWID/Men survival to age 65", "exists": true}
+{"title": "OWID/Probability of dying, by age", "exists": false}
+{"title": "OWID/Average effective age of retirement for men", "exists": false}
+{"title": "OWID/Population by age group", "exists": false}
+{"title": "OWID/Male population by age group", "exists": false}
+{"title": "OWID/Female population by age group", "exists": false}
+{"title": "OWID/Number of people older than 65 years", "exists": false}
+{"title": "OWID/Death rate comparison", "exists": false}
+{"title": "OWID/Hong Kong faces aging crisis: 3 elderly people for every 2 workers by 2066", "exists": false}
+{"title": "OWID/Youth, elderly and overall dependency trends", "exists": false}
+{"title": "OWID/Share population female", "exists": true}
+{"title": "OWID/Sex ratio at birth by birth order", "exists": false}
+{"title": "OWID/Sex ratio by age", "exists": false}
+{"title": "OWID/Sex ratio at five years old", "exists": true}
+{"title": "OWID/Sex ratio at birth vs. at five years old", "exists": false}
+{"title": "OWID/Annual number of missing female births and excess mortality", "exists": false}
+{"title": "OWID/Number of 'missing women' in the world", "exists": false}
+{"title": "OWID/Life expectancy of women vs. men", "exists": false}
+{"title": "OWID/Share of people with mental health disorders, males vs. females", "exists": false}
+{"title": "OWID/sex ratio at birth", "exists": true}
+{"title": "OWID/Share of the population with drug use disorders, men vs. women", "exists": false}
+{"title": "OWID/Representation of women in the judiciary", "exists": false}
+{"title": "OWID/Sex gap in life expectancy at different ages", "exists": false}
+{"title": "OWID/Sex ratio at sixty years old", "exists": true}
+{"title": "OWID/Share of young women vs. men who are not in education, employment or training", "exists": false}

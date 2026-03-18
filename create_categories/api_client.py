@@ -134,13 +134,16 @@ def filter_titles(titles) -> list:
 def get_exists_pages(titles) -> list[page_mwclient]:
     print(f"get_exists_pages, titles: {len(titles)}")
 
-    titles = filter_titles(titles)
-    exists_pages = []
+    # titles = filter_titles(titles)
+    exists_list = [get_page(x) for x in titles if x in exists_pages]
+    titles = [x for x in titles if x not in not_exists_pages]
+
     for x in tqdm(titles):
         page = get_page(x)
         if page.exists():
-            exists_pages.append(page)
-    return []
+            exists_list.append(page)
+
+    return exists_list
 
 
 def add_category_to_pages(category_name: str, titles: list[page_mwclient]) -> None:
