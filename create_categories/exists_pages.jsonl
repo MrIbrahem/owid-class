@@ -3805,3 +3805,1337 @@
 {"title": "OWID/Per capita meat consumption in the EU28", "exists": false}
 {"title": "OWID/Global meat production", "exists": false}
 {"title": "OWID/Per capita meat and fish consumption", "exists": false}
+{"title": "OWID/Cereal yield vs. fertilizer use", "exists": false}
+{"title": "OWID/Cereal yield", "exists": true}
+{"title": "OWID/Change of cereal yield and land used for cereal production", "exists": false}
+{"title": "OWID/Crop yields", "exists": false}
+{"title": "OWID/Rice yields", "exists": true}
+{"title": "OWID/Wheat yields", "exists": true}
+{"title": "OWID/Potato yields", "exists": true}
+{"title": "OWID/Soybean yields", "exists": true}
+{"title": "OWID/Sugar cane yields", "exists": true}
+{"title": "OWID/Rapeseed yields", "exists": true}
+{"title": "OWID/Maize yields", "exists": true}
+{"title": "OWID/Cocoa bean yields", "exists": true}
+{"title": "OWID/Tomato yields", "exists": true}
+{"title": "OWID/Cereal yield vs. GDP per capita", "exists": false}
+{"title": "OWID/Agricultural producer support", "exists": false}
+{"title": "OWID/Orange yields", "exists": true}
+{"title": "OWID/Coffee yields", "exists": true}
+{"title": "OWID/Banana yields", "exists": true}
+{"title": "OWID/Groundnuts yield", "exists": true}
+{"title": "OWID/Cashew nut yields", "exists": true}
+{"title": "OWID/Barley yields", "exists": true}
+{"title": "OWID/Sugar beet yields", "exists": true}
+{"title": "OWID/Cassava yields", "exists": true}
+{"title": "OWID/Bean yields", "exists": true}
+{"title": "OWID/Pea yields", "exists": true}
+{"title": "OWID/Palm oil yields", "exists": true}
+{"title": "OWID/Almond yields", "exists": true}
+{"title": "OWID/Lettuce yields", "exists": true}
+{"title": "OWID/Cereal yield vs. extreme poverty rate", "exists": false}
+{"title": "OWID/Oil yields by crop type", "exists": false}
+{"title": "OWID/Area of land needed to produce one tonne of vegetable oil", "exists": false}
+{"title": "OWID/Change in production, yield and land use of oil palm fruit", "exists": false}
+{"title": "OWID/Corn: Attainable crop yields", "exists": false}
+{"title": "OWID/Corn: Yield gap", "exists": false}
+{"title": "OWID/Millet yield", "exists": true}
+{"title": "OWID/Cotton yield", "exists": true}
+{"title": "OWID/Rye yield", "exists": true}
+{"title": "OWID/Sorghum yield", "exists": true}
+{"title": "OWID/Sunflower seed yield", "exists": true}
+{"title": "OWID/What has driven the growth in global agricultural production?", "exists": false}
+{"title": "OWID/Which countries overapplied nitrogen without gains in crop yields?", "exists": false}
+{"title": "OWID/Long-run cereal yields in the United Kingdom", "exists": false}
+{"title": "OWID/Yields of important staple crops", "exists": true}
+{"title": "OWID/Yields of key staple crops", "exists": false}
+{"title": "OWID/Global allocation of crops to end uses by farm size", "exists": false}
+{"title": "OWID/Global crop production by farm size", "exists": false}
+{"title": "OWID/Agricultural land area by farm size", "exists": false}
+{"title": "OWID/Share agriculture smallholder farms", "exists": true}
+{"title": "OWID/Has the average farm size increased or decreased since 1960?", "exists": false}
+{"title": "OWID/Average farm size vs. GDP per capita", "exists": false}
+{"title": "OWID/Share of farms operated by smallholders vs. GDP per capita", "exists": false}
+{"title": "OWID/Share farms smallholders", "exists": true}
+{"title": "OWID/Number of farms", "exists": true}
+{"title": "OWID/Number of farms by size", "exists": false}
+{"title": "OWID/Machinery per agricultural land", "exists": true}
+{"title": "OWID/Fertilizer use in kg per hectare of arable land", "exists": true}
+{"title": "OWID/Fertilizer production by nutrient type", "exists": false}
+{"title": "OWID/Phosphate application per hectare of cropland", "exists": true}
+{"title": "OWID/Nitrogen fertilizer application per hectare of cropland", "exists": true}
+{"title": "OWID/Potash fertilizer application per hectare of cropland", "exists": true}
+{"title": "OWID/Fertilizer use vs. GDP per capita", "exists": false}
+{"title": "OWID/Fertilizer application rates over the long-run", "exists": false}
+{"title": "OWID/World population with and without synthetic nitrogen fertilizers", "exists": false}
+{"title": "OWID/World population supported by synthetic nitrogen fertilizers", "exists": false}
+{"title": "OWID/Excess phosphorus from croplands", "exists": false}
+{"title": "OWID/Excess phosphorus per hectare of cropland", "exists": false}
+{"title": "OWID/Total nitrogen inputs to crops", "exists": false}
+{"title": "OWID/Nitrogen inputs per hectare of cropland", "exists": false}
+{"title": "OWID/Fertilizer total use", "exists": true}
+{"title": "OWID/Fertilizer use per capita", "exists": false}
+{"title": "OWID/Fertilizer use by nutrient", "exists": false}
+{"title": "OWID/Global fertilizer exports: how much comes from Russia, Belarus & Ukraine?", "exists": false}
+{"title": "OWID/Nitrogen and phosphorus concentration in coastal areas", "exists": false}
+{"title": "OWID/Pesticide breakdown by type", "exists": false}
+{"title": "OWID/pesticide use per hectare of cropland", "exists": true}
+{"title": "OWID/pesticide use tonnes", "exists": true}
+{"title": "OWID/insecticide use", "exists": true}
+{"title": "OWID/Share of agricultural landowners who are female", "exists": false}
+{"title": "OWID/Agricultural value added per worker", "exists": false}
+{"title": "OWID/Share of the labor force employed in agriculture", "exists": true}
+{"title": "OWID/Agriculture as a share of GDP vs. GDP per capita", "exists": false}
+{"title": "OWID/Employment in agriculture vs. GDP per capita", "exists": false}
+{"title": "OWID/Agriculture value added per worker vs. GDP per capita", "exists": false}
+{"title": "OWID/Agriculture as a share of GDP vs. GDP per capita", "exists": false}
+{"title": "OWID/Number of people employed in agriculture", "exists": true}
+{"title": "OWID/Share of workers in informal employment: agriculture vs. non-agriculture", "exists": false}
+{"title": "OWID/Employment by economic sector", "exists": false}
+{"title": "OWID/Share of workers employed in agriculture vs. GDP per capita", "exists": false}
+{"title": "OWID/Share of employed women working in agriculture vs. GDP per capita", "exists": false}
+{"title": "OWID/Share of agriculture in total employment", "exists": false}
+{"title": "OWID/Share of services as a share of GDP vs. GDP per capita", "exists": false}
+{"title": "OWID/agriculture share gdp", "exists": true}
+{"title": "OWID/Share of workers in informal employment in the agricultural sector", "exists": false}
+{"title": "OWID/Income small scale food producers", "exists": true}
+{"title": "OWID/Income large scale food producers", "exists": true}
+{"title": "OWID/Job search methods", "exists": false}
+{"title": "OWID/Share of small-scale manufacturing in total manufacturing", "exists": false}
+{"title": "OWID/Global hunger index", "exists": true}
+{"title": "OWID/share of children younger than 5 who suffer from stunting", "exists": true}
+{"title": "OWID/Share of children underweight", "exists": true}
+{"title": "OWID/Share of children with a weight too low for their height wasting", "exists": true}
+{"title": "OWID/malnutrition death rates", "exists": true}
+{"title": "OWID/share of population with severe food insecurity", "exists": true}
+{"title": "OWID/number of people severely food insecure", "exists": true}
+{"title": "OWID/Malnutrition: Prevalence of childhood stunting, male vs. female", "exists": false}
+{"title": "OWID/Share of children who are underweight vs. share in extreme poverty", "exists": false}
+{"title": "OWID/Malnutrition: Number of children who are stunted", "exists": false}
+{"title": "OWID/Number children wasted who", "exists": true}
+{"title": "OWID/Minimum daily requirement of calories", "exists": false}
+{"title": "OWID/Share of the population defined as severely food insecure vs. undernourished", "exists": false}
+{"title": "OWID/Share of children who are stunted vs. GDP per capita", "exists": false}
+{"title": "OWID/Number of people who are undernourished", "exists": false}
+{"title": "OWID/Malnutrition: Number of children who are stunted", "exists": false}
+{"title": "OWID/Hidden Hunger Index vs. share of calories from cereals, roots and tubers", "exists": false}
+{"title": "OWID/Child deaths linked to child and maternal malnutrition", "exists": false}
+{"title": "OWID/Child deaths attributed to malnutrition by risk factor", "exists": false}
+{"title": "OWID/Daily per capita caloric supply", "exists": true}
+{"title": "OWID/daily per capita protein supply", "exists": true}
+{"title": "OWID/Daily per capita fat supply", "exists": true}
+{"title": "OWID/Daily protein supply per capita vs. GDP per capita", "exists": false}
+{"title": "OWID/Daily protein supply from animal and plant-based foods", "exists": false}
+{"title": "OWID/Daily protein supply of animal origin vs. plant origin", "exists": false}
+{"title": "OWID/Daily per capita protein supply vs. GDP per capita", "exists": false}
+{"title": "OWID/Daily per capita fat supply vs. GDP per capita", "exists": false}
+{"title": "OWID/Daily per capita supply of calories vs. GDP per capita", "exists": false}
+{"title": "OWID/Share of people who are undernourished vs. daily supply of calories", "exists": false}
+{"title": "OWID/Food supply vs. life expectancy", "exists": false}
+{"title": "OWID/Labor cost ratio and attainment levels", "exists": false}
+{"title": "OWID/Share of dietary energy supply from carbohydrates vs. GDP per capita", "exists": false}
+{"title": "OWID/Share of dietary energy derived from protein vs. GDP per capita", "exists": false}
+{"title": "OWID/Share of dietary energy supply from fats vs. GDP per capita", "exists": false}
+{"title": "OWID/Share of calories from cereals, roots, and tubers vs. GDP per capita", "exists": false}
+{"title": "OWID/Per capita sources of protein", "exists": false}
+{"title": "OWID/Vegetable supply per person vs. GDP per capita", "exists": false}
+{"title": "OWID/Chocolate consumption per person", "exists": true}
+{"title": "OWID/Animal protein consumption", "exists": false}
+{"title": "OWID/Calorie supply by food group", "exists": false}
+{"title": "OWID/Total reserves in months of imports", "exists": false}
+{"title": "OWID/Share of the population defined as severely food insecure vs. undernourished", "exists": false}
+{"title": "OWID/Vegetable oil supply per person vs. GDP per capita", "exists": false}
+{"title": "OWID/Share of the daily calorie supply that comes from animal protein", "exists": true}
+{"title": "OWID/Net food trade as a share of domestic supply", "exists": true}
+{"title": "OWID/Share of consumer expenditure spent on food", "exists": true}
+{"title": "OWID/Food expenditure per person", "exists": false}
+{"title": "OWID/Share of expenditure spent on food vs. total consumer expenditure", "exists": false}
+{"title": "OWID/Annual food expenditure vs. total consumer expenditure", "exists": false}
+{"title": "OWID/Long-term global prices of food commodities", "exists": false}
+{"title": "OWID/Global commodity price index of cereal crops and petroleum", "exists": false}
+{"title": "OWID/Share of expenditure spent on food vs. food expenditure per person", "exists": false}
+{"title": "OWID/Food expenditure as a share of family disposable income in the United States", "exists": false}
+{"title": "OWID/Food expenditure per person in the United States", "exists": false}
+{"title": "OWID/Share expenditure alcohol tobacco", "exists": true}
+{"title": "OWID/Daily cost of a calorie sufficient diet", "exists": false}
+{"title": "OWID/Daily cost of a nutrient adequate diet", "exists": false}
+{"title": "OWID/Cost healthy diet", "exists": true}
+{"title": "OWID/Share of population that cannot afford a calorie sufficient diet", "exists": false}
+{"title": "OWID/Share of population that cannot afford a nutrient adequate diet", "exists": false}
+{"title": "OWID/Share healthy diet unaffordable", "exists": true}
+{"title": "OWID/Number of people who cannot afford a calorie sufficient diet", "exists": false}
+{"title": "OWID/Number of people who cannot afford a nutrient adequate diet", "exists": false}
+{"title": "OWID/Number healthy diet unaffordable", "exists": true}
+{"title": "OWID/Cost of a nutrient adequate diet as a share of average food expenditure", "exists": false}
+{"title": "OWID/Cost of a healthy diet as a share of average food spending", "exists": false}
+{"title": "OWID/Cost of a calorie sufficient diet as a share of average food expenditure", "exists": false}
+{"title": "OWID/Share of countries recording high food prices", "exists": false}
+{"title": "OWID/Food price anomalies", "exists": true}
+{"title": "OWID/Inflation of consumer prices", "exists": true}
+{"title": "OWID/Daily cost of foods in a healthy diet", "exists": false}
+{"title": "OWID/Deaths from protein-energy malnutrition, by age", "exists": false}
+{"title": "OWID/Number of people who are undernourished", "exists": false}
+{"title": "OWID/Deaths from famines by region and year", "exists": false}
+{"title": "OWID/Deaths from famines by region and decade", "exists": false}
+{"title": "OWID/Famines and the deaths in them", "exists": false}
+{"title": "OWID/Famines by level of GDP per capita at the time", "exists": false}
+{"title": "OWID/Death rate from famines by year", "exists": false}
+{"title": "OWID/Death rate from famines by decade", "exists": false}
+{"title": "OWID/Deaths from famines by country and decade", "exists": false}
+{"title": "OWID/Deaths from famines by country and year", "exists": false}
+{"title": "OWID/Deaths from famines by main trigger and decade", "exists": false}
+{"title": "OWID/Deaths from famines by main trigger and year", "exists": false}
+{"title": "OWID/Deaths from famines by previous population growth", "exists": false}
+{"title": "OWID/Fruit consumption per capita", "exists": true}
+{"title": "OWID/Vegetable consumption per capita", "exists": true}
+{"title": "OWID/Daily caloric supply derived from carbohydrates, protein and fat", "exists": false}
+{"title": "OWID/Share of dietary energy supply from carbohydrates vs. GDP per capita", "exists": false}
+{"title": "OWID/Share of dietary energy derived from protein vs. GDP per capita", "exists": false}
+{"title": "OWID/Share of dietary energy supply from fats vs. GDP per capita", "exists": false}
+{"title": "OWID/Dietary composition by country", "exists": false}
+{"title": "OWID/Dietary compositions by commodity group", "exists": false}
+{"title": "OWID/Share of calories from cereals, roots, and tubers vs. GDP per capita", "exists": false}
+{"title": "OWID/Share of calories from animal protein vs. GDP per capita", "exists": false}
+{"title": "OWID/Fruit consumption vs. GDP per capita", "exists": false}
+{"title": "OWID/Fruit consumption by type", "exists": false}
+{"title": "OWID/Average per capita vegetable intake vs minimum recommended guidelines", "exists": true}
+{"title": "OWID/Average per capita fruit intake vs minimum recommended guidelines", "exists": true}
+{"title": "OWID/How do actual diets compare to the EAT-Lancet diet?", "exists": false}
+{"title": "OWID/Consumption of animal products in the EAT-Lancet diet", "exists": false}
+{"title": "OWID/Animal protein consumption", "exists": false}
+{"title": "OWID/Calorie supply by food group", "exists": false}
+{"title": "OWID/Share of children who have anemia", "exists": false}
+{"title": "OWID/Vitamin a supplementation coverage rate children ages 6 59 months", "exists": true}
+{"title": "OWID/Share of households consuming iodized salt", "exists": true}
+{"title": "OWID/Share of children who have vitamin A deficiency", "exists": false}
+{"title": "OWID/Share of pregnant women who have vitamin A deficiency", "exists": false}
+{"title": "OWID/Share of children under five who have night blindness", "exists": false}
+{"title": "OWID/Share of pregnant women who have night blindness", "exists": false}
+{"title": "OWID/Hidden Hunger Index in pre-school children", "exists": false}
+{"title": "OWID/Global prevalence of zinc deficiency", "exists": true}
+{"title": "OWID/Hidden Hunger Index vs. share in extreme poverty", "exists": false}
+{"title": "OWID/Share of women of reproductive age who have anemia", "exists": false}
+{"title": "OWID/Hidden Hunger Index vs. GDP per capita", "exists": false}
+{"title": "OWID/Share of women of reproductive age who have anemia vs. GDP per capita", "exists": false}
+{"title": "OWID/Market share of household salt with iodine fortification, Europe", "exists": false}
+{"title": "OWID/Malnutrition: Number of children who are stunted", "exists": false}
+{"title": "OWID/Average height of men for selected countries", "exists": true}
+{"title": "OWID/Average height of men by year of birth", "exists": true}
+{"title": "OWID/Average adult height by year of birth", "exists": false}
+{"title": "OWID/Increase in mean heights of males born in 1996 vs. 1896", "exists": false}
+{"title": "OWID/Increase in mean heights of females born in 1996 vs. 1896", "exists": false}
+{"title": "OWID/Male to female height ratio", "exists": true}
+{"title": "OWID/Average height of men", "exists": true}
+{"title": "OWID/Average height of women", "exists": true}
+{"title": "OWID/Relative increase in mean heights of females born in 1996 vs. 1896", "exists": false}
+{"title": "OWID/Relative increase in mean heights of men born in 1996 vs. 1896", "exists": false}
+{"title": "OWID/Mean adult height by year of birth, males vs. females", "exists": false}
+{"title": "OWID/Percentage increase in mean male vs. female height over a century", "exists": false}
+{"title": "OWID/Annual change in average male height", "exists": true}
+{"title": "OWID/Annual change in average female height", "exists": true}
+{"title": "OWID/Total calories from animal protein vs. mean male height", "exists": false}
+{"title": "OWID/Human Development Index vs. mean male height", "exists": false}
+{"title": "OWID/gdp per capita worldbank", "exists": true}
+{"title": "OWID/Data deprivation poverty surveys per decade", "exists": true}
+{"title": "OWID/National poverty line vs. GDP per capita", "exists": false}
+{"title": "OWID/Mean vs. median income or consumption", "exists": false}
+{"title": "OWID/Death rate from indoor air pollution vs. share in extreme poverty", "exists": false}
+{"title": "OWID/Share of population living below national poverty lines", "exists": false}
+{"title": "OWID/Median income or consumption per day vs. GDP per capita", "exists": false}
+{"title": "OWID/Gini index of consumption in 2015 vs. 1990", "exists": false}
+{"title": "OWID/Distribution of population between different poverty lines", "exists": false}
+{"title": "OWID/Cereal yield vs. share in extreme poverty", "exists": false}
+{"title": "OWID/National poverty line vs. mean daily income or consumption", "exists": false}
+{"title": "OWID/PPP conversion factor for private consumption", "exists": false}
+{"title": "OWID/National poverty line vs. median income or consumption per day", "exists": false}
+{"title": "OWID/Share of population living in extreme poverty vs. mean income or consumption per day", "exists": false}
+{"title": "OWID/Share living on less than $2 per day vs. GDP per capita", "exists": false}
+{"title": "OWID/Share of government consumption in GDP vs. share of population living in extreme poverty", "exists": false}
+{"title": "OWID/Reconstruction of historical global extreme poverty rates", "exists": false}
+{"title": "OWID/Share in poverty relative to different poverty lines", "exists": false}
+{"title": "OWID/Income or consumption of the poorest and richest 10%", "exists": false}
+{"title": "OWID/Distribution of population between different poverty lines", "exists": false}
+{"title": "OWID/Mean income or consumption per day vs. GDP per capita", "exists": false}
+{"title": "OWID/Reconstruction of historical poverty trends by country", "exists": false}
+{"title": "OWID/share of population in extreme poverty", "exists": true}
+{"title": "OWID/Share living with less than 1 int per day", "exists": true}
+{"title": "OWID/Share living with less than 320 int per day", "exists": true}
+{"title": "OWID/Share living with less than upper middle income poverty line", "exists": true}
+{"title": "OWID/Share living with less than 10 int per day", "exists": true}
+{"title": "OWID/Number of people living in extreme poverty", "exists": false}
+{"title": "OWID/Distribution of population between different poverty lines", "exists": false}
+{"title": "OWID/daily median income", "exists": true}
+{"title": "OWID/Poverty gap index extreme poverty", "exists": true}
+{"title": "OWID/Total population in extreme poverty", "exists": true}
+{"title": "OWID/Daily mean income", "exists": true}
+{"title": "OWID/Share of gross national income donated toward poverty reduction", "exists": false}
+{"title": "OWID/Share of gross national income from poverty reduction grants", "exists": false}
+{"title": "OWID/Share of population living on less than half of the median income", "exists": false}
+{"title": "OWID/Share living on less than $8.30 a day vs. mean income or consumption", "exists": false}
+{"title": "OWID/The share and number of people living in extreme poverty", "exists": false}
+{"title": "OWID/Death rate from unsafe water sources vs. share of population living in extreme poverty", "exists": false}
+{"title": "OWID/Expected years of schooling vs. share in extreme poverty", "exists": false}
+{"title": "OWID/Relative poverty share of people below 40 of the median", "exists": true}
+{"title": "OWID/Relative poverty share of people below 50 of the median", "exists": true}
+{"title": "OWID/Relative poverty share of people below 60 of the median", "exists": true}
+{"title": "OWID/Share of population living in extreme poverty", "exists": false}
+{"title": "OWID/Share in poverty relative to different poverty lines", "exists": false}
+{"title": "OWID/Distribution of population between different poverty lines", "exists": false}
+{"title": "OWID/Share of population living in extreme poverty", "exists": false}
+{"title": "OWID/Share of population living in extreme poverty", "exists": false}
+{"title": "OWID/Share in extreme poverty: Cost of basic needs approach vs. living on less than $1.90 a day", "exists": false}
+{"title": "OWID/Share of population living in extreme poverty", "exists": false}
+{"title": "OWID/Multidimensional Poverty Index (MPI)", "exists": false}
+{"title": "OWID/Multidimensional Poverty Index (MPI)", "exists": false}
+{"title": "OWID/Intensity of multidimensional poverty", "exists": false}
+{"title": "OWID/Intensity of multidimensional poverty", "exists": false}
+{"title": "OWID/Share vs. intensity of multidimensional poverty", "exists": false}
+{"title": "OWID/Share vs. intensity of multidimensional poverty", "exists": false}
+{"title": "OWID/Number of people living in extreme poverty by region", "exists": false}
+{"title": "OWID/Number of people living in extreme poverty by region", "exists": false}
+{"title": "OWID/Poverty share of population living on less than 40 a day", "exists": true}
+{"title": "OWID/National poverty line vs. GDP per capita", "exists": false}
+{"title": "OWID/Extreme monetary poverty and multidimensional poverty over time", "exists": false}
+{"title": "OWID/Share of population living on less than $4.20 per day vs. share in multidimensional poverty", "exists": false}
+{"title": "OWID/Share of population living in multidimensional poverty vs. Multidimensional Poverty Index", "exists": false}
+{"title": "OWID/Share of population living in multidimensional poverty vs. Multidimensional Poverty Index", "exists": false}
+{"title": "OWID/Income or consumption of the poorest 10% vs. GDP per capita", "exists": false}
+{"title": "OWID/Share in multidimensional poverty according to national definitions", "exists": false}
+{"title": "OWID/Income or consumption of the poorest 10% vs. mean income", "exists": false}
+{"title": "OWID/Daily income or consumption of the poorest 10 marimekko", "exists": true}
+{"title": "OWID/Daily income or consumption of the richest 10 marimekko", "exists": true}
+{"title": "OWID/Consumer price index", "exists": true}
+{"title": "OWID/Share of people in relative poverty: PIP vs. WID", "exists": false}
+{"title": "OWID/Share of global population living in extreme poverty including and excluding China", "exists": false}
+{"title": "OWID/prosperity gap", "exists": true}
+{"title": "OWID/Share of population vulnerable to multidimensional poverty", "exists": false}
+{"title": "OWID/Share of population living in severe multidimensional poverty", "exists": false}
+{"title": "OWID/Share of population deprived by multidimensional poverty indicators", "exists": false}
+{"title": "OWID/Share of the population in poverty vs. Electoral Democracy Index", "exists": false}
+{"title": "OWID/Share of adults with a bank account: financial institution vs. mobile money", "exists": false}
+{"title": "OWID/Gdp per capita penn world table", "exists": true}
+{"title": "OWID/GDP per capita in international and market dollars", "exists": false}
+{"title": "OWID/Gross domestic product (GDP) in England", "exists": false}
+{"title": "OWID/GDP per capita in England", "exists": false}
+{"title": "OWID/Labor force participation rate of men aged 65+ in the United States", "exists": false}
+{"title": "OWID/Gdp penn world table", "exists": true}
+{"title": "OWID/Distribution of gross domestic product by economic sector", "exists": false}
+{"title": "OWID/Output of key industries in the United Kingdom", "exists": false}
+{"title": "OWID/Output of key industrial sectors in the United Kingdom", "exists": false}
+{"title": "OWID/Output of key service and industrial sectors in the United Kingdom", "exists": false}
+{"title": "OWID/World bank income groups", "exists": true}
+{"title": "OWID/Gdp worldbank constant usd", "exists": true}
+{"title": "OWID/Wealth per capita by asset group", "exists": false}
+{"title": "OWID/Gdp per capita growth", "exists": true}
+{"title": "OWID/GDP per employed person", "exists": false}
+{"title": "OWID/Manufacturing value added to gdp", "exists": true}
+{"title": "OWID/GDP per capita: Comparing data from World Bank and Maddison Project Database", "exists": false}
+{"title": "OWID/GDP per capita: Comparing data from World Bank and Penn World Table", "exists": false}
+{"title": "OWID/Annual growth of GDP per employed person", "exists": false}
+{"title": "OWID/Domestic material consumption per capita", "exists": false}
+{"title": "OWID/Domestic material consumption per gross domestic product", "exists": false}
+{"title": "OWID/National gdp fouquin current gbp", "exists": true}
+{"title": "OWID/Average annual growth of trade vs. GDP per capita", "exists": false}
+{"title": "OWID/Gdp per capita worldbank constant usd", "exists": true}
+{"title": "OWID/Human Capital Index vs. GDP per capita", "exists": false}
+{"title": "OWID/Price level relative to the US vs. GDP per capita", "exists": false}
+{"title": "OWID/National poverty line vs. GDP per capita", "exists": false}
+{"title": "OWID/Nominal wages, consumer prices and real wages", "exists": false}
+{"title": "OWID/Share of employment in industry vs. GDP per capita", "exists": false}
+{"title": "OWID/Share of workers employed in services vs. GDP per capita", "exists": false}
+{"title": "OWID/Total wealth per capita, by income groups", "exists": false}
+{"title": "OWID/Total wealth by asset group", "exists": false}
+{"title": "OWID/Productivity vs. GDP per capita", "exists": false}
+{"title": "OWID/Share of adults with an account at a financial institution", "exists": false}
+{"title": "OWID/Economic complexity rank vs. GDP per capita", "exists": false}
+{"title": "OWID/Labor productivity and capital intensity", "exists": false}
+{"title": "OWID/Augmented Human Development Index vs. GDP per capita", "exists": false}
+{"title": "OWID/Trade openness over time", "exists": false}
+{"title": "OWID/Inequality in 1990 vs. 2015", "exists": false}
+{"title": "OWID/Gini Index around 2015 vs. Gini Index around 2000", "exists": false}
+{"title": "OWID/Country-level estimates of risk taking", "exists": false}
+{"title": "OWID/Gini index of income in 2015 vs. 1990", "exists": false}
+{"title": "OWID/Gini index of consumption in 2015 vs. 1990", "exists": false}
+{"title": "OWID/Gini index of income in 2015 vs. 1990", "exists": false}
+{"title": "OWID/Wage of craftsmen relative to that of laborers in England", "exists": false}
+{"title": "OWID/Higher labor productivity and price levels in richer and poorer countries", "exists": false}
+{"title": "OWID/Mean vs. median income or consumption", "exists": false}
+{"title": "OWID/Genuine savings per capita in international dollars 1900 2000", "exists": true}
+{"title": "OWID/Genuine saving per capita and GDP per capita", "exists": false}
+{"title": "OWID/Average hourly earnings of employees", "exists": false}
+{"title": "OWID/Economic complexity rankings", "exists": true}
+{"title": "OWID/Capital intensity vs. labor productivity", "exists": false}
+{"title": "OWID/Median income or consumption per day vs. GDP per capita", "exists": false}
+{"title": "OWID/Loan from a financial institution, poorest 40% vs. richest 60%", "exists": false}
+{"title": "OWID/Share of adults who report saving money in the past year", "exists": false}
+{"title": "OWID/Share of people who report having intentions to start business", "exists": false}
+{"title": "OWID/Country-level estimates of negative reciprocity", "exists": false}
+{"title": "OWID/labor productivity per hour pennworldtable", "exists": true}
+{"title": "OWID/Gross national income (GNI) per capita", "exists": false}
+{"title": "OWID/Gdp per capita maddison project database", "exists": true}
+{"title": "OWID/Share of household consumption in GDP vs. GDP per capita", "exists": false}
+{"title": "OWID/Gross domestic product (GDP) by world region", "exists": false}
+{"title": "OWID/Real gdp growth", "exists": true}
+{"title": "OWID/gdp worldbank", "exists": true}
+{"title": "OWID/GNI per capita vs. GDP per capita", "exists": false}
+{"title": "OWID/Revenue from corporate income taxes gdp", "exists": true}
+{"title": "OWID/Human Development Index vs. GDP per capita", "exists": false}
+{"title": "OWID/Share of one-person households vs. GDP per capita", "exists": false}
+{"title": "OWID/Total GDP vs. GDP per capita", "exists": false}
+{"title": "OWID/PPP conversion factor for private consumption", "exists": false}
+{"title": "OWID/Share living on less than $2 per day vs. GDP per capita", "exists": false}
+{"title": "OWID/Reconstruction of historical global extreme poverty rates", "exists": false}
+{"title": "OWID/Reconstruction of historical poverty trends by country", "exists": false}
+{"title": "OWID/Existence of a national strategy for youth employment", "exists": false}
+{"title": "OWID/Countries with a signed bilateral investment treaty", "exists": false}
+{"title": "OWID/Merchandise trade as a proportion of GDP", "exists": false}
+{"title": "OWID/Annual GDP growth", "exists": false}
+{"title": "OWID/Net portfolio investment", "exists": false}
+{"title": "OWID/Annual growth of imports of goods and services", "exists": false}
+{"title": "OWID/Annual growth of exports of goods and services", "exists": false}
+{"title": "OWID/Mean income or consumption per day vs. daily GDP per capita", "exists": false}
+{"title": "OWID/Global inequality between world citizens and its components", "exists": false}
+{"title": "OWID/GDP comparison", "exists": false}
+{"title": "OWID/Share of global merchandise exports", "exists": false}
+{"title": "OWID/Financial soundness indicators", "exists": false}
+{"title": "OWID/Annual working hours vs. GDP per capita", "exists": false}
+{"title": "OWID/Mean income or consumption per day vs. GDP per capita", "exists": false}
+{"title": "OWID/Annual working hours per worker vs. GDP per capita", "exists": false}
+{"title": "OWID/Income or consumption of the poorest 10% vs. GDP per capita", "exists": false}
+{"title": "OWID/Unemployment rate in people with vs. without disability", "exists": false}
+{"title": "OWID/Gdp maddison project database", "exists": true}
+{"title": "OWID/Median income after tax lis", "exists": true}
+{"title": "OWID/Countries by income classification", "exists": false}
+{"title": "OWID/Population by income classification", "exists": false}
+{"title": "OWID/Gross national income (GNI) per capita", "exists": false}
+{"title": "OWID/Total market capitalization of listed domestic companies as a share of GDP", "exists": false}
+{"title": "OWID/Global average GDP per capita over the long run", "exists": false}
+{"title": "OWID/Self-reported happiness vs. GDP per capita", "exists": false}
+{"title": "OWID/External balance on goods and services as a percent of gdp", "exists": true}
+{"title": "OWID/Median and mean income (after tax)", "exists": false}
+{"title": "OWID/Income inequality: Gini coefficient before and after tax", "exists": false}
+{"title": "OWID/Economic inequality gini index", "exists": true}
+{"title": "OWID/Income inequality vs. GDP per capita", "exists": false}
+{"title": "OWID/Income inequality: Gini coefficient before and after tax", "exists": false}
+{"title": "OWID/Nominal wages, consumer prices and real wages", "exists": false}
+{"title": "OWID/Income inequality: Gini coefficient before and after tax", "exists": false}
+{"title": "OWID/Total wealth per capita, by income groups", "exists": false}
+{"title": "OWID/Total wealth by asset group", "exists": false}
+{"title": "OWID/Annual growth of the income or consumption of the poorest 40%", "exists": false}
+{"title": "OWID/Income inequality: Gini coefficient (after tax)", "exists": false}
+{"title": "OWID/Wealth share richest 1 percent", "exists": true}
+{"title": "OWID/Income inequality in latin america", "exists": true}
+{"title": "OWID/Inequality in 1990 vs. 2015", "exists": false}
+{"title": "OWID/Gini Index around 2015 vs. Gini Index around 2000", "exists": false}
+{"title": "OWID/Gini index of income in 2015 vs. 1990", "exists": false}
+{"title": "OWID/Gini index of consumption in 2015 vs. 1990", "exists": false}
+{"title": "OWID/Gini index of income in 2015 vs. 1990", "exists": false}
+{"title": "OWID/Wage of craftsmen relative to that of laborers in England", "exists": false}
+{"title": "OWID/Mean vs. median income or consumption", "exists": false}
+{"title": "OWID/Average hourly earnings of employees", "exists": false}
+{"title": "OWID/Median income or consumption per day vs. GDP per capita", "exists": false}
+{"title": "OWID/Loan from a financial institution, poorest 40% vs. richest 60%", "exists": false}
+{"title": "OWID/Gini index of consumption in 2015 vs. 1990", "exists": false}
+{"title": "OWID/Reduction in income inequality", "exists": true}
+{"title": "OWID/Total GDP vs. GDP per capita", "exists": false}
+{"title": "OWID/Mean income or consumption per day vs. daily GDP per capita", "exists": false}
+{"title": "OWID/Income share top 1 before tax wid", "exists": true}
+{"title": "OWID/Income share top 10 before tax wid", "exists": true}
+{"title": "OWID/Distribution of income across richer and poorer groups (before tax)", "exists": false}
+{"title": "OWID/Gini coefficient before tax wid", "exists": true}
+{"title": "OWID/Palma ratio wid", "exists": true}
+{"title": "OWID/Distribution of income across richer and poorer groups (before tax)", "exists": false}
+{"title": "OWID/Income share of the richest 10% vs. Gini coefficient (before tax)", "exists": false}
+{"title": "OWID/Income share of the richest 1% vs. Gini coefficient (before tax)", "exists": false}
+{"title": "OWID/Gini coefficient: World Inequality Database vs. World Bank", "exists": false}
+{"title": "OWID/Distribution of income across richer and poorer groups", "exists": false}
+{"title": "OWID/Income share of the top 10 pip", "exists": true}
+{"title": "OWID/Global inequality between world citizens and its components", "exists": false}
+{"title": "OWID/Gini coefficient after tax lis", "exists": true}
+{"title": "OWID/Threshold income for each decile (after tax)", "exists": false}
+{"title": "OWID/Threshold income for each decile (before tax)", "exists": false}
+{"title": "OWID/Three metrics of inequality", "exists": false}
+{"title": "OWID/Wealth share richest 10 percent", "exists": true}
+{"title": "OWID/Income share top 10 after tax lis", "exists": true}
+{"title": "OWID/Income inequality: Gini coefficient before and after tax", "exists": false}
+{"title": "OWID/Income inequality: Gini coefficient before and after tax", "exists": false}
+{"title": "OWID/Income share of the richest 1% before and after tax", "exists": false}
+{"title": "OWID/Income share of the richest 10% before and after tax", "exists": false}
+{"title": "OWID/Income share of the richest 10% before and after tax", "exists": false}
+{"title": "OWID/Palma ratio after tax lis", "exists": true}
+{"title": "OWID/Distribution of income across richer and poorer groups (after tax)", "exists": false}
+{"title": "OWID/Annual growth of the income or consumption of the poorest 40% vs. the total population", "exists": false}
+{"title": "OWID/Income share top 1 before tax wid extrapolations", "exists": true}
+{"title": "OWID/Income or consumption of the poorest and richest 10%", "exists": false}
+{"title": "OWID/Mean income or consumption per day vs. GDP per capita", "exists": false}
+{"title": "OWID/Share of population living on less than half of the median income", "exists": false}
+{"title": "OWID/Income or consumption of the poorest 10% vs. GDP per capita", "exists": false}
+{"title": "OWID/Income inequality: Gini coefficient before and after tax", "exists": false}
+{"title": "OWID/Income or consumption of the poorest 10% vs. mean income", "exists": false}
+{"title": "OWID/Threshold income or consumption for each decile", "exists": false}
+{"title": "OWID/Income inequality: Gini coefficient before and after tax among working age population", "exists": false}
+{"title": "OWID/Reduction in income inequality before and after tax among total vs. working age population", "exists": false}
+{"title": "OWID/Income share of the richest 1% vs. GDP per capita", "exists": false}
+{"title": "OWID/Income share of the richest 1%: World Inequality Database vs. World Bank", "exists": false}
+{"title": "OWID/Distribution of income across richer and poorer groups (after tax)", "exists": false}
+{"title": "OWID/Share of people in relative poverty: PIP vs. WID", "exists": false}
+{"title": "OWID/Income inequality: Atkinson index", "exists": false}
+{"title": "OWID/Tax revenues as a share of GDP vs. income inequality", "exists": false}
+{"title": "OWID/Net official development assistance and aid received", "exists": true}
+{"title": "OWID/Total financial assistance and flows for agriculture, by recipient", "exists": false}
+{"title": "OWID/Total official flows commitments for aid for trade, by recipient", "exists": false}
+{"title": "OWID/Total official flows commitments for aid for trade, by donor", "exists": false}
+{"title": "OWID/International financial support to infrastructure", "exists": false}
+{"title": "OWID/Foreign aid and investments received", "exists": false}
+{"title": "OWID/Foreign aid and investments given", "exists": true}
+{"title": "OWID/Official development assistance to least-developed countries", "exists": false}
+{"title": "OWID/Foreign aid given to least-developed countries as a share of donor's national income", "exists": false}
+{"title": "OWID/Aid received per capita vs. GDP per capita", "exists": false}
+{"title": "OWID/Gross overseas development assistance from all donors for scholarships", "exists": false}
+{"title": "OWID/Resources to strengthen statistical capacity in developing countries", "exists": false}
+{"title": "OWID/Total official development assistance for technical co-operation", "exists": false}
+{"title": "OWID/Share of gross national income donated toward poverty reduction", "exists": false}
+{"title": "OWID/Share of gross national income from poverty reduction grants", "exists": false}
+{"title": "OWID/Foreign aid given", "exists": false}
+{"title": "OWID/Foreign aid given net", "exists": true}
+{"title": "OWID/Foreign aid given as a share of national income", "exists": true}
+{"title": "OWID/Foreign aid given bilaterally and multilaterally", "exists": false}
+{"title": "OWID/Foreign aid given by governments and civil society organizations", "exists": false}
+{"title": "OWID/Foreign aid received net", "exists": true}
+{"title": "OWID/Foreign aid received as grants and concessional loans", "exists": false}
+{"title": "OWID/Foreign aid received as a share of national income net", "exists": true}
+{"title": "OWID/Foreign aid given per capita", "exists": true}
+{"title": "OWID/Foreign aid received per capita", "exists": true}
+{"title": "OWID/Foreign aid received from governments and private foundations", "exists": false}
+{"title": "OWID/Net and grant-equivalent foreign aid given", "exists": false}
+{"title": "OWID/Foreign aid given by sector", "exists": false}
+{"title": "OWID/Foreign aid given for emergencies and longer-term development", "exists": false}
+{"title": "OWID/Foreign aid given for social infrastructure and services", "exists": false}
+{"title": "OWID/Foreign aid received by income group", "exists": false}
+{"title": "OWID/Foreign aid received per capita vs. GDP per capita", "exists": false}
+{"title": "OWID/Foreign aid given per capita vs. GDP per capita", "exists": false}
+{"title": "OWID/Foreign aid given as grants and concessional loans", "exists": false}
+{"title": "OWID/Net and grant-equivalent foreign aid given", "exists": false}
+{"title": "OWID/Foreign aid given by sector, per capita", "exists": false}
+{"title": "OWID/Foreign aid given for emergencies and longer-term development, per capita", "exists": false}
+{"title": "OWID/Foreign aid given for social infrastructure and services, per capita", "exists": false}
+{"title": "OWID/Foreign aid spent domestically within donor countries", "exists": false}
+{"title": "OWID/Share of foreign aid spent domestically within donor countries", "exists": false}
+{"title": "OWID/Share of foreign aid spent within donor countries", "exists": false}
+{"title": "OWID/Foreign aid spent in recipient countries", "exists": false}
+{"title": "OWID/Total gov expenditure gdp wdi", "exists": true}
+{"title": "OWID/Historical gov spending gdp", "exists": true}
+{"title": "OWID/Share of employee compensation in public spending", "exists": true}
+{"title": "OWID/Share of government expenditure going to interest payments", "exists": true}
+{"title": "OWID/Social spending oecd longrun", "exists": true}
+{"title": "OWID/Government revenues as a share of gdp world bank", "exists": true}
+{"title": "OWID/Tax revenue", "exists": false}
+{"title": "OWID/Government revenues as a share of national income", "exists": false}
+{"title": "OWID/Revenue from income taxes in Europe", "exists": false}
+{"title": "OWID/Tax revenues by source", "exists": false}
+{"title": "OWID/Composition of tax revenues", "exists": false}
+{"title": "OWID/Taxes on income vs. taxes on goods and services", "exists": false}
+{"title": "OWID/taxes on incomes of individuals and corporations gdp", "exists": true}
+{"title": "OWID/Top marginal income tax rates", "exists": false}
+{"title": "OWID/Top marginal income tax rate", "exists": false}
+{"title": "OWID/taxes on goods and services gdp", "exists": true}
+{"title": "OWID/Number of countries having implemented value added taxes", "exists": false}
+{"title": "OWID/Relative weight of two forms of consumption taxation in OECD countries", "exists": false}
+{"title": "OWID/share of central government expenditures funded by taxes", "exists": true}
+{"title": "OWID/Two sources of data on tax revenue as share of GDP", "exists": false}
+{"title": "OWID/Tax revenue share gdp oecd grsd", "exists": true}
+{"title": "OWID/Statutory corporate income tax rate", "exists": false}
+{"title": "OWID/tax revenues as a share of gdp unu wider", "exists": true}
+{"title": "OWID/Tax revenues as a share of gross domestic product", "exists": false}
+{"title": "OWID/Taxes on income vs. taxes on goods and services", "exists": false}
+{"title": "OWID/Government spending on education overall vs. primary education", "exists": false}
+{"title": "OWID/Share of GDP spent on education vs. share of government spending assigned to education", "exists": false}
+{"title": "OWID/Average OECD non-tertiary education spending by source of funding", "exists": false}
+{"title": "OWID/Share of total public education spending allocated to staff compensation", "exists": false}
+{"title": "OWID/Government spending on pre-primary education as share of GDP", "exists": false}
+{"title": "OWID/Government spending on primary education as share of GDP", "exists": false}
+{"title": "OWID/Government spending on secondary education as share of GDP", "exists": false}
+{"title": "OWID/Government spending on tertiary education as share of GDP", "exists": false}
+{"title": "OWID/Share of GDP per capita spent by the government on each primary school student vs. GDP per capita", "exists": false}
+{"title": "OWID/Average learning outcomes vs. government spending per primary student", "exists": false}
+{"title": "OWID/Average learning outcomes vs total government spending on education", "exists": false}
+{"title": "OWID/total government expenditure on education. GDP", "exists": true}
+{"title": "OWID/Availability of unemployment estimates by source ilo", "exists": true}
+{"title": "OWID/ratio of female to male labor force participation rates ilo wdi", "exists": true}
+{"title": "OWID/Female employment to population ratio", "exists": true}
+{"title": "OWID/Average annual working hours per worker", "exists": false}
+{"title": "OWID/Days off from work for vacations and holidays", "exists": false}
+{"title": "OWID/Average effective age of retirement for women", "exists": false}
+{"title": "OWID/Adequacy of unemployment benefits", "exists": false}
+{"title": "OWID/Weekly working hours vs. hourly wage, by wage decile", "exists": false}
+{"title": "OWID/Weekly working hours vs. hourly wage, by wage decile", "exists": false}
+{"title": "OWID/Share of day women spend on unpaid domestic and care work", "exists": false}
+{"title": "OWID/Female labor force participation rate by age", "exists": false}
+{"title": "OWID/Index of US maternal mortality and female labor force participation (FLFP)", "exists": false}
+{"title": "OWID/Female labor force participation rate: 1980 vs. 2024", "exists": false}
+{"title": "OWID/Female labor force participation rates by family benefits public spending", "exists": false}
+{"title": "OWID/Female employment rate, 1980 vs. 2024", "exists": false}
+{"title": "OWID/Labor force participation rate for women ages 15-24, 1980 vs. 2023", "exists": false}
+{"title": "OWID/Maternal mortality vs. female labor force participation, United States", "exists": false}
+{"title": "OWID/law mandate nondiscrimination hiring", "exists": true}
+{"title": "OWID/Labor force participation, younger vs. older women", "exists": false}
+{"title": "OWID/Share of female employment by economic sector", "exists": false}
+{"title": "OWID/Share of male vs. female employment in industry", "exists": false}
+{"title": "OWID/Share of male vs. female employment in services", "exists": false}
+{"title": "OWID/Share who agree with the statement 'when jobs are scarce, men should have more right to a job than women'", "exists": false}
+{"title": "OWID/criminal penalties or civil remedies sexual harassment in employment", "exists": true}
+{"title": "OWID/Legislation on sexual harassment in employment", "exists": true}
+{"title": "OWID/Share of day women spend on unpaid domestic and care work", "exists": false}
+{"title": "OWID/Hours spent in market and non-market work per week, by sex, United States", "exists": false}
+{"title": "OWID/Average hours of work per week, by industry", "exists": false}
+{"title": "OWID/Average daily work hours, by industry", "exists": false}
+{"title": "OWID/Average daily hours of work in winter, by industry", "exists": false}
+{"title": "OWID/Average daily hours of work in summer, by industry", "exists": false}
+{"title": "OWID/Average daily hours worked, by industry, United States", "exists": false}
+{"title": "OWID/Average daily hours of work, by occupation, United States", "exists": false}
+{"title": "OWID/Hours per week spent in home production in the United States, by employment and marital status", "exists": false}
+{"title": "OWID/Daily time the employed spend in employment", "exists": false}
+{"title": "OWID/Time spent on activities in an average day", "exists": false}
+{"title": "OWID/Time spent on activities in an average day, males", "exists": false}
+{"title": "OWID/Time spent on activities in an average day, females", "exists": false}
+{"title": "OWID/Average annual working hours per worker", "exists": false}
+{"title": "OWID/Average effective age of retirement for women", "exists": false}
+{"title": "OWID/Weekly working hours vs. hourly wage, by wage decile", "exists": false}
+{"title": "OWID/Weekly working hours vs. hourly wage, by wage decile", "exists": false}
+{"title": "OWID/Days off from work for vacations and holidays", "exists": false}
+{"title": "OWID/The value of work has fallen sharply in the United States", "exists": false}
+{"title": "OWID/Job search methods among unemployed jobseekers", "exists": false}
+{"title": "OWID/Adequacy of unemployment benefits", "exists": false}
+{"title": "OWID/Share of total imports of goods that comes from china", "exists": true}
+{"title": "OWID/Chinas rank in imports of goods", "exists": true}
+{"title": "OWID/China imports as share of gdp", "exists": true}
+{"title": "OWID/Countrys top source of imported goods", "exists": true}
+{"title": "OWID/Merchandise imports as a share of countrys gdp", "exists": true}
+{"title": "OWID/Trade openness in europe", "exists": true}
+{"title": "OWID/Trade as share of gdp", "exists": true}
+{"title": "OWID/Share food exports", "exists": true}
+{"title": "OWID/Share manufacture exports", "exists": true}
+{"title": "OWID/Share of global exports by income level of the trade partners", "exists": false}
+{"title": "OWID/Share of world merchandise exports by exporters’ income group", "exists": false}
+{"title": "OWID/Merchandise exports gdp cepii", "exists": true}
+{"title": "OWID/Merchandise imports gdp cepii", "exists": true}
+{"title": "OWID/Share of bilateral and unilateral trade partnerships around the world", "exists": false}
+{"title": "OWID/Human Capital Index in males vs. females", "exists": false}
+{"title": "OWID/Value of exported goods and services", "exists": true}
+{"title": "OWID/Value of imported goods and services", "exists": true}
+{"title": "OWID/Service exports and imports gdp", "exists": true}
+{"title": "OWID/Share of service in total exports", "exists": false}
+{"title": "OWID/Share of services in total exports", "exists": true}
+{"title": "OWID/Foreign direct investment net inflows as share of gdp", "exists": true}
+{"title": "OWID/air transport freight ton km", "exists": true}
+{"title": "OWID/Foreign direct investment net outflows as share of gdp", "exists": true}
+{"title": "OWID/Percentage of workers who found their current job through personal contacts", "exists": false}
+{"title": "OWID/Distribution of job finding methods for employed workers in European countries", "exists": false}
+{"title": "OWID/Countries with an in-force bilateral investment treaty", "exists": false}
+{"title": "OWID/Manufacturing jobs as a share of total employment", "exists": false}
+{"title": "OWID/Share of global services exports", "exists": false}
+{"title": "OWID/Spending by international visitors while visiting a country as a share of GDP", "exists": false}
+{"title": "OWID/Spending by a country’s residents while travelling abroad as a share of GDP", "exists": false}
+{"title": "OWID/International tourist trips by destination region", "exists": false}
+{"title": "OWID/Arrivals of tourists from abroad", "exists": false}
+{"title": "OWID/Global aviation fatalities per million passengers", "exists": false}
+{"title": "OWID/Fatal airliner accidents per million commercial flights", "exists": false}
+{"title": "OWID/Air passengers per fatality", "exists": false}
+{"title": "OWID/Fatalities from airliner accidents and hijackings", "exists": false}
+{"title": "OWID/Fatal airliner accidents and hijacking incidents", "exists": false}
+{"title": "OWID/International tourist departures per 1,000 people", "exists": false}
+{"title": "OWID/International tourist departures per 1,000 people vs. GDP per capita", "exists": false}
+{"title": "OWID/Ratio of inbound to outbound tourist trips", "exists": false}
+{"title": "OWID/Tourism contribution to GDP", "exists": false}
+{"title": "OWID/Monitoring of sustainable tourism", "exists": false}
+{"title": "OWID/Share of global services exports", "exists": false}
+{"title": "OWID/International tourist arrivals by region of departure", "exists": false}
+{"title": "OWID/International one-day trips", "exists": false}
+{"title": "OWID/Trips by domestic tourists per person", "exists": false}
+{"title": "OWID/International trips for personal vs. business and professional reasons", "exists": false}
+{"title": "OWID/Ratio of business trips to trips for personal reasons", "exists": false}
+{"title": "OWID/Average length of stay of international visitors", "exists": false}
+{"title": "OWID/Employment in tourism-related industries per 1,000 people", "exists": false}
+{"title": "OWID/Ratio of same-day trips to tourist trips", "exists": false}
+{"title": "OWID/Local vs. foreign guests in hotels and similar establishments", "exists": false}
+{"title": "OWID/Arrivals of tourists from abroad per 1,000 people", "exists": false}
+{"title": "OWID/International tourist departures", "exists": false}
+{"title": "OWID/Arrivals of same-day visitors from abroad per 1,000 people", "exists": false}
+{"title": "OWID/Foreign guests in hotels and similar establishments", "exists": false}
+{"title": "OWID/Local guests in hotels and similar establishments", "exists": false}
+{"title": "OWID/Spending by a country’s residents while travelling abroad", "exists": false}
+{"title": "OWID/Spending by international visitors while visiting a country", "exists": false}
+{"title": "OWID/Arrivals of tourists from abroad for personal purposes", "exists": false}
+{"title": "OWID/Arrivals of tourists from abroad for business purposes", "exists": false}
+{"title": "OWID/Number of adults with no formal education by region", "exists": false}
+{"title": "OWID/Pupils per qualified teacher in primary education", "exists": false}
+{"title": "OWID/Population by level of education", "exists": false}
+{"title": "OWID/Primary enrollment selected countries", "exists": true}
+{"title": "OWID/Net attendance rate of primary school", "exists": false}
+{"title": "OWID/Mean years of schooling long run", "exists": true}
+{"title": "OWID/Gender ratios for mean years of schooling", "exists": true}
+{"title": "OWID/Share of the world's population with formal basic education", "exists": false}
+{"title": "OWID/Share of primary-school-age children who are out of school", "exists": false}
+{"title": "OWID/Duration of compulsory education", "exists": true}
+{"title": "OWID/Official entrance age to compulsory education", "exists": true}
+{"title": "OWID/Total net enrollment rate in primary education", "exists": false}
+{"title": "OWID/Share of teachers in secondary education who are trained", "exists": false}
+{"title": "OWID/Share of teachers in primary education who are trained", "exists": false}
+{"title": "OWID/Average performance of 15-year-olds in mathematics", "exists": false}
+{"title": "OWID/Average performance of 15-year-olds in reading", "exists": false}
+{"title": "OWID/Average performance of 15-year-old girls and boys in mathematics", "exists": false}
+{"title": "OWID/Average performance of 15-year-old girls and boys in reading", "exists": false}
+{"title": "OWID/Primary-school-age children who are out of school by world region", "exists": false}
+{"title": "OWID/Share of the population with a completed post secondary education", "exists": true}
+{"title": "OWID/Share of the population with completed tertiary education", "exists": true}
+{"title": "OWID/Share of the population with at least some secondary education", "exists": true}
+{"title": "OWID/Gross enrollment ratio in pre-primary education", "exists": false}
+{"title": "OWID/Gross enrollment ratio in primary education", "exists": false}
+{"title": "OWID/Gross enrollment ratio in secondary education", "exists": false}
+{"title": "OWID/Gross enrollment ratio in tertiary education", "exists": false}
+{"title": "OWID/Share of primary school teachers who are women", "exists": false}
+{"title": "OWID/Share of secondary school teachers who are women", "exists": false}
+{"title": "OWID/Share of academic staff in tertiary education who are women", "exists": false}
+{"title": "OWID/Share enrolled in private institutions at the pre primary education level", "exists": true}
+{"title": "OWID/Share of students from abroad", "exists": false}
+{"title": "OWID/Share of students studying abroad", "exists": false}
+{"title": "OWID/Share of population 15 years and older with no education", "exists": true}
+{"title": "OWID/Precentage enrolled in private institutions at the primary education level", "exists": true}
+{"title": "OWID/Official entrance age to pre primary education", "exists": true}
+{"title": "OWID/Duration of pre primary education", "exists": true}
+{"title": "OWID/Percentage of teachers in primary education who are qualified", "exists": false}
+{"title": "OWID/Share of primary schools with access to drinking water", "exists": false}
+{"title": "OWID/Share of primary schools with toilets", "exists": false}
+{"title": "OWID/Share of students achieving minimum math proficiency by the end of lower-secondary education", "exists": false}
+{"title": "OWID/Share of students achieving minimum reading proficiency by the end of lower secondary education", "exists": false}
+{"title": "OWID/Share of students achieving minimum math proficiency by the end of primary education", "exists": false}
+{"title": "OWID/Share of women graduating from STEM programs in tertiary education", "exists": false}
+{"title": "OWID/Proportion of children aged 3-5 years who are developmentally on track", "exists": false}
+{"title": "OWID/Share of male vs. female people who can use electronic presentation software", "exists": false}
+{"title": "OWID/School life expectancy primary gender parity index gpi", "exists": true}
+{"title": "OWID/Net enrollment rate primary gender parity index gpi", "exists": true}
+{"title": "OWID/Percentage of teachers in pre-primary education who are qualified", "exists": false}
+{"title": "OWID/Share of teachers in secondary education who are qualified", "exists": false}
+{"title": "OWID/Percentage of teachers in lower-secondary education who are qualified", "exists": false}
+{"title": "OWID/Percentage of teachers in upper-secondary education who are qualified", "exists": false}
+{"title": "OWID/Completion rate of lower secondary education", "exists": false}
+{"title": "OWID/Secondary net enrollment gpi", "exists": true}
+{"title": "OWID/Average learning outcomes", "exists": false}
+{"title": "OWID/Average learning outcomes vs. GDP per capita", "exists": false}
+{"title": "OWID/Girls and boys who are out of school", "exists": false}
+{"title": "OWID/Learning adjusted years of school. LAYS", "exists": true}
+{"title": "OWID/Literate and illiterate world population", "exists": false}
+{"title": "OWID/Daily time students spend studying", "exists": false}
+{"title": "OWID/Expected years of schooling", "exists": false}
+{"title": "OWID/Average years of schooling vs. GDP per capita", "exists": false}
+{"title": "OWID/Average years of schooling vs. expected years of schooling", "exists": false}
+{"title": "OWID/Average years of schooling for women", "exists": false}
+{"title": "OWID/Average years of schooling for men", "exists": false}
+{"title": "OWID/Girls and boys of primary school age who are out of school", "exists": false}
+{"title": "OWID/Share of primary-school-age children who are out of school vs. GDP per capita", "exists": false}
+{"title": "OWID/Share of adolescents who are not in secondary school", "exists": false}
+{"title": "OWID/Share of students achieving minimum reading proficiency by the end of primary education", "exists": false}
+{"title": "OWID/Population having attained at least basic education", "exists": true}
+{"title": "OWID/Completion rate of primary education", "exists": false}
+{"title": "OWID/Completion rate of upper secondary education", "exists": false}
+{"title": "OWID/Numeracy rate in women", "exists": false}
+{"title": "OWID/Numeracy rate in men", "exists": false}
+{"title": "OWID/Primary school completion rates, adjusted gender parity index", "exists": false}
+{"title": "OWID/Lower secondary school completion rates, adjusted gender parity index", "exists": false}
+{"title": "OWID/Upper secondary completion rate, adjusted gender parity index", "exists": false}
+{"title": "OWID/Gender gap in primary, secondary and tertiary education", "exists": false}
+{"title": "OWID/Share of schools with access to computers for teaching", "exists": false}
+{"title": "OWID/Share of schools with adaptations for disabled students", "exists": false}
+{"title": "OWID/Participation rate in formal and non-formal education and training", "exists": false}
+{"title": "OWID/Primary, secondary and tertiary education enrollment and completion rates", "exists": false}
+{"title": "OWID/Quality vs. quantity of schooling", "exists": false}
+{"title": "OWID/Average years of schooling", "exists": false}
+{"title": "OWID/Average performance of 15-year-olds in mathematics, reading, and science", "exists": false}
+{"title": "OWID/Average performance of 15-year-olds in sciences", "exists": false}
+{"title": "OWID/Average performance of 15-year-old girls and boys in sciences", "exists": false}
+{"title": "OWID/Children and adolescents out of school", "exists": false}
+{"title": "OWID/Learning adjusted years of schooling in girls and boys", "exists": false}
+{"title": "OWID/Share of children achieving minimum reading proficiency by the end of lower-secondary age", "exists": false}
+{"title": "OWID/Share of students achieving minimum proficiency in reading and math at each education level", "exists": false}
+{"title": "OWID/Share of children achieving minimum proficiency in reading and math at each education level", "exists": false}
+{"title": "OWID/Share of children achieving minimum reading proficiency by the end of primary education age", "exists": false}
+{"title": "OWID/Regional trends in average years of schooling", "exists": false}
+{"title": "OWID/Literate and illiterate world population", "exists": false}
+{"title": "OWID/Share of the population with basic numeracy skills by birth decade", "exists": true}
+{"title": "OWID/Literacy rates of older vs. younger population", "exists": false}
+{"title": "OWID/Ratio of the literacy rate between young women and men", "exists": true}
+{"title": "OWID/Literacy rate of young men vs. women", "exists": false}
+{"title": "OWID/Students in grade 2 who can't read a single word", "exists": false}
+{"title": "OWID/Literacy rate among young men", "exists": false}
+{"title": "OWID/Literacy rate among young women", "exists": false}
+{"title": "OWID/Mode of reporting literacy rates", "exists": true}
+{"title": "OWID/Literacy rate source type", "exists": true}
+{"title": "OWID/Literacy rate vs. average years of schooling", "exists": false}
+{"title": "OWID/Cross country literacy rates", "exists": true}
+{"title": "OWID/Adult literacy rate", "exists": false}
+{"title": "OWID/Literacy rates, survey estimates vs. official UNESCO estimates", "exists": false}
+{"title": "OWID/Literacy rates, adult female, one-sentence test (DHS) vs. self-reports (UNESCO)", "exists": false}
+{"title": "OWID/Literacy rates of adult males, one-sentence test (DHS) vs. self-reports (UNESCO)", "exists": false}
+{"title": "OWID/Literacy rate vs. GDP per capita", "exists": false}
+{"title": "OWID/Literacy rate in adult women", "exists": false}
+{"title": "OWID/Literacy rate in adult men", "exists": false}
+{"title": "OWID/Literacy rate of young men and women", "exists": false}
+{"title": "OWID/Living languages", "exists": false}
+{"title": "OWID/New books per million", "exists": true}
+{"title": "OWID/Manuscript production per century, 6th to 15th century", "exists": false}
+{"title": "OWID/Production of printed books per half century", "exists": false}
+{"title": "OWID/Annual per capita consumption books", "exists": true}
+{"title": "OWID/Mobile cellular subscriptions by country", "exists": true}
+{"title": "OWID/Fixed telephone subscriptions per 100 people", "exists": true}
+{"title": "OWID/Mobile cellular subscriptions per 100 people", "exists": true}
+{"title": "OWID/number of internet users", "exists": true}
+{"title": "OWID/Active mobile money accounts", "exists": false}
+{"title": "OWID/Technology and infrastructure diffusion in the United Kingdom", "exists": false}
+{"title": "OWID/Technology and infrastructure diffusion in the United States", "exists": false}
+{"title": "OWID/Record number of quantum bits per processor", "exists": false}
+{"title": "OWID/Annual professional service robots installed globally, by application area", "exists": false}
+{"title": "OWID/Industrial robots: Annual installations and total in operation", "exists": false}
+{"title": "OWID/New industrial robots installed per year", "exists": false}
+{"title": "OWID/Yearly number of objects launched into outer space", "exists": true}
+{"title": "OWID/Annual space visits", "exists": true}
+{"title": "OWID/landline internet subscriptions", "exists": true}
+{"title": "OWID/Share of people who own a mobile phone, by sex", "exists": false}
+{"title": "OWID/Share of population in range of mobile network, by capability", "exists": false}
+{"title": "OWID/Share of people in range of 4G mobile network", "exists": false}
+{"title": "OWID/Mobile and landline phone subscriptions per 100 people", "exists": false}
+{"title": "OWID/Share of people using mobile money accounts", "exists": false}
+{"title": "OWID/Adoption of mobile money accounts vs. adoption of mobile phones", "exists": false}
+{"title": "OWID/share population mobile phone", "exists": true}
+{"title": "OWID/Patent applications per million", "exists": true}
+{"title": "OWID/Scientific publications per million", "exists": true}
+{"title": "OWID/Researchers in rd per million people", "exists": true}
+{"title": "OWID/Research spending gdp", "exists": true}
+{"title": "OWID/Cumulative space visits", "exists": true}
+{"title": "OWID/Cumulative people space", "exists": true}
+{"title": "OWID/number airline passengers", "exists": true}
+{"title": "OWID/air trips per capita", "exists": true}
+{"title": "OWID/air passenger kilometers", "exists": true}
+{"title": "OWID/Homelessness rate", "exists": false}
+{"title": "OWID/Homelessness rate", "exists": false}
+{"title": "OWID/Reported share of people experiencing homelessness who are women", "exists": false}
+{"title": "OWID/Reported share of people experiencing homelessness who are women", "exists": false}
+{"title": "OWID/Reported share of people experiencing homelessness", "exists": false}
+{"title": "OWID/Completeness of homelessness data", "exists": false}
+{"title": "OWID/Forms of homelessness included in available statistics", "exists": false}
+{"title": "OWID/Homelessness by gender", "exists": false}
+{"title": "OWID/Lack of access to clean fuels for cooking vs gdp per capita", "exists": true}
+{"title": "OWID/Access to clean fuels and technologies for cooking", "exists": true}
+{"title": "OWID/Number of people without access to clean fuels for cooking", "exists": false}
+{"title": "OWID/Number of people with and without access to clean cooking fuels", "exists": false}
+{"title": "OWID/Indoor air pollution death rate vs. access to clean fuels for cooking", "exists": false}
+{"title": "OWID/Household air pollution deaths by region", "exists": false}
+{"title": "OWID/Absolute number of deaths from household air pollution", "exists": true}
+{"title": "OWID/Share of population using solid fuels as the main cooking fuel", "exists": false}
+{"title": "OWID/Death rate from indoor air pollution vs. GDP per capita", "exists": false}
+{"title": "OWID/Access to clean fuels for cooking vs. GDP per capita", "exists": false}
+{"title": "OWID/Indoor air pollution vs. outdoor air pollution death rate", "exists": false}
+{"title": "OWID/Share deaths indoor pollution", "exists": true}
+{"title": "OWID/Number of deaths from indoor air pollution, 1990 vs. 2023", "exists": false}
+{"title": "OWID/Deaths from indoor air pollution, by age", "exists": false}
+{"title": "OWID/Deaths attributed to household air pollution vs. deaths attributed to ambient air pollution", "exists": false}
+{"title": "OWID/The price for lighting in the United Kingdom", "exists": false}
+{"title": "OWID/Efficiency of lighting in the United Kingdom", "exists": false}
+{"title": "OWID/Lighting sources in the United Kingdom", "exists": false}
+{"title": "OWID/Efficiency of lighting in the United Kingdom by source", "exists": false}
+{"title": "OWID/Time women and men spend on leisure", "exists": false}
+{"title": "OWID/Daily time spent on leisure, social, and associative life", "exists": false}
+{"title": "OWID/Percentage of Americans who live alone, by age", "exists": false}
+{"title": "OWID/Percentage of women in the United States who live alone, by age", "exists": false}
+{"title": "OWID/Percentage of men in the United States who live alone, by age", "exists": false}
+{"title": "OWID/Who Americans spend their time with, by age", "exists": false}
+{"title": "OWID/Days of paid leave for childbirth and early childcare for the mother", "exists": false}
+{"title": "OWID/Days of paid leave for childbirth and early childcare for the father", "exists": false}
+{"title": "OWID/Days of paid maternity, paternity, and parental leave", "exists": false}
+{"title": "OWID/Who Americans spend their time with, by age and gender", "exists": false}
+{"title": "OWID/How much time Americans spend alone, by age group", "exists": false}
+{"title": "OWID/Who Americans spend their time with", "exists": false}
+{"title": "OWID/How important family is to people in life", "exists": false}
+{"title": "OWID/How important friends are to people in life", "exists": false}
+{"title": "OWID/How important leisure is to people in life", "exists": false}
+{"title": "OWID/How important work is to people in life", "exists": false}
+{"title": "OWID/women married by age 18", "exists": true}
+{"title": "OWID/women married by age 15", "exists": true}
+{"title": "OWID/Marriage rate per 1000 inhabitants", "exists": true}
+{"title": "OWID/Share of births outside marriage", "exists": true}
+{"title": "OWID/Share of single parent households", "exists": true}
+{"title": "OWID/Average age of women at marriage", "exists": false}
+{"title": "OWID/Share of women who are married or in a union", "exists": false}
+{"title": "OWID/Divorces per 1000 people", "exists": true}
+{"title": "OWID/Marriage rates in 1990 vs. 2022", "exists": false}
+{"title": "OWID/Share of marriages in England and Wales that ended in divorce", "exists": false}
+{"title": "OWID/Share of marriages in England and Wales that ended in divorce", "exists": false}
+{"title": "OWID/Marriage same sex partners equaldex", "exists": true}
+{"title": "OWID/Women can obtain divorce same as men", "exists": true}
+{"title": "OWID/Women have the same rights to remarry as men", "exists": true}
+{"title": "OWID/Countries by legal status of same-sex marriage", "exists": false}
+{"title": "OWID/Population by legal status of same-sex marriage", "exists": false}
+{"title": "OWID/Share of children living with a single parent", "exists": false}
+{"title": "OWID/Share of women aged 1549 who are married or in a union", "exists": true}
+{"title": "OWID/Household composition by type", "exists": false}
+{"title": "OWID/Share of women in England and Wales who have ever married, by age", "exists": false}
+{"title": "OWID/Share of men in England and Wales who have ever married, by age", "exists": false}
+{"title": "OWID/People who report having friends or relatives they can count on", "exists": false}
+{"title": "OWID/Percentage of adults living alone", "exists": false}
+{"title": "OWID/The value of friendships varies greatly around the world", "exists": false}
+{"title": "OWID/Share of people who feel close to at least one person", "exists": false}
+{"title": "OWID/Share of people who say they recently donated to charity", "exists": false}
+{"title": "OWID/Share of people who say they recently volunteered", "exists": false}
+{"title": "OWID/Share of people who identify as religious or spiritual", "exists": false}
+{"title": "OWID/Interpersonal trust in the United States", "exists": false}
+{"title": "OWID/Self reported trust attitudes", "exists": true}
+{"title": "OWID/Public trust in the United States government", "exists": false}
+{"title": "OWID/Interpersonal trust in Europe", "exists": false}
+{"title": "OWID/Trust in government", "exists": false}
+{"title": "OWID/Interpersonal trust vs. income inequality", "exists": false}
+{"title": "OWID/Trust in others vs. trust in police, Europe", "exists": false}
+{"title": "OWID/Country-level estimates of patience", "exists": false}
+{"title": "OWID/Country-level estimates of positive reciprocity", "exists": false}
+{"title": "OWID/Country-level estimates of altruism", "exists": false}
+{"title": "OWID/Share of people who trust their national government", "exists": false}
+{"title": "OWID/Share that feel safe walking alone around the area they live at night", "exists": false}
+{"title": "OWID/Share of victims who reported crime to the police", "exists": false}
+{"title": "OWID/Share of people who trust journalists in their country", "exists": false}
+{"title": "OWID/Share of people who trust science", "exists": false}
+{"title": "OWID/Share of people who trust others in their neighborhood", "exists": false}
+{"title": "OWID/Political Participation Index", "exists": false}
+{"title": "OWID/Share agreeing \"Most people can be trusted\" vs. \"Do not trust those I meet for the first time\"", "exists": false}
+{"title": "OWID/Share of people who think others can be trusted vs. taken advantage of", "exists": false}
+{"title": "OWID/Share agreeing \"Most people can be trusted\" vs. \"Do not trust those I know personally\"", "exists": false}
+{"title": "OWID/Share of survey respondents who say they \"do not trust at all\" people they meet for the first time", "exists": false}
+{"title": "OWID/Interpersonal trust vs. GDP per capita", "exists": false}
+{"title": "OWID/Share of people who find political decision-making inclusive and responsive", "exists": false}
+{"title": "OWID/Trust in institutions", "exists": false}
+{"title": "OWID/Trust in organizations", "exists": false}
+{"title": "OWID/Trust attitudes towards specific groups", "exists": false}
+{"title": "OWID/Confidence in the United Nations", "exists": false}
+{"title": "OWID/Interpersonal trust measured in different surveys", "exists": false}
+{"title": "OWID/Perceived trust between people", "exists": false}
+{"title": "OWID/Happiness vs. life satisfaction", "exists": false}
+{"title": "OWID/Share of people who say they are happy eurobarometer", "exists": true}
+{"title": "OWID/Life satisfaction vs. life expectancy", "exists": false}
+{"title": "OWID/Happiness inequality during periods of economic growth", "exists": false}
+{"title": "OWID/Happiness inequality within countries vs. GDP per capita", "exists": false}
+{"title": "OWID/Across the Anglosaxon world, people value religion less than before", "exists": false}
+{"title": "OWID/Self-reported life satisfaction: young vs. old people", "exists": false}
+{"title": "OWID/How important politics is to people in life", "exists": false}
+{"title": "OWID/How important religion is to people in life", "exists": false}
+{"title": "OWID/How much people agree that work is a duty towards society", "exists": false}
+{"title": "OWID/How justifiable do people say violence against other people is?", "exists": false}
+{"title": "OWID/How worried people are about providing their children with a good education", "exists": false}
+{"title": "OWID/human development index", "exists": true}
+{"title": "OWID/Augmented human development index", "exists": true}
+{"title": "OWID/Augmented Human Development Index: with vs. without income metric", "exists": false}
+{"title": "OWID/Human Development Index vs. Augmented Human Development Index", "exists": false}
+{"title": "OWID/Inequality in life expectancy", "exists": false}
+{"title": "OWID/Liberal democracy index", "exists": true}
+{"title": "OWID/Human Capital Index", "exists": false}
+{"title": "OWID/Inequality-adjusted Human Development Index", "exists": false}
+{"title": "OWID/Gender Development Index", "exists": false}
+{"title": "OWID/Inequality-adjusted Human Development Index vs. Human Development Index", "exists": false}
+{"title": "OWID/Gender Development Index vs. Human Development Index", "exists": false}
+{"title": "OWID/Gender Development Index vs. GDP per capita", "exists": false}
+{"title": "OWID/Inequality-adjusted Human Development Index vs. GDP per capita", "exists": false}
+{"title": "OWID/Augmented human development index excluding gdp", "exists": true}
+{"title": "OWID/Gdp per capita prados de la escosura", "exists": true}
+{"title": "OWID/Life expectancy prados de la escosura", "exists": true}
+{"title": "OWID/Years of schooling prados de la escosura", "exists": true}
+{"title": "OWID/Inequality in education", "exists": false}
+{"title": "OWID/Expected years of schooling, males vs. females", "exists": false}
+{"title": "OWID/Average years of schooling, males vs. females", "exists": false}
+{"title": "OWID/Gross national income (GNI) per capita, males vs. females", "exists": false}
+{"title": "OWID/Human Development Index: males vs. females", "exists": false}
+{"title": "OWID/Gender Development Index groups", "exists": false}
+{"title": "OWID/Human Development Index groups", "exists": false}
+{"title": "OWID/Reduction in Human Development Index when adjusting for inequalities", "exists": false}
+{"title": "OWID/Share attending religious services", "exists": true}
+{"title": "OWID/Physical integrity rights score fariss kenwick reuning", "exists": true}
+{"title": "OWID/Universal suffrage women lexical", "exists": true}
+{"title": "OWID/overarching legal frameworks regarding gender equality", "exists": true}
+{"title": "OWID/Freedom of association index", "exists": true}
+{"title": "OWID/Freedom of expression index", "exists": true}
+{"title": "OWID/Individual liberties and equality before the law index", "exists": true}
+{"title": "OWID/Political regime fh", "exists": true}
+{"title": "OWID/Civil liberties rating fh", "exists": true}
+{"title": "OWID/Equal rights protection index", "exists": true}
+{"title": "OWID/Equal access to power index", "exists": true}
+{"title": "OWID/Equal resource distribution index", "exists": true}
+{"title": "OWID/Universal suffrage men lexical", "exists": true}
+{"title": "OWID/Human rights index vdem", "exists": true}
+{"title": "OWID/Physical integrity rights index vdem", "exists": true}
+{"title": "OWID/Private civil liberties index", "exists": true}
+{"title": "OWID/Political civil liberties index", "exists": true}
+{"title": "OWID/share of women in parliament", "exists": true}
+{"title": "OWID/women political empowerment index", "exists": true}
+{"title": "OWID/women civil liberties index", "exists": true}
+{"title": "OWID/Universal suffrage lexical", "exists": true}
+{"title": "OWID/Equality of civil liberties across social groups score", "exists": true}
+{"title": "OWID/Equality of political power across social groups score", "exists": true}
+{"title": "OWID/Political Corruption Index vs. Electoral Democracy Index", "exists": false}
+{"title": "OWID/Suffrage", "exists": true}
+{"title": "OWID/Elected political leaders index", "exists": true}
+{"title": "OWID/Political regime", "exists": true}
+{"title": "OWID/Life expectancy vs. Electoral Democracy Index", "exists": false}
+{"title": "OWID/People living in democracies and autocracies", "exists": false}
+{"title": "OWID/Age of electoral democracy", "exists": true}
+{"title": "OWID/Age of liberal democracy row", "exists": true}
+{"title": "OWID/Number of electoral democracies by age", "exists": false}
+{"title": "OWID/Number of liberal democracies by age", "exists": false}
+{"title": "OWID/Electoral democracy index", "exists": true}
+{"title": "OWID/Free and fair elections index", "exists": true}
+{"title": "OWID/Countries that are democracies and autocracies", "exists": false}
+{"title": "OWID/Countries that are long-standing electoral democracies", "exists": false}
+{"title": "OWID/Countries that are long-standing liberal democracies", "exists": false}
+{"title": "OWID/Participatory political institutions index", "exists": true}
+{"title": "OWID/Egalitarian democracy index vdem", "exists": true}
+{"title": "OWID/Deliberative democracy index vdem", "exists": true}
+{"title": "OWID/Political regime amb row", "exists": true}
+{"title": "OWID/People living in democracies and autocracies", "exists": false}
+{"title": "OWID/Countries that are democracies and autocracies", "exists": false}
+{"title": "OWID/Democracy", "exists": false}
+{"title": "OWID/Countries that are democracies and non-democracies", "exists": false}
+{"title": "OWID/People living in democracies and non-democracies", "exists": false}
+{"title": "OWID/People living in free countries and territories", "exists": false}
+{"title": "OWID/Political Rights Score", "exists": false}
+{"title": "OWID/Political rights rating fh", "exists": true}
+{"title": "OWID/Multi-party elections", "exists": false}
+{"title": "OWID/Multi-party elections for government's chief executive", "exists": false}
+{"title": "OWID/Multi-party elections for legislature", "exists": false}
+{"title": "OWID/Access to justice for men", "exists": false}
+{"title": "OWID/Meaningful democratic electoral institutions", "exists": false}
+{"title": "OWID/Access to justice for women", "exists": false}
+{"title": "OWID/Free and fair elections", "exists": false}
+{"title": "OWID/Transparent laws", "exists": false}
+{"title": "OWID/Liberal political institutions", "exists": false}
+{"title": "OWID/Liberal political institutions index", "exists": true}
+{"title": "OWID/Judicial constraints on the executive index", "exists": true}
+{"title": "OWID/Legislative constraints on the executive index", "exists": true}
+{"title": "OWID/Participatory democracy index", "exists": true}
+{"title": "OWID/Civil society participation index", "exists": true}
+{"title": "OWID/Direct democracy index", "exists": true}
+{"title": "OWID/Strong elected local governments index", "exists": true}
+{"title": "OWID/Strong elected regional governments index", "exists": true}
+{"title": "OWID/Deliberative political institutions index", "exists": true}
+{"title": "OWID/Justified political positions score", "exists": true}
+{"title": "OWID/Common good justifications score", "exists": true}
+{"title": "OWID/Respect for counterarguments score", "exists": true}
+{"title": "OWID/Elite consultations score", "exists": true}
+{"title": "OWID/Engaged society score", "exists": true}
+{"title": "OWID/Egalitarian political institutions index", "exists": true}
+{"title": "OWID/Political regime lexical", "exists": true}
+{"title": "OWID/Elections for the governments chief executive", "exists": true}
+{"title": "OWID/Elections legislature lexical", "exists": true}
+{"title": "OWID/Political opposition lexical", "exists": true}
+{"title": "OWID/Competitive elections lexical", "exists": true}
+{"title": "OWID/Political liberties lexical", "exists": true}
+{"title": "OWID/People living in democracies and autocracies", "exists": false}
+{"title": "OWID/Countries that are democracies and autocracies", "exists": false}
+{"title": "OWID/Countries that are long-standing electoral democracies", "exists": false}
+{"title": "OWID/Countries that are long-standing full democracies", "exists": false}
+{"title": "OWID/Age of electoral democracy lexical", "exists": true}
+{"title": "OWID/Age of full democracy", "exists": true}
+{"title": "OWID/Number of electoral democracies by age", "exists": false}
+{"title": "OWID/Number of full democracies by age", "exists": false}
+{"title": "OWID/Free countries and territories", "exists": false}
+{"title": "OWID/Democratic Electoral Institutions Score", "exists": false}
+{"title": "OWID/Political regime polity", "exists": true}
+{"title": "OWID/Democracy index polity", "exists": true}
+{"title": "OWID/Age of democracy polity", "exists": true}
+{"title": "OWID/Countries that are democracies and non-democracies", "exists": false}
+{"title": "OWID/People living in democracies and non-democracies", "exists": false}
+{"title": "OWID/Countries that are long-standing democracies", "exists": false}
+{"title": "OWID/Number of democracies by age", "exists": false}
+{"title": "OWID/Democracy", "exists": false}
+{"title": "OWID/Free and Fair Elections Score", "exists": false}
+{"title": "OWID/Effective Power to Govern Score", "exists": false}
+{"title": "OWID/Separation of Powers Score", "exists": false}
+{"title": "OWID/Democratic Features Index", "exists": false}
+{"title": "OWID/Stability of Democratic Institutions Index", "exists": false}
+{"title": "OWID/Political and Social Integration Index", "exists": false}
+{"title": "OWID/Countries that are democracies and autocracies", "exists": false}
+{"title": "OWID/People living in democracies and autocracies", "exists": false}
+{"title": "OWID/Democracy Index", "exists": false}
+{"title": "OWID/Democratic Culture Index", "exists": false}
+{"title": "OWID/Electoral Pluralism Index", "exists": false}
+{"title": "OWID/People living in democracies and non-democracies", "exists": false}
+{"title": "OWID/Democracy", "exists": false}
+{"title": "OWID/Countries that are democracies and non-democracies", "exists": false}
+{"title": "OWID/Varieties of democracy", "exists": false}
+{"title": "OWID/Liberal democracy row", "exists": true}
+{"title": "OWID/Full democracy lexical", "exists": true}
+{"title": "OWID/Electoral democracy lexical", "exists": true}
+{"title": "OWID/Electoral democracy row", "exists": true}
+{"title": "OWID/Distribution of Democracy Index", "exists": false}
+{"title": "OWID/Citizen support for democracy", "exists": true}
+{"title": "OWID/Citizen satisfaction with democracy", "exists": true}
+{"title": "OWID/Political regime ert", "exists": true}
+{"title": "OWID/Countries that are democratizing and autocratizing", "exists": false}
+{"title": "OWID/People living in democratizing and autocratizing countries", "exists": false}
+{"title": "OWID/Share of voting rights in international organizations", "exists": false}
+{"title": "OWID/Basic State Functions Score", "exists": false}
+{"title": "OWID/Stateness Index", "exists": false}
+{"title": "OWID/Rule of Law Index", "exists": false}
+{"title": "OWID/Functioning Government Index", "exists": false}
+{"title": "OWID/Women's political empowerment index vs. electoral democracy index", "exists": false}
+{"title": "OWID/Democracy classification by source", "exists": false}
+{"title": "OWID/Democracy index by source", "exists": false}
+{"title": "OWID/Countries that are democratizing and autocratizing", "exists": false}
+{"title": "OWID/Political regime ert within regimes", "exists": true}
+{"title": "OWID/People living in democratizing and autocratizing countries", "exists": false}
+{"title": "OWID/Political centralization index", "exists": true}
+{"title": "OWID/People living in democracies and autocracies", "exists": false}
+{"title": "OWID/Voter turnout of voting age population", "exists": true}
+{"title": "OWID/Key features of electoral democracy", "exists": false}
+{"title": "OWID/Key features of liberal democracy", "exists": false}
+{"title": "OWID/Academic freedom index", "exists": true}
+{"title": "OWID/Strong civil society index", "exists": true}
+{"title": "OWID/Political polarization score", "exists": true}
+{"title": "OWID/Mass mobilization for democracy and autocracy", "exists": false}
+{"title": "OWID/Political parties support democracy", "exists": false}
+{"title": "OWID/Government and opposition parties support democracy", "exists": false}
+{"title": "OWID/Do you have a say in what the government does?", "exists": false}
+{"title": "OWID/Countries that held a national election", "exists": false}
+{"title": "OWID/People living in countries that held a national election", "exists": false}
+{"title": "OWID/Was a national election held that year?", "exists": false}
+{"title": "OWID/Rule of law index", "exists": true}
+{"title": "OWID/Population census world bank", "exists": true}
+{"title": "OWID/armed forces personnel percent", "exists": true}
+{"title": "OWID/Rigorous and impartial public administration score", "exists": true}
+{"title": "OWID/Domestic policy free from interference of other states score", "exists": true}
+{"title": "OWID/Foreign policy free from interference of other states score", "exists": true}
+{"title": "OWID/Percentage of territory controlled by government", "exists": true}
+{"title": "OWID/European overseas colonies and their last colonizer", "exists": false}
+{"title": "OWID/European overseas colonies by colonizer", "exists": false}
+{"title": "OWID/Number of European overseas colonies", "exists": false}
+{"title": "OWID/European overseas colonies and their colonizers", "exists": true}
+{"title": "OWID/Years a country was an European overseas colony", "exists": false}
+{"title": "OWID/Number of countries by region", "exists": false}
+{"title": "OWID/Number of countries", "exists": false}
+{"title": "OWID/Number of European overseas colonies by region", "exists": false}
+{"title": "OWID/Political corruption index", "exists": true}
+{"title": "OWID/State capacity index", "exists": true}
+{"title": "OWID/Police officers per 1000 people", "exists": true}
+{"title": "OWID/People living in European overseas colonies and colonizers", "exists": false}
+{"title": "OWID/Number of European overseas colonies and colonizers", "exists": false}
+{"title": "OWID/United nations membership status", "exists": true}
+{"title": "OWID/Share of people living in United Nations member states", "exists": false}
+{"title": "OWID/Number of United Nations member states", "exists": false}
+{"title": "OWID/Sovereign state butcher griffiths", "exists": true}
+{"title": "OWID/Sovereign state gleditsch ward", "exists": true}
+{"title": "OWID/Sovereign state cow", "exists": true}
+{"title": "OWID/Country has a civil register", "exists": true}
+{"title": "OWID/Population census brambor", "exists": true}
+{"title": "OWID/Population register implemented", "exists": true}
+{"title": "OWID/Country has a statistical agency", "exists": true}
+{"title": "OWID/Census based on population register recently completed", "exists": true}
+{"title": "OWID/Number of countries with basic statistical institutions", "exists": false}
+{"title": "OWID/Public sector employment as a share of total employment", "exists": false}
+{"title": "OWID/Gender wage gap oecd", "exists": true}
+{"title": "OWID/share firms top female manager", "exists": true}
+{"title": "OWID/women believe husband justified beating wife", "exists": true}
+{"title": "OWID/share of women in ministerial positions", "exists": true}
+{"title": "OWID/Women and men have equal rights to immovable property", "exists": true}
+{"title": "OWID/Women required to obey husband", "exists": true}
+{"title": "OWID/proportion of women in senior and middle management positions", "exists": true}
+{"title": "OWID/Share of the population subjected to physical violence, male vs. female", "exists": false}
+{"title": "OWID/Share of population subjected to sexual assault, male vs. female", "exists": false}
+{"title": "OWID/Representation of women in the lower chamber of parliament", "exists": false}
+{"title": "OWID/Representation of women in the upper chamber of parliament", "exists": false}
+{"title": "OWID/Gender of chief executive", "exists": true}
+{"title": "OWID/Gender of the head of government", "exists": true}
+{"title": "OWID/Gender of the head of state", "exists": true}
+{"title": "OWID/women civil society participation index", "exists": true}
+{"title": "OWID/women political participation index", "exists": true}
+{"title": "OWID/Share of countries by gender of the chief executive", "exists": false}
+{"title": "OWID/Share of countries by gender of the head of state", "exists": false}
+{"title": "OWID/Share of countries by gender of the head of government", "exists": false}
+{"title": "OWID/People living in countries in which a woman is government's chief executive", "exists": false}
+{"title": "OWID/share of women in local government", "exists": true}
+{"title": "OWID/women business and the law index", "exists": true}
+{"title": "OWID/Women can apply passport same as men", "exists": true}
+{"title": "OWID/Women can register a business in the same way as men", "exists": true}
+{"title": "OWID/Women choose where to live same way as men", "exists": true}
+{"title": "OWID/Women can sign a contract same as men", "exists": true}
+{"title": "OWID/Women can open bank account same as men", "exists": true}
+{"title": "OWID/Paid leave of at least 14 weeks available to mothers", "exists": false}
+{"title": "OWID/Sons and daughters inheritance", "exists": true}
+{"title": "OWID/Equal authority over assets during marriage", "exists": true}
+{"title": "OWID/Discrimination access to credit gender", "exists": true}
+{"title": "OWID/Paid parental leave", "exists": false}
+{"title": "OWID/legislation domestic violence", "exists": true}
+{"title": "OWID/People living in countries that mandate equal pay for work of equal value for women and men", "exists": false}
+{"title": "OWID/People living in countries that sanction domestic violence", "exists": false}
+{"title": "OWID/Share of people who think homosexuality is never justified", "exists": true}
+{"title": "OWID/Blood donations men sex with men", "exists": true}
+{"title": "OWID/Censorship of lgbt issues", "exists": true}
+{"title": "OWID/Age of consent same sex partners equaldex", "exists": true}
+{"title": "OWID/Same sex sexual acts equaldex", "exists": true}
+{"title": "OWID/Discrimination lgbt equaldex", "exists": true}
+{"title": "OWID/Employment discrimination lgbt equaldex", "exists": true}
+{"title": "OWID/Housing discrimination lgbt equaldex", "exists": true}
+{"title": "OWID/Right to change legal gender equaldex", "exists": true}
+{"title": "OWID/Joint adoptions same sex partners equaldex", "exists": true}
+{"title": "OWID/Lgbt military equaldex", "exists": true}
+{"title": "OWID/Gender affirming care", "exists": true}
+{"title": "OWID/Legal status of same sex sexual acts", "exists": true}
+{"title": "OWID/Countries in which same-sex sexual acts are legal", "exists": false}
+{"title": "OWID/People living in countries in which same-sex sexual acts are legal", "exists": false}
+{"title": "OWID/Lesbian, gay, and bisexual people allowed to openly serve in the military", "exists": false}
+{"title": "OWID/Share of people who think homosexual couples are as good parents as other couples", "exists": false}
+{"title": "OWID/Corruption Perceptions Index", "exists": false}
+{"title": "OWID/Unpaid parking violations per diplomat in New York City by country of origin", "exists": false}
+{"title": "OWID/Share of people who said they were asked for a bribe or paid one", "exists": false}
+{"title": "OWID/Share of firms that say corruption is a big problem for them", "exists": false}
+{"title": "OWID/Share of firms that report being asked to pay a bribe, by interaction", "exists": false}
+{"title": "OWID/People asked for a bribe vs. firms asked for a bribe", "exists": false}
+{"title": "OWID/People asked for a bribe vs. Political Corruption Index", "exists": false}
+{"title": "OWID/Clientelism index", "exists": true}
+{"title": "OWID/Media corruption score", "exists": true}
+{"title": "OWID/Executive corruption index", "exists": true}
+{"title": "OWID/Judicial corruption score", "exists": true}
+{"title": "OWID/Legislative corruption score", "exists": true}
+{"title": "OWID/Public sector corruption index", "exists": true}
+{"title": "OWID/Map gender equal inheritance", "exists": true}
+{"title": "OWID/Parents who agree with spanking to discipline a child", "exists": false}
+{"title": "OWID/Human trafficking victims under 18 years old, male vs. female", "exists": false}
+{"title": "OWID/Legal provisions for child marriage", "exists": false}
+{"title": "OWID/Share of children who experienced violence", "exists": false}
+{"title": "OWID/Deaths conflict terrorism per 100000", "exists": true}
+{"title": "OWID/Share of deaths from violence at prehistoric archaeological sites", "exists": false}
+{"title": "OWID/Share of deaths from violence in non-state societies", "exists": false}
+{"title": "OWID/Share of deaths from violence in state societies", "exists": false}
+{"title": "OWID/Death rates from violence in non-state societies", "exists": false}
+{"title": "OWID/Death rates from violence in state societies", "exists": false}
+{"title": "OWID/Death rate in state-based conflicts", "exists": false}
+{"title": "OWID/Deaths in state-based conflicts by type", "exists": false}
+{"title": "OWID/Death rate in armed conflicts", "exists": true}
+{"title": "OWID/Number of state-based conflicts", "exists": false}
+{"title": "OWID/Deaths in armed conflicts by region", "exists": false}
+{"title": "OWID/Deaths in armed conflicts", "exists": false}
+{"title": "OWID/Death rates from conflict and terrorism gbd", "exists": true}
+{"title": "OWID/Deaths in wars", "exists": false}
+{"title": "OWID/Peaceful and hostile relationships between states", "exists": false}
+{"title": "OWID/Deaths in wars", "exists": false}
+{"title": "OWID/Number of new armed conflicts", "exists": false}
+{"title": "OWID/Number of new wars", "exists": false}
+{"title": "OWID/Peaceful and hostile relationships between states", "exists": false}
+{"title": "OWID/States involved in wars", "exists": true}
+{"title": "OWID/States involved in state based conflicts", "exists": true}
+{"title": "OWID/Locations of ongoing armed conflicts", "exists": true}
+{"title": "OWID/Number of countries where armed conflicts took place", "exists": false}
+{"title": "OWID/Deaths in armed conflicts based on where they occurred", "exists": false}
+{"title": "OWID/Deaths in armed conflicts based on where they occurred", "exists": false}
+{"title": "OWID/Death rate in armed conflicts based on where they occurred", "exists": false}
+{"title": "OWID/Wars ranked by death toll, 1800-2011", "exists": false}
+{"title": "OWID/Deaths in interstate conflicts based on where they occurred", "exists": false}
+{"title": "OWID/Deaths in intrastate conflicts based on where they occurred", "exists": false}
+{"title": "OWID/Deaths in non-state conflicts based on where they occurred", "exists": false}
+{"title": "OWID/Deaths from one-sided violence based on where they occurred", "exists": false}
+{"title": "OWID/Number of new state-based conflicts", "exists": false}
+{"title": "OWID/Deaths in interstate conflicts", "exists": false}
+{"title": "OWID/States involved in interstate conflicts", "exists": true}
+{"title": "OWID/Number of states involved in state-based conflicts", "exists": false}
+{"title": "OWID/Countries where interstate or intrastate wars took place", "exists": true}
+{"title": "OWID/Rate of interstate conflicts", "exists": false}
+{"title": "OWID/Rate of state-based conflicts", "exists": false}
+{"title": "OWID/Number of wars", "exists": false}
+{"title": "OWID/Rate of wars", "exists": false}
+{"title": "OWID/Rate of wars", "exists": false}
+{"title": "OWID/Number of wars", "exists": false}
+{"title": "OWID/Number of interstate conflicts", "exists": false}
+{"title": "OWID/Rate of armed conflicts", "exists": false}
+{"title": "OWID/Deaths in armed conflicts", "exists": false}
+{"title": "OWID/Deaths in wars", "exists": false}
+{"title": "OWID/Death rate in wars", "exists": false}
+{"title": "OWID/Death rate in wars", "exists": false}
+{"title": "OWID/Deaths in interstate conflicts by region", "exists": false}
+{"title": "OWID/Deaths in wars by region", "exists": false}
+{"title": "OWID/Deaths in state-based conflicts", "exists": false}
+{"title": "OWID/Global deaths in violent political conflicts over the long run", "exists": false}
+{"title": "OWID/Global death rate in violent political conflicts over the long run", "exists": false}
+{"title": "OWID/Deaths in armed conflicts based on where they occurred, 1989-2024", "exists": false}
+{"title": "OWID/Deaths in armed conflicts based on where they occurred, by type, 1989-2024", "exists": false}
+{"title": "OWID/Deaths in armed conflicts based on where they occurred, by type, 1989-2024", "exists": false}
+{"title": "OWID/Death rates in armed conflicts based on where they occurred, 1989-2024", "exists": false}
+{"title": "OWID/Civilian and combatant deaths in armed conflicts", "exists": false}
+{"title": "OWID/Civilian and combatant deaths in interstate conflicts", "exists": false}
+{"title": "OWID/Civilian and combatant deaths in intrastate conflicts", "exists": false}
+{"title": "OWID/Civilian and combatant deaths in non-state conflicts", "exists": false}
+{"title": "OWID/Civilian and combatant deaths from one-sided violence", "exists": false}
+{"title": "OWID/Civilian and combatant deaths in armed conflicts based on where they occurred", "exists": false}
+{"title": "OWID/Deaths in armed conflicts by region", "exists": false}
+{"title": "OWID/Deaths in armed conflicts based on where they occurred", "exists": false}
+{"title": "OWID/Nuclear non proliferation treaty", "exists": true}
+{"title": "OWID/Partial nuclear test ban treaty", "exists": true}
+{"title": "OWID/homicide rate unodc", "exists": true}
+{"title": "OWID/Homicide rate by age of the victim", "exists": false}
+{"title": "OWID/Homicides by age of the victim", "exists": false}
+{"title": "OWID/Homicides ihme", "exists": true}
+{"title": "OWID/Homicide rate from firearms", "exists": false}
+{"title": "OWID/Homicide rate", "exists": true}
+{"title": "OWID/Homicide rates over the long term", "exists": false}
+{"title": "OWID/Homicide rate, UNODC vs. IHME", "exists": false}
+{"title": "OWID/Homicide rate in 1990 vs. 2020", "exists": false}
+{"title": "OWID/Homicide rate vs. GDP per capita", "exists": false}
+{"title": "OWID/Homicide rate age standardized", "exists": true}
+{"title": "OWID/Homicides", "exists": false}
+{"title": "OWID/Homicides", "exists": false}
+{"title": "OWID/Homicide rate in 15 to 49 year olds", "exists": true}
+{"title": "OWID/Homicides whomd", "exists": true}
+{"title": "OWID/Homicide rate who mortality database", "exists": true}
+{"title": "OWID/Share of deaths from homicide", "exists": true}
+{"title": "OWID/Homicide rate who age standardized", "exists": true}
+{"title": "OWID/Homicides, by sex of the victim", "exists": false}
+{"title": "OWID/Female homicide victims", "exists": false}
+{"title": "OWID/Male homicide victims", "exists": false}
+{"title": "OWID/Homicide rate, IHME vs. WHO Mortality Database", "exists": false}
+{"title": "OWID/Homicides by firearm", "exists": false}
+{"title": "OWID/Female homicide rate", "exists": false}
+{"title": "OWID/Male homicide rate", "exists": false}
+{"title": "OWID/Homicide rate by sex of the victim", "exists": false}
+{"title": "OWID/Homicide rate, WHO vs. UNODC", "exists": false}
+{"title": "OWID/Homicide rate where the perpetrator is an intimate partner", "exists": false}
+{"title": "OWID/Homicide rate by age of the victim", "exists": false}
+{"title": "OWID/Homicide rate across sources", "exists": false}
+{"title": "OWID/Airliner hijackings and deaths in them", "exists": false}
+{"title": "OWID/terrorism deaths", "exists": true}
+{"title": "OWID/Injuries from terrorist attacks", "exists": true}
+{"title": "OWID/terrorist attacks", "exists": true}
+{"title": "OWID/Terrorist attacks, deaths and injuries", "exists": false}
+{"title": "OWID/share of deaths from terrorism", "exists": true}
+{"title": "OWID/Terrorist attacks by region", "exists": false}
+{"title": "OWID/Share of people worried about terrorism", "exists": false}
+{"title": "OWID/Share who are worried about vs. share of deaths from terrorism", "exists": false}
+{"title": "OWID/Is terrorism justifiable as a political, ideological, or religious mean? 2022", "exists": false}
+{"title": "OWID/Terrorist attacks by severity", "exists": false}
+{"title": "OWID/Deaths from terrorism, by target", "exists": false}
+{"title": "OWID/Deaths from suicide and other terrorist attacks", "exists": false}
+{"title": "OWID/Suicide and other terrorist attacks", "exists": false}
+{"title": "OWID/Terrorism deaths by region", "exists": false}
+{"title": "OWID/Terrorist attacks, by target", "exists": false}
+{"title": "OWID/Deaths from terrorist attacks, by method of attack", "exists": false}
+{"title": "OWID/Terrorist attacks by method", "exists": false}
+{"title": "OWID/Terrorism deaths rate", "exists": true}
+{"title": "OWID/Terrorist attacks by method", "exists": false}
+{"title": "OWID/Deaths from terrorist attacks by method", "exists": false}
+{"title": "OWID/Military personnel as a share of total population", "exists": true}
+{"title": "OWID/military spending sipri", "exists": true}
+{"title": "OWID/Military spending per capita", "exists": false}
+{"title": "OWID/Armed forces personnel", "exists": true}
+{"title": "OWID/Military spending as a share of gdp sipri", "exists": true}
+{"title": "OWID/armed forces personnel of total labor force", "exists": true}
+{"title": "OWID/Countries that have ratified the Biological Weapons Convention", "exists": false}
+{"title": "OWID/Countries that have ratified the Chemical Weapons Convention", "exists": false}
+{"title": "OWID/Current biological weapons activity", "exists": false}
+{"title": "OWID/Current chemical weapons activity", "exists": false}
+{"title": "OWID/Military spending", "exists": false}
+{"title": "OWID/Military spending as a share of gdp gmsd", "exists": true}
+{"title": "OWID/Military spending as a share of surplus domestic product", "exists": false}
+{"title": "OWID/Military spending per capita", "exists": false}
+{"title": "OWID/military expenditure as a share of government spending", "exists": true}
+{"title": "OWID/Military spending per armed forces personnel", "exists": true}
+{"title": "OWID/Military spending per military personnel", "exists": true}
