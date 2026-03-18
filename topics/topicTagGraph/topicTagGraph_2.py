@@ -1,7 +1,7 @@
 
 
 import functools
-import sys
+# import sys
 import os
 import json
 import mwclient
@@ -12,8 +12,11 @@ load_dotenv()
 
 main_dir = Path(__file__).parent
 file_path = main_dir / "topicTagGraph_2.json"
+ids_slug_path = main_dir / "topicTagGraph_id.json"
 
 data_list = json.loads(file_path.read_text(encoding="utf-8"))
+
+ids_slug_data = json.loads(ids_slug_path.read_text(encoding="utf-8"))
 
 to_save = {}
 
@@ -69,12 +72,21 @@ class page_mwclient:
 def create_category_text(main_category, category, sub_categories) -> str:
     text = []
     text.append("Topics in this category:")
-    text.append(f"* {category}")
+    category_text = slug_link(category)
+    text.append(f"* {category_text}")
     for x in sub_categories:
-        text.append(f"** {x}")
+        x_text = slug_link(x)
+        text.append(f"** {x_text}")
     text.append(f"[[Category:Our World in Data - {main_category}| ]]")
 
     return "\n".join(text)
+
+
+def slug_link(x):
+    x_text = x
+    if ids_slug_data.get(x, {}).get("slug"):
+        x_text = f"[https://ourworldindata.org/{ids_slug_data[x]['slug']} {x}]"
+    return x_text
 
 
 for x, v in tqdm(data_list.items()):

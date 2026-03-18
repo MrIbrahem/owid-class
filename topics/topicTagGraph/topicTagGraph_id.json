@@ -1,166 +1,658 @@
 {
-    "Access to Energy": 1791,
-    "Age Structure": 4,
-    "Agricultural Inputs": 1849,
-    "Agricultural Production": 46,
-    "Air Pollution": 106,
-    "Alcohol Consumption": 1572,
-    "Animal Welfare": 291,
-    "Antibiotics & Antibiotic Resistance": 32,
-    "Artificial Intelligence": 1800,
-    "Biodiversity": 99,
-    "Bioenergy and Biofuels": 70,
-    "Births & Deaths": 1842,
-    "Books": 313,
-    "Burden of Disease": 25,
-    "CO2 & Greenhouse Gas Emissions": 71,
-    "COVID-19": 1793,
-    "Cancer": 19,
-    "Cardiovascular Diseases": 28,
-    "Causes of Death": 24,
-    "Child & Infant Mortality": 5,
-    "Child Labor": 186,
-    "Clean Water": 1827,
-    "Clean Water & Sanitation": 1810,
-    "Climate & Air": 1844,
-    "Climate Change": 93,
-    "Corruption": 1584,
-    "Crime": 284,
-    "Crop Yields": 1792,
-    "Democracy": 255,
-    "Diarrheal Diseases": 1560,
-    "Diet Compositions": 58,
-    "Economic Growth": 134,
-    "Economic Inequality": 135,
-    "Economic Inequality by Gender": 147,
-    "Education": 1856,
-    "Education Spending": 293,
-    "Education and Knowledge": 1513,
-    "Electricity": 76,
-    "Electricity Mix": 1811,
-    "Employment in Agriculture": 40,
-    "Energy": 72,
-    "Energy Mix": 1812,
-    "Energy Systems": 1845,
-    "Energy and Environment": 1504,
-    "Environment & Ecosystems": 1846,
-    "Environmental Impacts of Food Production": 1796,
-    "Eradication of Diseases": 11,
-    "Famines": 38,
-    "Farm Size": 1801,
-    "Fertility Rate": 3,
-    "Fertilizers": 43,
-    "Fish & Overfishing": 1795,
-    "Food Prices": 44,
-    "Food Production": 1848,
-    "Food Supply": 36,
-    "Food and Agriculture": 1502,
-    "Foreign Aid": 229,
-    "Forests & Deforestation": 88,
-    "Fossil Fuels": 82,
-    "Gender Ratio": 8,
-    "Geography of the World Population": 1843,
-    "Global Connections": 1854,
-    "Global Education": 294,
-    "Global Health": 1815,
-    "Government Spending": 206,
-    "HIV/AIDS": 13,
-    "Happiness & Life Satisfaction": 159,
-    "Happiness & Wellbeing": 1860,
-    "Health": 1501,
-    "Health Institutions & Interventions": 1840,
-    "Health Risks": 1838,
-    "Healthcare Spending": 22,
-    "Homelessness": 180,
-    "Homicides": 279,
-    "Housing & Infrastructure": 1858,
-    "Human Development Index (HDI)": 160,
-    "Human Height": 39,
-    "Human Rights": 285,
-    "Human Rights and Democracy": 1512,
-    "Hunger & Undernourishment": 37,
-    "Illicit Drug Use": 1825,
-    "Indoor Air Pollution": 89,
-    "Infectious Diseases": 1556,
-    "Influenza": 1804,
-    "Innovation and Technological Change": 1505,
-    "Internet": 314,
-    "Knowledge": 1857,
-    "LGBT+ Rights": 290,
-    "Land Use": 90,
-    "Lead Pollution": 1797,
-    "Life & Death": 1839,
-    "Life Expectancy": 7,
-    "Light at Night": 161,
-    "Literacy": 302,
-    "Living Conditions, Community and Wellbeing": 1835,
-    "Loneliness & Social Connections": 1817,
-    "Malaria": 14,
-    "Marriages & Divorces": 325,
-    "Maternal Mortality": 15,
-    "Meat & Dairy Production": 67,
-    "Medicine & Biotechnology": 1579,
-    "Mental Health": 35,
-    "Metals & Minerals": 86,
-    "Micronutrient Deficiency": 1603,
-    "Migration": 233,
-    "Military Personnel & Spending": 1826,
-    "Mpox (monkeypox)": 1818,
-    "Natural Disasters": 91,
-    "Neglected Tropical Diseases": 26,
-    "Nuclear Energy": 80,
-    "Nuclear Weapons": 242,
-    "Nutrition": 1850,
-    "Obesity": 62,
-    "Oil Spills": 92,
-    "Outdoor Air Pollution": 1819,
-    "Ozone Layer": 105,
-    "Pandemics": 1807,
-    "Pesticides": 1573,
-    "Plastic Pollution": 1575,
-    "Pneumonia": 1821,
-    "Polio": 1563,
-    "Population Change": 1841,
-    "Population Growth": 1,
-    "Population and Demographic Change": 1500,
-    "Poverty": 1602,
-    "Poverty & Prosperity": 1851,
-    "Poverty and Economic Development": 1834,
-    "Public Sector": 1852,
-    "Relationships": 1859,
-    "Religion": 1862,
-    "Renewable Energy": 81,
-    "Research & Development": 110,
-    "Sanitation": 1576,
-    "Sexual & Reproductive Health": 1864,
-    "Smallpox": 1557,
-    "Smoking": 16,
-    "Space Exploration & Satellites": 114,
-    "State Capacity": 1823,
-    "Suicides": 17,
-    "Taxation": 1582,
-    "Technological Change": 111,
-    "Terrorism": 244,
-    "Tetanus": 1639,
-    "Time Use": 1824,
-    "Tourism": 231,
-    "Trade & Globalization": 217,
-    "Transport": 1578,
-    "Trust": 324,
-    "Tuberculosis": 30,
-    "Unemployment": 194,
-    "Urbanization": 175,
-    "Vaccination": 18,
-    "Violence Against Children & Children's Rights": 289,
-    "Violence and War": 1510,
-    "War & Peace": 246,
-    "Waste & Pollution": 1847,
-    "Waste Management": 107,
-    "Water Use & Stress": 102,
-    "Wildfires": 1836,
-    "Women's Employment": 1589,
-    "Women's Rights": 282,
-    "Work & Employment": 1853,
-    "Working Hours": 163,
-    "tag-graph-root": 1837
+    "Access to Energy": {
+        "id": 1791,
+        "slug": "energy-access"
+    },
+    "Age Structure": {
+        "id": 4,
+        "slug": "age-structure"
+    },
+    "Agricultural Inputs": {
+        "id": 1849,
+        "slug": null
+    },
+    "Agricultural Production": {
+        "id": 46,
+        "slug": "agricultural-production"
+    },
+    "Air Pollution": {
+        "id": 106,
+        "slug": "air-pollution"
+    },
+    "Alcohol Consumption": {
+        "id": 1572,
+        "slug": "alcohol-consumption"
+    },
+    "Animal Welfare": {
+        "id": 291,
+        "slug": "animal-welfare"
+    },
+    "Antibiotics & Antibiotic Resistance": {
+        "id": 32,
+        "slug": "antibiotics"
+    },
+    "Artificial Intelligence": {
+        "id": 1800,
+        "slug": "artificial-intelligence"
+    },
+    "Biodiversity": {
+        "id": 99,
+        "slug": "biodiversity"
+    },
+    "Bioenergy and Biofuels": {
+        "id": 70,
+        "slug": "bioenergy-biofuels"
+    },
+    "Births & Deaths": {
+        "id": 1842,
+        "slug": null
+    },
+    "Books": {
+        "id": 313,
+        "slug": "books"
+    },
+    "Burden of Disease": {
+        "id": 25,
+        "slug": "burden-of-disease"
+    },
+    "CO2 & Greenhouse Gas Emissions": {
+        "id": 71,
+        "slug": "co2-and-greenhouse-gas-emissions"
+    },
+    "COVID-19": {
+        "id": 1793,
+        "slug": "coronavirus"
+    },
+    "Cancer": {
+        "id": 19,
+        "slug": "cancer"
+    },
+    "Cardiovascular Diseases": {
+        "id": 28,
+        "slug": "cardiovascular-diseases"
+    },
+    "Causes of Death": {
+        "id": 24,
+        "slug": "causes-of-death"
+    },
+    "Child & Infant Mortality": {
+        "id": 5,
+        "slug": "child-mortality"
+    },
+    "Child Labor": {
+        "id": 186,
+        "slug": "child-labor"
+    },
+    "Clean Water": {
+        "id": 1827,
+        "slug": "clean-water"
+    },
+    "Clean Water & Sanitation": {
+        "id": 1810,
+        "slug": "clean-water-sanitation"
+    },
+    "Climate & Air": {
+        "id": 1844,
+        "slug": null
+    },
+    "Climate Change": {
+        "id": 93,
+        "slug": "climate-change"
+    },
+    "Corruption": {
+        "id": 1584,
+        "slug": "corruption"
+    },
+    "Crime": {
+        "id": 284,
+        "slug": null
+    },
+    "Crop Yields": {
+        "id": 1792,
+        "slug": "crop-yields"
+    },
+    "Democracy": {
+        "id": 255,
+        "slug": "democracy"
+    },
+    "Diarrheal Diseases": {
+        "id": 1560,
+        "slug": "diarrheal-diseases"
+    },
+    "Diet Compositions": {
+        "id": 58,
+        "slug": "diet-compositions"
+    },
+    "Economic Growth": {
+        "id": 134,
+        "slug": "economic-growth"
+    },
+    "Economic Inequality": {
+        "id": 135,
+        "slug": "economic-inequality"
+    },
+    "Economic Inequality by Gender": {
+        "id": 147,
+        "slug": "economic-inequality-by-gender"
+    },
+    "Education": {
+        "id": 1856,
+        "slug": null
+    },
+    "Education Spending": {
+        "id": 293,
+        "slug": "financing-education"
+    },
+    "Education and Knowledge": {
+        "id": 1513,
+        "slug": null
+    },
+    "Electricity": {
+        "id": 76,
+        "slug": null
+    },
+    "Electricity Mix": {
+        "id": 1811,
+        "slug": "electricity-mix"
+    },
+    "Employment in Agriculture": {
+        "id": 40,
+        "slug": "employment-in-agriculture"
+    },
+    "Energy": {
+        "id": 72,
+        "slug": "energy"
+    },
+    "Energy Mix": {
+        "id": 1812,
+        "slug": "energy-mix"
+    },
+    "Energy Systems": {
+        "id": 1845,
+        "slug": null
+    },
+    "Energy and Environment": {
+        "id": 1504,
+        "slug": null
+    },
+    "Environment & Ecosystems": {
+        "id": 1846,
+        "slug": null
+    },
+    "Environmental Impacts of Food Production": {
+        "id": 1796,
+        "slug": "environmental-impacts-of-food"
+    },
+    "Eradication of Diseases": {
+        "id": 11,
+        "slug": "eradication-of-diseases"
+    },
+    "Famines": {
+        "id": 38,
+        "slug": "famines"
+    },
+    "Farm Size": {
+        "id": 1801,
+        "slug": "farm-size"
+    },
+    "Fertility Rate": {
+        "id": 3,
+        "slug": "fertility-rate"
+    },
+    "Fertilizers": {
+        "id": 43,
+        "slug": "fertilizers"
+    },
+    "Fish & Overfishing": {
+        "id": 1795,
+        "slug": "fish-and-overfishing"
+    },
+    "Food Prices": {
+        "id": 44,
+        "slug": "food-prices"
+    },
+    "Food Production": {
+        "id": 1848,
+        "slug": null
+    },
+    "Food Supply": {
+        "id": 36,
+        "slug": "food-supply"
+    },
+    "Food and Agriculture": {
+        "id": 1502,
+        "slug": null
+    },
+    "Foreign Aid": {
+        "id": 229,
+        "slug": "foreign-aid"
+    },
+    "Forests & Deforestation": {
+        "id": 88,
+        "slug": "forests-and-deforestation"
+    },
+    "Fossil Fuels": {
+        "id": 82,
+        "slug": "fossil-fuels"
+    },
+    "Gender Ratio": {
+        "id": 8,
+        "slug": "gender-ratio"
+    },
+    "Geography of the World Population": {
+        "id": 1843,
+        "slug": null
+    },
+    "Global Connections": {
+        "id": 1854,
+        "slug": null
+    },
+    "Global Education": {
+        "id": 294,
+        "slug": "global-education"
+    },
+    "Global Health": {
+        "id": 1815,
+        "slug": "health-meta"
+    },
+    "Government Spending": {
+        "id": 206,
+        "slug": "government-spending"
+    },
+    "HIV/AIDS": {
+        "id": 13,
+        "slug": "hiv-aids"
+    },
+    "Happiness & Life Satisfaction": {
+        "id": 159,
+        "slug": "happiness-and-life-satisfaction"
+    },
+    "Happiness & Wellbeing": {
+        "id": 1860,
+        "slug": null
+    },
+    "Health": {
+        "id": 1501,
+        "slug": null
+    },
+    "Health Institutions & Interventions": {
+        "id": 1840,
+        "slug": null
+    },
+    "Health Risks": {
+        "id": 1838,
+        "slug": null
+    },
+    "Healthcare Spending": {
+        "id": 22,
+        "slug": "financing-healthcare"
+    },
+    "Homelessness": {
+        "id": 180,
+        "slug": "homelessness"
+    },
+    "Homicides": {
+        "id": 279,
+        "slug": "homicides"
+    },
+    "Housing & Infrastructure": {
+        "id": 1858,
+        "slug": null
+    },
+    "Human Development Index (HDI)": {
+        "id": 160,
+        "slug": null
+    },
+    "Human Height": {
+        "id": 39,
+        "slug": "human-height"
+    },
+    "Human Rights": {
+        "id": 285,
+        "slug": "human-rights"
+    },
+    "Human Rights and Democracy": {
+        "id": 1512,
+        "slug": null
+    },
+    "Hunger & Undernourishment": {
+        "id": 37,
+        "slug": "hunger-and-undernourishment"
+    },
+    "Illicit Drug Use": {
+        "id": 1825,
+        "slug": "illicit-drug-use"
+    },
+    "Indoor Air Pollution": {
+        "id": 89,
+        "slug": "indoor-air-pollution"
+    },
+    "Infectious Diseases": {
+        "id": 1556,
+        "slug": null
+    },
+    "Influenza": {
+        "id": 1804,
+        "slug": "influenza"
+    },
+    "Innovation and Technological Change": {
+        "id": 1505,
+        "slug": null
+    },
+    "Internet": {
+        "id": 314,
+        "slug": "internet"
+    },
+    "Knowledge": {
+        "id": 1857,
+        "slug": null
+    },
+    "LGBT+ Rights": {
+        "id": 290,
+        "slug": "lgbt-rights"
+    },
+    "Land Use": {
+        "id": 90,
+        "slug": "land-use"
+    },
+    "Lead Pollution": {
+        "id": 1797,
+        "slug": "lead-pollution"
+    },
+    "Life & Death": {
+        "id": 1839,
+        "slug": null
+    },
+    "Life Expectancy": {
+        "id": 7,
+        "slug": "life-expectancy"
+    },
+    "Light at Night": {
+        "id": 161,
+        "slug": "light-at-night"
+    },
+    "Literacy": {
+        "id": 302,
+        "slug": "literacy"
+    },
+    "Living Conditions, Community and Wellbeing": {
+        "id": 1835,
+        "slug": null
+    },
+    "Loneliness & Social Connections": {
+        "id": 1817,
+        "slug": "social-connections-and-loneliness"
+    },
+    "Malaria": {
+        "id": 14,
+        "slug": "malaria"
+    },
+    "Marriages & Divorces": {
+        "id": 325,
+        "slug": "marriages-and-divorces"
+    },
+    "Maternal Mortality": {
+        "id": 15,
+        "slug": "maternal-mortality"
+    },
+    "Meat & Dairy Production": {
+        "id": 67,
+        "slug": "meat-production"
+    },
+    "Medicine & Biotechnology": {
+        "id": 1579,
+        "slug": "medicine-biotech"
+    },
+    "Mental Health": {
+        "id": 35,
+        "slug": "mental-health"
+    },
+    "Metals & Minerals": {
+        "id": 86,
+        "slug": "metals-minerals"
+    },
+    "Micronutrient Deficiency": {
+        "id": 1603,
+        "slug": "micronutrient-deficiency"
+    },
+    "Migration": {
+        "id": 233,
+        "slug": "migration"
+    },
+    "Military Personnel & Spending": {
+        "id": 1826,
+        "slug": "military-personnel-spending"
+    },
+    "Mpox (monkeypox)": {
+        "id": 1818,
+        "slug": "mpox"
+    },
+    "Natural Disasters": {
+        "id": 91,
+        "slug": "natural-disasters"
+    },
+    "Neglected Tropical Diseases": {
+        "id": 26,
+        "slug": "neglected-tropical-diseases"
+    },
+    "Nuclear Energy": {
+        "id": 80,
+        "slug": "nuclear-energy"
+    },
+    "Nuclear Weapons": {
+        "id": 242,
+        "slug": "nuclear-weapons"
+    },
+    "Nutrition": {
+        "id": 1850,
+        "slug": null
+    },
+    "Obesity": {
+        "id": 62,
+        "slug": "obesity"
+    },
+    "Oil Spills": {
+        "id": 92,
+        "slug": "oil-spills"
+    },
+    "Outdoor Air Pollution": {
+        "id": 1819,
+        "slug": "outdoor-air-pollution"
+    },
+    "Ozone Layer": {
+        "id": 105,
+        "slug": "ozone-layer"
+    },
+    "Pandemics": {
+        "id": 1807,
+        "slug": "pandemics"
+    },
+    "Pesticides": {
+        "id": 1573,
+        "slug": "pesticides"
+    },
+    "Plastic Pollution": {
+        "id": 1575,
+        "slug": "plastic-pollution"
+    },
+    "Pneumonia": {
+        "id": 1821,
+        "slug": "pneumonia"
+    },
+    "Polio": {
+        "id": 1563,
+        "slug": "polio"
+    },
+    "Population Change": {
+        "id": 1841,
+        "slug": null
+    },
+    "Population Growth": {
+        "id": 1,
+        "slug": "population-growth"
+    },
+    "Population and Demographic Change": {
+        "id": 1500,
+        "slug": null
+    },
+    "Poverty": {
+        "id": 1602,
+        "slug": "poverty"
+    },
+    "Poverty & Prosperity": {
+        "id": 1851,
+        "slug": null
+    },
+    "Poverty and Economic Development": {
+        "id": 1834,
+        "slug": null
+    },
+    "Public Sector": {
+        "id": 1852,
+        "slug": null
+    },
+    "Relationships": {
+        "id": 1859,
+        "slug": null
+    },
+    "Religion": {
+        "id": 1862,
+        "slug": "religion"
+    },
+    "Renewable Energy": {
+        "id": 81,
+        "slug": "renewable-energy"
+    },
+    "Research & Development": {
+        "id": 110,
+        "slug": "research-and-development"
+    },
+    "Sanitation": {
+        "id": 1576,
+        "slug": "sanitation"
+    },
+    "Sexual & Reproductive Health": {
+        "id": 1864,
+        "slug": null
+    },
+    "Smallpox": {
+        "id": 1557,
+        "slug": "smallpox"
+    },
+    "Smoking": {
+        "id": 16,
+        "slug": "smoking"
+    },
+    "Space Exploration & Satellites": {
+        "id": 114,
+        "slug": "space-exploration-satellites"
+    },
+    "State Capacity": {
+        "id": 1823,
+        "slug": "state-capacity"
+    },
+    "Suicides": {
+        "id": 17,
+        "slug": "suicide"
+    },
+    "Taxation": {
+        "id": 1582,
+        "slug": "taxation"
+    },
+    "Technological Change": {
+        "id": 111,
+        "slug": "technological-change"
+    },
+    "Terrorism": {
+        "id": 244,
+        "slug": "terrorism"
+    },
+    "Tetanus": {
+        "id": 1639,
+        "slug": "tetanus"
+    },
+    "Time Use": {
+        "id": 1824,
+        "slug": "time-use"
+    },
+    "Tourism": {
+        "id": 231,
+        "slug": "tourism"
+    },
+    "Trade & Globalization": {
+        "id": 217,
+        "slug": "trade-and-globalization"
+    },
+    "Transport": {
+        "id": 1578,
+        "slug": "transport"
+    },
+    "Trust": {
+        "id": 324,
+        "slug": "trust"
+    },
+    "Tuberculosis": {
+        "id": 30,
+        "slug": "tuberculosis"
+    },
+    "Unemployment": {
+        "id": 194,
+        "slug": null
+    },
+    "Urbanization": {
+        "id": 175,
+        "slug": "urbanization"
+    },
+    "Vaccination": {
+        "id": 18,
+        "slug": "vaccination"
+    },
+    "Violence Against Children & Children's Rights": {
+        "id": 289,
+        "slug": "violence-against-rights-for-children"
+    },
+    "Violence and War": {
+        "id": 1510,
+        "slug": null
+    },
+    "War & Peace": {
+        "id": 246,
+        "slug": "war-and-peace"
+    },
+    "Waste & Pollution": {
+        "id": 1847,
+        "slug": null
+    },
+    "Waste Management": {
+        "id": 107,
+        "slug": "waste-management"
+    },
+    "Water Use & Stress": {
+        "id": 102,
+        "slug": "water-use-stress"
+    },
+    "Wildfires": {
+        "id": 1836,
+        "slug": "wildfires"
+    },
+    "Women's Employment": {
+        "id": 1589,
+        "slug": "female-labor-supply"
+    },
+    "Women's Rights": {
+        "id": 282,
+        "slug": "women-rights"
+    },
+    "Work & Employment": {
+        "id": 1853,
+        "slug": "work-employment"
+    },
+    "Working Hours": {
+        "id": 163,
+        "slug": "working-hours"
+    },
+    "tag-graph-root": {
+        "id": 1837,
+        "slug": null
+    }
 }
