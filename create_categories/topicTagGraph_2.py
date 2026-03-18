@@ -27,6 +27,8 @@ to_save = {}
 @functools.lru_cache(maxsize=1)
 def initialize_site_connection(username, password):
     site_mw = mwclient.Site('commons.wikimedia.org')
+    print(f"loging in as {username}")
+
     site_mw.login(username, password)
     if site_mw.logged_in:
         print("Logged in successfully")
