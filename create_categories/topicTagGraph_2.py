@@ -71,12 +71,17 @@ class page_mwclient:
 
 def create_category_text(main_category, category, sub_categories) -> str:
     text = []
+
+    text.append(f"[[:Category:Our World in Data topics|Our World in Data topics]] > [[:Category:Our World in Data - {main_category}|{main_category}]] > [[:Category:Our World in Data - {category}|{category}]]:")
     text.append("Topics in this category:")
+
     category_text = slug_link(category)
     text.append(f"* {category_text}")
+
     for x in sub_categories:
         x_text = slug_link(x)
         text.append(f"** {x_text}")
+
     text.append(f"[[Category:Our World in Data - {main_category}| ]]")
 
     return "\n".join(text)
