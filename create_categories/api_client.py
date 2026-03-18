@@ -1,18 +1,36 @@
 
 
 import functools
+import jsonlines
 import sys
 import os
 import mwclient
+from pathlib import Path
 from tqdm import tqdm
 from dotenv import load_dotenv
 
 not_exists_pages = []
 exists_pages = []
 
+exists_pages_file = Path(__file__).parent / "exists_pages.jsonl"
+
+if exists_pages_file.exists():
+    with jsonlines.open(exists_pages_file, "r") as f:
+        for obj in f:
+            if obj["exists"]:
+                exists_pages.append(obj["title"])
+            else:
+                not_exists_pages.append(obj["title"])
+
 load_dotenv()
 
 global_saves = {1: 0}
+
+
+def save_title_to_jsonl(title: str, exists) -> None:
+    if title.startswith("OWID/"):
+        with jsonlines.open(exists_pages_file, "a") as f:
+            f.write({"title": title, "exists": exists})
 
 
 def get_global_saves() -> int:
@@ -45,12 +63,18 @@ class page_mwclient:
     def get_text(self):
         return self.page.text()
 
-    def exists(self):
-        exists = self.page.exists
+    def exists(self) -> bool:
+        if self.title in exists_pages:
+            return True
+
+        exists: bool = self.page.exists
+
         if exists:
             exists_pages.append(self.title)
         else:
             not_exists_pages.append(self.title)
+
+        save_title_to_jsonl(self.title, exists)
         return exists
 
     def ask(self, summary):

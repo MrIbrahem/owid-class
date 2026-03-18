@@ -1,0 +1,406 @@
+{"title": "OWID/World population, comparison of different historical sources", "exists": false}
+{"title": "OWID/The demographic transition in Sweden", "exists": false}
+{"title": "OWID/Population by world region", "exists": false}
+{"title": "OWID/Natural population growth", "exists": true}
+{"title": "OWID/Life expectancy of men and women", "exists": false}
+{"title": "OWID/Life expectancy at age 15", "exists": true}
+{"title": "OWID/Share of the population living in cities vs. GDP per capita", "exists": false}
+{"title": "OWID/Population living in cities by size", "exists": false}
+{"title": "OWID/Most common settlement type", "exists": false}
+{"title": "OWID/Share of the urban population living in slums", "exists": false}
+{"title": "OWID/Population density vs. GDP per capita", "exists": false}
+{"title": "OWID/Number of people living in urban and rural areas", "exists": false}
+{"title": "OWID/Share of the population living in urban areas", "exists": false}
+{"title": "OWID/Share of the population living in urbanized areas vs. GDP per capita", "exists": false}
+{"title": "OWID/Share of the population living in urbanized areas", "exists": false}
+{"title": "OWID/Urban area over the long-term", "exists": false}
+{"title": "OWID/Number of people living in urban slum households", "exists": false}
+{"title": "OWID/Number of people living in cities with more than 1 million residents", "exists": false}
+{"title": "OWID/Share of population living in cities with more than 1 million residents", "exists": false}
+{"title": "OWID/Share of the urban population who live in the largest city", "exists": false}
+{"title": "OWID/Employment in agriculture vs. urban population", "exists": false}
+{"title": "OWID/Minimum number of inhabitants for a settlement to qualify as an urban area", "exists": false}
+{"title": "OWID/Number of countries with a given minimum urban population threshold", "exists": false}
+{"title": "OWID/Urban land area", "exists": true}
+{"title": "OWID/Average annual exposure to PM2.5 air pollution", "exists": false}
+{"title": "OWID/Death rate from air pollution", "exists": false}
+{"title": "OWID/Absolute number of deaths from ambient particulate air pollution", "exists": true}
+{"title": "OWID/Death rate from infectious diseases", "exists": false}
+{"title": "OWID/Rate of measles cases and deaths in the United States", "exists": false}
+{"title": "OWID/Acute hepatitis death rate", "exists": false}
+{"title": "OWID/Global case numbers of infectious diseases", "exists": false}
+{"title": "OWID/Death rate from upper respiratory infections, by age", "exists": false}
+{"title": "OWID/Flu vaccination coverage in the over-65's", "exists": false}
+{"title": "OWID/Hepatitis B: total number of deaths", "exists": false}
+{"title": "OWID/Hepatitis C: total number of deaths", "exists": false}
+{"title": "OWID/Hepatitis C: deaths by type of disease", "exists": false}
+{"title": "OWID/Hepatitis B: deaths by type of disease", "exists": false}
+{"title": "OWID/Hepatitis B: total number of deaths by age group", "exists": false}
+{"title": "OWID/Hepatitis C: total number of deaths by age group", "exists": false}
+{"title": "OWID/Diphtheria cases in the United States", "exists": false}
+{"title": "OWID/Malaria deaths by world region", "exists": false}
+{"title": "OWID/Smallpox: when was it eliminated in each country?", "exists": false}
+{"title": "OWID/Smallpox cases reported worldwide", "exists": false}
+{"title": "OWID/Smallpox deaths as a share of all deaths in London", "exists": false}
+{"title": "OWID/Paralytic polio: estimated cases by world region", "exists": false}
+{"title": "OWID/Smallpox death rate", "exists": false}
+{"title": "OWID/HIV funding in low- and middle-income countries, by region", "exists": false}
+{"title": "OWID/HIV funding and estimated future requirements", "exists": false}
+{"title": "OWID/Historical trends across infectious diseases", "exists": false}
+{"title": "OWID/HIV/AIDS deaths by world region", "exists": false}
+{"title": "OWID/Incidence and prevalence of extensively drug-resistant tuberculosis", "exists": false}
+{"title": "OWID/Share of the population living with HIV", "exists": false}
+{"title": "OWID/Number of one-year-olds who have received different vaccinations", "exists": false}
+{"title": "OWID/HIV/AIDS deaths averted by antiretroviral therapy", "exists": false}
+{"title": "OWID/Children newly infected with HIV", "exists": false}
+{"title": "OWID/Daily confirmed COVID-19 cases by world region", "exists": false}
+{"title": "OWID/UK: Daily new confirmed COVID-19 cases per 100,000", "exists": false}
+{"title": "OWID/COVID-19 vaccination coverage worldwide", "exists": false}
+{"title": "OWID/Estimated cumulative excess deaths during COVID-19", "exists": false}
+{"title": "OWID/Respiratory death rate from seasonal influenza, age 65+", "exists": false}
+{"title": "OWID/Cholera reported deaths", "exists": false}
+{"title": "OWID/Antibiotic usage in livestock per kilogram of meat", "exists": false}
+{"title": "OWID/Imports of personal protective equipment (PPE)", "exists": false}
+{"title": "OWID/H5N1 influenza: monthly reported cases", "exists": false}
+{"title": "OWID/Imports of personal protective equipment per capita", "exists": false}
+{"title": "OWID/Respiratory pathogens detected in the Seattle Flu Study", "exists": false}
+{"title": "OWID/Cumulative confirmed COVID-19 deaths vs. cases", "exists": false}
+{"title": "OWID/Cumulative confirmed COVID-19 cases per million vs. GDP per capita", "exists": false}
+{"title": "OWID/Total COVID-19 tests per 1,000 vs. GDP per capita", "exists": false}
+{"title": "OWID/Total confirmed COVID-19 deaths per million vs. GDP per capita", "exists": false}
+{"title": "OWID/Cumulative confirmed COVID-19 cases and deaths", "exists": false}
+{"title": "OWID/Daily and total confirmed COVID-19 deaths", "exists": false}
+{"title": "OWID/Total confirmed COVID-19 deaths and cases per million people", "exists": false}
+{"title": "OWID/Total confirmed COVID-19 cases vs. deaths per million", "exists": false}
+{"title": "OWID/Daily confirmed COVID-19 cases and deaths", "exists": false}
+{"title": "OWID/School closures during the COVID-19 pandemic", "exists": false}
+{"title": "OWID/Total COVID-19 tests", "exists": false}
+{"title": "OWID/Total COVID-19 tests conducted vs. confirmed cases", "exists": false}
+{"title": "OWID/Cumulative confirmed COVID-19 cases by world region", "exists": false}
+{"title": "OWID/Cumulative confirmed COVID-19 deaths by world region", "exists": false}
+{"title": "OWID/Daily confirmed COVID-19 deaths by world region", "exists": false}
+{"title": "OWID/Total COVID-19 tests conducted vs. confirmed cases per million", "exists": false}
+{"title": "OWID/Total COVID-19 tests per 1,000 people", "exists": false}
+{"title": "OWID/Total confirmed deaths due to COVID-19 vs. population", "exists": false}
+{"title": "OWID/Share of total COVID-19 tests that were positive", "exists": false}
+{"title": "OWID/Total COVID-19 tests per confirmed case", "exists": false}
+{"title": "OWID/Which countries do COVID-19 contact tracing?", "exists": false}
+{"title": "OWID/COVID-19 testing policies", "exists": false}
+{"title": "OWID/Workplace closures during the COVID-19 pandemic", "exists": false}
+{"title": "OWID/Cancellation of public events during COVID-19 pandemic", "exists": false}
+{"title": "OWID/Restrictions on public gatherings in the COVID-19 pandemic", "exists": false}
+{"title": "OWID/Public information campaigns on the COVID-19 pandemic", "exists": false}
+{"title": "OWID/Stay-at-home requirements during the COVID-19 pandemic", "exists": false}
+{"title": "OWID/Public transport closures during the COVID-19 pandemic", "exists": false}
+{"title": "OWID/International travel controls during the COVID-19 pandemic", "exists": false}
+{"title": "OWID/Restrictions on internal movement during the COVID-19 pandemic", "exists": false}
+{"title": "OWID/COVID-19: Daily tests vs. daily new confirmed cases per million", "exists": false}
+{"title": "OWID/COVID-19: Daily tests vs. daily new confirmed cases", "exists": false}
+{"title": "OWID/Daily vs. total confirmed COVID-19 cases per million people", "exists": false}
+{"title": "OWID/Daily COVID-19 tests per 1,000 people", "exists": false}
+{"title": "OWID/Daily COVID-19 tests", "exists": false}
+{"title": "OWID/Week by week change of confirmed COVID-19 deaths", "exists": false}
+{"title": "OWID/Week by week change in confirmed COVID-19 cases", "exists": false}
+{"title": "OWID/Weekly confirmed COVID-19 cases", "exists": false}
+{"title": "OWID/Weekly confirmed COVID-19 deaths", "exists": false}
+{"title": "OWID/Tests conducted per new confirmed case of COVID-19", "exists": false}
+{"title": "OWID/The share of COVID-19 tests that are positive", "exists": false}
+{"title": "OWID/How did the number of visitors change since the beginning of the pandemic?", "exists": false}
+{"title": "OWID/Retail and recreation: How did the number of visitors change relative to before the pandemic?", "exists": false}
+{"title": "OWID/Grocery and pharmacy stores: How did the number of visitors change relative to before the pandemic?", "exists": false}
+{"title": "OWID/Biweekly confirmed COVID-19 cases", "exists": false}
+{"title": "OWID/Biweekly change in confirmed COVID-19 cases", "exists": false}
+{"title": "OWID/Biweekly confirmed COVID-19 deaths", "exists": false}
+{"title": "OWID/Biweekly change in confirmed COVID-19 deaths", "exists": false}
+{"title": "OWID/Income support during the COVID-19 pandemic", "exists": false}
+{"title": "OWID/Debt or contract relief during the COVID-19 pandemic", "exists": false}
+{"title": "OWID/Parks and outdoor spaces: How did the number of visitors change relative to before the pandemic?", "exists": false}
+{"title": "OWID/Residential areas: How did the time spent at home change relative to before the pandemic?", "exists": false}
+{"title": "OWID/Workplaces: How did the number of visitors change relative to before the pandemic?", "exists": false}
+{"title": "OWID/Transit stations: How did the number of visitors change relative to before the pandemic?", "exists": false}
+{"title": "OWID/Daily new confirmed COVID-19 cases and deaths", "exists": false}
+{"title": "OWID/Daily new estimated infections of COVID-19", "exists": false}
+{"title": "OWID/Biweekly confirmed COVID-19 cases per million people", "exists": false}
+{"title": "OWID/Biweekly confirmed COVID-19 deaths per million people", "exists": false}
+{"title": "OWID/Weekly confirmed COVID-19 cases per million people", "exists": false}
+{"title": "OWID/Daily new estimated COVID-19 infections from the IHME model", "exists": false}
+{"title": "OWID/Daily new estimated COVID-19 infections from the YYG model", "exists": false}
+{"title": "OWID/Daily new estimated COVID-19 infections from the ICL model", "exists": false}
+{"title": "OWID/Confirmed COVID-19 deaths per million vs. GDP per capita", "exists": false}
+{"title": "OWID/Daily new estimated COVID-19 infections from the LSHTM model", "exists": false}
+{"title": "OWID/Excess mortality: Deaths from all causes compared to average over previous years", "exists": false}
+{"title": "OWID/Economic decline in the second quarter of 2020 vs. total confirmed COVID-19 deaths (as of August 2020)", "exists": false}
+{"title": "OWID/Excess mortality: Deaths from all causes compared to average over previous years, by age", "exists": false}
+{"title": "OWID/Economic decline in the second quarter of 2020 vs. confirmed COVID-19 cases per million people", "exists": false}
+{"title": "OWID/Economic decline in the second quarter of 2020", "exists": false}
+{"title": "OWID/Excess mortality: Raw number of deaths from all causes compared to projection based on previous years", "exists": false}
+{"title": "OWID/COVID-19 Containment and Health Index", "exists": false}
+{"title": "OWID/Face covering policies during the COVID-19 pandemic", "exists": false}
+{"title": "OWID/Number of COVID-19 patients in hospital", "exists": false}
+{"title": "OWID/Weekly new hospital admissions for COVID-19", "exists": false}
+{"title": "OWID/Number of COVID-19 patients in hospital per million", "exists": false}
+{"title": "OWID/Weekly new hospital admissions for COVID-19 per million", "exists": false}
+{"title": "OWID/Weekly new ICU admissions for COVID-19 per million", "exists": false}
+{"title": "OWID/Weekly new ICU admissions for COVID-19", "exists": false}
+{"title": "OWID/Number of COVID-19 patients in intensive care (ICU)", "exists": false}
+{"title": "OWID/Number of COVID-19 patients in ICU per million", "exists": false}
+{"title": "OWID/Daily new confirmed COVID-19 deaths in Sweden", "exists": false}
+{"title": "OWID/COVID-19 vaccination policy", "exists": false}
+{"title": "OWID/Total COVID-19 vaccine doses administered", "exists": false}
+{"title": "OWID/Total COVID-19 vaccine doses administered per 100 people", "exists": false}
+{"title": "OWID/UK: Daily new confirmed COVID-19 deaths", "exists": false}
+{"title": "OWID/Daily COVID-19 vaccine doses administered", "exists": false}
+{"title": "OWID/Daily share of the population receiving a COVID-19 vaccine dose", "exists": false}
+{"title": "OWID/Total number of people who received at least one dose of COVID-19 vaccine", "exists": false}
+{"title": "OWID/Share of people who received at least one dose of COVID-19 vaccine", "exists": false}
+{"title": "OWID/Number of people who completed the initial COVID-19 vaccination protocol", "exists": false}
+{"title": "OWID/Share of people who completed the initial COVID-19 vaccination protocol", "exists": false}
+{"title": "OWID/COVID-19 vaccinations vs. COVID-19 deaths", "exists": false}
+{"title": "OWID/US: Total COVID-19 vaccine doses distributed", "exists": false}
+{"title": "OWID/US: Total COVID-19 vaccine doses distributed per 100 people", "exists": false}
+{"title": "OWID/US: Total COVID-19 vaccine doses administered", "exists": false}
+{"title": "OWID/US: Total COVID-19 vaccine doses administered per 100 people", "exists": false}
+{"title": "OWID/US: Number of people who received at least one dose of COVID-19 vaccine", "exists": false}
+{"title": "OWID/US: Share of people who received at least one dose of COVID-19 vaccine", "exists": false}
+{"title": "OWID/US: Number of people who completed the initial COVID-19 vaccination protocol", "exists": false}
+{"title": "OWID/US: Share of people who completed the initial COVID-19 vaccination protocol", "exists": false}
+{"title": "OWID/US: Daily COVID-19 vaccine doses administered", "exists": false}
+{"title": "OWID/US: Daily COVID-19 vaccine doses administered per 100 people", "exists": false}
+{"title": "OWID/Weekly confirmed COVID-19 deaths per million people", "exists": false}
+{"title": "OWID/Sweden: Daily new confirmed COVID-19 deaths, by date of death", "exists": false}
+{"title": "OWID/COVID-19 vaccine doses administered by manufacturer", "exists": false}
+{"title": "OWID/UK: Cumulative confirmed COVID-19 deaths per 100,000", "exists": false}
+{"title": "OWID/Willingness to get vaccinated against COVID-19", "exists": false}
+{"title": "OWID/COVID-19 vaccine doses administered per 100 people, by income group", "exists": false}
+{"title": "OWID/Share of people who completed the initial COVID-19 vaccination protocol by age", "exists": false}
+{"title": "OWID/Share of people with at least one dose of COVID-19 vaccine by age", "exists": false}
+{"title": "OWID/SARS-CoV-2 variants in analyzed sequences", "exists": false}
+{"title": "OWID/SARS-CoV-2 sequences by variant", "exists": false}
+{"title": "OWID/COVID-19 vaccine doses donated to COVAX", "exists": false}
+{"title": "OWID/COVID-19 vaccine doses donated to COVAX, per million dollars of GDP", "exists": false}
+{"title": "OWID/Excess mortality: Deaths from all causes compared to projection", "exists": false}
+{"title": "OWID/Excess mortality: Deaths from all causes compared to projection based on previous years, by age", "exists": false}
+{"title": "OWID/Excess mortality: Cumulative deaths from all causes compared to projection based on previous years", "exists": false}
+{"title": "OWID/Excess mortality: Cumulative deaths from all causes compared to projection based on previous years", "exists": false}
+{"title": "OWID/COVID-19 vaccine boosters administered", "exists": false}
+{"title": "OWID/COVID-19 vaccine boosters administered per 100 people", "exists": false}
+{"title": "OWID/Excess mortality: Cumulative deaths from all causes compared to projection based on previous years, per million people", "exists": false}
+{"title": "OWID/Share of global daily COVID-19 vaccine doses administered as boosters", "exists": false}
+{"title": "OWID/COVID-19 vaccine doses donated to COVAX, per capita", "exists": false}
+{"title": "OWID/COVID-19 vaccine doses donated to COVAX, per dose administered", "exists": false}
+{"title": "OWID/United States: COVID-19 weekly death rate by vaccination status", "exists": false}
+{"title": "OWID/Chile: COVID-19 weekly death rate by vaccination status", "exists": false}
+{"title": "OWID/England: COVID-19 monthly death rate by vaccination status", "exists": false}
+{"title": "OWID/Estimated daily excess deaths during COVID", "exists": false}
+{"title": "OWID/Estimated cumulative excess deaths during COVID", "exists": false}
+{"title": "OWID/Estimated cumulative excess deaths per 100,000 people during COVID, from The Economist", "exists": false}
+{"title": "OWID/Share of people with a COVID-19 booster dose by age", "exists": false}
+{"title": "OWID/Switzerland: COVID-19 weekly death rate by vaccination status", "exists": false}
+{"title": "OWID/What is the youngest age group eligible for COVID-19 vaccination?", "exists": false}
+{"title": "OWID/Are children eligible for COVID-19 vaccination?", "exists": false}
+{"title": "OWID/How do key COVID-19 metrics compare to the early 2021 peak?", "exists": false}
+{"title": "OWID/COVID-19: Where are the world's unvaccinated people?", "exists": false}
+{"title": "OWID/Excess mortality: Raw number of deaths from all causes compared to projection based on previous years", "exists": false}
+{"title": "OWID/Estimated daily excess deaths per 100,000 people during COVID, from The Economist", "exists": false}
+{"title": "OWID/Estimated cumulative excess deaths, from The Economist and the WHO", "exists": false}
+{"title": "OWID/Estimated monthly excess deaths during COVID-19", "exists": false}
+{"title": "OWID/Estimated cumulative excess deaths during COVID, from the WHO", "exists": false}
+{"title": "OWID/Daily confirmed COVID-19 cases by world region", "exists": false}
+{"title": "OWID/Tests and new confirmed COVID-19 cases per day", "exists": false}
+{"title": "OWID/UK: Daily new confirmed COVID-19 cases per 100,000", "exists": false}
+{"title": "OWID/UK: Daily new confirmed COVID-19 cases", "exists": false}
+{"title": "OWID/UK: Share of COVID-19 tests that are positive", "exists": false}
+{"title": "OWID/UK: Number of COVID-19 patients in hospital", "exists": false}
+{"title": "OWID/UK: Daily new hospital admissions for COVID-19", "exists": false}
+{"title": "OWID/COVID-19 vaccination coverage worldwide", "exists": false}
+{"title": "OWID/Estimated cumulative excess deaths during COVID-19", "exists": false}
+{"title": "OWID/Estimated daily excess deaths during COVID", "exists": false}
+{"title": "OWID/Annual research & development funding for infectious diseases", "exists": false}
+{"title": "OWID/COVID-19: Countries restricting gatherings of a given number of people", "exists": false}
+{"title": "OWID/COVID-19: Countries with restrictions on international travels", "exists": false}
+{"title": "OWID/COVID-19: Countries with requirements for face coverings", "exists": false}
+{"title": "OWID/Weekly number of users contributing to our COVID-19 data repository", "exists": false}
+{"title": "OWID/Total users who contributed to our COVID-19 data repository", "exists": false}
+{"title": "OWID/Total contributions to our COVID-19 data repository", "exists": false}
+{"title": "OWID/Number of countries reporting data on COVID-19 vaccinations", "exists": false}
+{"title": "OWID/Countries reporting data on COVID-19 vaccinations", "exists": false}
+{"title": "OWID/Imports of personal protective equipment (PPE)", "exists": false}
+{"title": "OWID/Share of children sleeping under insecticide-treated nets", "exists": false}
+{"title": "OWID/Share of the population with malaria vs. GDP per capita", "exists": false}
+{"title": "OWID/Malaria deaths by age", "exists": false}
+{"title": "OWID/Malaria death rate by age", "exists": false}
+{"title": "OWID/New cases of malaria per 1,000 people at risk", "exists": false}
+{"title": "OWID/Death rate from malaria", "exists": false}
+{"title": "OWID/Malaria deaths: IHME vs. WHO estimates", "exists": false}
+{"title": "OWID/Malaria deaths by world region", "exists": false}
+{"title": "OWID/Malaria incidence", "exists": false}
+{"title": "OWID/Malaria deaths by world region", "exists": false}
+{"title": "OWID/Share of the population infected with malaria each year", "exists": false}
+{"title": "OWID/Malaria mortality in children", "exists": false}
+{"title": "OWID/Number of child deaths from malaria", "exists": false}
+{"title": "OWID/Share of children with a fever receiving antimalarial drugs", "exists": false}
+{"title": "OWID/Number of deaths from malaria", "exists": false}
+{"title": "OWID/Malaria deaths by age", "exists": false}
+{"title": "OWID/Death rate from malaria", "exists": false}
+{"title": "OWID/Death rate from malaria", "exists": false}
+{"title": "OWID/Number of deaths from malaria", "exists": false}
+{"title": "OWID/Number of deaths from malaria", "exists": false}
+{"title": "OWID/Death rate from malaria", "exists": false}
+{"title": "OWID/Child deaths from malaria", "exists": false}
+{"title": "OWID/Global research and development funding for malaria", "exists": false}
+{"title": "OWID/New HIV infections", "exists": false}
+{"title": "OWID/Share of young men and women living with HIV", "exists": false}
+{"title": "OWID/What share of the population living with HIV are women?", "exists": false}
+{"title": "OWID/Annual number of children newly infected with HIV", "exists": false}
+{"title": "OWID/Children living with HIV", "exists": false}
+{"title": "OWID/Number of new HIV infections per 1,000 uninfected population", "exists": false}
+{"title": "OWID/HIV/AIDS deaths by age", "exists": false}
+{"title": "OWID/Share of adults aged 15–49 living with HIV", "exists": false}
+{"title": "OWID/Share of the population living with HIV, UNAIDS vs. IHME", "exists": false}
+{"title": "OWID/Number of people infected with HIV by region", "exists": false}
+{"title": "OWID/Number of people living with HIV", "exists": false}
+{"title": "OWID/Number of new cases of HIV", "exists": false}
+{"title": "OWID/New cases, deaths, and people living with HIV/AIDS", "exists": false}
+{"title": "OWID/Deaths from infections of currently non-eradicable diseases", "exists": false}
+{"title": "OWID/HIV expenditure on prevention and treatment", "exists": false}
+{"title": "OWID/HIV/AIDS funding by source", "exists": false}
+{"title": "OWID/HIV/AIDS deaths averted by antiretroviral therapy", "exists": false}
+{"title": "OWID/New HIV infections averted from prevention of mother-to-child transmission", "exists": false}
+{"title": "OWID/Share of the population living with HIV receiving antiretroviral therapy", "exists": false}
+{"title": "OWID/Share of young people with knowledge on HIV prevention", "exists": false}
+{"title": "OWID/Share of young people with knowledge on HIV prevention, men vs. women", "exists": false}
+{"title": "OWID/Children orphaned due to AIDS deaths", "exists": false}
+{"title": "OWID/Discriminatory attitudes towards people living with HIV", "exists": false}
+{"title": "OWID/Discrimination towards those with HIV, by sex and age", "exists": false}
+{"title": "OWID/New cases of HIV per 1,000 individuals, UNAIDS vs. IHME", "exists": false}
+{"title": "OWID/HIV incidence per 1,000 uninfected adults", "exists": false}
+{"title": "OWID/Share of people with HIV who receive antiretroviral therapy", "exists": false}
+{"title": "OWID/New infections of HIV per 1,000 people", "exists": false}
+{"title": "OWID/Causes of death in 50- to 69-year-olds", "exists": false}
+{"title": "OWID/Death rate from HIV/AIDS", "exists": false}
+{"title": "OWID/HIV/AIDS death rate by age", "exists": false}
+{"title": "OWID/Share of deaths by cause", "exists": false}
+{"title": "OWID/Share of pregnant women with HIV that receive antiretroviral therapy", "exists": false}
+{"title": "OWID/HIV funding in low- and middle-income countries, by region", "exists": false}
+{"title": "OWID/HIV funding and estimated future requirements", "exists": false}
+{"title": "OWID/Condom use among men who have sex with men", "exists": false}
+{"title": "OWID/Condom use during last high-risk sex, by sex and age", "exists": false}
+{"title": "OWID/Condom use at last high-risk sex", "exists": false}
+{"title": "OWID/Tuberculosis patients who tested positive for HIV", "exists": false}
+{"title": "OWID/Tuberculosis patients living with HIV receiving antiretroviral therapy", "exists": false}
+{"title": "OWID/Tuberculosis-related deaths among people living with HIV", "exists": false}
+{"title": "OWID/HIV/AIDS and tuberculosis deaths", "exists": false}
+{"title": "OWID/Historical trends across infectious diseases", "exists": false}
+{"title": "OWID/HIV/AIDS deaths by world region", "exists": false}
+{"title": "OWID/Share of the population living with HIV", "exists": false}
+{"title": "OWID/Share of industry in GDP vs. GDP per capita", "exists": false}
+{"title": "OWID/Causes of death", "exists": false}
+{"title": "OWID/HIV/AIDS deaths averted by antiretroviral therapy", "exists": false}
+{"title": "OWID/New HIV infections averted by prevention of mother-to-child transmission", "exists": false}
+{"title": "OWID/Share of deaths caused by HIV/AIDS among all deaths", "exists": false}
+{"title": "OWID/Incidence of HIV/AIDS", "exists": false}
+{"title": "OWID/Number of deaths from HIV/AIDS", "exists": false}
+{"title": "OWID/HIV/AIDS deaths", "exists": false}
+{"title": "OWID/Death rate from HIV/AIDS", "exists": false}
+{"title": "OWID/New cases of HIV/AIDS", "exists": false}
+{"title": "OWID/Death rate from HIV/AIDS", "exists": false}
+{"title": "OWID/Number of new HIV infections", "exists": false}
+{"title": "OWID/HIV incidence per 1,000 individuals, by age", "exists": false}
+{"title": "OWID/Children newly infected with HIV", "exists": false}
+{"title": "OWID/Deaths due to unsafe sex", "exists": false}
+{"title": "OWID/Death rate from unsafe sex", "exists": false}
+{"title": "OWID/Death rate from unsafe sex", "exists": false}
+{"title": "OWID/Number of deaths from HIV/AIDS", "exists": false}
+{"title": "OWID/Share of the population living with HIV/AIDS", "exists": false}
+{"title": "OWID/Share of tuberculosis patients with HIV", "exists": false}
+{"title": "OWID/Number of deaths from tuberculosis and other diseases in people with HIV/AIDS", "exists": false}
+{"title": "OWID/People receiving antiretroviral therapy through PEPFAR", "exists": false}
+{"title": "OWID/Diarrheal disease deaths, by age", "exists": false}
+{"title": "OWID/Diarrheal diseases death rate", "exists": false}
+{"title": "OWID/Diarrheal diseases death rate by age", "exists": false}
+{"title": "OWID/Diarrheal disease deaths in children under five", "exists": false}
+{"title": "OWID/Children with diarrheal disease vs. oral rehydration salts", "exists": false}
+{"title": "OWID/Share of children with diarrhea receiving oral rehydration salts", "exists": false}
+{"title": "OWID/Death rate from diarrheal disease in children vs. access to basic handwashing facilities", "exists": false}
+{"title": "OWID/Rotavirus deaths in children under five", "exists": false}
+{"title": "OWID/Rotavirus deaths that were preventable in children under five", "exists": false}
+{"title": "OWID/Invasive non-typhoidal salmonella deaths in children under five", "exists": false}
+{"title": "OWID/Diarrheal diseases death rate in children vs. GDP per capita", "exists": false}
+{"title": "OWID/Diarrheal disease deaths in children under five by risk factor", "exists": false}
+{"title": "OWID/Diarrheal diseases death rate in children under five", "exists": false}
+{"title": "OWID/Causes of death in children under five", "exists": false}
+{"title": "OWID/Rotavirus death rate in children under five", "exists": false}
+{"title": "OWID/Share of one-year-olds vaccinated against rotavirus", "exists": false}
+{"title": "OWID/Diarrheal disease deaths in people aged 70+ by risk factor", "exists": false}
+{"title": "OWID/Diarrheal diseases death rate in people aged 70+, by risk factor", "exists": false}
+{"title": "OWID/Rate of deaths attributed to unsafe sanitation vs. GDP per capita", "exists": false}
+{"title": "OWID/Number of one-year-olds who are not vaccinated against rotavirus", "exists": false}
+{"title": "OWID/Which countries include rotavirus vaccines in their national vaccination programs?", "exists": false}
+{"title": "OWID/Diarrheal disease deaths", "exists": false}
+{"title": "OWID/Diarrheal diseases death rate", "exists": false}
+{"title": "OWID/Diarrheal disease episodes", "exists": false}
+{"title": "OWID/Diarrheal disease deaths", "exists": false}
+{"title": "OWID/Diarrheal diseases death rate", "exists": false}
+{"title": "OWID/Share of E. coli infections resistant to cephalosporins", "exists": false}
+{"title": "OWID/Share of S. aureus infections resistant to methicillin", "exists": false}
+{"title": "OWID/Cholera reported cases", "exists": false}
+{"title": "OWID/Share of children with diarrhea receiving treatment", "exists": false}
+{"title": "OWID/Cholera case-fatality rate", "exists": false}
+{"title": "OWID/Rotavirus deaths prevented by vaccination", "exists": false}
+{"title": "OWID/Typhoid and paratyphoid fever incidence rate by age", "exists": false}
+{"title": "OWID/Invasive non-typhoidal salmonella incidence rate by age", "exists": false}
+{"title": "OWID/Typhoid and paratyphoid fever death rate by age", "exists": false}
+{"title": "OWID/Invasive non-typhoidal salmonella death rate in children under five", "exists": false}
+{"title": "OWID/Typhoid and paratyphoid fever death rate in children under five", "exists": false}
+{"title": "OWID/Invasive non-typhoidal salmonella death rate by age group", "exists": false}
+{"title": "OWID/Share with diarrhea seeking treatment vs. share receiving oral rehydration salts", "exists": false}
+{"title": "OWID/Share of children with diarrhea receiving zinc", "exists": false}
+{"title": "OWID/Share of children with diarrhea receiving oral rehydration salts and zinc", "exists": false}
+{"title": "OWID/Deaths attributed to lack of access to handwashing facilities", "exists": false}
+{"title": "OWID/Diarrheal disease cases vs. safely managed sanitation", "exists": false}
+{"title": "OWID/Cholera reported deaths", "exists": false}
+{"title": "OWID/Deaths attributed to unsafe water sources", "exists": false}
+{"title": "OWID/Deaths attributed to unsafe sanitation", "exists": false}
+{"title": "OWID/Rate of deaths attributed to unsafe water sources", "exists": false}
+{"title": "OWID/Rate of deaths attributed to unsafe sanitation", "exists": false}
+{"title": "OWID/Rate of deaths attributed to no access to handwashing facilities", "exists": false}
+{"title": "OWID/Tuberculosis cases in the United States", "exists": false}
+{"title": "OWID/Average cost of drugs for extensively drug-resistant tuberculosis", "exists": false}
+{"title": "OWID/Share of newborns vaccinated against tuberculosis", "exists": false}
+{"title": "OWID/Tuberculosis deaths, by age", "exists": false}
+{"title": "OWID/Tuberculosis death rate", "exists": false}
+{"title": "OWID/Tuberculosis death rate, by age", "exists": false}
+{"title": "OWID/Tuberculosis patients who tested positive for HIV", "exists": false}
+{"title": "OWID/Tuberculosis patients living with HIV receiving antiretroviral therapy", "exists": false}
+{"title": "OWID/Tuberculosis-related deaths among people living with HIV", "exists": false}
+{"title": "OWID/HIV/AIDS and tuberculosis deaths", "exists": false}
+{"title": "OWID/Rate of new tuberculosis cases", "exists": false}
+{"title": "OWID/The number of deaths from tuberculosis by world region", "exists": false}
+{"title": "OWID/Causes of death", "exists": false}
+{"title": "OWID/Multidrug-resistant tuberculosis cases", "exists": false}
+{"title": "OWID/Incidence and prevalence of extensively drug-resistant tuberculosis", "exists": false}
+{"title": "OWID/Number of one-year-olds who have received different vaccinations", "exists": false}
+{"title": "OWID/Tuberculosis deaths by region", "exists": false}
+{"title": "OWID/Number of deaths from tuberculosis", "exists": false}
+{"title": "OWID/Incidence of tuberculosis", "exists": false}
+{"title": "OWID/Tuberculosis cases", "exists": false}
+{"title": "OWID/Tuberculosis death rate in people without HIV", "exists": false}
+{"title": "OWID/Share of the population estimated to have prior infection by Mycobacterium tuberculosis", "exists": false}
+{"title": "OWID/People living with tuberculosis by drug susceptibility", "exists": false}
+{"title": "OWID/Tuberculosis death rate", "exists": false}
+{"title": "OWID/Death rate from respiratory infections", "exists": true}
+{"title": "OWID/Deaths due to tuberculosis from WHO and IHME data", "exists": false}
+{"title": "OWID/Incidence of malaria", "exists": false}
+{"title": "OWID/Year of the last reported rinderpest case", "exists": false}
+{"title": "OWID/The decade of the last recorded wild paralytic polio case", "exists": false}
+{"title": "OWID/Year of maternal neonatal tetanus elimination", "exists": false}
+{"title": "OWID/Number of reported smallpox cases by world region", "exists": false}
+{"title": "OWID/Number of cases and deaths from rabies", "exists": false}
+{"title": "OWID/Deaths from rabies by world region", "exists": false}
+{"title": "OWID/Reported cases of guinea worm disease", "exists": false}
+{"title": "OWID/Number of people requiring treatment against neglected tropical diseases", "exists": false}
+{"title": "OWID/Number of people with trachoma per 100,000", "exists": false}
+{"title": "OWID/Share of children with an active hepatitis B infection", "exists": false}
+{"title": "OWID/Deaths from measles, by age", "exists": false}
+{"title": "OWID/Share of clinical trials in Europe that report results within a year", "exists": false}
+{"title": "OWID/When were countries certified free of guinea worm disease?", "exists": false}
