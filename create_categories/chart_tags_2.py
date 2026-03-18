@@ -27,7 +27,7 @@ file_data = json.loads(file_path.read_text(encoding="utf-8"))
 data = DefaultDict(list)
 
 for x in file_data:
-    data[x["tag_name"]].append(x["title"])
+    data[x["tag_name"]].append(f"OWID/{x['title']}")
 
 
 def get_list(tags_names) -> list[str]:
