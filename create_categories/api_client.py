@@ -38,7 +38,10 @@ def get_global_saves() -> int:
 
 
 @functools.lru_cache(maxsize=1)
-def initialize_site_connection(username, password):
+def initialize_site_connection():
+    username = os.environ.get("WIKI_USERNAME")
+    password = os.environ.get("WIKI_PASSWORD")
+
     site_mw = mwclient.Site('commons.wikimedia.org')
     print(f"loging in as {username}")
 
@@ -47,16 +50,15 @@ def initialize_site_connection(username, password):
         print("Logged in successfully")
     else:
         print("Failed to log in")
+
     return site_mw
 
 
 class page_mwclient:
     def __init__(self, title: str):
         self.title = title
-        self.username = os.environ.get("WIKI_USERNAME")
-        self.password = os.environ.get("WIKI_PASSWORD")
 
-        self.site_mw = initialize_site_connection(self.username, self.password)
+        self.site_mw = initialize_site_connection()
 
         self.page = self.site_mw.pages[title]
 
@@ -87,6 +89,11 @@ class page_mwclient:
 
     def save(self, newtext: str, summary: str):
         if not self.ask(summary):
+            return False
+
+        page_text = self.get_text()
+        if page_text == newtext:
+            print("No changes..")
             return False
 
         result = self.page.save(newtext, summary=summary)
@@ -156,9 +163,10 @@ def add_category_to_pages(category_name, titles) -> None:
 def create_category(category_name, text):
     page = page_mwclient(category_name)
 
-    if page.exists():
-        print(f"Category [[{category_name}]] exists")
-        page.save(text, "Updating category")
-    else:
+    if not page.exists():
         print(f"Creating Category {category_name}")
         page.create(text, "Creating category")
+        return
+
+    print(f"Category [[{category_name}]] exists")
+    page.save(text, "Updating category")

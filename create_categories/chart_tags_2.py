@@ -6,6 +6,14 @@ from typing import DefaultDict
 # file_path = Path(__file__).parent.parent / "topics/chart_tags_2.json"
 file_path = Path(__file__).parent / "chart_tags_2.json"
 
+templates_file_path = Path(__file__).parent / "templates.json"
+templates_data = json.loads(templates_file_path.read_text(encoding="utf-8"))
+templates = {}
+# { "title": "OWID/Deaths due to alcohol use", "source": "deaths-due-to-alcohol-use" }
+
+for x in templates_data:
+    templates[x["source"]] = x["title"]
+
 """
 [
     {
@@ -28,7 +36,9 @@ file_data = json.loads(file_path.read_text(encoding="utf-8"))
 data = DefaultDict(list)
 
 for x in file_data:
-    data[x["tag_name"]].append(f"OWID/{x['title']}")
+    page_slug = x["slug"]
+    page_name = templates.get(page_slug, f"OWID/{x['title']}")
+    data[x["tag_name"]].append(page_name)
 
 
 def get_list(tags_names, category) -> list[str]:
