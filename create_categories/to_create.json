@@ -245,8 +245,7 @@
             "Poverty": {},
             "Economic Growth": {},
             "Economic Inequality": {},
-            "Foreign Aid": {},
-            "Economic Inequality by Gender": {}
+            "Foreign Aid": {}
         },
         "category_name": "Category:Our World in Data - Poverty and Prosperity"
     },
@@ -256,12 +255,9 @@
         ],
         "sub_categories": {
             "Government Spending": {},
-            "State Capacity": {},
             "Taxation": {},
-            "Corruption": {},
             "Healthcare Spending": {},
-            "Education Spending": {},
-            "Military Personnel & Spending": {}
+            "Education Spending": {}
         },
         "category_name": "Category:Our World in Data - Public Sector"
     },
@@ -303,8 +299,6 @@
             "Education and Knowledge"
         ],
         "sub_categories": {
-            "Research & Development": {},
-            "Internet": {},
             "Books": {}
         },
         "category_name": "Category:Our World in Data - Knowledge"
@@ -366,10 +360,6 @@
             "Homelessness": {},
             "Access to Energy": {},
             "Indoor Air Pollution": {},
-            "Clean Water & Sanitation": {
-                "Clean Water": {},
-                "Sanitation": {}
-            },
             "Light at Night": {}
         },
         "category_name": "Category:Our World in Data - Housing and Infrastructure"
