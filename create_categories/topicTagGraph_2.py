@@ -111,6 +111,10 @@ for x, v in tqdm(data_list.items()):
         if x not in to_create[category]["main"]:
             to_create[category]["main"].append(x)
 
+for x, v in to_create.copy().items():
+
+    to_create[x]["sub_categories"] = {x: hh for x, hh in v["sub_categories"].items() if x not in to_create}
+
 with open(main_dir / "to_create.json", "w", encoding="utf-8") as f:
     json.dump(to_create, f, indent=4, ensure_ascii=False)
 
@@ -130,7 +134,8 @@ for n, (category, v) in enumerate(to_create.items(), start=1):
 
     to_save[category_name] = text
 
-    titles = get_list(list(sub_categories), category)
+    sub_categories2 = list(sub_categories.keys())
+    titles = get_list(sub_categories2, category)
 
     if not titles:
         print(f"not titles for category_name: {category_name}")
