@@ -147,7 +147,9 @@ def add_category_to_pages(category_name, titles):
 with open(main_dir / "to_create.json", "w", encoding="utf-8") as f:
     json.dump(to_create, f, indent=4, ensure_ascii=False)
 
-for category, v in tqdm(to_create.items()):
+for n, (category, v) in enumerate(to_create.items()):
+    print(f"{n}/{len(to_create)}: {category=}")
+
     sub_categories = v["sub_categories"]
     main_categories = v["main"]
     category_name = v["category_name"]

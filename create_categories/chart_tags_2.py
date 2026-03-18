@@ -36,4 +36,6 @@ def get_list(tags_names) -> list[str]:
     for x in tags_names:
         list_titles.extend(data.get(x))
 
+    print(f"get_list: result {len(list_titles)}")
+
     return list_titles
