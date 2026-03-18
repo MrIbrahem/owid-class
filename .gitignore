@@ -2,3 +2,4 @@
 debug_data.json
 all_charts.json
 /csv_data
+.env
