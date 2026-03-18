@@ -31,11 +31,12 @@ for x in file_data:
     data[x["tag_name"]].append(f"OWID/{x['title']}")
 
 
-def get_list(tags_names) -> list[str]:
-    list_titles = []
+def get_list(tags_names, category) -> list[str]:
+
+    list_titles = data.get(category, [])
 
     for x in tags_names:
-        list_titles.extend(data.get(x))
+        list_titles.extend(data.get(x, []))
 
     print(f"get_list: result {len(list_titles)}")
 

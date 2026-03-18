@@ -1,5 +1,6 @@
 
 import json
+import sys
 from tqdm import tqdm
 from pathlib import Path
 
@@ -28,16 +29,32 @@ def create_category_text(main_categories, category_name, sub_categories) -> str:
     category_title = category_name.replace("Category:Our World in Data - ", "")
     text.append(f"[[:Category:Our World in Data topics|Our World in Data topics]] > {main_category_text} > [[:{category_name}|{category_title}]]:")
 
-    text.append("\nTopics in this category:")
+    if sub_categories:
+        text.append("\n" + "Topics in this category:")
 
-    for x in sub_categories:
-        x_text = slug_link(x)
-        text.append(f"* {x_text}")
+        text_cats = create_sub_categories_text(sub_categories)
+        text.extend(text_cats)
 
     for main_category in main_categories:
         text.append(f"[[Category:Our World in Data - {main_category}| ]]")
 
     return "\n".join(text)
+
+
+def create_sub_categories_text(sub_categories) -> list:
+    text_cats = []
+
+    for x in sub_categories:
+        x_text = slug_link(x)
+        x_text_formated = f"* {x_text}" if len(sub_categories) < 5 else x_text
+        text_cats.append(x_text_formated)
+
+    if len(sub_categories) < 5:
+        return text_cats
+
+    text_cats_text = ", ".join(text_cats)
+
+    return [f"* {text_cats_text}"]
 
 
 def create_main_category_text(main_categories) -> str:
@@ -54,8 +71,8 @@ def create_main_category_text(main_categories) -> str:
     return f"({main_category_text})"
 
 
-def slug_link(x):
-    x_text = x
+def slug_link(x) -> str:
+    x_text = ""
     if ids_slug_data.get(x, {}).get("slug"):
         x_text = f"[https://ourworldindata.org/{ids_slug_data[x]['slug']} {x}]"
     return x_text
@@ -84,7 +101,7 @@ with open(main_dir / "to_create.json", "w", encoding="utf-8") as f:
 for n, (category, v) in enumerate(to_create.items(), start=1):
     print(f"{n}/{len(to_create)}: {category=}")
 
-    if get_global_saves() == 10:
+    if n == 5 and "break" in sys.argv:
         break
 
     sub_categories = v["sub_categories"]
@@ -99,6 +116,6 @@ for n, (category, v) in enumerate(to_create.items(), start=1):
 
     create_category(category_name, text)
 
-    titles = get_list(list(sub_categories))
+    titles = get_list(list(sub_categories), category)
 
     add_category_to_pages(category_name, titles)

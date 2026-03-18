@@ -82,7 +82,7 @@ class page_mwclient:
         return result
 
 
-def filter_titles(titles):
+def filter_titles(titles) -> list:
     titles_exists = [x for x in titles if x in exists_pages]
     if titles_exists:
         print(f"titles_exists: {len(titles_exists)}, all titles: {len(titles)}")
@@ -91,7 +91,7 @@ def filter_titles(titles):
         titles_not_exists = [x for x in titles if x in not_exists_pages]
         if titles_not_exists:
             print(f"titles_not_exists: {len(titles_not_exists)}, all titles: {len(titles)}")
-            titles = titles - titles_not_exists
+            titles = [x for x in titles if x not in titles_not_exists]
     return titles
 
 
