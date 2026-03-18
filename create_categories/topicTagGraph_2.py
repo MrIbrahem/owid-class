@@ -74,12 +74,14 @@ class page_mwclient:
         return result
 
 
-def create_category_text(main_categories, category, sub_categories) -> str:
+def create_category_text(main_categories, category_name, sub_categories) -> str:
     text = []
 
     main_category_text = creta_main_category_text(main_categories)
 
-    text.append(f"[[:Category:Our World in Data topics|Our World in Data topics]] > {main_category_text} > [[:Category:Our World in Data - {category}|{category}]]:")
+    category_title = category_name.replace("Category:Our World in Data - ", "")
+    text.append(f"[[:Category:Our World in Data topics|Our World in Data topics]] > {main_category_text} > [[:{category_name}|{category_title}]]:")
+
     text.append("\nTopics in this category:")
 
     for x in sub_categories:
@@ -158,14 +160,14 @@ for n, (category, v) in enumerate(to_create.items(), start=1):
 
     # if len(main_categories) == 1: continue
 
-    text = create_category_text(main_categories, category, sub_categories)
+    text = create_category_text(main_categories, category_name, sub_categories)
 
     to_save[category_name] = text
 
     page = page_mwclient(category_name)
 
     if page.exists():
-        print(f"Category {category_name} exists")
+        print(f"Category [[{category_name}]] exists")
         page.save(text, "Updating category")
     else:
         print(f"Creating Category {category_name}")
