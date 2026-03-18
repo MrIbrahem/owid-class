@@ -154,8 +154,7 @@ for n, (category, v) in enumerate(to_create.items()):
     main_categories = v["main"]
     category_name = v["category_name"]
 
-    if len(main_categories) == 1:
-        continue
+    # if len(main_categories) == 1: continue
 
     text = create_category_text(main_categories, category, sub_categories)
 
