@@ -69,7 +69,10 @@ def simplify_node_id(node):
     }
     """
     result = {}
-    result[node["name"]] = node["id"]
+    result[node["name"]] = {
+        "id": node["id"],
+        "slug": node.get("slug"),
+    }
     if node.get("children"):
         for child in node["children"]:
             result.update(simplify_node_id(child))
