@@ -1,5 +1,19 @@
 [
     {
+        "tagId": 110,
+        "tag_name": "Research & Development",
+        "chartId": 8896,
+        "slug": "number-of-entries-in-biological-sequence-databases",
+        "title": "Number of entries in biological sequence databases"
+    },
+    {
+        "tagId": 1579,
+        "tag_name": "Medicine & Biotechnology",
+        "chartId": 8896,
+        "slug": "number-of-entries-in-biological-sequence-databases",
+        "title": "Number of entries in biological sequence databases"
+    },
+    {
         "tagId": 1853,
         "tag_name": "Work & Employment",
         "chartId": 8893,
@@ -12,13 +26,6 @@
         "chartId": 8895,
         "slug": "unemployment-rate-estimates-modeled-vs-national-draft-8895",
         "title": "Unemployment rate estimates: modeled vs. national"
-    },
-    {
-        "tagId": 1579,
-        "tag_name": "Medicine & Biotechnology",
-        "chartId": 8896,
-        "slug": "number-of-entries-in-biological-sequence-databases",
-        "title": "Number of entries in biological sequence databases"
     },
     {
         "tagId": 1579,
@@ -13305,13 +13312,6 @@
         "chartId": 3435,
         "slug": "mean-height-males-vs-females",
         "title": "Mean adult height by year of birth, males vs. females"
-    },
-    {
-        "tagId": 110,
-        "tag_name": "Research & Development",
-        "chartId": 8896,
-        "slug": "number-of-entries-in-biological-sequence-databases",
-        "title": "Number of entries in biological sequence databases"
     },
     {
         "tagId": 110,

@@ -69,19 +69,36 @@ class page_mwclient:
         return result
 
 
-def create_category_text(main_category, category, sub_categories) -> str:
+def create_category_text(main_categories, category, sub_categories) -> str:
     text = []
 
-    text.append(f"[[:Category:Our World in Data topics|Our World in Data topics]] > [[:Category:Our World in Data - {main_category}|{main_category}]] > [[:Category:Our World in Data - {category}|{category}]]:")
+    main_category_text = creta_main_category_text(main_categories)
+
+    text.append(f"[[:Category:Our World in Data topics|Our World in Data topics]] > {main_category_text} > [[:Category:Our World in Data - {category}|{category}]]:")
     text.append("\nTopics in this category:")
 
     for x in sub_categories:
         x_text = slug_link(x)
         text.append(f"* {x_text}")
 
-    text.append(f"[[Category:Our World in Data - {main_category}| ]]")
+    for main_category in main_categories:
+        text.append(f"[[Category:Our World in Data - {main_category}| ]]")
 
     return "\n".join(text)
+
+
+def creta_main_category_text(main_categories) -> str:
+    list_cats = []
+
+    for main_category in main_categories:
+        list_cats.append(f"[[:Category:Our World in Data - {main_category}|{main_category}]]")
+
+    if len(list_cats) == 1:
+        return list_cats[0]
+
+    main_category_text = "/".join(list_cats)
+
+    return f"({main_category_text})"
 
 
 def slug_link(x):
@@ -91,17 +108,32 @@ def slug_link(x):
     return x_text
 
 
+to_create = {}
+
 for x, v in tqdm(data_list.items()):
     for category, sub_categories in v.items():
-        text = create_category_text(x, category, sub_categories)
-        category_name = f"Category:Our World in Data - {category}"
-        to_save[category_name] = text
+        cat_data = {
+            "main": [x],
+            "sub_categories": sub_categories,
+        }
+        to_create.setdefault(category, cat_data)
+        if x not in to_create[category]["main"]:
+            to_create[category]["main"].append(x)
 
-        page = page_mwclient(category_name)
 
-        if page.exists():
-            print(f"Category {category_name} exists")
-            page.save(text, "Updating category")
-        else:
-            print(f"Creating Category {category_name}")
-            page.create(text, "Creating category")
+for category, v in tqdm(to_create.items()):
+    sub_categories = v["sub_categories"]
+    main_categories = v["main"]
+
+    text = create_category_text(main_categories, category, sub_categories)
+    category_name = f"Category:Our World in Data - {category}"
+    to_save[category_name] = text
+
+    page = page_mwclient(category_name)
+
+    if page.exists():
+        print(f"Category {category_name} exists")
+        page.save(text, "Updating category")
+    else:
+        print(f"Creating Category {category_name}")
+        page.create(text, "Creating category")
