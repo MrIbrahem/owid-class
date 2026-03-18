@@ -1,0 +1,521 @@
+{
+    "Population Change": {
+        "main": [
+            "Population and Demographic Change"
+        ],
+        "sub_categories": {
+            "Population Growth": {},
+            "Age Structure": {},
+            "Gender Ratio": {}
+        },
+        "category_name": "Category:Our World in Data - Population Change"
+    },
+    "Births & Deaths": {
+        "main": [
+            "Population and Demographic Change"
+        ],
+        "sub_categories": {
+            "Life Expectancy": {},
+            "Fertility Rate": {},
+            "Child & Infant Mortality": {}
+        },
+        "category_name": "Category:Our World in Data - Births and Deaths"
+    },
+    "Geography of the World Population": {
+        "main": [
+            "Population and Demographic Change"
+        ],
+        "sub_categories": {
+            "Urbanization": {},
+            "Migration": {}
+        },
+        "category_name": "Category:Our World in Data - Geography of the World Population"
+    },
+    "Life & Death": {
+        "main": [
+            "Health"
+        ],
+        "sub_categories": {
+            "Global Health": {},
+            "Causes of Death": {},
+            "Child & Infant Mortality": {},
+            "Burden of Disease": {},
+            "Life Expectancy": {},
+            "Mental Health": {},
+            "Suicides": {},
+            "Cardiovascular Diseases": {},
+            "Cancer": {},
+            "Maternal Mortality": {}
+        },
+        "category_name": "Category:Our World in Data - Life and Death"
+    },
+    "Health Risks": {
+        "main": [
+            "Health"
+        ],
+        "sub_categories": {
+            "Air Pollution": {
+                "Outdoor Air Pollution": {},
+                "Indoor Air Pollution": {}
+            },
+            "Lead Pollution": {},
+            "Alcohol Consumption": {},
+            "Illicit Drug Use": {},
+            "Obesity": {},
+            "Smoking": {}
+        },
+        "category_name": "Category:Our World in Data - Health Risks"
+    },
+    "Infectious Diseases": {
+        "main": [
+            "Health"
+        ],
+        "sub_categories": {
+            "Pandemics": {},
+            "COVID-19": {},
+            "Malaria": {},
+            "HIV/AIDS": {},
+            "Diarrheal Diseases": {},
+            "Tuberculosis": {},
+            "Polio": {},
+            "Neglected Tropical Diseases": {},
+            "Influenza": {},
+            "Pneumonia": {},
+            "Tetanus": {},
+            "Mpox (monkeypox)": {},
+            "Smallpox": {}
+        },
+        "category_name": "Category:Our World in Data - Infectious Diseases"
+    },
+    "Health Institutions & Interventions": {
+        "main": [
+            "Health"
+        ],
+        "sub_categories": {
+            "Eradication of Diseases": {},
+            "Vaccination": {},
+            "Antibiotics & Antibiotic Resistance": {},
+            "Healthcare Spending": {}
+        },
+        "category_name": "Category:Our World in Data - Health Institutions and Interventions"
+    },
+    "Sexual & Reproductive Health": {
+        "main": [
+            "Health"
+        ],
+        "sub_categories": {},
+        "category_name": "Category:Our World in Data - Sexual and Reproductive Health"
+    },
+    "Climate & Air": {
+        "main": [
+            "Energy and Environment"
+        ],
+        "sub_categories": {
+            "Climate Change": {},
+            "CO2 & Greenhouse Gas Emissions": {},
+            "Air Pollution": {
+                "Outdoor Air Pollution": {},
+                "Indoor Air Pollution": {}
+            },
+            "Ozone Layer": {}
+        },
+        "category_name": "Category:Our World in Data - Climate and Air"
+    },
+    "Energy Systems": {
+        "main": [
+            "Energy and Environment"
+        ],
+        "sub_categories": {
+            "Energy": {
+                "Access to Energy": {},
+                "Energy Mix": {},
+                "Fossil Fuels": {},
+                "Nuclear Energy": {},
+                "Bioenergy and Biofuels": {},
+                "Renewable Energy": {}
+            },
+            "Metals & Minerals": {}
+        },
+        "category_name": "Category:Our World in Data - Energy Systems"
+    },
+    "Environment & Ecosystems": {
+        "main": [
+            "Energy and Environment"
+        ],
+        "sub_categories": {
+            "Natural Disasters": {},
+            "Biodiversity": {},
+            "Environmental Impacts of Food Production": {},
+            "Fish & Overfishing": {},
+            "Animal Welfare": {},
+            "Land Use": {},
+            "Water Use & Stress": {},
+            "Forests & Deforestation": {},
+            "Wildfires": {}
+        },
+        "category_name": "Category:Our World in Data - Environment and Ecosystems"
+    },
+    "Waste & Pollution": {
+        "main": [
+            "Energy and Environment"
+        ],
+        "sub_categories": {
+            "Plastic Pollution": {},
+            "Oil Spills": {},
+            "Lead Pollution": {},
+            "Waste Management": {}
+        },
+        "category_name": "Category:Our World in Data - Waste and Pollution"
+    },
+    "Clean Water & Sanitation": {
+        "main": [
+            "Energy and Environment",
+            "Poverty and Economic Development"
+        ],
+        "sub_categories": {
+            "Clean Water": {},
+            "Sanitation": {}
+        },
+        "category_name": "Category:Our World in Data - Clean Water and Sanitation"
+    },
+    "Electricity": {
+        "main": [
+            "Energy and Environment"
+        ],
+        "sub_categories": {
+            "Electricity Mix": {}
+        },
+        "category_name": "Category:Our World in Data - Electricity"
+    },
+    "Food Production": {
+        "main": [
+            "Food and Agriculture"
+        ],
+        "sub_categories": {
+            "Agricultural Production": {},
+            "Meat & Dairy Production": {},
+            "Fish & Overfishing": {},
+            "Crop Yields": {},
+            "Animal Welfare": {},
+            "Environmental Impacts of Food Production": {},
+            "Farm Size": {}
+        },
+        "category_name": "Category:Our World in Data - Food Production"
+    },
+    "Agricultural Inputs": {
+        "main": [
+            "Food and Agriculture"
+        ],
+        "sub_categories": {
+            "Land Use": {},
+            "Fertilizers": {},
+            "Pesticides": {},
+            "Employment in Agriculture": {}
+        },
+        "category_name": "Category:Our World in Data - Agricultural Inputs"
+    },
+    "Nutrition": {
+        "main": [
+            "Food and Agriculture"
+        ],
+        "sub_categories": {
+            "Hunger & Undernourishment": {},
+            "Food Supply": {},
+            "Food Prices": {},
+            "Obesity": {},
+            "Famines": {},
+            "Diet Compositions": {},
+            "Micronutrient Deficiency": {},
+            "Human Height": {}
+        },
+        "category_name": "Category:Our World in Data - Nutrition"
+    },
+    "Bioenergy and Biofuels": {
+        "main": [
+            "Food and Agriculture"
+        ],
+        "sub_categories": {},
+        "category_name": "Category:Our World in Data - Bioenergy and Biofuels"
+    },
+    "Poverty & Prosperity": {
+        "main": [
+            "Poverty and Economic Development"
+        ],
+        "sub_categories": {
+            "Poverty": {},
+            "Economic Growth": {},
+            "Economic Inequality": {},
+            "Foreign Aid": {},
+            "Economic Inequality by Gender": {}
+        },
+        "category_name": "Category:Our World in Data - Poverty and Prosperity"
+    },
+    "Public Sector": {
+        "main": [
+            "Poverty and Economic Development"
+        ],
+        "sub_categories": {
+            "Government Spending": {},
+            "State Capacity": {},
+            "Taxation": {},
+            "Corruption": {},
+            "Healthcare Spending": {},
+            "Education Spending": {},
+            "Military Personnel & Spending": {}
+        },
+        "category_name": "Category:Our World in Data - Public Sector"
+    },
+    "Work & Employment": {
+        "main": [
+            "Poverty and Economic Development"
+        ],
+        "sub_categories": {
+            "Women's Employment": {},
+            "Working Hours": {},
+            "Unemployment": {}
+        },
+        "category_name": "Category:Our World in Data - Work and Employment"
+    },
+    "Global Connections": {
+        "main": [
+            "Poverty and Economic Development"
+        ],
+        "sub_categories": {
+            "Trade & Globalization": {},
+            "Migration": {},
+            "Tourism": {}
+        },
+        "category_name": "Category:Our World in Data - Global Connections"
+    },
+    "Education": {
+        "main": [
+            "Education and Knowledge"
+        ],
+        "sub_categories": {
+            "Global Education": {},
+            "Literacy": {},
+            "Education Spending": {}
+        },
+        "category_name": "Category:Our World in Data - Education"
+    },
+    "Knowledge": {
+        "main": [
+            "Education and Knowledge"
+        ],
+        "sub_categories": {
+            "Research & Development": {},
+            "Internet": {},
+            "Books": {}
+        },
+        "category_name": "Category:Our World in Data - Knowledge"
+    },
+    "Technological Change": {
+        "main": [
+            "Innovation and Technological Change"
+        ],
+        "sub_categories": {},
+        "category_name": "Category:Our World in Data - Technological Change"
+    },
+    "Research & Development": {
+        "main": [
+            "Innovation and Technological Change"
+        ],
+        "sub_categories": {},
+        "category_name": "Category:Our World in Data - Research and Development"
+    },
+    "Artificial Intelligence": {
+        "main": [
+            "Innovation and Technological Change"
+        ],
+        "sub_categories": {},
+        "category_name": "Category:Our World in Data - Artificial Intelligence"
+    },
+    "Internet": {
+        "main": [
+            "Innovation and Technological Change"
+        ],
+        "sub_categories": {},
+        "category_name": "Category:Our World in Data - Internet"
+    },
+    "Space Exploration & Satellites": {
+        "main": [
+            "Innovation and Technological Change"
+        ],
+        "sub_categories": {},
+        "category_name": "Category:Our World in Data - Space Exploration and Satellites"
+    },
+    "Transport": {
+        "main": [
+            "Innovation and Technological Change"
+        ],
+        "sub_categories": {},
+        "category_name": "Category:Our World in Data - Transport"
+    },
+    "Medicine & Biotechnology": {
+        "main": [
+            "Innovation and Technological Change"
+        ],
+        "sub_categories": {},
+        "category_name": "Category:Our World in Data - Medicine and Biotechnology"
+    },
+    "Housing & Infrastructure": {
+        "main": [
+            "Living Conditions, Community and Wellbeing"
+        ],
+        "sub_categories": {
+            "Homelessness": {},
+            "Access to Energy": {},
+            "Indoor Air Pollution": {},
+            "Clean Water & Sanitation": {
+                "Clean Water": {},
+                "Sanitation": {}
+            },
+            "Light at Night": {}
+        },
+        "category_name": "Category:Our World in Data - Housing and Infrastructure"
+    },
+    "Time Use": {
+        "main": [
+            "Living Conditions, Community and Wellbeing"
+        ],
+        "sub_categories": {
+            "Working Hours": {}
+        },
+        "category_name": "Category:Our World in Data - Time Use"
+    },
+    "Relationships": {
+        "main": [
+            "Living Conditions, Community and Wellbeing"
+        ],
+        "sub_categories": {
+            "Marriages & Divorces": {},
+            "Loneliness & Social Connections": {},
+            "Trust": {}
+        },
+        "category_name": "Category:Our World in Data - Relationships"
+    },
+    "Happiness & Wellbeing": {
+        "main": [
+            "Living Conditions, Community and Wellbeing"
+        ],
+        "sub_categories": {
+            "Happiness & Life Satisfaction": {},
+            "Human Development Index (HDI)": {}
+        },
+        "category_name": "Category:Our World in Data - Happiness and Wellbeing"
+    },
+    "Religion": {
+        "main": [
+            "Living Conditions, Community and Wellbeing"
+        ],
+        "sub_categories": {},
+        "category_name": "Category:Our World in Data - Religion"
+    },
+    "Human Rights": {
+        "main": [
+            "Human Rights and Democracy"
+        ],
+        "sub_categories": {},
+        "category_name": "Category:Our World in Data - Human Rights"
+    },
+    "Democracy": {
+        "main": [
+            "Human Rights and Democracy"
+        ],
+        "sub_categories": {},
+        "category_name": "Category:Our World in Data - Democracy"
+    },
+    "State Capacity": {
+        "main": [
+            "Human Rights and Democracy",
+            "Violence and War"
+        ],
+        "sub_categories": {},
+        "category_name": "Category:Our World in Data - State Capacity"
+    },
+    "Women's Rights": {
+        "main": [
+            "Human Rights and Democracy"
+        ],
+        "sub_categories": {},
+        "category_name": "Category:Our World in Data - Women's Rights"
+    },
+    "LGBT+ Rights": {
+        "main": [
+            "Human Rights and Democracy"
+        ],
+        "sub_categories": {},
+        "category_name": "Category:Our World in Data - LGBT+ Rights"
+    },
+    "Corruption": {
+        "main": [
+            "Human Rights and Democracy"
+        ],
+        "sub_categories": {},
+        "category_name": "Category:Our World in Data - Corruption"
+    },
+    "Economic Inequality by Gender": {
+        "main": [
+            "Human Rights and Democracy"
+        ],
+        "sub_categories": {},
+        "category_name": "Category:Our World in Data - Economic Inequality by Gender"
+    },
+    "Child Labor": {
+        "main": [
+            "Human Rights and Democracy"
+        ],
+        "sub_categories": {},
+        "category_name": "Category:Our World in Data - Child Labor"
+    },
+    "Violence Against Children & Children's Rights": {
+        "main": [
+            "Human Rights and Democracy",
+            "Violence and War"
+        ],
+        "sub_categories": {},
+        "category_name": "Category:Our World in Data - Violence Against Children and Children's Rights"
+    },
+    "Crime": {
+        "main": [
+            "Human Rights and Democracy"
+        ],
+        "sub_categories": {},
+        "category_name": "Category:Our World in Data - Crime"
+    },
+    "War & Peace": {
+        "main": [
+            "Violence and War"
+        ],
+        "sub_categories": {},
+        "category_name": "Category:Our World in Data - War and Peace"
+    },
+    "Nuclear Weapons": {
+        "main": [
+            "Violence and War"
+        ],
+        "sub_categories": {},
+        "category_name": "Category:Our World in Data - Nuclear Weapons"
+    },
+    "Homicides": {
+        "main": [
+            "Violence and War"
+        ],
+        "sub_categories": {},
+        "category_name": "Category:Our World in Data - Homicides"
+    },
+    "Terrorism": {
+        "main": [
+            "Violence and War"
+        ],
+        "sub_categories": {},
+        "category_name": "Category:Our World in Data - Terrorism"
+    },
+    "Military Personnel & Spending": {
+        "main": [
+            "Violence and War"
+        ],
+        "sub_categories": {},
+        "category_name": "Category:Our World in Data - Military Personnel and Spending"
+    }
+}

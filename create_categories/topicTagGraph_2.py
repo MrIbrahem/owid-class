@@ -8,6 +8,9 @@ import mwclient
 from tqdm import tqdm
 from pathlib import Path
 from dotenv import load_dotenv
+
+from chart_tags_2 import get_list
+
 load_dotenv()
 
 main_dir = Path(__file__).parent
@@ -112,21 +115,48 @@ to_create = {}
 
 for x, v in tqdm(data_list.items()):
     for category, sub_categories in v.items():
+
+        category_name = f"Category:Our World in Data - {category}"
+        category_name = category_name.replace(" & ", " and ")
+
         cat_data = {
             "main": [x],
             "sub_categories": sub_categories,
+            "category_name": category_name,
         }
         to_create.setdefault(category, cat_data)
         if x not in to_create[category]["main"]:
             to_create[category]["main"].append(x)
 
 
+def add_category_to_pages(category_name, titles):
+    category_page = page_mwclient(category_name)
+    if not category_page.exists():
+        print(f"Category {category_name} does not exist")
+        return
+
+    for x in tqdm(titles):
+        page = page_mwclient(x)
+        if page.exists():
+            text = page.get_text() + f"\n[[{category_name}]]"
+            page.save(text, f"Adding [[{category_name}]]")
+            print(f"save page: {x} success.")
+            return
+
+
+with open(main_dir / "to_create.json", "w", encoding="utf-8") as f:
+    json.dump(to_create, f, indent=4, ensure_ascii=False)
+
 for category, v in tqdm(to_create.items()):
     sub_categories = v["sub_categories"]
     main_categories = v["main"]
+    category_name = v["category_name"]
+
+    if len(main_categories) == 1:
+        continue
 
     text = create_category_text(main_categories, category, sub_categories)
-    category_name = f"Category:Our World in Data - {category}"
+
     to_save[category_name] = text
 
     page = page_mwclient(category_name)
@@ -137,3 +167,6 @@ for category, v in tqdm(to_create.items()):
     else:
         print(f"Creating Category {category_name}")
         page.create(text, "Creating category")
+    # ---
+    titles = get_list(list(sub_categories))
+    add_category_to_pages(category_name, titles)
