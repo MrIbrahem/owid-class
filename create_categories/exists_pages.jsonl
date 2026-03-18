@@ -1941,3 +1941,1867 @@
 {"title": "OWID/tuberculosis death rate", "exists": true}
 {"title": "OWID/tuberculosis deaths. WHO", "exists": true}
 {"title": "OWID/Share of deaths from all causes attributed to cold or heat", "exists": false}
+{"title": "OWID/Share of all deaths attributed to sub-optimal temperatures", "exists": false}
+{"title": "OWID/road accident deaths per passenger kilometers", "exists": true}
+{"title": "OWID/Share of deaths by risk factor", "exists": false}
+{"title": "OWID/Homicide rate in the United States and Europe", "exists": false}
+{"title": "OWID/Diabetes prevalence who gho", "exists": true}
+{"title": "OWID/obesity prevalence adults who gho", "exists": true}
+{"title": "OWID/Death rate from venomous snakes", "exists": false}
+{"title": "OWID/Deaths from venomous snakes", "exists": false}
+{"title": "OWID/Disease burden due to communicable diseases vs. GDP per capita", "exists": false}
+{"title": "OWID/Share of people living with diabetes vs. GDP per capita", "exists": false}
+{"title": "OWID/Share of people with diabetes", "exists": false}
+{"title": "OWID/Deaths by risk factor for ages 50-69", "exists": false}
+{"title": "OWID/Total disease burden by cause", "exists": false}
+{"title": "OWID/Burden of disease by cause", "exists": false}
+{"title": "OWID/dalys rate from all causes", "exists": true}
+{"title": "OWID/Disease burden by age", "exists": false}
+{"title": "OWID/Burden of disease rates from ncds", "exists": true}
+{"title": "OWID/Burden of disease rates from communicable neonatal maternal nutritional diseases", "exists": true}
+{"title": "OWID/Burden of disease rates from injuries", "exists": true}
+{"title": "OWID/Share of total disease burden by cause", "exists": false}
+{"title": "OWID/Life expectancy vs. expected years lived with disability or disease", "exists": false}
+{"title": "OWID/Years lived with disease or disability vs. GDP per capita", "exists": false}
+{"title": "OWID/Global disease burden by region", "exists": false}
+{"title": "OWID/Disease burden from non-communicable diseases", "exists": false}
+{"title": "OWID/Disease burden from non-communicable diseases by age", "exists": false}
+{"title": "OWID/Disease burden from communicable, maternal, neonatal and nutritional diseases", "exists": false}
+{"title": "OWID/Disease burden from communicable, maternal, neonatal & nutritional diseases by age", "exists": false}
+{"title": "OWID/Disease burden from injuries", "exists": false}
+{"title": "OWID/Burden of disease from injuries, by age", "exists": false}
+{"title": "OWID/Disease burden from non-communicable diseases vs. GDP per capita", "exists": false}
+{"title": "OWID/Share of disease burden from NCDs vs. GDP per capita", "exists": false}
+{"title": "OWID/Share of disease burden from communicable diseases vs. GDP per capita", "exists": false}
+{"title": "OWID/Disease burden vs. health spending per capita", "exists": false}
+{"title": "OWID/Burden of disease, by age group", "exists": false}
+{"title": "OWID/hepatitis b incidence sdgs", "exists": true}
+{"title": "OWID/Number of people with depressive disorders, by region", "exists": false}
+{"title": "OWID/share with mental and substance disorders", "exists": true}
+{"title": "OWID/Mental disorders as a share of total disease burden", "exists": false}
+{"title": "OWID/interventions ntds sdgs", "exists": true}
+{"title": "OWID/Prevalence of Alzheimer's disease and other dementias", "exists": false}
+{"title": "OWID/asthma prevalence", "exists": true}
+{"title": "OWID/trachoma prevalence age standardized ihme", "exists": true}
+{"title": "OWID/Substance use disorder deaths", "exists": false}
+{"title": "OWID/Share of the population with drug use disorders by age", "exists": false}
+{"title": "OWID/Deaths from drug use disorders", "exists": true}
+{"title": "OWID/Death rates from drug use disorders", "exists": true}
+{"title": "OWID/Drug disorder dalys rate", "exists": true}
+{"title": "OWID/Deaths from lower respiratory infections, by age", "exists": false}
+{"title": "OWID/Disease burden by risk factor", "exists": false}
+{"title": "OWID/Deaths from diabetes, by type", "exists": false}
+{"title": "OWID/Total disease burden", "exists": true}
+{"title": "OWID/Total disease burden who", "exists": true}
+{"title": "OWID/Deaths from fires and burns", "exists": false}
+{"title": "OWID/Death rates from high blood sugar", "exists": false}
+{"title": "OWID/Death rates from high blood sugar gbd", "exists": false}
+{"title": "OWID/Death rate from Parkinson's disease", "exists": false}
+{"title": "OWID/Death rate from poisoning", "exists": false}
+{"title": "OWID/Deaths from pneumonia, by age", "exists": false}
+{"title": "OWID/Death rate from pneumonia in children vs. GDP per capita", "exists": false}
+{"title": "OWID/Number of pneumonia deaths in children by risk factor", "exists": false}
+{"title": "OWID/prevalence cysticercosis", "exists": true}
+{"title": "OWID/Deaths from meningitis, by age", "exists": false}
+{"title": "OWID/share of the population with latent tuberculosis infection", "exists": true}
+{"title": "OWID/The burden of disease vs. GDP per capita", "exists": false}
+{"title": "OWID/dengue incidence", "exists": true}
+{"title": "OWID/Death rate attributed to ambient air pollution", "exists": false}
+{"title": "OWID/number of reported yaws cases", "exists": true}
+{"title": "OWID/Death rate from diabetes", "exists": false}
+{"title": "OWID/Deaths from Alzheimer's", "exists": false}
+{"title": "OWID/Death rate from drug use disorders for 15 to 49 year olds", "exists": true}
+{"title": "OWID/Coverage of underlying data on the prevalence of major depression", "exists": false}
+{"title": "OWID/Drug use disorder deaths by age", "exists": false}
+{"title": "OWID/Deaths from illicit drugs", "exists": false}
+{"title": "OWID/Death rates from drug use disorders gbd", "exists": true}
+{"title": "OWID/Drug use disorder death rate", "exists": false}
+{"title": "OWID/Rate of disease burden from drug use disorders", "exists": false}
+{"title": "OWID/Drug use disorder deaths", "exists": false}
+{"title": "OWID/Share of deaths by risk factor", "exists": false}
+{"title": "OWID/Countries where buruli ulcer is endemic", "exists": false}
+{"title": "OWID/Countries where cutaneous leishmaniasis is endemic", "exists": false}
+{"title": "OWID/Countries where visceral leishmaniasis is endemic", "exists": false}
+{"title": "OWID/reported cases of human african trypanosomiasis t b gambiense", "exists": true}
+{"title": "OWID/Reported cases of acute African trypanosomiasis", "exists": false}
+{"title": "OWID/Countries where trachoma is a public health problem", "exists": false}
+{"title": "OWID/Tuberculosis cases attributable to risk factors", "exists": false}
+{"title": "OWID/Share of population with anxiety disorders vs. GDP per capita", "exists": false}
+{"title": "OWID/depressive disorders prevalence ihme", "exists": true}
+{"title": "OWID/Share of people living with depressive disorders, males vs. females", "exists": false}
+{"title": "OWID/Number of people with depressive disorders, by region", "exists": false}
+{"title": "OWID/Share of people who have depressive disorders, by age", "exists": false}
+{"title": "OWID/anxiety disorders prevalence", "exists": true}
+{"title": "OWID/Share of the population with anxiety disorders, males vs. females", "exists": false}
+{"title": "OWID/Share of the population with anxiety disorders, by age", "exists": false}
+{"title": "OWID/eating disorders prevalence", "exists": true}
+{"title": "OWID/Share of the population with an eating disorder, males vs. females", "exists": false}
+{"title": "OWID/Share of the population with an eating disorder, by age", "exists": false}
+{"title": "OWID/bipolar disorder prevalence", "exists": true}
+{"title": "OWID/Share of the population with bipolar disorder, males vs. females", "exists": false}
+{"title": "OWID/Anorexia or bulimia nervosa estimated cases", "exists": false}
+{"title": "OWID/Eating disorders death rate", "exists": false}
+{"title": "OWID/Number of deaths from eating disorders", "exists": false}
+{"title": "OWID/Share of the population with bipolar disorder, by age", "exists": false}
+{"title": "OWID/schizophrenia prevalence", "exists": true}
+{"title": "OWID/Share of people living with schizophrenia, males vs. females", "exists": false}
+{"title": "OWID/Share of people living with schizophrenia, by age", "exists": false}
+{"title": "OWID/Number of people with mental disorders, by sex", "exists": false}
+{"title": "OWID/Mental disorders as a share of total disease burden", "exists": false}
+{"title": "OWID/Depressive disorders prevalence, IHME vs. WHO", "exists": false}
+{"title": "OWID/mental and substance use as share of disease", "exists": true}
+{"title": "OWID/Share of people with depression, by education level and employment", "exists": false}
+{"title": "OWID/Prevalence of Alzheimer's disease and other dementias", "exists": false}
+{"title": "OWID/Depressive disorders prevalence vs. GDP per capita", "exists": false}
+{"title": "OWID/Number of people with autism spectrum disorder", "exists": false}
+{"title": "OWID/share with mental health or development disorder", "exists": true}
+{"title": "OWID/Prevalence of mental health and substance use disorders", "exists": false}
+{"title": "OWID/Share of the population with substance use disorders, by age group", "exists": false}
+{"title": "OWID/share with drug use disorders", "exists": true}
+{"title": "OWID/Number with a drug use disorder by substance", "exists": false}
+{"title": "OWID/Number with drug use disorders country", "exists": true}
+{"title": "OWID/Mental health as a risk factor for illicit drug dependency or abuse", "exists": false}
+{"title": "OWID/antidepressants per capita", "exists": true}
+{"title": "OWID/Depressive symptoms across the US population", "exists": false}
+{"title": "OWID/Current depression in England, by age and gender", "exists": false}
+{"title": "OWID/Share who know friends or family who have been anxious or depressed", "exists": false}
+{"title": "OWID/Perceived importance of science in treating anxiety or depression", "exists": false}
+{"title": "OWID/Perceived discomfort speaking about anxiety or depression", "exists": false}
+{"title": "OWID/Share who say local people would feel very comfortable speaking about anxiety or depression vs. share who know friends or family with anxiety or depression", "exists": false}
+{"title": "OWID/Share who say it's extremely important for the national government to fund research on anxiety/depression", "exists": false}
+{"title": "OWID/Perceived importance of government funding for research on anxiety or depression", "exists": false}
+{"title": "OWID/Perceived importance of national funding for anxiety/depression research vs. GDP per capita", "exists": false}
+{"title": "OWID/Perceived importance of science in treating anxiety or depression vs. GDP per capita", "exists": false}
+{"title": "OWID/Share who know friends or family who have been anxious or depressed, by gender", "exists": false}
+{"title": "OWID/Perceived discomfort speaking about anxiety or depression, by gender", "exists": false}
+{"title": "OWID/Stand-alone policy or plan for mental health", "exists": false}
+{"title": "OWID/Psychiatrists per 100,000 people", "exists": false}
+{"title": "OWID/Mental health units in general hospitals", "exists": false}
+{"title": "OWID/Share who report lifetime anxiety or depression", "exists": false}
+{"title": "OWID/Age when first had anxiety or depression", "exists": false}
+{"title": "OWID/How do people deal with anxiety or depression around the world?", "exists": false}
+{"title": "OWID/How do people deal with anxiety or depression?", "exists": false}
+{"title": "OWID/Dealt with anxiety or depression by engaging in religious/spiritual activities", "exists": false}
+{"title": "OWID/Dealt with anxiety or depression by talking to friends or family", "exists": false}
+{"title": "OWID/Share who say local people would feel very comfortable speaking about anxiety or depression vs. share who spoke to friends or family when they had anxiety or depression", "exists": false}
+{"title": "OWID/Coverage of underlying data on the prevalence of major depression", "exists": false}
+{"title": "OWID/Number of countries with underlying data on the prevalence of mental illnesses", "exists": false}
+{"title": "OWID/Mental illnesses prevalence", "exists": false}
+{"title": "OWID/Treatment gap for clinical anxiety", "exists": false}
+{"title": "OWID/Experienced calmness a lot of the day yesterday, by gender", "exists": false}
+{"title": "OWID/Experienced calmness a lot of the day yesterday, by age", "exists": false}
+{"title": "OWID/Burden of disease from each category of mental illness", "exists": false}
+{"title": "OWID/Mental illness: estimated cases", "exists": false}
+{"title": "OWID/Perceived comfort speaking about anxiety or depression", "exists": false}
+{"title": "OWID/Estimated prevalence vs. burden of mental illnesses", "exists": false}
+{"title": "OWID/Antidepressant drug consumption per 1,000 people vs. GDP per capita", "exists": false}
+{"title": "OWID/Coverage of treatment interventions for substance use disorders", "exists": false}
+{"title": "OWID/Coverage of underlying data on the prevalence of mental illnesses", "exists": false}
+{"title": "OWID/deaths from mental health and substance use disorders who", "exists": true}
+{"title": "OWID/death rate from mental health and substance use disorders who", "exists": true}
+{"title": "OWID/Mental health and substance use disorders death rate by age group", "exists": false}
+{"title": "OWID/Countries that have reported recent data on mental health", "exists": false}
+{"title": "OWID/Suicide rate for 15 to 49 year olds", "exists": true}
+{"title": "OWID/Self-reported hopefulness", "exists": false}
+{"title": "OWID/Share of people who think their life will improve in the next years", "exists": false}
+{"title": "OWID/Suicide rate", "exists": false}
+{"title": "OWID/Number of suicides, by age", "exists": false}
+{"title": "OWID/suicide death rates", "exists": true}
+{"title": "OWID/Suicide death rate by age", "exists": false}
+{"title": "OWID/Suicide rate vs. death rate from violence", "exists": false}
+{"title": "OWID/Suicide rate vs. income inequality", "exists": false}
+{"title": "OWID/Share deaths suicide", "exists": true}
+{"title": "OWID/Suicide rate, by age", "exists": false}
+{"title": "OWID/number suicide deaths", "exists": true}
+{"title": "OWID/Suicide rate in 1980 vs. 2023", "exists": false}
+{"title": "OWID/death rate from suicides", "exists": true}
+{"title": "OWID/number of deaths from suicide ghe", "exists": true}
+{"title": "OWID/death rate from suicides ghe", "exists": true}
+{"title": "OWID/death rate from suicides gho", "exists": true}
+{"title": "OWID/Male vs. female suicide rate", "exists": false}
+{"title": "OWID/Suicide rate, by age", "exists": false}
+{"title": "OWID/Suicide rate, by sex", "exists": false}
+{"title": "OWID/Suicide rate, by age", "exists": false}
+{"title": "OWID/Suicide rate in 2000 vs. 2021", "exists": false}
+{"title": "OWID/Male-to-female ratio of suicide rate", "exists": false}
+{"title": "OWID/Suicide rates among young people", "exists": false}
+{"title": "OWID/Share of countries that have reported suicide data to the World Health Organization", "exists": false}
+{"title": "OWID/Reported suicide rates among young people", "exists": false}
+{"title": "OWID/Crude suicide rates: comparison of sources", "exists": false}
+{"title": "OWID/Age-standardized suicide rates: comparison of sources", "exists": false}
+{"title": "OWID/Reported suicide rates among young women", "exists": false}
+{"title": "OWID/Reported suicide rates among young men", "exists": false}
+{"title": "OWID/Male vs. female suicide rate", "exists": false}
+{"title": "OWID/Reported suicide rates by age", "exists": false}
+{"title": "OWID/Number of suicides: comparison of sources", "exists": false}
+{"title": "OWID/Death rate from cardiovascular diseases by age group", "exists": false}
+{"title": "OWID/Number of deaths from stroke by age", "exists": false}
+{"title": "OWID/Stroke death rates", "exists": true}
+{"title": "OWID/Death rate from stroke by age group", "exists": false}
+{"title": "OWID/Number of deaths from cardiovascular diseases by age", "exists": false}
+{"title": "OWID/Death rate from cardiovascular diseases by age group", "exists": false}
+{"title": "OWID/Death rate from cardiovascular diseases vs. GDP per capita", "exists": false}
+{"title": "OWID/Death rates from different causes in the United States over the 20th century", "exists": false}
+{"title": "OWID/Share of adults who smoke or use tobacco", "exists": false}
+{"title": "OWID/share deaths cardiovascular disease", "exists": true}
+{"title": "OWID/Death rate from cardiovascular diseases by risk factor", "exists": false}
+{"title": "OWID/Deaths due to high blood pressure", "exists": false}
+{"title": "OWID/Deaths from cardiovascular disease", "exists": true}
+{"title": "OWID/deaths from cardiovascular disease ghe", "exists": true}
+{"title": "OWID/Number of deaths from stroke", "exists": false}
+{"title": "OWID/male high blood pressure", "exists": true}
+{"title": "OWID/women high blood pressure", "exists": true}
+{"title": "OWID/Share of deaths from each major cause", "exists": false}
+{"title": "OWID/Death rate from cardiovascular diseases by age group", "exists": false}
+{"title": "OWID/Death rates from different causes in France over the 20th century", "exists": false}
+{"title": "OWID/Cardiologists per million people", "exists": false}
+{"title": "OWID/good cholesterol levels age standardized", "exists": true}
+{"title": "OWID/average non hdl cholesterol levels", "exists": true}
+{"title": "OWID/Cardiac surgeons per million people", "exists": false}
+{"title": "OWID/Death rate from cardiovascular diseases by sex", "exists": false}
+{"title": "OWID/Statin use", "exists": false}
+{"title": "OWID/Gamma camera or nuclear medicine units per million people", "exists": false}
+{"title": "OWID/Positron emission tomography (PET) imaging units per million people", "exists": false}
+{"title": "OWID/Statin use vs. average non-HDL cholesterol levels", "exists": false}
+{"title": "OWID/Statin use by people with cardiovascular diseases to prevent complications", "exists": false}
+{"title": "OWID/Statin use to prevent the development of cardiovascular diseases", "exists": false}
+{"title": "OWID/accessibility of statins in the public health sector", "exists": true}
+{"title": "OWID/Share of deaths from underlying causes", "exists": false}
+{"title": "OWID/incidence rate of cardiovascular disease", "exists": true}
+{"title": "OWID/prevalence rate of cardiovascular disease", "exists": true}
+{"title": "OWID/Statin use vs death rate from cardiovascular diseases", "exists": false}
+{"title": "OWID/Number of deaths from cardiovascular diseases by type", "exists": false}
+{"title": "OWID/Cardiovascular disease death crude rate who mdb", "exists": true}
+{"title": "OWID/Number of deaths from cardiovascular diseases by risk factor", "exists": false}
+{"title": "OWID/death rate from rheumatic heart disease who ghe age standardized", "exists": true}
+{"title": "OWID/Death rate from cardiomyopathy, myocarditis and endocarditis", "exists": false}
+{"title": "OWID/death rate from hypertensive heart disease who ghe age standardized", "exists": true}
+{"title": "OWID/death rate from ischaemic heart disease who ghe age standardized", "exists": true}
+{"title": "OWID/Number of deaths from cardiovascular diseases by region", "exists": false}
+{"title": "OWID/Death rate from cardiovascular diseases by sex", "exists": false}
+{"title": "OWID/Share of deaths from cardiovascular diseases by sex", "exists": false}
+{"title": "OWID/Cardiovascular death rate: crude versus age-standardized", "exists": false}
+{"title": "OWID/Hospitals with cardiovascular units per million people", "exists": false}
+{"title": "OWID/Cardiac procedures per million people", "exists": false}
+{"title": "OWID/Magnetic resonance imaging (MRI) units per million people", "exists": false}
+{"title": "OWID/Computed tomography (CT) imaging units per million people", "exists": false}
+{"title": "OWID/Lung cancer death rates", "exists": false}
+{"title": "OWID/Deaths from cancer by age", "exists": false}
+{"title": "OWID/cancer death rates", "exists": true}
+{"title": "OWID/Cancer death rate by type", "exists": false}
+{"title": "OWID/Cancer death rate by age group", "exists": false}
+{"title": "OWID/Cancer deaths by type", "exists": false}
+{"title": "OWID/Cancer deaths by type", "exists": false}
+{"title": "OWID/Death rate from cancers vs. income inequality", "exists": false}
+{"title": "OWID/Death rate from cancers vs. GDP per capita", "exists": false}
+{"title": "OWID/Disease burden rates from cancers", "exists": true}
+{"title": "OWID/Disease burden rates by cancer type", "exists": false}
+{"title": "OWID/share of population with cancer age standardized", "exists": true}
+{"title": "OWID/Share of population with cancer by type", "exists": false}
+{"title": "OWID/Number of people with cancer by type", "exists": false}
+{"title": "OWID/number of people with cancer", "exists": true}
+{"title": "OWID/People who currently have cancer, by age group", "exists": false}
+{"title": "OWID/Share of population with cancer by age", "exists": false}
+{"title": "OWID/Five-year net cancer survival rates by sex", "exists": false}
+{"title": "OWID/Five-year net survival rates by cancer type", "exists": false}
+{"title": "OWID/Share of cancer deaths attributed to risk factors", "exists": false}
+{"title": "OWID/Three measures of cancer mortality", "exists": false}
+{"title": "OWID/Share of population with cancer vs. median age", "exists": false}
+{"title": "OWID/Lung cancer death rates males", "exists": true}
+{"title": "OWID/cancer incidence", "exists": true}
+{"title": "OWID/Lung cancer death rate in men vs. women", "exists": false}
+{"title": "OWID/deaths from cancer gbd", "exists": true}
+{"title": "OWID/death rate from cancer", "exists": true}
+{"title": "OWID/death rate from cancer gbd", "exists": true}
+{"title": "OWID/Death rate from cancer for 15 to 49 year olds", "exists": true}
+{"title": "OWID/Cancer incidence rate by age group", "exists": false}
+{"title": "OWID/Cancer death rate: crude versus age-standardized", "exists": false}
+{"title": "OWID/share of population with cancer crude", "exists": true}
+{"title": "OWID/Rate of new cases of cancer by type", "exists": false}
+{"title": "OWID/Stomach cancer death rate", "exists": true}
+{"title": "OWID/Liver cancer incidence rate by risk factor", "exists": false}
+{"title": "OWID/Screening rates for cancers in Europe", "exists": false}
+{"title": "OWID/Five-year survival rate of cancers among women in England", "exists": false}
+{"title": "OWID/Five-year survival rate of cancers via different diagnosis routes in England", "exists": false}
+{"title": "OWID/Five-year survival rate of cancers among men in England", "exists": false}
+{"title": "OWID/Cancer death rate in children under 5 years old by type", "exists": false}
+{"title": "OWID/Cancer death rate in children under five years old by type", "exists": false}
+{"title": "OWID/Cancer death rates by type", "exists": false}
+{"title": "OWID/Share of cancer deaths by cancer type", "exists": false}
+{"title": "OWID/Share of cancers diagnosed via screening in England by stage", "exists": false}
+{"title": "OWID/Cancer death rates in children under 5 years old", "exists": false}
+{"title": "OWID/Number of cancers diagnosed via different routes in England", "exists": false}
+{"title": "OWID/Death rate from cancer by sex", "exists": false}
+{"title": "OWID/Share of new cancers attributable to Human papillomavirus (HPV)", "exists": false}
+{"title": "OWID/Share of new stomach cancers attributable to H. pylori infection", "exists": false}
+{"title": "OWID/Share of cancer deaths attributed to different risk factors", "exists": false}
+{"title": "OWID/Countries with a national screening program for cervical cancer", "exists": false}
+{"title": "OWID/Share of invasive cervical cancers caused by each HPV type", "exists": false}
+{"title": "OWID/Reported rate of new cervical cancer cases", "exists": true}
+{"title": "OWID/Rate of new cervical cancer cases", "exists": false}
+{"title": "OWID/Cancer crude death rate by type", "exists": false}
+{"title": "OWID/Share of all cancer deaths by risk factor", "exists": false}
+{"title": "OWID/Share of cancer deaths attributed to all risk factors", "exists": false}
+{"title": "OWID/Share of cervical and all cancer deaths due to unsafe sex", "exists": false}
+{"title": "OWID/Share of cancer deaths attributed to alcohol use by type", "exists": false}
+{"title": "OWID/Share of all cancer deaths attributable to alcohol use", "exists": false}
+{"title": "OWID/leading cancer types causing death in women", "exists": true}
+{"title": "OWID/Cervical cancer screening coverage in Europe", "exists": false}
+{"title": "OWID/Colon and rectum cancer screening coverage in Europe", "exists": false}
+{"title": "OWID/Breast cancer screening coverage in Europe", "exists": false}
+{"title": "OWID/Share of cancer deaths linked to tobacco use by cancer type", "exists": false}
+{"title": "OWID/Share of cancer deaths linked to high body mass index (BMI) by type", "exists": false}
+{"title": "OWID/leading cancer types causing death in men", "exists": true}
+{"title": "OWID/Bladder cancer death rate", "exists": true}
+{"title": "OWID/colon and rectum cancer death rate", "exists": true}
+{"title": "OWID/Liver cancer death rate", "exists": true}
+{"title": "OWID/Brain and nervous system cancer death rate", "exists": true}
+{"title": "OWID/Breast cancer death rate in women", "exists": true}
+{"title": "OWID/cervical cancer death rate in women", "exists": true}
+{"title": "OWID/prostate cancer death rate in men", "exists": true}
+{"title": "OWID/pancreatic cancer death rate", "exists": true}
+{"title": "OWID/share of lung cancer deaths attributed to air pollution", "exists": true}
+{"title": "OWID/Share of cancer deaths linked to dietary risk factors by cancer type", "exists": false}
+{"title": "OWID/Rate of new cervical cancer cases", "exists": false}
+{"title": "OWID/Share of new cancers caused by infections", "exists": false}
+{"title": "OWID/Share of new cancers caused by all known infectious agents", "exists": false}
+{"title": "OWID/Share of new cancers caused by Helicobacter pylori bacteria", "exists": false}
+{"title": "OWID/Cancer death rates in children under 10 years old", "exists": false}
+{"title": "OWID/Number of new cases and deaths from cervical cancer", "exists": false}
+{"title": "OWID/Share of deaths from underlying causes", "exists": false}
+{"title": "OWID/Maternal mortality ratio vs. GDP per capita", "exists": false}
+{"title": "OWID/Maternal mortality vs. health expenditure over time", "exists": false}
+{"title": "OWID/Maternal mortality slope chart", "exists": true}
+{"title": "OWID/Number of maternal deaths", "exists": true}
+{"title": "OWID/The maternal mortality ratio in 1985 and 2020", "exists": false}
+{"title": "OWID/births attended by health staff sdgs", "exists": true}
+{"title": "OWID/Number of maternal deaths by region", "exists": false}
+{"title": "OWID/Has country already reached SDG target on maternal mortality?", "exists": false}
+{"title": "OWID/MDG5.A: Maternal mortality ratio", "exists": false}
+{"title": "OWID/Maternal deaths by cause", "exists": false}
+{"title": "OWID/Maternal mortality ratio vs. births attended by skilled health staff", "exists": false}
+{"title": "OWID/Share of pregnant women who receive prenatal care", "exists": false}
+{"title": "OWID/Nurses and midwives per 1,000 people", "exists": false}
+{"title": "OWID/Maternal deaths by income group", "exists": false}
+{"title": "OWID/Relative change in maternal mortality", "exists": true}
+{"title": "OWID/Change in maternal mortality", "exists": false}
+{"title": "OWID/Preterm birth complication mortality rates vs. GDP per capita", "exists": false}
+{"title": "OWID/maternal deaths ihme", "exists": true}
+{"title": "OWID/maternal mortality ratio who gho", "exists": true}
+{"title": "OWID/lifetime risk of maternal death", "exists": true}
+{"title": "OWID/Antenatal care coverage", "exists": false}
+{"title": "OWID/Share of mothers receiving medical care after giving birth", "exists": false}
+{"title": "OWID/Reported maternal mortality rate", "exists": false}
+{"title": "OWID/Maternal mortality ratio vs. average daily income", "exists": false}
+{"title": "OWID/Average exposure pm25 pollution", "exists": true}
+{"title": "OWID/Death rate from air pollution per 100000", "exists": true}
+{"title": "OWID/Dalys particulate matter", "exists": true}
+{"title": "OWID/Global sulphur dioxide (SO₂) emissions by world region", "exists": false}
+{"title": "OWID/Ozone o3 concentration in ppb", "exists": true}
+{"title": "OWID/Death rate from outdoor air pollution vs. GDP per capita", "exists": false}
+{"title": "OWID/Air pollution deaths as percentage of total deaths", "exists": false}
+{"title": "OWID/Air pollution vs. GDP per capita", "exists": false}
+{"title": "OWID/Deaths from outdoor particulate matter air pollution, by region", "exists": false}
+{"title": "OWID/Deaths from household and outdoor air pollution", "exists": false}
+{"title": "OWID/Emissions of air pollutants", "exists": false}
+{"title": "OWID/Air pollutant emissions", "exists": false}
+{"title": "OWID/Emissions of particulate matter", "exists": false}
+{"title": "OWID/Emissions of air pollutants", "exists": false}
+{"title": "OWID/Sources of air pollution in the UK", "exists": false}
+{"title": "OWID/Death rate from ambient particulate air pollution vs. GDP per capita", "exists": false}
+{"title": "OWID/Death rate from particular matter air pollution vs. PM2.5 concentration", "exists": false}
+{"title": "OWID/Air pollution", "exists": false}
+{"title": "OWID/Pm25 air pollution", "exists": true}
+{"title": "OWID/Absolute number of deaths from outdoor air pollution", "exists": true}
+{"title": "OWID/Death rate from outdoor air pollution in 1990 vs. 2023", "exists": false}
+{"title": "OWID/Number of deaths from air pollution", "exists": false}
+{"title": "OWID/Air pollution deaths country", "exists": true}
+{"title": "OWID/Share deaths air pollution", "exists": true}
+{"title": "OWID/Share deaths outdoor pollution", "exists": true}
+{"title": "OWID/Outdoor air pollution deaths in 1990 vs. 2023", "exists": false}
+{"title": "OWID/Particulate matter exposure in 1990 vs. 2017", "exists": false}
+{"title": "OWID/Deaths from outdoor particulate matter air pollution, by age", "exists": false}
+{"title": "OWID/Air pollution deaths from fossil fuels", "exists": false}
+{"title": "OWID/Deaths attributed to air pollution from fossil fuels and deaths due to terrorism", "exists": false}
+{"title": "OWID/Deaths from ozone pollution", "exists": true}
+{"title": "OWID/Death rate from ozone pollution", "exists": true}
+{"title": "OWID/Death rate from ozone pollution gbd", "exists": true}
+{"title": "OWID/Outdoor pollution death rate", "exists": true}
+{"title": "OWID/Outdoor air pollution death rate by age", "exists": false}
+{"title": "OWID/Exposure to PM2.5 air pollution vs. GDP per capita", "exists": false}
+{"title": "OWID/Emissions of air pollutants", "exists": false}
+{"title": "OWID/emissions of air pollutants", "exists": false}
+{"title": "OWID/Coal consumption and sulphur dioxide emissions", "exists": false}
+{"title": "OWID/Road miles and NOₓ emissions from transport in the United Kingdom", "exists": false}
+{"title": "OWID/Share of the population without access to clean fuels for cooking", "exists": false}
+{"title": "OWID/deaths lead exposure", "exists": true}
+{"title": "OWID/death rate lead exposure", "exists": true}
+{"title": "OWID/lead petrol ban", "exists": true}
+{"title": "OWID/disease burden lead", "exists": true}
+{"title": "OWID/rate disease burden lead", "exists": true}
+{"title": "OWID/lead paint over 90ppm", "exists": true}
+{"title": "OWID/GDP price levels relative to the US", "exists": false}
+{"title": "OWID/total alcohol consumption per capita litres of pure alcohol", "exists": true}
+{"title": "OWID/Alcohol consumption vs. GDP per capita", "exists": false}
+{"title": "OWID/Deaths from alcohol use disorders", "exists": true}
+{"title": "OWID/Death rates from alcohol use disorders", "exists": true}
+{"title": "OWID/share with alcohol use disorders", "exists": true}
+{"title": "OWID/Share of people who have alcohol use disorders, men vs. women", "exists": false}
+{"title": "OWID/Share of the population with alcohol use disorders, by age", "exists": false}
+{"title": "OWID/Number of people with alcohol use disorders", "exists": false}
+{"title": "OWID/Number with alcohol use disorders country", "exists": true}
+{"title": "OWID/alcohol disorders dalys age standardized rate", "exists": true}
+{"title": "OWID/DALY rates from alcohol use disorders by age", "exists": false}
+{"title": "OWID/Share of the population who don't drink alcohol, United Kingdom", "exists": false}
+{"title": "OWID/Share of population who drank alcohol in the last week, United Kingdom", "exists": false}
+{"title": "OWID/Share of drinkers who \"binged\" on heaviest day of drinking in last week, United Kingdom", "exists": false}
+{"title": "OWID/Share of road traffic deaths attributed to alcohol", "exists": false}
+{"title": "OWID/Alcohol consumption by tourists", "exists": false}
+{"title": "OWID/Alcohol related crimes of all crimes", "exists": true}
+{"title": "OWID/share of adults who drank alcohol in last year", "exists": true}
+{"title": "OWID/Share of men vs. share of women who drank alcohol in last year", "exists": false}
+{"title": "OWID/Average alcohol consumption by 15-19 year old males vs. females", "exists": false}
+{"title": "OWID/Average per capita alcohol consumption in 15-19 year olds", "exists": false}
+{"title": "OWID/share of population who never drink alcohol", "exists": true}
+{"title": "OWID/share who have not drank alcohol in last year", "exists": true}
+{"title": "OWID/drinkers had a heavy session in past 30 days", "exists": true}
+{"title": "OWID/alcohol expenditure as share of total", "exists": true}
+{"title": "OWID/Share of people with alcohol use disorders receiving treatment", "exists": false}
+{"title": "OWID/Alcohol-attributable fraction of mortality", "exists": false}
+{"title": "OWID/Share of adults in the UK who drank alcohol on 5 or more days in last week by income", "exists": false}
+{"title": "OWID/Share of adults who drank, drank heavily or binged in last 30 days", "exists": false}
+{"title": "OWID/Standard alcoholic drink measure", "exists": false}
+{"title": "OWID/Beer as a share of total alcohol consumption", "exists": false}
+{"title": "OWID/beer consumption per person", "exists": true}
+{"title": "OWID/Wine as a share of total alcohol consumption", "exists": false}
+{"title": "OWID/Spirits as a share of total alcohol consumption", "exists": false}
+{"title": "OWID/spirits consumption per person", "exists": true}
+{"title": "OWID/Alcohol consumption per person in the United States", "exists": false}
+{"title": "OWID/Mental health as a risk factor for alcohol dependency or abuse", "exists": false}
+{"title": "OWID/Alcohol expenditure", "exists": false}
+{"title": "OWID/Per capita alcohol 1890", "exists": true}
+{"title": "OWID/Alcohol consumption by type of alcoholic beverage", "exists": false}
+{"title": "OWID/Share with alcohol or drug use disorders", "exists": true}
+{"title": "OWID/Share with alcohol or drug use disorders, men vs. women", "exists": false}
+{"title": "OWID/Number of people with alcohol or drug use disorders", "exists": true}
+{"title": "OWID/alcohol drug use disorders share total disease", "exists": true}
+{"title": "OWID/Share of population with alcohol use disorder vs. drug use disorder", "exists": false}
+{"title": "OWID/Premature deaths attributed to alcohol use by age", "exists": false}
+{"title": "OWID/Rate of premature deaths due to alcohol", "exists": true}
+{"title": "OWID/Share of population with alcohol use disorders", "exists": false}
+{"title": "OWID/Deaths due to alcohol use", "exists": false}
+{"title": "OWID/Death rates from alcohol use disorders gbd", "exists": true}
+{"title": "OWID/rate of premature deaths due to alcohol gbd", "exists": true}
+{"title": "OWID/Deaths attributed to tobacco, alcohol and drugs", "exists": false}
+{"title": "OWID/death rates substance disorders", "exists": true}
+{"title": "OWID/deaths from substance disorders", "exists": true}
+{"title": "OWID/Alcohol and drug use disorders deaths by age", "exists": false}
+{"title": "OWID/Alcohol and drug use disorders deaths", "exists": false}
+{"title": "OWID/Alcohol and drug use disorders deaths by age", "exists": false}
+{"title": "OWID/deaths from substance disorders who", "exists": true}
+{"title": "OWID/death rates substance disorders who", "exists": true}
+{"title": "OWID/Alcohol and drug use disorders death rate by age", "exists": false}
+{"title": "OWID/Alcohol and drug use disorders deaths by sex", "exists": false}
+{"title": "OWID/Alcohol consumption per capita in men and women", "exists": false}
+{"title": "OWID/wine consumption per capita", "exists": true}
+{"title": "OWID/Share with alcohol or drug use disorders, men vs. women", "exists": false}
+{"title": "OWID/Share of population with alcohol use disorder vs. drug use disorder", "exists": false}
+{"title": "OWID/Deaths attributed to tobacco, alcohol and drugs", "exists": false}
+{"title": "OWID/Alcohol and drug use disorders deaths by age", "exists": false}
+{"title": "OWID/Share of small arms and light weapons with illicit origin", "exists": false}
+{"title": "OWID/Alcohol and drug use disorders deaths", "exists": false}
+{"title": "OWID/Amphetamine use disorder death rate by age", "exists": false}
+{"title": "OWID/Alcohol and drug use disorders deaths by age", "exists": false}
+{"title": "OWID/Alcohol and drug use disorders death rate by age", "exists": false}
+{"title": "OWID/Alcohol and drug use disorders deaths by sex", "exists": false}
+{"title": "OWID/Outward illicit financial flows from drug trafficking", "exists": false}
+{"title": "OWID/Inward illicit financial flows from drug trafficking", "exists": false}
+{"title": "OWID/Share of men defined as underweight, healthy, overweight and obese", "exists": false}
+{"title": "OWID/Share of women defined as underweight, healthy, overweight or obese", "exists": false}
+{"title": "OWID/mean body mass index bmi in adult women", "exists": true}
+{"title": "OWID/mean body mass index bmi in adult males", "exists": true}
+{"title": "OWID/Share of adult men overweight or obese vs. daily supply of calories", "exists": false}
+{"title": "OWID/Obesity in men vs. women", "exists": false}
+{"title": "OWID/share of adults who are overweight", "exists": true}
+{"title": "OWID/share of adults defined as obese", "exists": true}
+{"title": "OWID/share of females defined as obese", "exists": true}
+{"title": "OWID/share of females defined as overweight", "exists": true}
+{"title": "OWID/share of men defined as obese", "exists": true}
+{"title": "OWID/share of men defined as overweight", "exists": true}
+{"title": "OWID/share of children who are overweight", "exists": true}
+{"title": "OWID/children who are overweight sdgs", "exists": true}
+{"title": "OWID/Share of overweight men vs. women", "exists": false}
+{"title": "OWID/Share of adults who are obese vs. GDP per capita", "exists": false}
+{"title": "OWID/share of deaths obesity", "exists": true}
+{"title": "OWID/death rate from obesity", "exists": true}
+{"title": "OWID/Death rate from obesity vs. share of adults who are obese", "exists": false}
+{"title": "OWID/Share of adults who are obese vs. daily protein supply", "exists": false}
+{"title": "OWID/child adolescent obesity", "exists": true}
+{"title": "OWID/Share of British adults who smoke cigarettes or use vapes/e-cigarettes", "exists": false}
+{"title": "OWID/Number of adults in Great Britain who vape, by smoking history", "exists": false}
+{"title": "OWID/Smoking rates among young people in England", "exists": false}
+{"title": "OWID/share of women who are smoking", "exists": true}
+{"title": "OWID/Smoking and tobacco use in men vs. women", "exists": false}
+{"title": "OWID/share of men who are smoking", "exists": true}
+{"title": "OWID/Share of adults who smoke vs. GDP per capita", "exists": false}
+{"title": "OWID/Number of deaths from tobacco smoking", "exists": true}
+{"title": "OWID/Deaths from smoking and secondhand smoke", "exists": false}
+{"title": "OWID/Deaths from secondhand smoke, by age", "exists": false}
+{"title": "OWID/Deaths from smoking, by age", "exists": false}
+{"title": "OWID/death rate smoking", "exists": true}
+{"title": "OWID/consumption per smoker per day", "exists": true}
+{"title": "OWID/daily smoking prevalence bounds", "exists": true}
+{"title": "OWID/Number of daily smokers, men and women", "exists": false}
+{"title": "OWID/Number of daily smokers", "exists": false}
+{"title": "OWID/Number of cigarettes smoked per smoker per day", "exists": false}
+{"title": "OWID/Number of current smokers", "exists": false}
+{"title": "OWID/taxes as a share of cigarette price", "exists": true}
+{"title": "OWID/affordability cigarettes", "exists": true}
+{"title": "OWID/share of cancer deaths attributed to tobacco", "exists": true}
+{"title": "OWID/enforcement of bans on tobacco advertising", "exists": true}
+{"title": "OWID/support to help to quit tobacco use", "exists": true}
+{"title": "OWID/Share of taxes in tobacco retail price", "exists": false}
+{"title": "OWID/prevalence of tobacco use sdgs", "exists": true}
+{"title": "OWID/Smoking death rate in 1990 vs. 2023", "exists": false}
+{"title": "OWID/Number of deaths from smoking in 1990 vs. 2023", "exists": false}
+{"title": "OWID/Share of adults who smoke in 2000 vs. 2022", "exists": false}
+{"title": "OWID/share deaths smoking", "exists": true}
+{"title": "OWID/deaths from secondhand smoke", "exists": true}
+{"title": "OWID/smoking bans in public places", "exists": true}
+{"title": "OWID/influenza vaccination rate elderly oecd", "exists": true}
+{"title": "OWID/number of estimated paralytic polio cases by world region", "exists": true}
+{"title": "OWID/share of the population infected with hiv", "exists": true}
+{"title": "OWID/share of children under fifteen years old with hiv", "exists": true}
+{"title": "OWID/Number of reported cholera deaths", "exists": true}
+{"title": "OWID/Imports of ppe related products per capita", "exists": true}
+{"title": "OWID/Covid contact tracing owid slider", "exists": true}
+{"title": "OWID/Daily tests per thousand people smoothed 7 day", "exists": true}
+{"title": "OWID/children sleeping under treated bednet", "exists": true}
+{"title": "OWID/incidence of malaria", "exists": true}
+{"title": "OWID/Malaria death rates", "exists": true}
+{"title": "OWID/share of the population with malaria", "exists": true}
+{"title": "OWID/child deaths from malaria", "exists": true}
+{"title": "OWID/child deaths from malaria number", "exists": true}
+{"title": "OWID/share of children with a fever receiving antimalarial drugs", "exists": true}
+{"title": "OWID/malaria deaths ihme", "exists": true}
+{"title": "OWID/death rate from malaria", "exists": true}
+{"title": "OWID/death rate from malaria ihme", "exists": true}
+{"title": "OWID/number of deaths from malaria. WHO", "exists": true}
+{"title": "OWID/number of deaths from malaria ghe", "exists": true}
+{"title": "OWID/death rate from malaria ghe", "exists": true}
+{"title": "OWID/number of new hiv infections per year", "exists": true}
+{"title": "OWID/share of women among the population living with hiv", "exists": true}
+{"title": "OWID/number of children newly infected with hiv", "exists": true}
+{"title": "OWID/children living with hiv", "exists": true}
+{"title": "OWID/number of people living with hiv", "exists": true}
+{"title": "OWID/new cases of hiv infection", "exists": true}
+{"title": "OWID/hiv expenditure", "exists": true}
+{"title": "OWID/gap to reaching the target of art", "exists": true}
+{"title": "OWID/young people with knowledge on hiv prevention", "exists": true}
+{"title": "OWID/hiv death rates", "exists": true}
+{"title": "OWID/art coverage for pregnant women", "exists": true}
+{"title": "OWID/condom use between men", "exists": true}
+{"title": "OWID/condom use at last high risk sex", "exists": true}
+{"title": "OWID/tb related deaths hiv", "exists": true}
+{"title": "OWID/Share deaths aids", "exists": true}
+{"title": "OWID/deaths from aids ihme", "exists": true}
+{"title": "OWID/death rate from hivaids", "exists": true}
+{"title": "OWID/incidence of hivaids", "exists": true}
+{"title": "OWID/death rate from hivaids who", "exists": true}
+{"title": "OWID/number of new hivaids infections who", "exists": true}
+{"title": "OWID/share of the population living with hivaids", "exists": true}
+{"title": "OWID/tuberculosis patients with hiv share", "exists": true}
+{"title": "OWID/diarrheal disease death rates", "exists": true}
+{"title": "OWID/number of children dying from diarrheal diseases", "exists": true}
+{"title": "OWID/children who receive ors", "exists": true}
+{"title": "OWID/child deaths from invasive non typhoidal salmonella", "exists": true}
+{"title": "OWID/share of one year olds who received the rotavirus vaccine", "exists": true}
+{"title": "OWID/rotavirus number unvaccinated", "exists": true}
+{"title": "OWID/rotavirus vaccine immunization schedule", "exists": true}
+{"title": "OWID/deaths from diarrheal diseases", "exists": true}
+{"title": "OWID/death rate from diarrheal diseases", "exists": true}
+{"title": "OWID/incidence of diarrheal diseases", "exists": true}
+{"title": "OWID/share of e coli bloodstream infections due to antimicrobial resistant bacteria", "exists": true}
+{"title": "OWID/share of s aureus bloodstream infections that are resistant to antibiotics", "exists": true}
+{"title": "OWID/number reported cases of cholera", "exists": true}
+{"title": "OWID/share of children with diarrhea receiving treatment", "exists": true}
+{"title": "OWID/Cholera case fatality rate", "exists": true}
+{"title": "OWID/death rate invasive non typhoidal salmonella children under 5", "exists": true}
+{"title": "OWID/death rate typhoid paratyphoid fever children under 5", "exists": true}
+{"title": "OWID/share of children with diarrhea receiving zinc", "exists": true}
+{"title": "OWID/share of children with diarrhea receiving oral rehydration salts and zinc", "exists": true}
+{"title": "OWID/Deaths due to unsafe water sources", "exists": true}
+{"title": "OWID/Deaths due to unsafe sanitation", "exists": true}
+{"title": "OWID/death rates from unsafe water sources gbd", "exists": true}
+{"title": "OWID/death rate from unsafe sanitation gbd", "exists": true}
+{"title": "OWID/death rates from no access to handwashing facilities", "exists": true}
+{"title": "OWID/bcg immunization coverage for tb among 1 year olds", "exists": true}
+{"title": "OWID/Tuberculosis death rates", "exists": true}
+{"title": "OWID/incidence of tuberculosis sdgs", "exists": true}
+{"title": "OWID/number of tuberculosis cases", "exists": true}
+{"title": "OWID/Death rate from tuberculosis gbd", "exists": true}
+{"title": "OWID/Global tuberculosis incidence rate, by age", "exists": false}
+{"title": "OWID/Tuberculosis deaths by HIV status", "exists": false}
+{"title": "OWID/tuberculosis case fatality rate", "exists": true}
+{"title": "OWID/Tuberculosis treatment success rate", "exists": false}
+{"title": "OWID/average cost of tuberculosis treatment multi drug resistant", "exists": true}
+{"title": "OWID/Expected funding for tuberculosis versus required budget", "exists": false}
+{"title": "OWID/tuberculosis deaths under five ihme", "exists": true}
+{"title": "OWID/sites providing rapid tuberculosis diagnostics per million people", "exists": true}
+{"title": "OWID/the share of tuberculosis tests that are positive", "exists": true}
+{"title": "OWID/Death rate from tuberculosis in England and Wales", "exists": false}
+{"title": "OWID/Tuberculosis death rate in the United States", "exists": false}
+{"title": "OWID/Tuberculosis deaths in the United States", "exists": false}
+{"title": "OWID/Deaths from tuberculosis including those from HIV/AIDS", "exists": false}
+{"title": "OWID/Tuberculosis treatment success rate by type", "exists": false}
+{"title": "OWID/Confirmed tuberculosis cases that are drug-resistant versus drug-susceptible", "exists": false}
+{"title": "OWID/cases of multidrug resistant tuberculosis", "exists": true}
+{"title": "OWID/cases of extensively drug resistant tuberculosis", "exists": true}
+{"title": "OWID/Average cost of tuberculosis treatment by type", "exists": false}
+{"title": "OWID/polio vaccine coverage of one year olds", "exists": true}
+{"title": "OWID/The number of reported paralytic polio cases", "exists": true}
+{"title": "OWID/Reported polio cases and deaths", "exists": false}
+{"title": "OWID/reported paralytic polio cases per 1 million people", "exists": true}
+{"title": "OWID/The number of reported paralytic polio cases by world region", "exists": true}
+{"title": "OWID/Polio case and death rates in the United States", "exists": false}
+{"title": "OWID/progress towards polio eradication", "exists": true}
+{"title": "OWID/Reported versus estimated cases of polio", "exists": false}
+{"title": "OWID/ipv vaccine coverage", "exists": true}
+{"title": "OWID/Costs of polio vaccines in low-income countries", "exists": false}
+{"title": "OWID/Reported cases of paralytic polio from vaccine-derived viruses", "exists": false}
+{"title": "OWID/cases of paralytic polio from wild polioviruses", "exists": true}
+{"title": "OWID/Rate of acute flaccid paralysis from non-polio causes", "exists": false}
+{"title": "OWID/Where are we falling behind on screening and testing for polio?", "exists": false}
+{"title": "OWID/Share of potential polio cases tested and reported to the WHO", "exists": false}
+{"title": "OWID/cases of paralytic polio from vaccine derived viruses", "exists": true}
+{"title": "OWID/Polio vaccine schedule", "exists": false}
+{"title": "OWID/Financial contributions toward polio eradication", "exists": false}
+{"title": "OWID/Reported cases of paralytic polio from wild vs. vaccine-derived polioviruses", "exists": false}
+{"title": "OWID/Number of deaths from rabies by world region", "exists": true}
+{"title": "OWID/number of reported guinea worm dracunculiasis cases", "exists": true}
+{"title": "OWID/Progress towards guinea worm disease eradication", "exists": true}
+{"title": "OWID/Number of people treated for river blindness", "exists": false}
+{"title": "OWID/Number of people at risk of trachoma and those receiving treatment", "exists": false}
+{"title": "OWID/Number of people requiring preventive treatment for river blindness", "exists": false}
+{"title": "OWID/Global research and development funding for trachoma", "exists": false}
+{"title": "OWID/Number of people requiring preventive treatment for lymphatic filariasis", "exists": false}
+{"title": "OWID/Lymphatic filariasis treatment coverage", "exists": true}
+{"title": "OWID/Number of people with blindness, broken down by cause of vision loss", "exists": false}
+{"title": "OWID/Number of people requiring preventive treatment for schistosomiasis", "exists": false}
+{"title": "OWID/Schistosomiasis treatment coverage", "exists": true}
+{"title": "OWID/Number of people with mild or  severe anemia from neglected tropical diseases", "exists": false}
+{"title": "OWID/Were flu vaccines available in the country", "exists": true}
+{"title": "OWID/flu vaccines older people recommendation", "exists": true}
+{"title": "OWID/influenza vaccination rate elderly who unicef", "exists": true}
+{"title": "OWID/share of one year olds who received the final dose of pneumococcal vaccine", "exists": true}
+{"title": "OWID/Estimated annual deaths that could be averted by pneumococcal vaccination", "exists": false}
+{"title": "OWID/Death rate from pneumonia, by age", "exists": false}
+{"title": "OWID/Number of pneumonia deaths in elderly by risk factor", "exists": false}
+{"title": "OWID/pcv3 number unvaccinated", "exists": true}
+{"title": "OWID/new infections with tetanus", "exists": true}
+{"title": "OWID/Share of neonates protected at birth against neonatal tetanus", "exists": false}
+{"title": "OWID/The number of new tetanus infections by world region", "exists": true}
+{"title": "OWID/Maternal tetanus vaccination by neonatal tetanus incidence", "exists": false}
+{"title": "OWID/Tetanus cases vs. tetanus vaccination coverage", "exists": false}
+{"title": "OWID/Tetanus: confirmed cases (WHO) vs. estimated incidence (IHME)", "exists": false}
+{"title": "OWID/new neonatal tetanus cases per million", "exists": true}
+{"title": "OWID/tetanus death rate", "exists": true}
+{"title": "OWID/number of deaths from tetanus", "exists": true}
+{"title": "OWID/Deaths from tetanus, by age", "exists": false}
+{"title": "OWID/Number of deaths from tetanus by region", "exists": false}
+{"title": "OWID/Number of confirmed neonatal tetanus cases", "exists": false}
+{"title": "OWID/Number of confirmed cases of tetanus", "exists": false}
+{"title": "OWID/Smallpox death rate versus life expectancy in Sweden", "exists": false}
+{"title": "OWID/number of reported smallpox cases", "exists": true}
+{"title": "OWID/Discrepancy between reported and revised numbers of global smallpox cases", "exists": false}
+{"title": "OWID/The incidence of malaria per 1000 population", "exists": true}
+{"title": "OWID/Systems to monitor the spread of antimicrobial resistance in humans", "exists": false}
+{"title": "OWID/Share who agree vaccines are effective", "exists": false}
+{"title": "OWID/Diphtheria cases and deaths in the United States", "exists": false}
+{"title": "OWID/Long run cases of vaccine-preventable diseases in the United States", "exists": false}
+{"title": "OWID/Pertussis cases and deaths in the United States", "exists": false}
+{"title": "OWID/Mumps cases and deaths in the United States", "exists": false}
+{"title": "OWID/Rubella cases in the United States", "exists": false}
+{"title": "OWID/Long run deaths from vaccine-preventable diseases in the United States", "exists": false}
+{"title": "OWID/Confidence in the effectiveness of vaccines vs. perception of importance", "exists": false}
+{"title": "OWID/Vaccination against DTP vs. perception of the safety of vaccines", "exists": false}
+{"title": "OWID/share of children immunized dtp3", "exists": true}
+{"title": "OWID/Vaccination coverage vs. GDP per capita", "exists": false}
+{"title": "OWID/Immunization hepb3 of one year old children", "exists": true}
+{"title": "OWID/Deaths caused by vaccine-preventable diseases", "exists": false}
+{"title": "OWID/Share of children vaccinated against measles vs. against diphtheria, tetanus, and pertussis", "exists": false}
+{"title": "OWID/Vaccination coverage against diphtheria, tetanus, and pertussis vs. GDP per capita", "exists": false}
+{"title": "OWID/Reported cases of measles", "exists": true}
+{"title": "OWID/Share of children vaccinated against measles", "exists": true}
+{"title": "OWID/Vaccination coverage vs. share in extreme poverty", "exists": false}
+{"title": "OWID/Measles cases and deaths in the United States", "exists": false}
+{"title": "OWID/Share that disagrees that vaccines are safe", "exists": false}
+{"title": "OWID/Share that agrees that vaccines are safe", "exists": false}
+{"title": "OWID/share agrees vaccines are important wellcome", "exists": true}
+{"title": "OWID/Share that disagrees that vaccines are effective", "exists": false}
+{"title": "OWID/Share that disagrees that vaccines are important for children to have", "exists": false}
+{"title": "OWID/Vaccination against measles vs. share who think vaccines are unsafe", "exists": false}
+{"title": "OWID/Prevalence of measles in children vs. share of people who disagree vaccines are effective", "exists": false}
+{"title": "OWID/hib vaccine", "exists": true}
+{"title": "OWID/Vaccination coverage", "exists": false}
+{"title": "OWID/Gavi supported countries", "exists": false}
+{"title": "OWID/Dtp3 children unvaccinated", "exists": true}
+{"title": "OWID/Hepb3 number unvaccinated", "exists": true}
+{"title": "OWID/Number of one-year-olds who are not vaccinated against Haemophilus influenzae type B", "exists": false}
+{"title": "OWID/ipv1 number unvaccinated", "exists": true}
+{"title": "OWID/Polio number unvaccinated", "exists": true}
+{"title": "OWID/Rubella vaccination coverage", "exists": true}
+{"title": "OWID/rubella number unvaccinated", "exists": true}
+{"title": "OWID/Hepatitis b vaccine immunization schedule", "exists": true}
+{"title": "OWID/Hepatitis b birth dose vaccine immunization schedule", "exists": true}
+{"title": "OWID/Haemophilus influenzae b vaccine immunization schedule", "exists": true}
+{"title": "OWID/Inactivated poliovirus vaccine immunization schedule", "exists": true}
+{"title": "OWID/Mcv2 vaccine immunization schedule", "exists": true}
+{"title": "OWID/Mumps vaccine immunization schedule", "exists": true}
+{"title": "OWID/pneumococcal conjugate vaccine immunization schedule", "exists": true}
+{"title": "OWID/Rubella vaccine immunization schedule", "exists": true}
+{"title": "OWID/Share of children vaccinated with mcv2", "exists": true}
+{"title": "OWID/measles number unvaccinated", "exists": true}
+{"title": "OWID/coverage of the human papillomavirus vaccine", "exists": true}
+{"title": "OWID/Trust in doctors and nurses vs. disagree that vaccines are safe", "exists": false}
+{"title": "OWID/Measles vaccine coverage vs. measles cases worldwide", "exists": false}
+{"title": "OWID/Number of lives saved by childhood vaccinations from 1974 to 2024", "exists": false}
+{"title": "OWID/Number of lives saved by vaccines from 1974 to 2024", "exists": false}
+{"title": "OWID/Cumulative number of lives saved from childhood vaccines since 1974", "exists": false}
+{"title": "OWID/Which countries include the chickenpox vaccine in their national vaccination programs?", "exists": false}
+{"title": "OWID/Which countries include pneumococcal polysaccharide vaccines (PPV) in their national vaccination programs?", "exists": false}
+{"title": "OWID/Which countries include seasonal influenza vaccine in their national vaccination programs?", "exists": false}
+{"title": "OWID/Which countries include yellow fever vaccines in their national vaccination programs?", "exists": false}
+{"title": "OWID/Which countries include pertussis vaccines in their national vaccination programs?", "exists": false}
+{"title": "OWID/Which countries include Japanese encephalitis in their national vaccination programs?", "exists": false}
+{"title": "OWID/Which countries include malaria vaccines in their national vaccination programs?", "exists": false}
+{"title": "OWID/Deaths from vaccine preventable diseases", "exists": false}
+{"title": "OWID/Number of countries with vaccine supply issues", "exists": false}
+{"title": "OWID/Share who agree vaccines are effective", "exists": false}
+{"title": "OWID/Diphtheria cases and deaths in the United States", "exists": false}
+{"title": "OWID/Long run cases of vaccine-preventable diseases in the United States", "exists": false}
+{"title": "OWID/Lives saved by measles vaccination", "exists": false}
+{"title": "OWID/Cumulative lives saved by measles vaccination since 1974", "exists": false}
+{"title": "OWID/Number of countries including each vaccine in national vaccination programs", "exists": false}
+{"title": "OWID/Pertussis cases and deaths in the United States", "exists": false}
+{"title": "OWID/Mumps cases and deaths in the United States", "exists": false}
+{"title": "OWID/Rubella cases in the United States", "exists": false}
+{"title": "OWID/Share of one-year-olds who have received different vaccinations", "exists": false}
+{"title": "OWID/Measles cases in the United States", "exists": false}
+{"title": "OWID/Antibiotic use in livestock in Europe per kilogram of meat", "exists": false}
+{"title": "OWID/Antibiotic use in livestock vs. meat supply per capita", "exists": false}
+{"title": "OWID/Antibiotic use in livestock vs. GDP per capita", "exists": false}
+{"title": "OWID/Total number of deaths from neonatal sepsis and other neonatal infections", "exists": false}
+{"title": "OWID/Is antibiotic use in livestock above proposed guidelines from antimicrobial resistance researchers?", "exists": false}
+{"title": "OWID/Antibiotic use in livestock", "exists": false}
+{"title": "OWID/Antibiotic use in livestock", "exists": false}
+{"title": "OWID/Countries with laws or regulations on the sale of antimicrobials for livestock", "exists": false}
+{"title": "OWID/Countries with laws or regulations on the sale of antimicrobials for aquatic animals", "exists": false}
+{"title": "OWID/Countries that submit antimicrobial use data to the World Organisation for Animal Health", "exists": false}
+{"title": "OWID/Sales of antibiotics for livestock", "exists": false}
+{"title": "OWID/Does the country have laws that prohibit the use of antibiotics for growth promotion in livestock in the absence of risk analysis?", "exists": false}
+{"title": "OWID/antibiotic usage in children", "exists": true}
+{"title": "OWID/Countries reporting confirmed bacterial infections", "exists": false}
+{"title": "OWID/Share of countries testing bacterial infections for antibiotic susceptibility", "exists": false}
+{"title": "OWID/Antibiotic usage by surveillance category", "exists": false}
+{"title": "OWID/Neonatal sepsis and infection death rate in infants", "exists": true}
+{"title": "OWID/Reported bloodstream infection rate by pathogen", "exists": false}
+{"title": "OWID/Share of countries reporting confirmed bacterial infections", "exists": false}
+{"title": "OWID/Confirmed bacterial infections tested for antibiotic susceptibility", "exists": false}
+{"title": "OWID/Systems to monitor the spread of antimicrobial resistance in humans", "exists": false}
+{"title": "OWID/Antibiotic usage by surveillance category", "exists": false}
+{"title": "OWID/Consumption of oral antibiotics by type", "exists": false}
+{"title": "OWID/Antibiotic usage by surveillance category", "exists": false}
+{"title": "OWID/Antibiotic consumption rate", "exists": true}
+{"title": "OWID/Neonatal deaths from infections attributed to antimicrobial resistance", "exists": false}
+{"title": "OWID/Neonatal deaths from bloodstream infections attributed to antimicrobial resistance", "exists": false}
+{"title": "OWID/Countries enrolled in the WHO's program to monitor antimicrobial use and resistance", "exists": false}
+{"title": "OWID/Global deaths from pathogens attributable to antimicrobial resistance", "exists": false}
+{"title": "OWID/Global deaths by infectious syndrome and antimicrobial resistance", "exists": false}
+{"title": "OWID/Number of infections tested for antibiotic susceptibility", "exists": false}
+{"title": "OWID/Antibiotic use in livestock per kilogram of meat product", "exists": false}
+{"title": "OWID/Number of countries that submit data on antibiotic use in livestock", "exists": false}
+{"title": "OWID/Antibiotic use intensity in livestock by region", "exists": false}
+{"title": "OWID/US healthcare expenditure", "exists": false}
+{"title": "OWID/Health insurance coverage in the United States", "exists": false}
+{"title": "OWID/Share of public expenditure on healthcare by country", "exists": true}
+{"title": "OWID/Public health insurance coverage", "exists": true}
+{"title": "OWID/Percentage of people without health insurance in the United States", "exists": false}
+{"title": "OWID/Tax revenue per capita and public health spending per capita", "exists": false}
+{"title": "OWID/Percentage of population covered by health insurance", "exists": false}
+{"title": "OWID/annual healthcare expenditure per capita", "exists": true}
+{"title": "OWID/Health expenditure and financing per capita", "exists": true}
+{"title": "OWID/Healthcare coverage by level of healthcare spending", "exists": false}
+{"title": "OWID/How much we think we spend on healthcare vs. how much we actually do", "exists": false}
+{"title": "OWID/Share of out-of-pocket spending on healthcare vs. GDP per capita", "exists": false}
+{"title": "OWID/Health insurance coverage vs. GDP per capita", "exists": false}
+{"title": "OWID/Share of the population at risk of catastrophic expenditure when surgical care is required", "exists": true}
+{"title": "OWID/Out of pocket expenditure per capita on healthcare", "exists": true}
+{"title": "OWID/Life expectancy vs. health expenditure per capita", "exists": false}
+{"title": "OWID/Inequality in life expectancy vs. health spending per capita", "exists": false}
+{"title": "OWID/health expenditure government expenditure", "exists": true}
+{"title": "OWID/Risk of impoverishing expenditure for surgical care", "exists": true}
+{"title": "OWID/Automated teller machines (ATMs)", "exists": false}
+{"title": "OWID/Share of adults borrowing from a financial institution vs. family or friends", "exists": false}
+{"title": "OWID/Private health expenditure per person", "exists": true}
+{"title": "OWID/Large household expenditures health", "exists": true}
+{"title": "OWID/Share of population with large household expenditures on health 10pc", "exists": true}
+{"title": "OWID/Medical doctors per 1,000 people vs. GDP per capita", "exists": false}
+{"title": "OWID/Net official development assistance to medical research and basic health sectors", "exists": false}
+{"title": "OWID/Bank capital to total assets ratio", "exists": false}
+{"title": "OWID/Share of firms for which access to finance is a major constraint", "exists": false}
+{"title": "OWID/Share of small-scale industries with a loan or line of credit", "exists": false}
+{"title": "OWID/Female genital mutilation prevalence", "exists": true}
+{"title": "OWID/Average annual surface temperature", "exists": true}
+{"title": "OWID/Temperature change relative to the pre-industrial period", "exists": false}
+{"title": "OWID/Annual sea surface temperature anomalies relative to the pre-industrial period", "exists": false}
+{"title": "OWID/Countries with national adaptation plans for climate change", "exists": false}
+{"title": "OWID/Nationally determined contributions to climate change", "exists": false}
+{"title": "OWID/Financial support provided through the Green Climate Fund", "exists": false}
+{"title": "OWID/Opinions of young people on the threats of climate change", "exists": false}
+{"title": "OWID/Contributions global temp change", "exists": true}
+{"title": "OWID/Global warming contributions from fossil fuels and land use", "exists": false}
+{"title": "OWID/Global warming contributions by gas and source", "exists": false}
+{"title": "OWID/Monthly average surface temperatures by year", "exists": false}
+{"title": "OWID/Annual temperature anomalies", "exists": true}
+{"title": "OWID/Monthly temperature anomalies", "exists": true}
+{"title": "OWID/Monthly surface temperature anomalies by year", "exists": false}
+{"title": "OWID/Monthly surface temperature anomalies by decade", "exists": false}
+{"title": "OWID/Monthly average surface temperatures by decade", "exists": false}
+{"title": "OWID/Methane concentration in the atmosphere", "exists": false}
+{"title": "OWID/Sea level rise", "exists": false}
+{"title": "OWID/Global atmospheric CO₂ concentration", "exists": false}
+{"title": "OWID/Global atmospheric methane concentrations", "exists": false}
+{"title": "OWID/Global atmospheric nitrous oxide concentration", "exists": false}
+{"title": "OWID/Ocean acidification: mean seawater pH", "exists": false}
+{"title": "OWID/Monthly sea surface temperature anomalies relative to the pre-industrial period", "exists": false}
+{"title": "OWID/Heat content in the top 700 meters of the world's oceans", "exists": false}
+{"title": "OWID/Monthly average ocean heat content in the top 700 meters", "exists": false}
+{"title": "OWID/Monthly average ocean heat content in the top 2,000 meters", "exists": false}
+{"title": "OWID/Heat content in the top 2,000 meters of the world's oceans", "exists": false}
+{"title": "OWID/Carbon dioxide concentration in the atmosphere", "exists": false}
+{"title": "OWID/Snow cover in North America", "exists": false}
+{"title": "OWID/Ice sheet mass balance", "exists": false}
+{"title": "OWID/Antarctic sea ice extent", "exists": false}
+{"title": "OWID/Arctic sea ice extent", "exists": false}
+{"title": "OWID/Concentration of nitrous oxide in the atmosphere", "exists": false}
+{"title": "OWID/Glaciers: change of mass of US glaciers", "exists": false}
+{"title": "OWID/Average monthly surface temperature", "exists": true}
+{"title": "OWID/Share of people who say their government should do more to tackle climate change", "exists": false}
+{"title": "OWID/Share that think people in their country should act to tackle climate change", "exists": false}
+{"title": "OWID/Share of people who believe in climate change and think it's a serious threat to humanity", "exists": false}
+{"title": "OWID/Share of people who support policies to tackle climate change", "exists": false}
+{"title": "OWID/People underestimate others' willingness to take climate action", "exists": false}
+{"title": "OWID/Decadal temperature anomaly", "exists": true}
+{"title": "OWID/Seasonal temperature anomalies in the United States", "exists": false}
+{"title": "OWID/Estimated change in the death rate from non-optimal temperatures", "exists": false}
+{"title": "OWID/Projected change in temperature-related death rate vs. GDP per capita", "exists": false}
+{"title": "OWID/Change in heat-related death rates vs. Per capita CO₂ emissions", "exists": false}
+{"title": "OWID/Estimated changes in temperature-related death rates compared to projected death rates", "exists": false}
+{"title": "OWID/Share of warm-season deaths attributed to heat in a world with and without climate change", "exists": false}
+{"title": "OWID/Temperature anomalies by month", "exists": false}
+{"title": "OWID/Summer temperature anomalies", "exists": false}
+{"title": "OWID/Winter temperature anomalies", "exists": false}
+{"title": "OWID/Autumn temperature anomalies", "exists": false}
+{"title": "OWID/Spring temperature anomalies", "exists": false}
+{"title": "OWID/Global temperature anomalies by month", "exists": false}
+{"title": "OWID/Temperature anomalies vs. latitude", "exists": false}
+{"title": "OWID/Decadal average surface temperature", "exists": true}
+{"title": "OWID/Sea ice anomalies in the Arctic by month", "exists": false}
+{"title": "OWID/Sea ice anomalies in the Antarctic by month", "exists": false}
+{"title": "OWID/Monthly sea ice extent in the Antarctic", "exists": false}
+{"title": "OWID/Monthly sea ice extent in the Arctic", "exists": false}
+{"title": "OWID/Monthly sea ice extent in the Arctic, decadal average", "exists": false}
+{"title": "OWID/Monthly sea ice extent in the Antarctic, decadal average", "exists": false}
+{"title": "OWID/Global temperature anomalies by El Niño and La Niña and month", "exists": false}
+{"title": "OWID/Global temperature anomalies by El Niño and La Niña conditions", "exists": false}
+{"title": "OWID/Share of households with air conditioning", "exists": false}
+{"title": "OWID/Projected number of air conditioning units", "exists": false}
+{"title": "OWID/Cumulative co emissions", "exists": true}
+{"title": "OWID/Co emissions per capita", "exists": true}
+{"title": "OWID/Co2 intensity", "exists": true}
+{"title": "OWID/CO₂ emissions by fuel or industry type", "exists": false}
+{"title": "OWID/Annual CO₂ emissions by world region", "exists": false}
+{"title": "OWID/Meat supply vs. GDP per capita", "exists": false}
+{"title": "OWID/Share of CO₂ emissions embedded in trade", "exists": false}
+{"title": "OWID/CO₂ emissions embedded in trade", "exists": false}
+{"title": "OWID/Carbon emission intensity vs. GDP per capita", "exists": false}
+{"title": "OWID/Global warming potential of greenhouse gases relative to CO₂", "exists": false}
+{"title": "OWID/Nitrous oxide emissions by sector", "exists": false}
+{"title": "OWID/Life expectancy at birth vs. CO₂ emissions per capita", "exists": false}
+{"title": "OWID/Territorial and consumption-based CO₂ emissions", "exists": false}
+{"title": "OWID/Carbon dioxide emissions by income level", "exists": false}
+{"title": "OWID/Share of global CO₂ emissions vs. share of population", "exists": false}
+{"title": "OWID/Share of global consumption-based CO₂ emissions vs. share of population", "exists": false}
+{"title": "OWID/Consumption-based vs. territorial CO₂ emissions per capita", "exists": false}
+{"title": "OWID/Per capita CO₂ emissions relative to the global average", "exists": false}
+{"title": "OWID/Are consumption-based CO₂ per capita emissions above or below the global average?", "exists": false}
+{"title": "OWID/Share of cumulative co2", "exists": true}
+{"title": "OWID/Annual share of co2 emissions", "exists": true}
+{"title": "OWID/Cumulative CO₂ emissions by world region", "exists": false}
+{"title": "OWID/CO₂ emissions per capita vs. GDP per capita", "exists": false}
+{"title": "OWID/Annual co2 emissions per country", "exists": true}
+{"title": "OWID/Hypothetical number of deaths from energy production", "exists": false}
+{"title": "OWID/Carbon dioxide emission factors", "exists": false}
+{"title": "OWID/Temperature change relative to the pre-industrial period", "exists": false}
+{"title": "OWID/Contribution to value added vs. share of CO₂ emissions in China", "exists": false}
+{"title": "OWID/Contribution to value added vs. share of CO₂ emissions in USA", "exists": false}
+{"title": "OWID/Contribution to value added vs. share of CO₂ emissions in Germany", "exists": false}
+{"title": "OWID/Value added growth vs. CO₂ emissions growth in China", "exists": false}
+{"title": "OWID/Value added growth vs. CO₂ emissions growth in the USA", "exists": false}
+{"title": "OWID/Value added growth vs. CO₂ emissions growth in Germany", "exists": false}
+{"title": "OWID/CO₂ emissions per capita vs. share of electricity generation from renewables", "exists": false}
+{"title": "OWID/How have things changed?", "exists": false}
+{"title": "OWID/Share of required information submitted to international environmental agreements on hazardous waste and other chemicals", "exists": false}
+{"title": "OWID/Adjusted net savings per capita", "exists": false}
+{"title": "OWID/Per capita consumption-based CO₂ emissions", "exists": false}
+{"title": "OWID/Consumption-based CO₂ emissions per capita vs. GDP per capita", "exists": false}
+{"title": "OWID/Consumption-based CO₂ emissions", "exists": false}
+{"title": "OWID/Territorial vs. consumption-based CO₂ emissions per capita", "exists": false}
+{"title": "OWID/Imported or exported CO₂ emissions per capita", "exists": false}
+{"title": "OWID/Change in per capita CO₂ emissions and GDP", "exists": false}
+{"title": "OWID/CO₂ reductions needed to keep global temperature rise below 1.5°C", "exists": false}
+{"title": "OWID/CO₂ reductions needed to keep global temperature rise below 2°C", "exists": false}
+{"title": "OWID/Greenhouse gas emissions by sector", "exists": false}
+{"title": "OWID/Total ghg emissions", "exists": true}
+{"title": "OWID/Total ghg emissions excluding lufc", "exists": true}
+{"title": "OWID/CO₂ emissions by sector", "exists": false}
+{"title": "OWID/Methane emissions", "exists": true}
+{"title": "OWID/Methane emissions by sector", "exists": false}
+{"title": "OWID/Nitrous oxide emissions", "exists": true}
+{"title": "OWID/Per capita ghg emissions", "exists": true}
+{"title": "OWID/Per capita greenhouse gas emissions by sector", "exists": false}
+{"title": "OWID/Per capita methane emissions", "exists": true}
+{"title": "OWID/Per capita nitrous oxide", "exists": true}
+{"title": "OWID/Per capita CO₂ emissions by sector", "exists": false}
+{"title": "OWID/Per capita nitrous oxide emissions by sector", "exists": false}
+{"title": "OWID/Per capita methane emissions by sector", "exists": false}
+{"title": "OWID/Annual co2 cement", "exists": true}
+{"title": "OWID/Per capita co2 cement", "exists": true}
+{"title": "OWID/Co2 per unit energy", "exists": true}
+{"title": "OWID/Absolute change co2", "exists": true}
+{"title": "OWID/Annual change in GDP and CO₂ emissions", "exists": false}
+{"title": "OWID/Consumption-based carbon intensity", "exists": false}
+{"title": "OWID/Annual co2 flaring", "exists": true}
+{"title": "OWID/Per capita co2 flaring", "exists": true}
+{"title": "OWID/Per capita GHG emissions vs. per capita CO₂ emissions", "exists": false}
+{"title": "OWID/Per capita GHG emissions vs. per capita CO₂ emissions", "exists": false}
+{"title": "OWID/Share of children who are stunted vs. CO₂ emissions per capita", "exists": false}
+{"title": "OWID/Carbon intensity vs. GDP per capita", "exists": false}
+{"title": "OWID/Per capita ghg excl land use", "exists": true}
+{"title": "OWID/CO₂ emissions from fossil fuels and land-use change", "exists": false}
+{"title": "OWID/Share global co2 coal", "exists": true}
+{"title": "OWID/Share global co2 oil", "exists": true}
+{"title": "OWID/Share global co2 gas", "exists": true}
+{"title": "OWID/Share global co2 flaring", "exists": true}
+{"title": "OWID/Share global co2 cement", "exists": true}
+{"title": "OWID/Cumulative co2 coal", "exists": true}
+{"title": "OWID/Cumulative co2 oil", "exists": true}
+{"title": "OWID/Cumulative co2 gas", "exists": true}
+{"title": "OWID/Cumulative co2 cement", "exists": true}
+{"title": "OWID/Cumulative co2 flaring", "exists": true}
+{"title": "OWID/Share global cumulative co2 coal", "exists": true}
+{"title": "OWID/Share global cumulative co2 gas", "exists": true}
+{"title": "OWID/Share global cumulative co2 flaring", "exists": true}
+{"title": "OWID/Share global cumulative co2 cement", "exists": true}
+{"title": "OWID/Share cumulative co2 oil", "exists": true}
+{"title": "OWID/Change co2 annual pct", "exists": true}
+{"title": "OWID/Cumulative CO₂ emissions by source", "exists": false}
+{"title": "OWID/Methane emissions from agriculture", "exists": false}
+{"title": "OWID/Nitrous oxide emissions from agriculture", "exists": false}
+{"title": "OWID/Per capita nitrous oxide emissions from agriculture", "exists": false}
+{"title": "OWID/CO₂ emissions per capita", "exists": false}
+{"title": "OWID/Annual co2 other industry", "exists": true}
+{"title": "OWID/Share of global annual CO₂ emissions from other industry", "exists": false}
+{"title": "OWID/Cumulative co emissions from other industry", "exists": true}
+{"title": "OWID/Share of global cumulative CO₂ emissions from other industry", "exists": false}
+{"title": "OWID/Status of net-zero carbon emissions targets", "exists": false}
+{"title": "OWID/Change in per capita CO₂ emissions and GDP", "exists": false}
+{"title": "OWID/Which countries have set a net-zero emissions target?", "exists": false}
+{"title": "OWID/CO₂ emissions from fossil fuels and land-use change", "exists": false}
+{"title": "OWID/CO₂ emissions per capita vs. population growth", "exists": false}
+{"title": "OWID/Change in CO₂ emissions and GDP", "exists": false}
+{"title": "OWID/Per capita CO₂ emissions by region", "exists": false}
+{"title": "OWID/Carbon tax instruments", "exists": true}
+{"title": "OWID/Carbon emissions trading system", "exists": true}
+{"title": "OWID/Emissions weighted carbon price", "exists": true}
+{"title": "OWID/Weighted carbon price ets", "exists": true}
+{"title": "OWID/Carbon tax trading coverage", "exists": true}
+{"title": "OWID/Co2 land use", "exists": true}
+{"title": "OWID/Co2 land use per capita", "exists": true}
+{"title": "OWID/Co2 land use global share", "exists": true}
+{"title": "OWID/Cumulative co2 land use", "exists": true}
+{"title": "OWID/Share of global cumulative co emissions from land use change", "exists": true}
+{"title": "OWID/Annual co2 including land use", "exists": true}
+{"title": "OWID/Per capita co2 including land", "exists": true}
+{"title": "OWID/Share global co2 including land", "exists": true}
+{"title": "OWID/Cumulative co2 including land", "exists": true}
+{"title": "OWID/Share global cumulative co2 including land", "exists": true}
+{"title": "OWID/Contribution temp rise degrees", "exists": true}
+{"title": "OWID/Share global ghg emissions", "exists": true}
+{"title": "OWID/Contribution to global mean surface temperature rise by gas", "exists": false}
+{"title": "OWID/Greenhouse gas emissions by gas", "exists": false}
+{"title": "OWID/Share global methane emissions", "exists": true}
+{"title": "OWID/Share nitrous oxide emissions", "exists": true}
+{"title": "OWID/Annual greenhouse gas emissions by world region", "exists": false}
+{"title": "OWID/Greenhouse gas emissions per kilogram of food product", "exists": false}
+{"title": "OWID/Greenhouse gas emissions per 100 grams of protein", "exists": false}
+{"title": "OWID/Greenhouse gas emissions per 1000 kilocalories", "exists": false}
+{"title": "OWID/CO₂ emissions by fuel or industry", "exists": false}
+{"title": "OWID/Per capita CO₂ emissions by fuel type", "exists": false}
+{"title": "OWID/Per capita co2 coal", "exists": true}
+{"title": "OWID/Annual co2 coal", "exists": true}
+{"title": "OWID/Annual co2 oil", "exists": true}
+{"title": "OWID/Per capita co2 oil", "exists": true}
+{"title": "OWID/Annual co2 gas", "exists": true}
+{"title": "OWID/Per capita co2 gas", "exists": true}
+{"title": "OWID/Kaya identity: drivers of CO₂ emissions", "exists": false}
+{"title": "OWID/Consumption-based CO₂ emissions per capita vs. Human Development Index", "exists": false}
+{"title": "OWID/Energy use per capita vs. CO₂ emissions per capita", "exists": false}
+{"title": "OWID/Life satisfaction vs. CO₂ emissions per capita", "exists": false}
+{"title": "OWID/per capita co2 aviation", "exists": true}
+{"title": "OWID/per capita co2 transport", "exists": true}
+{"title": "OWID/co2 emissions transport", "exists": true}
+{"title": "OWID/Per capita CO₂ emissions vs. per capita energy consumption", "exists": false}
+{"title": "OWID/CO₂ emissions per capita vs. fossil fuel consumption per capita", "exists": false}
+{"title": "OWID/Per capita CO₂ emissions from deforestation for food production", "exists": false}
+{"title": "OWID/Annual CO₂ emissions from deforestation for food production", "exists": false}
+{"title": "OWID/Annual CO₂ emissions from deforestation by product", "exists": false}
+{"title": "OWID/Carbon opportunity costs per kilogram of food", "exists": false}
+{"title": "OWID/Transport's share of global greenhouse gas emissions from food", "exists": false}
+{"title": "OWID/Global emissions from food by life-cycle stage", "exists": false}
+{"title": "OWID/Food share total emissions", "exists": true}
+{"title": "OWID/Share global food emissions", "exists": true}
+{"title": "OWID/Emissions from food", "exists": true}
+{"title": "OWID/Food: greenhouse gas emissions across the supply chain", "exists": false}
+{"title": "OWID/Per capita CO₂ emissions by source", "exists": false}
+{"title": "OWID/Number of companies publishing sustainability reports that meet the minimum reporting requirements", "exists": false}
+{"title": "OWID/Mechanisms in place to enhance policy coherence for sustainable development", "exists": false}
+{"title": "OWID/Food: emissions from production and the supply chain", "exists": false}
+{"title": "OWID/Global warming contributions from fossil fuels and land use", "exists": false}
+{"title": "OWID/Global warming fossil", "exists": true}
+{"title": "OWID/Global warming land", "exists": true}
+{"title": "OWID/Global warming contributions by gas and source", "exists": false}
+{"title": "OWID/Import of environmentally sound technologies", "exists": false}
+{"title": "OWID/Monthly  CO₂ emissions from all commercial passenger flights", "exists": false}
+{"title": "OWID/Per capita CO₂ emissions from international commercial passenger flights, tourism-adjusted", "exists": false}
+{"title": "OWID/per capita co2 emissions from domestic aviation", "exists": true}
+{"title": "OWID/Monthly CO₂ emissions from domestic and  international commercial passenger flights", "exists": false}
+{"title": "OWID/Greenhouse gas emissions per kilogram of seafood", "exists": false}
+{"title": "OWID/Countries using the System of Environmental-Economic Accounting", "exists": false}
+{"title": "OWID/Share of global CO₂ emissions and population", "exists": false}
+{"title": "OWID/Share of global CO₂ consumption-based emissions", "exists": false}
+{"title": "OWID/Greenhouse gas emissions by sector", "exists": false}
+{"title": "OWID/Global carbon emissions from heating and cooling", "exists": false}
+{"title": "OWID/Methane concentration in the atmosphere", "exists": false}
+{"title": "OWID/Share that think people in their country should act to tackle climate change", "exists": false}
+{"title": "OWID/Pig production: Greenhouse gas emissions vs. cost to animal welfare", "exists": false}
+{"title": "OWID/Annual CO₂ emissions from aviation", "exists": false}
+{"title": "OWID/Explicit consumption subsidies for fossil fuels", "exists": false}
+{"title": "OWID/Number of parties in multilateral environmental agreements", "exists": false}
+{"title": "OWID/Antarctic ozone hole area", "exists": false}
+{"title": "OWID/Emissions of ozone-depleting substances", "exists": false}
+{"title": "OWID/Countries to montreal protocol and vienna convention", "exists": true}
+{"title": "OWID/Consumption of ozone depleting substances", "exists": true}
+{"title": "OWID/Concentration of ozone in the stratosphere", "exists": false}
+{"title": "OWID/Excess skin cancer cases due to ozone depletion", "exists": false}
+{"title": "OWID/Change in the consumption of ozone-depleting substances", "exists": false}
+{"title": "OWID/Ozone-depleting substance emissions", "exists": false}
+{"title": "OWID/Stratospheric ozone concentration projections", "exists": false}
+{"title": "OWID/Stratospheric chlorine concentrations projections", "exists": false}
+{"title": "OWID/per capita energy use", "exists": true}
+{"title": "OWID/Share of electricity production from renewable sources", "exists": true}
+{"title": "OWID/Energy imports and exports", "exists": false}
+{"title": "OWID/Primary energy consumption by world region", "exists": false}
+{"title": "OWID/The long-term energy transition in Europe", "exists": false}
+{"title": "OWID/Long-term energy transitions", "exists": false}
+{"title": "OWID/Global direct primary energy consumption", "exists": false}
+{"title": "OWID/Solar (photovoltaic) panels cumulative capacity", "exists": false}
+{"title": "OWID/Global installed renewable energy capacity by technology", "exists": false}
+{"title": "OWID/GDP per capita vs. energy use", "exists": false}
+{"title": "OWID/Renewable energy investment", "exists": false}
+{"title": "OWID/share of the population with access to electricity", "exists": true}
+{"title": "OWID/Access to electricity vs. GDP per capita", "exists": false}
+{"title": "OWID/Share of rural vs. urban population with electricity access", "exists": false}
+{"title": "OWID/Gas reserves", "exists": false}
+{"title": "OWID/Investment in renewable energy, by technology", "exists": false}
+{"title": "OWID/Energy consumption by source", "exists": false}
+{"title": "OWID/Crude oil prices", "exists": false}
+{"title": "OWID/Fossil fuel price index", "exists": false}
+{"title": "OWID/Years of fossil fuel reserves left", "exists": false}
+{"title": "OWID/Global primary energy consumption by source", "exists": false}
+{"title": "OWID/Hubbert's peak prediction vs. actual oil production in the United States", "exists": false}
+{"title": "OWID/Global crude oil price vs. oil consumption", "exists": false}
+{"title": "OWID/Share of total energy used in agriculture and forestry", "exists": false}
+{"title": "OWID/Global fossil fuel consumption", "exists": false}
+{"title": "OWID/Employment in the coal industry in the United Kingdom", "exists": false}
+{"title": "OWID/Coal output per worker in the United Kingdom", "exists": false}
+{"title": "OWID/Share of the workforce employed in the coal industry, United Kingdom", "exists": false}
+{"title": "OWID/Oil consumption by region", "exists": false}
+{"title": "OWID/Gas consumption by region", "exists": false}
+{"title": "OWID/Oil production by region", "exists": false}
+{"title": "OWID/Natural gas production by region", "exists": false}
+{"title": "OWID/Crude oil spot prices", "exists": false}
+{"title": "OWID/Coal prices", "exists": false}
+{"title": "OWID/Natural gas prices", "exists": false}
+{"title": "OWID/Coal production by country", "exists": true}
+{"title": "OWID/Oil production by country", "exists": true}
+{"title": "OWID/Oil consumption by country", "exists": true}
+{"title": "OWID/Gas production by country", "exists": true}
+{"title": "OWID/Gas consumption by country", "exists": true}
+{"title": "OWID/coal consumption per capita", "exists": true}
+{"title": "OWID/Fossil fuel consumption per capita by source", "exists": false}
+{"title": "OWID/Coal production per capita over the long term", "exists": true}
+{"title": "OWID/Fossil fuel production per capita", "exists": false}
+{"title": "OWID/Fossil fuel production over the long-term", "exists": false}
+{"title": "OWID/Renewable electricity generation", "exists": false}
+{"title": "OWID/Solar energy generation by region", "exists": false}
+{"title": "OWID/Solar energy consumption", "exists": true}
+{"title": "OWID/Solar energy generation vs. capacity", "exists": false}
+{"title": "OWID/Installed solar energy capacity", "exists": false}
+{"title": "OWID/Renewable energy consumption", "exists": false}
+{"title": "OWID/Wind energy generation by region", "exists": false}
+{"title": "OWID/Wind generation", "exists": true}
+{"title": "OWID/Installed wind energy capacity", "exists": false}
+{"title": "OWID/Wind energy generation vs. installed capacity", "exists": false}
+{"title": "OWID/Installed geothermal energy capacity", "exists": false}
+{"title": "OWID/Global hydropower consumption", "exists": false}
+{"title": "OWID/Hydropower generation by region", "exists": false}
+{"title": "OWID/Hydropower generation", "exists": true}
+{"title": "OWID/Energy intensity by sector", "exists": false}
+{"title": "OWID/Power outages in firms in a typical month", "exists": false}
+{"title": "OWID/Share of global primary energy consumption by source", "exists": false}
+{"title": "OWID/Number of people without access to electricity", "exists": false}
+{"title": "OWID/Number of people without access to electricity", "exists": false}
+{"title": "OWID/Coal production and imports in the United Kingdom", "exists": false}
+{"title": "OWID/Coal output from opencast and deepmines in the United Kingdom", "exists": false}
+{"title": "OWID/Coal by end user in the United Kingdom", "exists": false}
+{"title": "OWID/Has a country already reached SDG target on electricity access?", "exists": false}
+{"title": "OWID/Countries with a sustainable consumption and production national action plan", "exists": false}
+{"title": "OWID/Primary energy cons", "exists": true}
+{"title": "OWID/Change energy consumption", "exists": true}
+{"title": "OWID/Abs change energy consumption", "exists": true}
+{"title": "OWID/Share of energy consumption by source", "exists": false}
+{"title": "OWID/Primary energy consumption from fossil fuels, nuclear and renewables", "exists": false}
+{"title": "OWID/Year-to-year change in primary energy consumption from fossil fuels vs. low-carbon energy", "exists": false}
+{"title": "OWID/Energy intensity vs. GDP per capita", "exists": false}
+{"title": "OWID/Per capita low carbon energy", "exists": true}
+{"title": "OWID/Annual change low carbon energy", "exists": true}
+{"title": "OWID/Annual percentage change low carbon", "exists": true}
+{"title": "OWID/Per capita consumption of low-carbon energy vs. GDP per capita", "exists": false}
+{"title": "OWID/Share of primary energy that is low-carbon vs. GDP per capita", "exists": false}
+{"title": "OWID/Low carbon energy consumption", "exists": true}
+{"title": "OWID/Coal electricity per capita", "exists": true}
+{"title": "OWID/Oil electricity per capita", "exists": true}
+{"title": "OWID/Fossil electricity per capita", "exists": true}
+{"title": "OWID/Gas electricity per capita", "exists": true}
+{"title": "OWID/Renewable electricity per capita", "exists": true}
+{"title": "OWID/Low carbon elec per capita", "exists": true}
+{"title": "OWID/Nuclear electricity per capita", "exists": true}
+{"title": "OWID/Hydro electricity per capita", "exists": true}
+{"title": "OWID/Wind electricity per capita", "exists": true}
+{"title": "OWID/Solar electricity per capita", "exists": true}
+{"title": "OWID/Gas prod per capita", "exists": true}
+{"title": "OWID/carbon intensity electricity", "exists": true}
+{"title": "OWID/Changes in energy use vs. changes in GDP per capita", "exists": false}
+{"title": "OWID/Electricity production in the United Kingdom", "exists": false}
+{"title": "OWID/Electricity generation from fossil fuels, nuclear and renewables", "exists": false}
+{"title": "OWID/Production-based vs. consumption-based energy use", "exists": false}
+{"title": "OWID/Energy embedded in traded goods as a share of domestic energy", "exists": false}
+{"title": "OWID/Consumption-based energy use per person", "exists": false}
+{"title": "OWID/Production- vs. consumption-based energy use per person", "exists": false}
+{"title": "OWID/Net energy embedded in traded goods", "exists": false}
+{"title": "OWID/Consumption-based energy intensity per dollar", "exists": false}
+{"title": "OWID/Production vs. consumption-based carbon intensity of energy", "exists": false}
+{"title": "OWID/Changes in energy use vs. changes in GDP", "exists": false}
+{"title": "OWID/electricity demand", "exists": true}
+{"title": "OWID/Net electricity imports", "exists": false}
+{"title": "OWID/Share of schools with access to electricity", "exists": false}
+{"title": "OWID/Fossil fuel consumption", "exists": false}
+{"title": "OWID/Coal production country", "exists": true}
+{"title": "OWID/Renewable energy generation", "exists": false}
+{"title": "OWID/Primary direct energy consumption by source", "exists": false}
+{"title": "OWID/Electricity generation", "exists": true}
+{"title": "OWID/Share of direct primary energy consumption by source", "exists": false}
+{"title": "OWID/Direct primary energy consumption from fossil fuels, nuclear, and renewables", "exists": false}
+{"title": "OWID/low carbon share energy", "exists": true}
+{"title": "OWID/Year-to-year change in primary energy consumption by source", "exists": false}
+{"title": "OWID/Nuclear energy generation", "exists": true}
+{"title": "OWID/Electricity production from fossil fuels, nuclear and renewables", "exists": false}
+{"title": "OWID/Fossil fuel consumption per capita by source", "exists": false}
+{"title": "OWID/Modern renewable electricity generation by source", "exists": false}
+{"title": "OWID/per capita oil", "exists": true}
+{"title": "OWID/per capita gas", "exists": true}
+{"title": "OWID/Per capita renewables", "exists": true}
+{"title": "OWID/per capita hydro", "exists": true}
+{"title": "OWID/per capita wind", "exists": true}
+{"title": "OWID/per capita solar", "exists": true}
+{"title": "OWID/per capita nuclear", "exists": true}
+{"title": "OWID/Annual change nuclear", "exists": true}
+{"title": "OWID/Annual percentage change nuclear", "exists": true}
+{"title": "OWID/Annual change coal", "exists": true}
+{"title": "OWID/Annual percentage change coal", "exists": true}
+{"title": "OWID/Annual change oil", "exists": true}
+{"title": "OWID/Annual percentage change in oil consumption", "exists": false}
+{"title": "OWID/Annual change gas", "exists": true}
+{"title": "OWID/Annual percentage change gas", "exists": true}
+{"title": "OWID/Annual change fossil fuels", "exists": true}
+{"title": "OWID/Annual percentage change fossil fuels", "exists": true}
+{"title": "OWID/Annual change renewables", "exists": true}
+{"title": "OWID/Annual percentage change renewables", "exists": true}
+{"title": "OWID/Annual change hydro", "exists": true}
+{"title": "OWID/Annual percentage change hydro", "exists": true}
+{"title": "OWID/Annual change wind", "exists": true}
+{"title": "OWID/Annual percentage change wind", "exists": true}
+{"title": "OWID/Annual change solar", "exists": true}
+{"title": "OWID/Annual percentage change solar", "exists": true}
+{"title": "OWID/Per capita fossil energy consumption vs. GDP per capita", "exists": false}
+{"title": "OWID/Global primary energy consumption by source", "exists": false}
+{"title": "OWID/Fossil fuels per capita", "exists": true}
+{"title": "OWID/Share electricity oil", "exists": true}
+{"title": "OWID/Primary energy nuclear", "exists": true}
+{"title": "OWID/Primary energy renewables", "exists": true}
+{"title": "OWID/Primary energy hydro", "exists": true}
+{"title": "OWID/Primary energy consumption from solar", "exists": true}
+{"title": "OWID/Primary energy wind", "exists": true}
+{"title": "OWID/Percentage change energy by source", "exists": true}
+{"title": "OWID/Electricity fossil fuels", "exists": true}
+{"title": "OWID/electricity coal", "exists": true}
+{"title": "OWID/Electricity oil", "exists": true}
+{"title": "OWID/Electricity gas", "exists": true}
+{"title": "OWID/Low carbon electricity", "exists": true}
+{"title": "OWID/Electricity renewables", "exists": true}
+{"title": "OWID/Fossil fuel primary energy", "exists": true}
+{"title": "OWID/Coal prod per capita", "exists": true}
+{"title": "OWID/Oil prod per capita", "exists": true}
+{"title": "OWID/Primary energy consumption by source", "exists": false}
+{"title": "OWID/Coal energy consumption per capita vs. GDP per capita", "exists": false}
+{"title": "OWID/Share with access to electricity vs. per capita energy consumption", "exists": false}
+{"title": "OWID/Death rate from indoor air pollution vs. per capita energy use", "exists": false}
+{"title": "OWID/Access to clean fuels for cooking vs. per capita energy use", "exists": false}
+{"title": "OWID/Per capita electricity generation vs. GDP per capita", "exists": false}
+{"title": "OWID/Energy use per person vs. GDP per capita", "exists": false}
+{"title": "OWID/Share of electricity generation from fossil fuels, renewables and nuclear", "exists": false}
+{"title": "OWID/Per capita primary energy consumption by source", "exists": false}
+{"title": "OWID/Per capita energy from fossil fuels, nuclear and renewables", "exists": false}
+{"title": "OWID/People without clean fuels for cooking, by world region", "exists": false}
+{"title": "OWID/Primary energy consumption by source", "exists": false}
+{"title": "OWID/When will countries phase out coal power?", "exists": false}
+{"title": "OWID/Oil proved reserves", "exists": true}
+{"title": "OWID/lithium production", "exists": true}
+{"title": "OWID/cobalt production", "exists": true}
+{"title": "OWID/Graphite production", "exists": false}
+{"title": "OWID/Net electricity imports as a share of electricity demand", "exists": false}
+{"title": "OWID/electricity as a share of primary energy", "exists": true}
+{"title": "OWID/Primary energy consumption from solar and wind", "exists": true}
+{"title": "OWID/Per capita energy consumption from solar and wind", "exists": true}
+{"title": "OWID/Annual percentage change in solar and wind energy generation", "exists": true}
+{"title": "OWID/Annual change in solar and wind energy generation", "exists": true}
+{"title": "OWID/Solar and wind power generation", "exists": true}
+{"title": "OWID/Per capita electricity generation from solar and wind", "exists": true}
+{"title": "OWID/Share of electricity production from solar and wind", "exists": true}
+{"title": "OWID/coal energy share", "exists": true}
+{"title": "OWID/oil share energy", "exists": true}
+{"title": "OWID/Gas share energy", "exists": true}
+{"title": "OWID/fossil fuels share energy", "exists": true}
+{"title": "OWID/nuclear primary energy", "exists": true}
+{"title": "OWID/Renewable share energy", "exists": true}
+{"title": "OWID/hydro share energy", "exists": true}
+{"title": "OWID/solar share energy", "exists": true}
+{"title": "OWID/Wind share energy", "exists": true}
+{"title": "OWID/share electricity low carbon", "exists": true}
+{"title": "OWID/Electricity production by source", "exists": false}
+{"title": "OWID/Electricity production by source", "exists": false}
+{"title": "OWID/Share electricity fossil fuels", "exists": true}
+{"title": "OWID/Share of electricity production by source", "exists": false}
+{"title": "OWID/Per capita electricity generation from fossil fuels, nuclear and renewables", "exists": false}
+{"title": "OWID/Per capita electricity generation by source", "exists": false}
+{"title": "OWID/Share of electricity production by source", "exists": false}
+{"title": "OWID/Share of primary energy consumption that comes from nuclear and renewables", "exists": false}
+{"title": "OWID/Annual patents filed for energy storage technologies", "exists": false}
+{"title": "OWID/Annual patents filed for electric vehicle technologies", "exists": false}
+{"title": "OWID/Annual patents filed for carbon capture and storage technologies", "exists": false}
+{"title": "OWID/Share of primary energy from solar and wind", "exists": true}
+{"title": "OWID/Share electricity coal", "exists": true}
+{"title": "OWID/Share electricity gas", "exists": true}
+{"title": "OWID/Share electricity hydro", "exists": true}
+{"title": "OWID/Share electricity nuclear", "exists": true}
+{"title": "OWID/Share electricity wind", "exists": true}
+{"title": "OWID/Share electricity solar", "exists": true}
+{"title": "OWID/Share electricity renewables", "exists": true}
+{"title": "OWID/Thermal efficiency factor applied to non-fossil energy sources to convert them to primary energy equivalents", "exists": false}
+{"title": "OWID/Global electricity use for air conditioning", "exists": false}
+{"title": "OWID/per capita electricity demand", "exists": true}
+{"title": "OWID/Electricity generation from solar and wind compared to coal", "exists": false}
+{"title": "OWID/electric car sales share", "exists": true}
+{"title": "OWID/share car stocks electric", "exists": true}
+{"title": "OWID/Mining requirements of electricity sources, including gas", "exists": false}
+{"title": "OWID/Prices of  key materials for the energy transition", "exists": false}
+{"title": "OWID/Lithium-ion battery cell prices by chemistry", "exists": false}
+{"title": "OWID/These nine African economies depend heavily on oil rents", "exists": false}
+{"title": "OWID/Oil rents as a share of gdp", "exists": true}
+{"title": "OWID/Renewable and nuclear energy: direct vs. substituted energy", "exists": false}
+{"title": "OWID/Crude oil prices", "exists": false}
+{"title": "OWID/Raw material consumption in the EU-27 by the final product", "exists": false}
+{"title": "OWID/Natural resource rents", "exists": true}
+{"title": "OWID/Real commodity price index, metals", "exists": false}
+{"title": "OWID/Rock-to-metal ratios of mined materials", "exists": false}
+{"title": "OWID/Materials used for low-carbon electricity sources", "exists": false}
+{"title": "OWID/Mining requirements of different electricity sources", "exists": false}
+{"title": "OWID/Mining requirements of electricity sources, including gas", "exists": false}
+{"title": "OWID/Prices of the five materials included in the Simon-Ehrlich wager", "exists": false}
+{"title": "OWID/Prices of  key materials for the energy transition", "exists": false}
+{"title": "OWID/Global mine production of minerals", "exists": false}
+{"title": "OWID/Natural disaster deaths ihme", "exists": true}
+{"title": "OWID/Global precipitation anomaly", "exists": true}
+{"title": "OWID/Significant volcanic eruptions", "exists": true}
+{"title": "OWID/Significant earthquakes", "exists": true}
+{"title": "OWID/Earthquake deaths", "exists": true}
+{"title": "OWID/Death rate from natural disasters gbd", "exists": true}
+{"title": "OWID/Tsunami deaths", "exists": true}
+{"title": "OWID/Economic damages from disasters as a share of GDP", "exists": false}
+{"title": "OWID/Aquaculture farmed fish production", "exists": true}
+{"title": "OWID/Forest area as share of land area", "exists": true}
+{"title": "OWID/Living Planet Index", "exists": false}
+{"title": "OWID/Share of marine territorial waters that are protected", "exists": false}
+{"title": "OWID/Share of land area that is protected", "exists": false}
+{"title": "OWID/Threatened fish species", "exists": false}
+{"title": "OWID/Proportion of local livestock breeds at risk of extinction", "exists": false}
+{"title": "OWID/Number of unique plant genetic samples in conservation facilities", "exists": false}
+{"title": "OWID/Material footprint per capita", "exists": false}
+{"title": "OWID/Share of terrestrial Key Biodiversity Areas that are protected", "exists": false}
+{"title": "OWID/Share of freshwater Key Biodiversity Areas that are protected", "exists": false}
+{"title": "OWID/Share of forest area within protected areas", "exists": false}
+{"title": "OWID/Protected area coverage of mountain key biodiversity areas", "exists": false}
+{"title": "OWID/Mountain Green Cover Index", "exists": false}
+{"title": "OWID/Red List Index", "exists": false}
+{"title": "OWID/Countries that have legislative measures reported to the Access and Benefit-Sharing Clearing-House", "exists": false}
+{"title": "OWID/Member countries of the International Treaty on Plant Genetic Resources for Food and Agriculture", "exists": false}
+{"title": "OWID/Countries that are party to the Nagoya Protocol", "exists": false}
+{"title": "OWID/Global biomass vs. abundance of taxa", "exists": false}
+{"title": "OWID/Endemic mammal species", "exists": false}
+{"title": "OWID/Endemic bird species", "exists": false}
+{"title": "OWID/Endemic amphibian species", "exists": false}
+{"title": "OWID/Endemic reef-forming coral species", "exists": false}
+{"title": "OWID/Threatened endemic reef-forming coral species", "exists": false}
+{"title": "OWID/Number of threatened endemic mammal species", "exists": false}
+{"title": "OWID/Threatened endemic bird species", "exists": false}
+{"title": "OWID/Seafood production: wild fish catch vs. aquaculture", "exists": false}
+{"title": "OWID/Capture fishery production", "exists": true}
+{"title": "OWID/Local animal breeds with conserved genetic material", "exists": false}
+{"title": "OWID/Material footprint per gross domestic product", "exists": false}
+{"title": "OWID/Status of the world's fish stocks", "exists": false}
+{"title": "OWID/Total donations received for biodiversity conservation", "exists": false}
+{"title": "OWID/Total amount donated for biodiversity conservation in developing countries", "exists": false}
+{"title": "OWID/Threatened mammal species", "exists": false}
+{"title": "OWID/Share of species threatened with extinction", "exists": false}
+{"title": "OWID/Southern white rhinos", "exists": true}
+{"title": "OWID/Black rhinos", "exists": true}
+{"title": "OWID/Sumatran rhino population", "exists": false}
+{"title": "OWID/Javan rhino population", "exists": false}
+{"title": "OWID/Indian rhinos", "exists": true}
+{"title": "OWID/Number of rhinos poached", "exists": false}
+{"title": "OWID/Weight of seized rhino horns", "exists": false}
+{"title": "OWID/Number of seized rhino horns and pieces", "exists": false}
+{"title": "OWID/Northern white rhinos", "exists": true}
+{"title": "OWID/African elephants", "exists": true}
+{"title": "OWID/African elephant carcass ratio", "exists": false}
+{"title": "OWID/Number of asian elephants", "exists": true}
+{"title": "OWID/Number of whales killed", "exists": false}
+{"title": "OWID/Number of whales killed globally per decade", "exists": false}
+{"title": "OWID/The decline of global whale populations", "exists": false}
+{"title": "OWID/Seafood production: wild fish catch vs. aquaculture", "exists": false}
+{"title": "OWID/Living Planet Index by region", "exists": false}
+{"title": "OWID/The decline of global whale biomass", "exists": false}
+{"title": "OWID/Iwc members", "exists": true}
+{"title": "OWID/Status of membership in the International Whaling Commission", "exists": false}
+{"title": "OWID/Global wildlife exports", "exists": false}
+{"title": "OWID/Threatened bird species", "exists": false}
+{"title": "OWID/Change in bird populations in the EU", "exists": false}
+{"title": "OWID/Share of species that are traded", "exists": false}
+{"title": "OWID/Number of species threatened with extinction", "exists": false}
+{"title": "OWID/Number of described species", "exists": false}
+{"title": "OWID/Share of described species that have been evaluated for their extinction risk", "exists": false}
+{"title": "OWID/Number of species evaluated for their level of extinction risk", "exists": false}
+{"title": "OWID/Recorded species extinctions since 1500", "exists": false}
+{"title": "OWID/Endemic shark and ray species", "exists": false}
+{"title": "OWID/Endemic freshwater crab species", "exists": false}
+{"title": "OWID/Drivers of recovery in European bird populations", "exists": false}
+{"title": "OWID/Number of coral bleaching events", "exists": false}
+{"title": "OWID/Number of coral bleaching events by stage of the ENSO cycle", "exists": false}
+{"title": "OWID/Number of severe coral bleaching events by stage of the ENSO cycle", "exists": false}
+{"title": "OWID/Share of Caribbean reefs with Acropora corals present or dominant", "exists": false}
+{"title": "OWID/Countries with more than 25 species at risk of losing more than 25% of their habitat by 2050", "exists": false}
+{"title": "OWID/Projected changes in cropland", "exists": false}
+{"title": "OWID/Changes in UK butterfly populations", "exists": false}
+{"title": "OWID/Number of animal species losing habitat due to cropland expansion by 2050", "exists": false}
+{"title": "OWID/National biodiversity strategy and action plan targets align with Aichi Biodiversity Target 9", "exists": false}
+{"title": "OWID/Countries have a budget for invasive alien species management", "exists": false}
+{"title": "OWID/Change in total mangrove area", "exists": false}
+{"title": "OWID/Share of ocean area that is protected", "exists": false}
+{"title": "OWID/National progress towards Aichi Biodiversity Target 2", "exists": false}
+{"title": "OWID/Day of the year with peak cherry tree blossom in Kyoto, Japan", "exists": false}
+{"title": "OWID/Protected area coverage of marine key biodiversity areas", "exists": false}
+{"title": "OWID/Share of fish stocks that are overexploited", "exists": false}
+{"title": "OWID/fish seafood production", "exists": true}
+{"title": "OWID/What is wild fish catch used for?", "exists": false}
+{"title": "OWID/Global aquaculture production and wild fish used for animal feed", "exists": false}
+{"title": "OWID/Fish discards", "exists": true}
+{"title": "OWID/Fish stocks and fishing intensity by region", "exists": false}
+{"title": "OWID/Fish stocks and fishing intensity by group", "exists": false}
+{"title": "OWID/Health of fish stocks by region", "exists": false}
+{"title": "OWID/Health of fish stocks by fish group", "exists": false}
+{"title": "OWID/Fishing intensity by region", "exists": false}
+{"title": "OWID/Fishing intensity", "exists": false}
+{"title": "OWID/Annual fish catch relative to mean catch by region", "exists": false}
+{"title": "OWID/Annual fish catch relative to mean catch", "exists": false}
+{"title": "OWID/Chlorophyll-a deviation from the global average", "exists": false}
+{"title": "OWID/Wild fish catch by gear type", "exists": false}
+{"title": "OWID/Wild fish catch by gear type", "exists": false}
+{"title": "OWID/Bottom trawling", "exists": true}
+{"title": "OWID/Five centuries of cod catches in Eastern Canada", "exists": false}
+{"title": "OWID/Fish catch in the United Kingdom", "exists": false}
+{"title": "OWID/Transboundary animal breeds with conserved genetic material", "exists": false}
+{"title": "OWID/Cumulative first records of alien species", "exists": false}
+{"title": "OWID/Global first records of non-native species", "exists": false}
+{"title": "OWID/Comparison of the Living Planet Index across reports", "exists": false}
+{"title": "OWID/Share of populations increasing, stable or declining in the Living Planet Index", "exists": false}
+{"title": "OWID/Species represented in the Living Planet Index", "exists": false}
+{"title": "OWID/Land use per kilogram of food product", "exists": false}
+{"title": "OWID/Freshwater withdrawals per kilogram of food product", "exists": false}
+{"title": "OWID/Scarcity-weighted water use per kilogram of food product", "exists": false}
+{"title": "OWID/Eutrophying emissions per kilogram of food product", "exists": false}
+{"title": "OWID/Land use per 100 grams of protein", "exists": false}
+{"title": "OWID/Freshwater withdrawals per 100 grams of protein", "exists": false}
+{"title": "OWID/Scarcity-weighted water use per 100 grams of protein", "exists": false}
+{"title": "OWID/Land use of foods per 1000 kilocalories", "exists": false}
+{"title": "OWID/Global food miles by transport method", "exists": false}
+{"title": "OWID/Share of global food miles by transport method", "exists": false}
+{"title": "OWID/Freshwater withdrawals of foods per 1000 kilocalories", "exists": false}
+{"title": "OWID/Scarcity-weighted water use of foods per 1000 kilocalories", "exists": false}
+{"title": "OWID/Eutrophying emissions per 100 grams of protein", "exists": false}
+{"title": "OWID/Eutrophying emissions per 1000 kilocalories", "exists": false}
+{"title": "OWID/Share of food lost in post-harvest processes", "exists": false}
+{"title": "OWID/Share of food lost in post-harvest processes by region", "exists": false}
+{"title": "OWID/Share of calories in each food group that are lost or wasted", "exists": false}
+{"title": "OWID/Share of global food loss and waste by region", "exists": false}
+{"title": "OWID/Excess nitrogen from croplands", "exists": false}
+{"title": "OWID/Share of global excess nitrogen from croplands", "exists": false}
+{"title": "OWID/Share of global excess phosphorus from croplands", "exists": false}
+{"title": "OWID/Excess nitrogen per hectare of cropland", "exists": false}
+{"title": "OWID/Food waste per capita", "exists": false}
+{"title": "OWID/Land use per kilogram of farmed seafood", "exists": false}
+{"title": "OWID/Nitrogen emissions per tonne of farmed seafood", "exists": false}
+{"title": "OWID/Phosphorus emissions per tonne of farmed seafood", "exists": false}
+{"title": "OWID/Freshwater use per kilogram of farmed seafood", "exists": false}
+{"title": "OWID/Greenhouse emissions per unit of food transported", "exists": false}
+{"title": "OWID/Environmental footprints of dairy and plant-based milks", "exists": false}
+{"title": "OWID/Self-reported dietary choices by age in the UK", "exists": false}
+{"title": "OWID/Vegans, vegetarians and meat-eaters: self-reported dietary choices in the UK", "exists": false}
+{"title": "OWID/Food loss index", "exists": false}
+{"title": "OWID/Number of agri-environmental policies in place", "exists": false}
+{"title": "OWID/Agri-environmental policies weighted by their intensity", "exists": false}
+{"title": "OWID/Number of agri-environmental policies vs. GDP per capita", "exists": false}
+{"title": "OWID/Progress toward productive and sustainable agriculture", "exists": false}
+{"title": "OWID/Seafood production: wild fish catch vs. aquaculture", "exists": false}
+{"title": "OWID/Status of the world's fish stocks", "exists": false}
+{"title": "OWID/Combating illegal fishing", "exists": false}
+{"title": "OWID/Share of fish stocks that are overexploited", "exists": false}
+{"title": "OWID/Number of people employed in fisheries and fish farms", "exists": false}
+{"title": "OWID/Number of people employed in fisheries and aquaculture", "exists": false}
+{"title": "OWID/What is wild fish catch used for?", "exists": false}
+{"title": "OWID/Global aquaculture production and wild fish used for animal feed", "exists": false}
+{"title": "OWID/Fish landings and discards", "exists": false}
+{"title": "OWID/Fish catch by fishing sector", "exists": false}
+{"title": "OWID/Global fishing discards by type of fishing gear", "exists": false}
+{"title": "OWID/Share of fish catch that is discarded by type of gear used", "exists": false}
+{"title": "OWID/Fish stocks and fishing intensity by region", "exists": false}
+{"title": "OWID/Fish stocks and fishing intensity by group", "exists": false}
+{"title": "OWID/Health of fish stocks by region", "exists": false}
+{"title": "OWID/Health of fish stocks by fish group", "exists": false}
+{"title": "OWID/Fishing intensity by region", "exists": false}
+{"title": "OWID/Fishing intensity", "exists": false}
+{"title": "OWID/Annual fish catch relative to mean catch by region", "exists": false}
+{"title": "OWID/Annual fish catch relative to mean catch", "exists": false}
+{"title": "OWID/Sustainable fisheries as a proportion of gross domestic product", "exists": false}
+{"title": "OWID/Protection of the rights of small-scale fisheries", "exists": false}
+{"title": "OWID/Wild fish catch by gear type", "exists": false}
+{"title": "OWID/Wild fish catch by gear type", "exists": false}
+{"title": "OWID/Share of the seabed that was trawled at least once", "exists": false}
+{"title": "OWID/Five centuries of cod catches in Eastern Canada", "exists": false}
+{"title": "OWID/Share of marine mammal populations that are increasing or decreasing", "exists": false}
+{"title": "OWID/Fish catch in the United Kingdom", "exists": false}
+{"title": "OWID/Fish catch per unit of fishing power", "exists": false}
+{"title": "OWID/Countries using ecosystem-based management of marine areas", "exists": false}
+{"title": "OWID/Share of fish stocks that are sustainably fished", "exists": true}
+{"title": "OWID/Land use per kilogram of farmed seafood", "exists": false}
+{"title": "OWID/Nitrogen emissions per tonne of farmed seafood", "exists": false}
+{"title": "OWID/Phosphorus emissions per tonne of farmed seafood", "exists": false}
+{"title": "OWID/Freshwater use per kilogram of farmed seafood", "exists": false}
+{"title": "OWID/Yearly number of animals slaughtered for meat", "exists": false}
+{"title": "OWID/Share of egg production that is cage-free", "exists": false}
+{"title": "OWID/Egg production by system in the United Kingdom", "exists": false}
+{"title": "OWID/Self-reported dietary choices by age in the UK", "exists": false}
+{"title": "OWID/Vegans, vegetarians and meat-eaters: self-reported dietary choices in the UK", "exists": false}
+{"title": "OWID/Levels of pain endured by the average hen in different production systems", "exists": false}
+{"title": "OWID/Share of eggs produced by different housing systems", "exists": false}
+{"title": "OWID/Laying hens in cages and cage-free housing", "exists": false}
+{"title": "OWID/Animal lives lost per kilogram of product", "exists": false}
+{"title": "OWID/Animal lives lost per kilogram of product, including indirect deaths", "exists": false}
+{"title": "OWID/Kilograms of meat produced per animal", "exists": false}
+{"title": "OWID/Time that fast and slower-growing chicken breeds spend in pain over their lifespan", "exists": false}
+{"title": "OWID/Number of farmed fishes killed for food", "exists": false}
+{"title": "OWID/Number of farmed crustaceans killed for food", "exists": false}
+{"title": "OWID/Number of fishes caught from the wild", "exists": false}
+{"title": "OWID/Public attitudes to dietary choices and meat-eating in the United States", "exists": false}
+{"title": "OWID/Public attitudes to livestock treatment and animal pain in the United States", "exists": false}
+{"title": "OWID/Public attitudes to bans on factory farming and slaughterhouses in the United States", "exists": false}
+{"title": "OWID/Which countries have banned chick culling?", "exists": false}
+{"title": "OWID/Which countries have banned bullfighting?", "exists": false}
+{"title": "OWID/Which countries have banned fur farming?", "exists": false}
+{"title": "OWID/Which countries have banned fur trading?", "exists": false}
+{"title": "OWID/Pig production: Land use vs. cost to animal welfare", "exists": false}
+{"title": "OWID/Land animals slaughtered for meat", "exists": false}
+{"title": "OWID/Animals killed for meat per year worldwide, 1961 to 2022", "exists": false}
+{"title": "OWID/Hypothetical land animals slaughtered", "exists": true}
+{"title": "OWID/Share of land area used for arable agriculture", "exists": true}
+{"title": "OWID/Area meadows and pastures", "exists": true}
+{"title": "OWID/Arable land use per person", "exists": true}
+{"title": "OWID/Share of global habitable land needed for agriculture if everyone had the diet of...", "exists": false}
+{"title": "OWID/Global agricultural land use by major crop type", "exists": false}
+{"title": "OWID/FAO projections of arable land", "exists": false}
+{"title": "OWID/Agricultural area per capita", "exists": true}
+{"title": "OWID/Projections for global peak agricultural land", "exists": false}
+{"title": "OWID/Dietary land use vs. GDP per capita", "exists": false}
+{"title": "OWID/Land use over the long-term", "exists": false}
+{"title": "OWID/Cropland extent over the long-term", "exists": false}
+{"title": "OWID/Land use", "exists": false}
+{"title": "OWID/Grazing land use over the long-term", "exists": false}
+{"title": "OWID/Agricultural area over the long-term", "exists": false}
+{"title": "OWID/Cropland per person over the long-term", "exists": false}
+{"title": "OWID/Total agricultural land use per person", "exists": true}
+{"title": "OWID/Organic agricultural area", "exists": false}
+{"title": "OWID/Share of arable land which is organic", "exists": false}
+{"title": "OWID/Share of rural land area where the elevation is 5 meters or less", "exists": false}
+{"title": "OWID/Terrain Ruggedness Index", "exists": false}
+{"title": "OWID/Land area in square kilometres", "exists": false}
+{"title": "OWID/Change in cereal production, yield, land use and population", "exists": false}
+{"title": "OWID/Land use vs. yield change in cereal production", "exists": false}
+{"title": "OWID/Land area per crop type", "exists": false}
+{"title": "OWID/Arable land needed to produce a fixed quantity of crops", "exists": false}
+{"title": "OWID/Share of land that is degraded", "exists": false}
+{"title": "OWID/Land use palm oil", "exists": true}
+{"title": "OWID/Land use for vegetable oil crops", "exists": false}
+{"title": "OWID/Global land use since 10,000 BCE", "exists": false}
+{"title": "OWID/Extent of intensive agriculture", "exists": true}
+{"title": "OWID/Share of world regions with land use present", "exists": false}
+{"title": "OWID/Agricultural land", "exists": true}
+{"title": "OWID/Share of deforestation that is driven by domestic consumption", "exists": false}
+{"title": "OWID/Extent of foraging", "exists": true}
+{"title": "OWID/Extent of pastoralism", "exists": true}
+{"title": "OWID/Extent of extensive agriculture", "exists": true}
+{"title": "OWID/Coverage of wetlands", "exists": false}
+{"title": "OWID/Cropland and pasture per person", "exists": false}
+{"title": "OWID/Land use agriculture longterm", "exists": true}
+{"title": "OWID/Has the world passed peak agricultural land?", "exists": false}
+{"title": "OWID/Global cropland is still increasing", "exists": false}
+{"title": "OWID/How much global land is used as pasture for livestock?", "exists": false}
+{"title": "OWID/Land natural share", "exists": true}
+{"title": "OWID/Is agricultural land expanding? Change over the prior decade", "exists": false}
+{"title": "OWID/Land use per kilogram of food product", "exists": false}
+{"title": "OWID/Land use per 100 grams of protein", "exists": false}
+{"title": "OWID/Land use of foods per 1000 kilocalories", "exists": false}
+{"title": "OWID/Area of land needed to meet global vegetable oil demand", "exists": false}
+{"title": "OWID/How much cropland has the world spared due to increases in crop yields?", "exists": false}
+{"title": "OWID/Share of land covered by lakes and rivers", "exists": false}
+{"title": "OWID/Breakdown of habitable land area", "exists": false}
+{"title": "OWID/Cropland area", "exists": true}
+{"title": "OWID/Land area in hectares", "exists": false}
+{"title": "OWID/Share of mountain land that is degraded", "exists": false}
+{"title": "OWID/Woodland area by type", "exists": false}
+{"title": "OWID/Tree cover loss by dominant driver", "exists": false}
+{"title": "OWID/Agriculture-driven deforestation", "exists": false}
+{"title": "OWID/Area of permanent meadows and pastures", "exists": true}
+{"title": "OWID/Pig production: Land use vs. cost to animal welfare", "exists": false}
+{"title": "OWID/Share of agricultural land which is irrigated", "exists": false}
+{"title": "OWID/Freshwater withdrawals as a share of internal resources", "exists": false}
+{"title": "OWID/Agricultural water as a share of total water withdrawals", "exists": true}
+{"title": "OWID/Water withdrawals per capita", "exists": true}
+{"title": "OWID/Industrial water as a share of total water withdrawals", "exists": true}
+{"title": "OWID/Municipal water as a share of total water withdrawals", "exists": true}
+{"title": "OWID/Agricultural water withdrawals vs. GDP per capita", "exists": false}
+{"title": "OWID/Agricultural water withdrawals", "exists": true}
+{"title": "OWID/Municipal water withdrawal", "exists": true}
+{"title": "OWID/Industrial water withdrawal", "exists": true}
+{"title": "OWID/Renewable water resources per capita", "exists": true}
+{"title": "OWID/Annual freshwater withdrawals", "exists": true}
+{"title": "OWID/Global freshwater use over the long-run", "exists": false}
+{"title": "OWID/Freshwater use by aggregated region", "exists": false}
+{"title": "OWID/Internal renewable freshwater resources by region", "exists": false}
+{"title": "OWID/Per capita renewable freshwater resources", "exists": true}
+{"title": "OWID/Water productivity", "exists": true}
+{"title": "OWID/Average precipitation per year", "exists": true}
+{"title": "OWID/Implementation status: integrated national water resource management plans", "exists": false}
+{"title": "OWID/Drinking water usage in urban areas", "exists": false}
+{"title": "OWID/Share of domestic wastewater that is safely treated", "exists": false}
+{"title": "OWID/Share of countries with procedures for community participation in water and sanitation management", "exists": false}
+{"title": "OWID/Share of land covered by lakes and rivers", "exists": false}
+{"title": "OWID/Share of industrial wastewater flows that are treated", "exists": false}
+{"title": "OWID/Freshwater withdrawals per kilogram of food product", "exists": false}
+{"title": "OWID/Scarcity-weighted water use per kilogram of food product", "exists": false}
+{"title": "OWID/Freshwater withdrawals per 100 grams of protein", "exists": false}
+{"title": "OWID/Scarcity-weighted water use per 100 grams of protein", "exists": false}
+{"title": "OWID/Freshwater withdrawals of foods per 1000 kilocalories", "exists": false}
+{"title": "OWID/Scarcity-weighted water use of foods per 1000 kilocalories", "exists": false}
+{"title": "OWID/Progress towards the ratification and accession of UNCLOS", "exists": false}
+{"title": "OWID/Progress towards the implementation of UNCLOS", "exists": false}
+{"title": "OWID/Implementation of integrated water resource management", "exists": false}
+{"title": "OWID/Share of water bodies with good ambient water quality", "exists": false}
+{"title": "OWID/Percentage of shared water basins managed by international cooperation", "exists": false}
+{"title": "OWID/Average ammonium concentration in freshwater", "exists": false}
+{"title": "OWID/Global forest area", "exists": false}
+{"title": "OWID/Annual change in forest area", "exists": false}
+{"title": "OWID/Above-ground forest biomass", "exists": false}
+{"title": "OWID/Forest area", "exists": false}
+{"title": "OWID/Share of forest with a long-term management plan", "exists": false}
+{"title": "OWID/Forest certified for sustainable use", "exists": false}
+{"title": "OWID/Share of forest area within protected areas", "exists": false}
+{"title": "OWID/Forest area by type: naturally regenerating vs. planted", "exists": false}
+{"title": "OWID/Forest transition phase", "exists": false}
+{"title": "OWID/Share of global forest area", "exists": false}
+{"title": "OWID/Annual deforestation", "exists": true}
+{"title": "OWID/Share global deforestation", "exists": true}
+{"title": "OWID/Annual afforestation", "exists": true}
+{"title": "OWID/Annual change in forest area", "exists": false}
+{"title": "OWID/Annual forest expansion", "exists": true}
+{"title": "OWID/Deforestation share forest area", "exists": true}
+{"title": "OWID/Annual change in forest area as a share of forest area", "exists": false}
+{"title": "OWID/Share global forest expansion", "exists": true}
+{"title": "OWID/Annual tropical deforestation by agricultural product", "exists": false}
+{"title": "OWID/Share of tropical deforestation from agricultural products", "exists": false}
+{"title": "OWID/Share of tropical deforestation", "exists": false}
+{"title": "OWID/Annual deforestation by region (2010–2014)", "exists": false}
+{"title": "OWID/Share of CO₂ emissions from tropical deforestation and peatlands", "exists": false}
+{"title": "OWID/Drivers of forest loss in the Brazilian Amazon", "exists": false}
+{"title": "OWID/Annual change in forest area vs. GDP per capita", "exists": false}
+{"title": "OWID/Change in domestic forest area vs. deforestation embedded in imported goods", "exists": false}
+{"title": "OWID/Exported deforestation", "exists": false}
+{"title": "OWID/Imported deforestation", "exists": false}
+{"title": "OWID/Who is contributing to deforestation abroad?", "exists": false}
+{"title": "OWID/Drivers of deforestation in Indonesia", "exists": false}
+{"title": "OWID/Share of land that is degraded", "exists": false}
+{"title": "OWID/Share of deforestation that is exported", "exists": false}
+{"title": "OWID/Share of deforestation that is driven by domestic consumption", "exists": false}
+{"title": "OWID/Change in total mangrove area", "exists": false}
+{"title": "OWID/Tree cover loss from wildfires", "exists": false}
+{"title": "OWID/Tree cover loss", "exists": false}
+{"title": "OWID/Woodland area by type", "exists": false}
+{"title": "OWID/Tree cover loss by dominant driver", "exists": false}
+{"title": "OWID/Agriculture-driven deforestation", "exists": false}
+{"title": "OWID/Wildfire area burned by land cover type", "exists": false}
+{"title": "OWID/Annual area burnt by wildfires", "exists": false}
+{"title": "OWID/Annual number of wildfires", "exists": false}
+{"title": "OWID/Share of the total land area burnt by wildfires each year", "exists": false}
+{"title": "OWID/Annual CO₂ emissions from wildfires", "exists": false}
+{"title": "OWID/Annual PM2.5 emissions from wildfires", "exists": false}
+{"title": "OWID/Cumulative share of the land area burnt by wildfires by week", "exists": false}
+{"title": "OWID/Weekly area burnt by wildfires", "exists": false}
+{"title": "OWID/Area burned by wildfires by land cover type", "exists": false}
+{"title": "OWID/Annual area burnt by wildfires by region", "exists": false}
+{"title": "OWID/Average area burnt per wildfire", "exists": false}
+{"title": "OWID/Annual area burnt per wildfire vs. number of fires", "exists": false}
+{"title": "OWID/Cumulative area burnt by wildfires by week", "exists": false}
+{"title": "OWID/Cumulative CO₂ emissions released by wildfires by week", "exists": false}
+{"title": "OWID/Weekly share of the total land area burnt by wildfires", "exists": false}
+{"title": "OWID/Cumulative area burnt by wildfires in 2025", "exists": false}
+{"title": "OWID/Cumulative CO₂ emissions released by wildfires in 2025", "exists": false}
+{"title": "OWID/Recycling rates paper and cardboard", "exists": true}
+{"title": "OWID/Recycling rates glass", "exists": true}
+{"title": "OWID/Total waste generation", "exists": false}
+{"title": "OWID/Electronic waste recycling rate", "exists": false}
+{"title": "OWID/Treatment of hazardous waste", "exists": false}
+{"title": "OWID/Hazardous waste generated per capita", "exists": false}
+{"title": "OWID/Total official financial flows for water supply and sanitation, by recipient", "exists": false}
+{"title": "OWID/Share of population with access to basic handwashing facilities", "exists": false}
+{"title": "OWID/Has country already reached SDG target for usage of improved sanitation facilities?", "exists": false}
+{"title": "OWID/Using safely managed sanitation facilities: urban vs. rural population", "exists": false}
+{"title": "OWID/Share of urban vs. rural population using at least basic sanitation", "exists": false}
+{"title": "OWID/People using at least basic sanitation facilities", "exists": false}
+{"title": "OWID/Sanitation facilities usage", "exists": false}
+{"title": "OWID/Death rate attributable to unsafe water, sanitation, and hygiene", "exists": false}
+{"title": "OWID/Share of the population using at least basic water services", "exists": false}
+{"title": "OWID/People using improved drinking water sources", "exists": false}
+{"title": "OWID/Using improved drinking water sources vs. GDP per capita", "exists": false}
+{"title": "OWID/Using improved water sources: urban vs. rural population", "exists": false}
+{"title": "OWID/Share of the rural population using at least a basic drinking water services", "exists": false}
+{"title": "OWID/Share of urban population using at least basic water services", "exists": false}
+{"title": "OWID/Has country already reached SDG target on improved water access?", "exists": false}
+{"title": "OWID/proportion using safely managed drinking water", "exists": true}
+{"title": "OWID/Share of population using at least a basic drinking water source", "exists": false}
+{"title": "OWID/People using at least a basic drinking water source", "exists": false}
+{"title": "OWID/Using at least basic drinking water sources in urban vs. rural areas", "exists": false}
+{"title": "OWID/Drinking water services", "exists": false}
+{"title": "OWID/Drinking water services in rural areas", "exists": false}
+{"title": "OWID/People not using improved sanitation facilities", "exists": false}
+{"title": "OWID/Share of schools with access to basic drinking water", "exists": false}
+{"title": "OWID/Share of deaths attributed to unsafe sanitation", "exists": false}
+{"title": "OWID/Share of rural population with access to basic handwashing facilities", "exists": false}
+{"title": "OWID/People in rural areas not using improved sanitation facilities", "exists": false}
+{"title": "OWID/People without basic handwashing facilities", "exists": false}
+{"title": "OWID/Rural population without basic handwashing facilities", "exists": false}
+{"title": "OWID/Sanitation facilities usage", "exists": false}
+{"title": "OWID/Access to handwashing facilities", "exists": false}
+{"title": "OWID/People not using safely managed sanitation facilities", "exists": false}
+{"title": "OWID/Death rates no handwashing", "exists": true}
+{"title": "OWID/Share of population not using improved sanitation facilities", "exists": false}
+{"title": "OWID/People not using improved drinking water sources", "exists": false}
+{"title": "OWID/Share of schools with access to basic handwashing facilities", "exists": false}
+{"title": "OWID/Share deaths unsafe water", "exists": true}
+{"title": "OWID/Death rates unsafe water", "exists": true}
+{"title": "OWID/Death rate from unsafe water vs. GDP per capita", "exists": false}
+{"title": "OWID/People not using safely managed drinking water sources", "exists": false}
+{"title": "OWID/People in rural areas not using an improved water source", "exists": false}
+{"title": "OWID/Drinking water service usage", "exists": false}
+{"title": "OWID/Share of population not using improved drinking water sources", "exists": false}
+{"title": "OWID/People using improved sanitation facilities", "exists": false}
+{"title": "OWID/Average nitrate concentration in freshwater", "exists": false}
+{"title": "OWID/Average phosphorus concentration in freshwater", "exists": false}
+{"title": "OWID/Share of the population using improved sanitation facilities", "exists": false}
+{"title": "OWID/Share of the population using improved water sources", "exists": false}
+{"title": "OWID/Bathing sites with excellent water quality", "exists": false}
+{"title": "OWID/Share of the population using at least basic water services", "exists": false}
+{"title": "OWID/People using improved drinking water sources", "exists": false}
+{"title": "OWID/Using improved drinking water sources vs. GDP per capita", "exists": false}
+{"title": "OWID/Using improved water sources: urban vs. rural population", "exists": false}
+{"title": "OWID/Share of the rural population using at least a basic drinking water services", "exists": false}
+{"title": "OWID/Share of urban population using at least basic water services", "exists": false}
+{"title": "OWID/Has country already reached SDG target on improved water access?", "exists": false}
+{"title": "OWID/Share of population using at least a basic drinking water source", "exists": false}
+{"title": "OWID/People using at least a basic drinking water source", "exists": false}
+{"title": "OWID/Using at least basic drinking water sources in urban vs. rural areas", "exists": false}
+{"title": "OWID/Drinking water services", "exists": false}
+{"title": "OWID/Drinking water services in rural areas", "exists": false}
+{"title": "OWID/People not using improved drinking water sources", "exists": false}
+{"title": "OWID/Death rate from unsafe water vs. GDP per capita", "exists": false}
+{"title": "OWID/People not using safely managed drinking water sources", "exists": false}
+{"title": "OWID/People in rural areas not using an improved water source", "exists": false}
+{"title": "OWID/Drinking water service usage", "exists": false}
+{"title": "OWID/Share of population not using improved drinking water sources", "exists": false}
+{"title": "OWID/Bathing sites with excellent water quality", "exists": false}
+{"title": "OWID/Total official financial flows for water supply and sanitation, by recipient", "exists": false}
+{"title": "OWID/Has country already reached SDG target for usage of improved sanitation facilities?", "exists": false}
+{"title": "OWID/Using safely managed sanitation facilities: urban vs. rural population", "exists": false}
+{"title": "OWID/Share of urban vs. rural population using at least basic sanitation", "exists": false}
+{"title": "OWID/People using at least basic sanitation facilities", "exists": false}
+{"title": "OWID/Sanitation facilities usage", "exists": false}
+{"title": "OWID/Death rate attributable to unsafe water, sanitation, and hygiene", "exists": false}
+{"title": "OWID/Share of schools with access to single-sex basic sanitation", "exists": false}
+{"title": "OWID/People not using improved sanitation facilities", "exists": false}
+{"title": "OWID/Share of deaths attributed to unsafe sanitation", "exists": false}
+{"title": "OWID/People in rural areas not using improved sanitation facilities", "exists": false}
+{"title": "OWID/Sanitation facilities usage", "exists": false}
+{"title": "OWID/People not using safely managed sanitation facilities", "exists": false}
+{"title": "OWID/Share of population not using improved sanitation facilities", "exists": false}
+{"title": "OWID/People using improved sanitation facilities", "exists": false}
+{"title": "OWID/Share of the population using improved sanitation facilities", "exists": false}
+{"title": "OWID/tobacco production", "exists": true}
+{"title": "OWID/orange production", "exists": true}
+{"title": "OWID/wheat production", "exists": true}
+{"title": "OWID/cocoa bean production", "exists": true}
+{"title": "OWID/coffee bean production", "exists": true}
+{"title": "OWID/banana production", "exists": true}
+{"title": "OWID/Maize production", "exists": true}
+{"title": "OWID/rice production", "exists": true}
+{"title": "OWID/wine production", "exists": true}
+{"title": "OWID/potato production", "exists": true}
+{"title": "OWID/sugar cane production", "exists": true}
+{"title": "OWID/sugar beet production", "exists": true}
+{"title": "OWID/Change of cereal yield and land used for cereal production", "exists": false}
+{"title": "OWID/Agricultural general services support", "exists": false}
+{"title": "OWID/chicken meat production", "exists": true}
+{"title": "OWID/Agricultural producer support", "exists": false}
+{"title": "OWID/share cereal human food", "exists": true}
+{"title": "OWID/Share of cereals allocated to human food vs. GDP per capita", "exists": false}
+{"title": "OWID/cassava production", "exists": true}
+{"title": "OWID/barley production", "exists": true}
+{"title": "OWID/soybean production", "exists": true}
+{"title": "OWID/bean production", "exists": true}
+{"title": "OWID/pea production", "exists": true}
+{"title": "OWID/cashew nut production", "exists": true}
+{"title": "OWID/sweet potato production", "exists": true}
+{"title": "OWID/yams production", "exists": true}
+{"title": "OWID/cereal production", "exists": true}
+{"title": "OWID/rye production", "exists": true}
+{"title": "OWID/apple production", "exists": true}
+{"title": "OWID/grapes production", "exists": true}
+{"title": "OWID/avocado production", "exists": true}
+{"title": "OWID/tomato production", "exists": true}
+{"title": "OWID/Palm oil production", "exists": true}
+{"title": "OWID/rapeseed production", "exists": true}
+{"title": "OWID/sunflower seed production", "exists": true}
+{"title": "OWID/sesame seed production", "exists": true}
+{"title": "OWID/Cereals: which countries are net importers and exporters?", "exists": false}
+{"title": "OWID/Soybeans: are they used for food, feed or fuel?", "exists": false}
+{"title": "OWID/Soy production, yield and area harvested", "exists": false}
+{"title": "OWID/Vegetable oil production", "exists": false}
+{"title": "OWID/Palm oil imports", "exists": true}
+{"title": "OWID/Share of cereals allocated to food, animal feed or fuel", "exists": false}
+{"title": "OWID/Nitrogen output vs. nitrogen input to agriculture", "exists": false}
+{"title": "OWID/Nitrogen use efficiency", "exists": true}
+{"title": "OWID/Total applied phosphorous to crops", "exists": false}
+{"title": "OWID/Phosphorous inputs per hectare of cropland", "exists": false}
+{"title": "OWID/Change in corn production and land use in the United States", "exists": false}
+{"title": "OWID/Agricultural output dollars", "exists": true}
+{"title": "OWID/Global food production: how much comes from Ukraine & Russia?", "exists": false}
+{"title": "OWID/Maize exports from Ukraine and Russia in perspective", "exists": false}
+{"title": "OWID/Wheat exports from Ukraine and Russia in perspective", "exists": false}
+{"title": "OWID/Fertilizer use per hectare of cropland", "exists": true}
+{"title": "OWID/Productivity of small-scale food producers", "exists": false}
+{"title": "OWID/share cereals animal feed", "exists": true}
+{"title": "OWID/Distribution of soil lifespans", "exists": false}
+{"title": "OWID/What has driven the growth in global agricultural production?", "exists": false}
+{"title": "OWID/Global allocation of crops to end uses by farm size", "exists": false}
+{"title": "OWID/Global crop production by farm size", "exists": false}
+{"title": "OWID/Average farm size", "exists": true}
+{"title": "OWID/Global food exports: how much comes from Ukraine & Russia?", "exists": false}
+{"title": "OWID/Long-run cereal yields in the United Kingdom", "exists": false}
+{"title": "OWID/Agricultural export subsidies", "exists": false}
+{"title": "OWID/Share of agricultural land being productively and sustainably used", "exists": false}
+{"title": "OWID/Daily number of animals slaughtered for meat", "exists": false}
+{"title": "OWID/meat supply per person", "exists": true}
+{"title": "OWID/Fish and seafood consumption per capita", "exists": true}
+{"title": "OWID/Fish and seafood consumption vs. GDP per capita", "exists": false}
+{"title": "OWID/Protein supply from animal foods vs. GDP per capita", "exists": false}
+{"title": "OWID/Dietary land use vs. beef consumption", "exists": false}
+{"title": "OWID/Feed required to produce one kilogram of meat or dairy product", "exists": false}
+{"title": "OWID/Protein efficiency of meat and dairy production", "exists": false}
+{"title": "OWID/Energy efficiency of meat and dairy production", "exists": false}
+{"title": "OWID/Meat production tonnes", "exists": true}
+{"title": "OWID/Meat production by livestock type", "exists": false}
+{"title": "OWID/beef and buffalo meat production tonnes", "exists": true}
+{"title": "OWID/Poultry production tonnes", "exists": true}
+{"title": "OWID/pigmeat production tonnes", "exists": true}
+{"title": "OWID/milk production tonnes", "exists": true}
+{"title": "OWID/Cattle livestock count heads", "exists": true}
+{"title": "OWID/Poultry livestock count", "exists": true}
+{"title": "OWID/Pig livestock count heads", "exists": true}
+{"title": "OWID/milk yields per animal", "exists": true}
+{"title": "OWID/Poultry meat per animal", "exists": false}
+{"title": "OWID/pig yields meat per animal in hectograms 100 grams", "exists": true}
+{"title": "OWID/cattle meat yields hectograms 100 grams per animal", "exists": true}
+{"title": "OWID/Seafood and fish production", "exists": false}
+{"title": "OWID/Per capita meat consumption by type", "exists": false}
+{"title": "OWID/Per capita milk consumption", "exists": true}
+{"title": "OWID/egg production thousand tonnes", "exists": true}
+{"title": "OWID/per capita egg consumption kilograms per year", "exists": true}
+{"title": "OWID/Egg yield per bird", "exists": true}
+{"title": "OWID/Livestock counts", "exists": false}
+{"title": "OWID/daily meat consumption per person", "exists": true}
+{"title": "OWID/Global fishery catch by sector", "exists": false}
+{"title": "OWID/Global meat consumption with projections to 2050", "exists": false}
+{"title": "OWID/Hypothetical global meat demand", "exists": true}
+{"title": "OWID/Chicken meat yields per animal", "exists": true}
+{"title": "OWID/Per capita meat consumption in the United States", "exists": false}
+{"title": "OWID/Per capita meat consumption in the EU28", "exists": false}
+{"title": "OWID/Global meat production", "exists": false}
+{"title": "OWID/Per capita meat and fish consumption", "exists": false}
