@@ -101,7 +101,6 @@ for x, v in tqdm(data_list.items()):
 
         category_name = f"Category:Our World in Data - {category}"
         category_name = category_name.replace(" & ", " and ")
-
         cat_data = {
             "main": [x],
             "sub_categories": sub_categories,
@@ -111,12 +110,21 @@ for x, v in tqdm(data_list.items()):
         if x not in to_create[category]["main"]:
             to_create[category]["main"].append(x)
 
+slug_data_cats = {}
 for x, v in to_create.copy().items():
-
     to_create[x]["sub_categories"] = {x: hh for x, hh in v["sub_categories"].items() if x not in to_create}
+
+    slug_data_cats[category] = category_name
+    for x, v in to_create[x]["sub_categories"].items():
+        slug_data_cats[x] = category_name
+        for z in v:
+            slug_data_cats[z] = category_name
 
 with open(main_dir / "to_create.json", "w", encoding="utf-8") as f:
     json.dump(to_create, f, indent=4, ensure_ascii=False)
+
+with open(main_dir / "slug_data_cats.json", "w", encoding="utf-8") as f:
+    json.dump(slug_data_cats, f, indent=4, ensure_ascii=False)
 
 for n, (category, v) in enumerate(to_create.items(), start=1):
     print(f"{n}/{len(to_create)}: {category=}")
