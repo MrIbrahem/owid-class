@@ -1377,3 +1377,567 @@
 {"title": "OWID/Sex gap in life expectancy at different ages", "exists": false}
 {"title": "OWID/Sex ratio at sixty years old", "exists": true}
 {"title": "OWID/Share of young women vs. men who are not in education, employment or training", "exists": false}
+{"title": "OWID/Median age", "exists": true}
+{"title": "OWID/Life expectancy at birth including the un projections", "exists": true}
+{"title": "OWID/Life expectancy by gender", "exists": false}
+{"title": "OWID/Healthy life expectancy and years lived with disability or disease", "exists": false}
+{"title": "OWID/Expected years of living with disability or disease burden", "exists": true}
+{"title": "OWID/Years lived with disability vs. health spending per capita", "exists": false}
+{"title": "OWID/Life expectancy projections", "exists": false}
+{"title": "OWID/Life expectancy at birth oecd", "exists": true}
+{"title": "OWID/Life expectancy by sex", "exists": false}
+{"title": "OWID/Life expectancy at age 15 by sex", "exists": false}
+{"title": "OWID/Life expectancy at age 45, by sex", "exists": false}
+{"title": "OWID/Sex ratio in life expectancy at different ages", "exists": false}
+{"title": "OWID/difference in female and male life expectancy at birth", "exists": true}
+{"title": "OWID/Sex gap in life expectancy at age 45", "exists": false}
+{"title": "OWID/womens life expectancy at birth", "exists": true}
+{"title": "OWID/Share of men and women expected to survive to the age of 65", "exists": false}
+{"title": "OWID/Share in extreme poverty vs. life expectancy", "exists": false}
+{"title": "OWID/Healthy life expectancy vs. health spending per capita", "exists": false}
+{"title": "OWID/Life expectancy vs. GDP per capita", "exists": false}
+{"title": "OWID/Life expectancy", "exists": true}
+{"title": "OWID/Life expectancy vs. health spending", "exists": false}
+{"title": "OWID/Life expectancy vs. health spending", "exists": false}
+{"title": "OWID/Number of deaths worldwide by age", "exists": false}
+{"title": "OWID/Life expectancy unwpp", "exists": true}
+{"title": "OWID/Life expectancy vs. GDP per capita", "exists": false}
+{"title": "OWID/Age standardized deaths from all causes", "exists": true}
+{"title": "OWID/Healthy life expectancy", "exists": false}
+{"title": "OWID/Annual death rates at different ages", "exists": false}
+{"title": "OWID/Period versus cohort life expectancy", "exists": false}
+{"title": "OWID/Annual death rate by age group", "exists": false}
+{"title": "OWID/Remaining life expectancy at different ages", "exists": false}
+{"title": "OWID/Probability of dying that year, among females", "exists": false}
+{"title": "OWID/Probability of dying that year, among males", "exists": false}
+{"title": "OWID/Remaining life expectancy at different ages, in females", "exists": false}
+{"title": "OWID/Remaining life expectancy at different ages, in males", "exists": false}
+{"title": "OWID/Probability of dying in infancy, by sex", "exists": false}
+{"title": "OWID/Lifespan inequality: Gini coefficient by sex", "exists": false}
+{"title": "OWID/Survival ages across the population", "exists": false}
+{"title": "OWID/Life expectancy males vs females", "exists": false}
+{"title": "OWID/Life expectancy, source comparison", "exists": false}
+{"title": "OWID/Annual death rates in people of different ages, by sex", "exists": false}
+{"title": "OWID/Probability that a male will outlive a female", "exists": true}
+{"title": "OWID/mens life expectancy at birth", "exists": true}
+{"title": "OWID/life expectancy hmd unwpp", "exists": true}
+{"title": "OWID/Life expectancy: females versus males", "exists": false}
+{"title": "OWID/Life expectancy for people of different ages", "exists": false}
+{"title": "OWID/Annual death rates at different ages in females", "exists": false}
+{"title": "OWID/Annual death rates at different ages in males", "exists": false}
+{"title": "OWID/Sex gap in life expectancy versus GDP per capita", "exists": false}
+{"title": "OWID/Sex gap in life expectancy versus child mortality", "exists": false}
+{"title": "OWID/Gender ratio in life expectancy at birth", "exists": true}
+{"title": "OWID/Mortality rates at age 25", "exists": false}
+{"title": "OWID/Mortality rates at age 65", "exists": false}
+{"title": "OWID/Country with highest female life expectancy", "exists": false}
+{"title": "OWID/Life expectancy versus lifespan inequality", "exists": false}
+{"title": "OWID/Number of deaths by age", "exists": false}
+{"title": "OWID/How do death rates in each age group contribute to the overall sex gap in life expectancy?", "exists": false}
+{"title": "OWID/Modal age at death in adults", "exists": false}
+{"title": "OWID/Gini coefficient of lifespan inequality in males", "exists": true}
+{"title": "OWID/A child’s survival in Germany was once a coin flip", "exists": false}
+{"title": "OWID/gini coefficient of lifespan inequality in females", "exists": true}
+{"title": "OWID/Death rates from different causes", "exists": false}
+{"title": "OWID/Children born per woman", "exists": true}
+{"title": "OWID/Children per woman un", "exists": true}
+{"title": "OWID/Children per woman vs. child mortality in countries with and without strict family planning policy", "exists": false}
+{"title": "OWID/Birth rate", "exists": false}
+{"title": "OWID/Fertility rate vs. GDP per capita", "exists": false}
+{"title": "OWID/Women's educational attainment vs. fertility rate", "exists": false}
+{"title": "OWID/Total fertility rate vs. wanted fertility rate", "exists": false}
+{"title": "OWID/Total fertility rate vs. wanted fertility rate", "exists": false}
+{"title": "OWID/Projections of the fertility rate by education scenario", "exists": false}
+{"title": "OWID/crude birth rate", "exists": true}
+{"title": "OWID/Fertility rate vs. share of women with no education", "exists": false}
+{"title": "OWID/Fertility rate vs. average years of schooling", "exists": false}
+{"title": "OWID/share of married women ages 15 49 years whose need for family planning is satisfied", "exists": true}
+{"title": "OWID/Fertility rate vs. Human Development Index", "exists": false}
+{"title": "OWID/Children per woman that survived childhood vs. those that died in childhood", "exists": false}
+{"title": "OWID/Fertility rate vs. child mortality", "exists": false}
+{"title": "OWID/Unmet need for contraception share of married women of reproductive age", "exists": true}
+{"title": "OWID/share of women using modern contraceptive methods", "exists": true}
+{"title": "OWID/Fertility rate vs. share living in extreme poverty", "exists": false}
+{"title": "OWID/Fertility rate vs. unmet need for contraception", "exists": false}
+{"title": "OWID/Total fertility rate vs. contraceptive prevalence", "exists": false}
+{"title": "OWID/Fertility rate: children per woman over the long-term", "exists": false}
+{"title": "OWID/Modern contraceptive prevalence vs. GDP per capita", "exists": false}
+{"title": "OWID/Modern contraception usage vs. average years of schooling for women", "exists": false}
+{"title": "OWID/Maternal mortality ratio vs. fertility rate", "exists": false}
+{"title": "OWID/UN projection of infant deaths", "exists": false}
+{"title": "OWID/Countries with fertility rates above or below replacement level", "exists": false}
+{"title": "OWID/Share of births by age of mother", "exists": false}
+{"title": "OWID/Birth rate", "exists": false}
+{"title": "OWID/Average age of mothers at childbirth by mother's birth year", "exists": false}
+{"title": "OWID/Average age of mothers at childbirth by birth order", "exists": false}
+{"title": "OWID/Total number of births by birth order", "exists": false}
+{"title": "OWID/Age-adjusted total fertility rate, after a given number of births", "exists": false}
+{"title": "OWID/Total fertility rate versus adjusted fertility rate", "exists": false}
+{"title": "OWID/Period total fertility rate", "exists": true}
+{"title": "OWID/Standard deviation in age of mothers at birth", "exists": false}
+{"title": "OWID/Rate of twin deliveries", "exists": true}
+{"title": "OWID/Children per multiple delivery", "exists": false}
+{"title": "OWID/Share of deliveries with single, twin or multiple children", "exists": false}
+{"title": "OWID/long run birth rate", "exists": true}
+{"title": "OWID/Birth rate, with UN projections", "exists": false}
+{"title": "OWID/Birth seasonality", "exists": false}
+{"title": "OWID/Peak birth month", "exists": true}
+{"title": "OWID/Peak birth month each year and the daily birth rate that month", "exists": false}
+{"title": "OWID/Births per day, on a monthly basis", "exists": false}
+{"title": "OWID/Annual birth rate and peak birth month", "exists": false}
+{"title": "OWID/Cohort fertility rate: completed and by age 40", "exists": false}
+{"title": "OWID/Total fertility rate  vs cohort fertility rate vs tempo-adjusted total fertility rate", "exists": false}
+{"title": "OWID/Father's age at childbirth", "exists": false}
+{"title": "OWID/Cohort fertility rate", "exists": true}
+{"title": "OWID/Age of mothers at childbirth by year", "exists": false}
+{"title": "OWID/Age of mothers at childbirth by mother's birth year", "exists": false}
+{"title": "OWID/Cumulative fertility rate by women's birth year", "exists": false}
+{"title": "OWID/Comparison of fertility rates that account for survival of children", "exists": false}
+{"title": "OWID/Effective Fertility Rates, by age", "exists": false}
+{"title": "OWID/period average age of mothers", "exists": true}
+{"title": "OWID/Birth rate by women's age group", "exists": false}
+{"title": "OWID/Age distribution of mothers at childbirth by year", "exists": false}
+{"title": "OWID/Effective fertility rate children per woman who are expected to survive until childbearing age", "exists": true}
+{"title": "OWID/Share of women who have had a given number of births", "exists": false}
+{"title": "OWID/Wanted fertility rate", "exists": true}
+{"title": "OWID/Replacement fertility rate", "exists": true}
+{"title": "OWID/stillbirth rate", "exists": true}
+{"title": "OWID/Births, by age of mother", "exists": false}
+{"title": "OWID/Share of women who have had no births by the end of their childbearing years", "exists": false}
+{"title": "OWID/Child mortality vs. average years of schooling  for women", "exists": false}
+{"title": "OWID/Child mortality vs. per capita health spending", "exists": false}
+{"title": "OWID/Children died before five per woman", "exists": true}
+{"title": "OWID/Children per woman that survived childhood vs. those that died in childhood", "exists": false}
+{"title": "OWID/infant mortality", "exists": true}
+{"title": "OWID/Global child mortality", "exists": false}
+{"title": "OWID/Global child deaths by cause", "exists": false}
+{"title": "OWID/Number of child deaths by region", "exists": false}
+{"title": "OWID/Child mortality rate ihme", "exists": true}
+{"title": "OWID/Child mortality vs. GDP per capita", "exists": false}
+{"title": "OWID/Child mortality igme", "exists": true}
+{"title": "OWID/neonatal mortality wdi", "exists": true}
+{"title": "OWID/Fertility rate vs. child mortality", "exists": false}
+{"title": "OWID/child mortality around the world", "exists": true}
+{"title": "OWID/Child mortality by sex", "exists": false}
+{"title": "OWID/Child mortality rate by sex", "exists": false}
+{"title": "OWID/Child mortality rate including un projections through 2100", "exists": true}
+{"title": "OWID/Number of under-five deaths by region", "exists": false}
+{"title": "OWID/Number of neonatal deaths by region", "exists": false}
+{"title": "OWID/Child mortality by cause", "exists": false}
+{"title": "OWID/Has a country already reached SDG target on neonatal mortality?", "exists": false}
+{"title": "OWID/Has country already reached SDG target on child mortality?", "exists": false}
+{"title": "OWID/Under 5 mortality rate sdgs", "exists": true}
+{"title": "OWID/Neonatal mortality rate", "exists": false}
+{"title": "OWID/MDG4.A: Child mortality rate", "exists": false}
+{"title": "OWID/Infant mortality rates in England and Wales", "exists": false}
+{"title": "OWID/Infant mortality rate by sex", "exists": false}
+{"title": "OWID/Infant mortality by sex", "exists": false}
+{"title": "OWID/Global infant mortality by cause for boys vs. girls", "exists": false}
+{"title": "OWID/Number of neonatal, infant and child deaths", "exists": false}
+{"title": "OWID/Number of child deaths by age", "exists": false}
+{"title": "OWID/Number of child deaths by source", "exists": false}
+{"title": "OWID/Number of infant deaths", "exists": true}
+{"title": "OWID/Causes of death in children under five years old", "exists": false}
+{"title": "OWID/Neonatal mortality vs. births attended by skilled health staff", "exists": false}
+{"title": "OWID/Child deaths in 1960 vs. 2023", "exists": false}
+{"title": "OWID/Child mortality vs. share with respiratory infections taken to a healthcare provider", "exists": false}
+{"title": "OWID/Child mortality by income level of country", "exists": false}
+{"title": "OWID/Childhood deaths from the most lethal infectious diseases", "exists": false}
+{"title": "OWID/Child mortality vs. share in extreme poverty", "exists": false}
+{"title": "OWID/Child mortality vs. share of children immunized against diphtheria, pertussis, and tetanus", "exists": false}
+{"title": "OWID/Child mortality rate vs. share of population practicing open defecation", "exists": false}
+{"title": "OWID/Deaths by risk factor for ages 5-14", "exists": false}
+{"title": "OWID/child mortality", "exists": true}
+{"title": "OWID/drowning death rates under 5", "exists": true}
+{"title": "OWID/Infant mortality vs. prevalence of prenatal care", "exists": false}
+{"title": "OWID/Child mortality from respiratory infections vs. share taken to a healthcare provider", "exists": false}
+{"title": "OWID/Child mortality vs. prevalence of teenage pregnancy", "exists": false}
+{"title": "OWID/Under-five mortality vs. prevalence of anemia in pregnant women", "exists": false}
+{"title": "OWID/Child mortality vs. share of children who are anemic", "exists": false}
+{"title": "OWID/Child mortality vs. health spending", "exists": false}
+{"title": "OWID/Child mortality from respiratory infections vs. access to clean fuels for cooking", "exists": false}
+{"title": "OWID/Child mortality vs. prevalence of stunting", "exists": false}
+{"title": "OWID/Child mortality vs. prevalence of child wasting", "exists": false}
+{"title": "OWID/Child mortality: IHME vs. UN IGME estimates", "exists": false}
+{"title": "OWID/youth mortality rate", "exists": true}
+{"title": "OWID/Child deaths in the first year of life", "exists": false}
+{"title": "OWID/deaths from preterm birth complications", "exists": true}
+{"title": "OWID/Child deaths in the first five years of life by age group", "exists": false}
+{"title": "OWID/Number of child deaths", "exists": true}
+{"title": "OWID/Infant mortality rate", "exists": true}
+{"title": "OWID/Number of neonatal deaths ihme", "exists": true}
+{"title": "OWID/Number of neonatal deaths igme", "exists": true}
+{"title": "OWID/Number of infant deaths ihme", "exists": true}
+{"title": "OWID/Child mortality vs. CO₂ emissions per capita", "exists": false}
+{"title": "OWID/UN projection of infant deaths", "exists": false}
+{"title": "OWID/Infant mortality rates", "exists": true}
+{"title": "OWID/Number of infant deaths unwpp", "exists": true}
+{"title": "OWID/number of child deaths igme", "exists": true}
+{"title": "OWID/Number of youth deaths", "exists": false}
+{"title": "OWID/Child mortality rate", "exists": false}
+{"title": "OWID/Number of child deaths by world region", "exists": false}
+{"title": "OWID/Maternal mortality ratio vs. neonatal mortality", "exists": false}
+{"title": "OWID/Child mortality rate vs. mean male height", "exists": false}
+{"title": "OWID/Neonatal mortality ihme", "exists": true}
+{"title": "OWID/Child mortality rate vs. GDP per capita", "exists": false}
+{"title": "OWID/Diarrheal disease death rates in children under 5", "exists": true}
+{"title": "OWID/Child mortality rate by cause", "exists": false}
+{"title": "OWID/pneumonia death rates in children under 5", "exists": true}
+{"title": "OWID/Number of deaths from pneumonia in children under 5", "exists": true}
+{"title": "OWID/mortality neonatal asphyxia and trauma", "exists": true}
+{"title": "OWID/congenital birth defect mortality rates in children under 5", "exists": true}
+{"title": "OWID/protein energy malnutrition mortality rates in children", "exists": true}
+{"title": "OWID/Number of child deaths by the type of congenital birth defect", "exists": false}
+{"title": "OWID/Child mortality by the type of congenital birth defect", "exists": false}
+{"title": "OWID/Neonatal deaths by cause", "exists": false}
+{"title": "OWID/Tetanus mortality in children under 5", "exists": true}
+{"title": "OWID/Annual new cases of tetanus in children under five, by world region", "exists": false}
+{"title": "OWID/Child deaths from diseases caused by invasive pneumococcus", "exists": false}
+{"title": "OWID/Number of deaths worldwide by age", "exists": false}
+{"title": "OWID/Number of children who are underweight", "exists": true}
+{"title": "OWID/Number of infant deaths gho", "exists": true}
+{"title": "OWID/Neonatal mortality rate gho", "exists": true}
+{"title": "OWID/Share of children with a respiratory infection taken to a healthcare provider", "exists": false}
+{"title": "OWID/pneumonia careseeking", "exists": true}
+{"title": "OWID/Meningitis death rates children under 5", "exists": true}
+{"title": "OWID/share of mothers receiving at least one antenatal visit during pregnancy", "exists": true}
+{"title": "OWID/Child mortality rate by household wealth", "exists": false}
+{"title": "OWID/Share of mothers who have lost an infant", "exists": false}
+{"title": "OWID/Share of mothers who have lost a child under five", "exists": false}
+{"title": "OWID/Mothers who have lost a child under five, across birth cohorts", "exists": false}
+{"title": "OWID/Child and maternal malnutrition death rate", "exists": false}
+{"title": "OWID/Rate of child deaths attributed to child and maternal malnutrition", "exists": false}
+{"title": "OWID/Nine Asian countries where child mortality has dropped by over 50% since 2000", "exists": false}
+{"title": "OWID/leading cause of child mortality among children under five", "exists": true}
+{"title": "OWID/Child mortality in the past vs. today", "exists": false}
+{"title": "OWID/Major causes of child deaths", "exists": false}
+{"title": "OWID/Probability of dying in infancy, by sex", "exists": false}
+{"title": "OWID/Number of deaths by age", "exists": false}
+{"title": "OWID/Child and maternal malnutrition death rates vs. GDP per capita", "exists": false}
+{"title": "OWID/Share of babies born with a low birthweight", "exists": false}
+{"title": "OWID/Share of infants that are born pre-term", "exists": false}
+{"title": "OWID/Number of children that die from road injuries", "exists": false}
+{"title": "OWID/A child’s survival in Germany was once a coin flip", "exists": false}
+{"title": "OWID/Share of children with pneumonia symptoms receiving healthcare", "exists": false}
+{"title": "OWID/Global infant mortality rate with and without vaccines", "exists": false}
+{"title": "OWID/Deaths due to measles by region", "exists": false}
+{"title": "OWID/Share of population urban", "exists": true}
+{"title": "OWID/Long term urban population region", "exists": true}
+{"title": "OWID/Urban agglomerations more than 1 million", "exists": true}
+{"title": "OWID/urban agglomerations 1 million percent", "exists": true}
+{"title": "OWID/Population in the largest city", "exists": true}
+{"title": "OWID/Urban vs rural majority", "exists": true}
+{"title": "OWID/Population living in urban and rural areas", "exists": false}
+{"title": "OWID/Urban and rural population projected to 2050", "exists": false}
+{"title": "OWID/Urban population share 2050", "exists": true}
+{"title": "OWID/Access to electricity, urban vs. rural", "exists": false}
+{"title": "OWID/Population density", "exists": true}
+{"title": "OWID/Urban share european commission", "exists": true}
+{"title": "OWID/Population density of the world's largest cities", "exists": false}
+{"title": "OWID/Population of the world's largest cities", "exists": false}
+{"title": "OWID/Number of people living in the capital city", "exists": false}
+{"title": "OWID/Access to basic handwashing facilities, urban vs. rural", "exists": false}
+{"title": "OWID/Using safely managed drinking water in urban vs. rural areas", "exists": false}
+{"title": "OWID/Sanitation facilities usage in urban areas", "exists": false}
+{"title": "OWID/Sanitation facilities usage in rural areas", "exists": false}
+{"title": "OWID/Share of the rural population living near a road", "exists": false}
+{"title": "OWID/Urban policies that respond to population dynamics", "exists": false}
+{"title": "OWID/Share using safely managed drinking water, rural vs. urban", "exists": false}
+{"title": "OWID/Urban population vs. female labor force participation rate", "exists": false}
+{"title": "OWID/Share of population living in multidimensional poverty: urban vs. rural areas", "exists": false}
+{"title": "OWID/Share of the urban population living in cities by size", "exists": false}
+{"title": "OWID/Annual rate of change in urban populations", "exists": true}
+{"title": "OWID/Population of cities, towns and rural areas", "exists": false}
+{"title": "OWID/Share of urban population by source", "exists": false}
+{"title": "OWID/Annual growth rate of urban population share", "exists": true}
+{"title": "OWID/Share of population living in cities, towns and rural areas", "exists": false}
+{"title": "OWID/Share of the urban and rural population using safely managed drinking water", "exists": false}
+{"title": "OWID/Share of the rural and urban population with access to clean fuels for cooking", "exists": false}
+{"title": "OWID/Share of children who are stunted in urban and rural areas", "exists": false}
+{"title": "OWID/Share of urban population with convenient access to an open public space", "exists": false}
+{"title": "OWID/Share of people living in urban and rural areas", "exists": false}
+{"title": "OWID/Population of cities, towns, and rural areas", "exists": false}
+{"title": "OWID/Population density of cities", "exists": false}
+{"title": "OWID/Population density of cities and towns", "exists": false}
+{"title": "OWID/Share of urban population with convenient access to open public spaces", "exists": false}
+{"title": "OWID/Population density of the capital city", "exists": true}
+{"title": "OWID/Number of unique settlements", "exists": false}
+{"title": "OWID/Number of people living in the capital city european commission", "exists": true}
+{"title": "OWID/Number of people living in the world's largest cities", "exists": false}
+{"title": "OWID/Share of urban population living in inadequate housing", "exists": false}
+{"title": "OWID/Refugees by country of asylum per 1,000 people", "exists": false}
+{"title": "OWID/People in many countries are pessimistic about housing", "exists": false}
+{"title": "OWID/Share of the urban and rural population using safely managed sanitation services", "exists": false}
+{"title": "OWID/Remittance costs as a proportion of the amount remitted", "exists": false}
+{"title": "OWID/refugee population by country or territory of origin", "exists": true}
+{"title": "OWID/refugee population by country or territory of asylum", "exists": true}
+{"title": "OWID/Personal remittances and official development assistance received", "exists": false}
+{"title": "OWID/National policies for orderly, safe, regular, and responsible migration", "exists": false}
+{"title": "OWID/Recorded deaths and disappearances during migration", "exists": false}
+{"title": "OWID/number of refugees per 100000", "exists": true}
+{"title": "OWID/Migrant stock total", "exists": true}
+{"title": "OWID/migrant stock share", "exists": true}
+{"title": "OWID/Proportion of countries with migration policies that facilitate orderly, safe, regular and responsible migration and mobility of people", "exists": false}
+{"title": "OWID/human trafficking victims", "exists": true}
+{"title": "OWID/Migrant recruitment costs", "exists": false}
+{"title": "OWID/Global aid and remittances: both climbing, one surging ahead", "exists": false}
+{"title": "OWID/Cumulative migration between regions", "exists": false}
+{"title": "OWID/Refugees by country of asylum per 1,000 people", "exists": false}
+{"title": "OWID/Money sent or brought back by migrants as a share of gdp", "exists": true}
+{"title": "OWID/High-income countries host 13 percent of the world’s refugee population", "exists": false}
+{"title": "OWID/Cumulative number of Demographic and Health Surveys since 1985", "exists": false}
+{"title": "OWID/Countries where Demographic and Health Surveys are the only data source for national maternal mortality", "exists": false}
+{"title": "OWID/Number of Demographic and Health Surveys completed by type", "exists": false}
+{"title": "OWID/Ongoing Demographic and Health Surveys before US funding was terminated in 2025", "exists": false}
+{"title": "OWID/Total healthcare expenditure gdp", "exists": true}
+{"title": "OWID/Share of out of pocket expenditure on healthcare", "exists": true}
+{"title": "OWID/Healthcare spending vs. GDP per capita", "exists": false}
+{"title": "OWID/Public health expenditure share gdp", "exists": true}
+{"title": "OWID/maternal mortality", "exists": true}
+{"title": "OWID/antiretroviral therapy coverage among people living with hiv", "exists": true}
+{"title": "OWID/Global antibiotic use in livestock under reduction scenarios", "exists": false}
+{"title": "OWID/Fire death rates", "exists": true}
+{"title": "OWID/Net enrollment rate, pre-primary, both sexes", "exists": false}
+{"title": "OWID/Share of population covered by social insurance programs", "exists": false}
+{"title": "OWID/Specialist surgical workforce rate", "exists": false}
+{"title": "OWID/hepatitis death rate", "exists": true}
+{"title": "OWID/Nurses and midwives per 1,000 people", "exists": false}
+{"title": "OWID/Physicians per 1000 people", "exists": true}
+{"title": "OWID/Countries with policy guarantees for public access to information", "exists": false}
+{"title": "OWID/Share of population using safely managed sanitation", "exists": false}
+{"title": "OWID/Health provider absence rate", "exists": false}
+{"title": "OWID/Dentistry personnel per 10,000 population", "exists": false}
+{"title": "OWID/Pharmacists per 10,000 population", "exists": false}
+{"title": "OWID/International health regulations capacities", "exists": false}
+{"title": "OWID/death rate from venomous animal", "exists": true}
+{"title": "OWID/incidence of venomous animal contact", "exists": true}
+{"title": "OWID/Antenatal care coverage", "exists": false}
+{"title": "OWID/prevalence of onchocerciasis", "exists": true}
+{"title": "OWID/exclusive breastfeeding rate", "exists": true}
+{"title": "OWID/Hospital beds per 1000 people", "exists": true}
+{"title": "OWID/Hospital beds per 1,000 people vs. GDP per capita", "exists": false}
+{"title": "OWID/Share of mothers receiving medical care after giving birth", "exists": false}
+{"title": "OWID/Coverage of essential health services", "exists": false}
+{"title": "OWID/Community health workers per 1,000 people", "exists": false}
+{"title": "OWID/crude death rate", "exists": true}
+{"title": "OWID/Share of population living on less than $2 per day", "exists": false}
+{"title": "OWID/The burden of disease vs. GDP per capita", "exists": false}
+{"title": "OWID/Which countries have mandatory childhood vaccination policies?", "exists": false}
+{"title": "OWID/Number of countries with childhood vaccination policies", "exists": false}
+{"title": "OWID/Share of health facilities with essential medicines", "exists": false}
+{"title": "OWID/The Universal Health Coverage (UHC) Service Coverage Index", "exists": false}
+{"title": "OWID/Recipients of development coordination in tracking implementation of SDG commitments", "exists": false}
+{"title": "OWID/Countries reporting progress in multi-stakeholder development effectiveness monitoring frameworks in support of the SDGs", "exists": false}
+{"title": "OWID/Deaths from venomous animal contact", "exists": true}
+{"title": "OWID/Number of deaths", "exists": true}
+{"title": "OWID/Burden of disease", "exists": true}
+{"title": "OWID/Deaths from falls", "exists": false}
+{"title": "OWID/Death rate from falls", "exists": false}
+{"title": "OWID/deaths from fires and burns", "exists": true}
+{"title": "OWID/death rate from fires and burns ihme", "exists": true}
+{"title": "OWID/Death rate from fires and burns", "exists": false}
+{"title": "OWID/Deaths from diabetes", "exists": true}
+{"title": "OWID/Death rate from drowning", "exists": true}
+{"title": "OWID/Deaths from drowning", "exists": true}
+{"title": "OWID/Number of deaths gbd", "exists": true}
+{"title": "OWID/Death rate from falls gbd", "exists": true}
+{"title": "OWID/Deaths from falls gbd", "exists": true}
+{"title": "OWID/death rate from falls gbd rate", "exists": true}
+{"title": "OWID/death rate from drowning ghe", "exists": true}
+{"title": "OWID/Coverage of underlying data on the prevalence of mental illnesses", "exists": false}
+{"title": "OWID/Leading broad cause of death", "exists": true}
+{"title": "OWID/Causes of death, by income group", "exists": false}
+{"title": "OWID/reported cases of leprosy", "exists": true}
+{"title": "OWID/Countries where river blindness is endemic", "exists": false}
+{"title": "OWID/Death rate from venomous snakes", "exists": false}
+{"title": "OWID/Death rate from diabetes who mdb", "exists": true}
+{"title": "OWID/Deaths from venomous snakes", "exists": false}
+{"title": "OWID/tuberculosis case detection rate", "exists": true}
+{"title": "OWID/Hearing loss by age group", "exists": false}
+{"title": "OWID/Share of the population with anemia in higher risk groups", "exists": false}
+{"title": "OWID/Systems to monitor the use of antimicrobials for human medicine", "exists": false}
+{"title": "OWID/Deaths by risk factor", "exists": false}
+{"title": "OWID/Deaths by risk factor for under-5s", "exists": false}
+{"title": "OWID/Deaths by risk factor for ages 15-49", "exists": false}
+{"title": "OWID/Deaths by risk factor for over 70s", "exists": false}
+{"title": "OWID/Causes of death in children aged 5 to 14", "exists": false}
+{"title": "OWID/Causes of death in the over 70s", "exists": false}
+{"title": "OWID/Deaths from drowning, by age", "exists": false}
+{"title": "OWID/Deaths from fire, by age", "exists": false}
+{"title": "OWID/respiratory disease death rate", "exists": true}
+{"title": "OWID/cardiovascular disease death rates", "exists": true}
+{"title": "OWID/death rate from poisonings", "exists": true}
+{"title": "OWID/Causes of death in the United States over the 20th century", "exists": false}
+{"title": "OWID/Death rate by cause", "exists": false}
+{"title": "OWID/sales of cigarettes per adult per day", "exists": true}
+{"title": "OWID/Expected chances of death from non-communicable diseases, by gender", "exists": false}
+{"title": "OWID/Death rates road incidents", "exists": true}
+{"title": "OWID/Number of deaths from road injuries", "exists": true}
+{"title": "OWID/mortality from ncds sdgs", "exists": true}
+{"title": "OWID/Deaths by risk factor for ages 50-69", "exists": false}
+{"title": "OWID/Causes of death in 15- to 49-year-olds", "exists": false}
+{"title": "OWID/Deaths from dementia-related diseases, by age", "exists": false}
+{"title": "OWID/dementia death rates", "exists": true}
+{"title": "OWID/Drowning death rates", "exists": true}
+{"title": "OWID/Chronic respiratory disease deaths by age", "exists": false}
+{"title": "OWID/Number of deaths from cardiovascular diseases by age", "exists": false}
+{"title": "OWID/Death rates from different causes in the United States over the 20th century", "exists": false}
+{"title": "OWID/Deaths from air pollution", "exists": false}
+{"title": "OWID/Drug overdose death rate by drug type", "exists": false}
+{"title": "OWID/death rate from opioid use", "exists": true}
+{"title": "OWID/fatal occupational injuries among employees", "exists": true}
+{"title": "OWID/infectious disease death rates", "exists": true}
+{"title": "OWID/Death rate from smoking by age", "exists": false}
+{"title": "OWID/share deaths secondhand smoke", "exists": true}
+{"title": "OWID/Deaths from encephalitis, by age", "exists": false}
+{"title": "OWID/Deaths from tobacco smoking, by age", "exists": false}
+{"title": "OWID/Deaths from acute hepatitis, by age", "exists": false}
+{"title": "OWID/Deaths from acute hepatitis, by type", "exists": false}
+{"title": "OWID/Deaths from yellow fever, by age", "exists": false}
+{"title": "OWID/Deaths from diabetes, by age", "exists": false}
+{"title": "OWID/Share of deaths by age group", "exists": false}
+{"title": "OWID/Share of deaths for which the cause is registered", "exists": false}
+{"title": "OWID/death rate from smoking", "exists": true}
+{"title": "OWID/deaths due to unsafe sex", "exists": true}
+{"title": "OWID/Death rate from secondhand smoke", "exists": true}
+{"title": "OWID/Death rate from secondhand smoke gbd", "exists": false}
+{"title": "OWID/incidence of meningitis", "exists": true}
+{"title": "OWID/number of deaths from hivaids who", "exists": true}
+{"title": "OWID/deaths from cancer who", "exists": true}
+{"title": "OWID/Deaths registered with an ill defined cause of death", "exists": true}
+{"title": "OWID/Death rate from communicable vs. non-communicable diseases", "exists": false}
+{"title": "OWID/Death rate from communicable vs. non-communicable diseases", "exists": false}
+{"title": "OWID/autopsy rate", "exists": true}
+{"title": "OWID/Deaths from air pollution, by age", "exists": false}
+{"title": "OWID/Deaths from obesity, by age", "exists": false}
+{"title": "OWID/pneumonia death rates age standardized", "exists": true}
+{"title": "OWID/Death rate from indoor air pollution in 1990 vs. 2023", "exists": false}
+{"title": "OWID/Deaths from diabetes, by type", "exists": false}
+{"title": "OWID/Deaths due to measles", "exists": false}
+{"title": "OWID/share of deaths from opioid overdoses", "exists": true}
+{"title": "OWID/Death rate attributed to household and ambient air pollution", "exists": false}
+{"title": "OWID/Death rate attributed to household air pollution", "exists": false}
+{"title": "OWID/death rate road traffic injuries", "exists": true}
+{"title": "OWID/share of deaths registered", "exists": true}
+{"title": "OWID/Deaths due to obesity", "exists": true}
+{"title": "OWID/Deaths due to low physical activity", "exists": false}
+{"title": "OWID/Deaths due to high blood pressure", "exists": false}
+{"title": "OWID/Deaths due to high blood sugar", "exists": true}
+{"title": "OWID/Deaths from falls", "exists": false}
+{"title": "OWID/Death rate from falls", "exists": false}
+{"title": "OWID/deaths from natural disasters", "exists": true}
+{"title": "OWID/Deaths from fires and burns", "exists": false}
+{"title": "OWID/Death rate from fires and burns", "exists": false}
+{"title": "OWID/Deaths from meningitis", "exists": true}
+{"title": "OWID/Death rate from parkinsons disease", "exists": true}
+{"title": "OWID/Death rate from liver disease", "exists": true}
+{"title": "OWID/Deaths from poisoning", "exists": true}
+{"title": "OWID/Death rate from cardiovascular diseases", "exists": true}
+{"title": "OWID/respiratory disease death rate gbd", "exists": true}
+{"title": "OWID/deaths from liver disease", "exists": true}
+{"title": "OWID/Deaths from alzheimers", "exists": true}
+{"title": "OWID/Deaths from parkinsons disease", "exists": true}
+{"title": "OWID/death rate from road accidents", "exists": true}
+{"title": "OWID/Death rate from meningitis gbd", "exists": true}
+{"title": "OWID/Death rate from liver disease gbd", "exists": true}
+{"title": "OWID/death rate from alzheimers other dementias gbd", "exists": true}
+{"title": "OWID/Death rate from parkinsons disease gbd", "exists": true}
+{"title": "OWID/death rate from poisoning", "exists": true}
+{"title": "OWID/Death rate from poisoning gbd", "exists": true}
+{"title": "OWID/death rate from obesity gbd", "exists": true}
+{"title": "OWID/Death rates from indoor air pollution gbd", "exists": true}
+{"title": "OWID/death rates due to low physical activity", "exists": true}
+{"title": "OWID/Death rates due to low physical activity gbd", "exists": true}
+{"title": "OWID/death rates from high blood pressure", "exists": true}
+{"title": "OWID/death rates from high blood pressure gbd", "exists": true}
+{"title": "OWID/Death rates from high blood sugar", "exists": false}
+{"title": "OWID/Death rates from high blood sugar gbd", "exists": false}
+{"title": "OWID/Infectious disease death rates gbd", "exists": true}
+{"title": "OWID/Deaths from infectious diseases", "exists": true}
+{"title": "OWID/Deaths from pneumonia", "exists": true}
+{"title": "OWID/Deaths from respiratory infections", "exists": true}
+{"title": "OWID/Death rate from respiratory infections gbd", "exists": true}
+{"title": "OWID/Deaths from malnutrition", "exists": true}
+{"title": "OWID/Death rate from strokes", "exists": true}
+{"title": "OWID/Deaths from digestive diseases", "exists": true}
+{"title": "OWID/Deaths from particulate matter pollution", "exists": false}
+{"title": "OWID/incidence of tuberculosis", "exists": true}
+{"title": "OWID/Death rate from pneumonia gbd", "exists": true}
+{"title": "OWID/Deaths from strokes", "exists": true}
+{"title": "OWID/Death rate from digestive diseases", "exists": true}
+{"title": "OWID/death rate from digestive diseases gbd", "exists": true}
+{"title": "OWID/Death rate from ambient particulate air pollution", "exists": false}
+{"title": "OWID/Tuberculosis deaths", "exists": true}
+{"title": "OWID/Number of deaths from stroke", "exists": false}
+{"title": "OWID/death rate from strokes who", "exists": true}
+{"title": "OWID/Death rate from Alzheimer's", "exists": false}
+{"title": "OWID/deaths from parkinsons disease ghe", "exists": true}
+{"title": "OWID/Death rate from Parkinson's disease", "exists": false}
+{"title": "OWID/deaths from malnutrition ghe", "exists": true}
+{"title": "OWID/Death rate from poisoning", "exists": false}
+{"title": "OWID/Death rate from pneumonia", "exists": false}
+{"title": "OWID/death rate from meningitis who", "exists": true}
+{"title": "OWID/Parkinsons prevalence", "exists": true}
+{"title": "OWID/Population whose cause of death is registered", "exists": false}
+{"title": "OWID/Death rate from road accidents for 15 to 49 year olds", "exists": true}
+{"title": "OWID/Death rate from cardiovascular disease for 15 to 49 year olds", "exists": true}
+{"title": "OWID/deaths from cysticercosis", "exists": true}
+{"title": "OWID/Deaths from meningitis, by age", "exists": false}
+{"title": "OWID/Deaths attributed to drug use by age", "exists": false}
+{"title": "OWID/Substance use disorder deaths", "exists": false}
+{"title": "OWID/Amphetamine use disorder death rate", "exists": false}
+{"title": "OWID/death rates cocaine", "exists": true}
+{"title": "OWID/Drug use disorder deaths", "exists": false}
+{"title": "OWID/Deaths due to drug use", "exists": true}
+{"title": "OWID/death rate from diabetes", "exists": true}
+{"title": "OWID/Deaths from respiratory disease", "exists": true}
+{"title": "OWID/death rate from diabetes gbd", "exists": true}
+{"title": "OWID/death rates from drug use", "exists": true}
+{"title": "OWID/Death rates from drug use gbd", "exists": true}
+{"title": "OWID/Death rate from diabetes", "exists": false}
+{"title": "OWID/Deaths from Alzheimer's", "exists": false}
+{"title": "OWID/Drug use disorder deaths", "exists": false}
+{"title": "OWID/death rate amphetamine who", "exists": true}
+{"title": "OWID/death rates cocaine who", "exists": true}
+{"title": "OWID/Opioid use disorder death rate", "exists": false}
+{"title": "OWID/Drug use disorder deaths by age", "exists": false}
+{"title": "OWID/Substance use disorder deaths", "exists": false}
+{"title": "OWID/Opioid use disorder death rate by age", "exists": false}
+{"title": "OWID/Cocaine use disorder death rate by age", "exists": false}
+{"title": "OWID/Drug use disorder deaths by sex", "exists": false}
+{"title": "OWID/Cocaine use disorder deaths by sex", "exists": false}
+{"title": "OWID/Amphetamine use disorder deaths by sex", "exists": false}
+{"title": "OWID/Opioid use disorder deaths by sex", "exists": false}
+{"title": "OWID/Death rate by cause", "exists": false}
+{"title": "OWID/Countries adopting the International Classification of Diseases guidelines", "exists": false}
+{"title": "OWID/icd code version used to classify causes of death", "exists": true}
+{"title": "OWID/Annual number of deaths: reported versus estimated", "exists": false}
+{"title": "OWID/Cancer death rate by age group", "exists": false}
+{"title": "OWID/Respiratory infections death rate by age group", "exists": false}
+{"title": "OWID/cancer death rate who mdb", "exists": true}
+{"title": "OWID/infectious and parasitic diseases death rate who mdb", "exists": true}
+{"title": "OWID/respiratory infection death rate who mdb", "exists": true}
+{"title": "OWID/Unintentional injuries death rate by age group", "exists": false}
+{"title": "OWID/Share of deaths from major causes", "exists": false}
+{"title": "OWID/Death rate from maternal disorders", "exists": true}
+{"title": "OWID/death rate from maternal disorders ihme", "exists": true}
+{"title": "OWID/suicide rate who mdb", "exists": true}
+{"title": "OWID/Number of new cases and deaths from cervical cancer", "exists": false}
+{"title": "OWID/number of deaths from cervical cancer", "exists": true}
+{"title": "OWID/Share of deaths from each major cause", "exists": false}
+{"title": "OWID/Death rate from cardiovascular diseases by age group", "exists": false}
+{"title": "OWID/hypertension adults 30 79", "exists": true}
+{"title": "OWID/Cardiovascular disease death rate who mdb", "exists": true}
+{"title": "OWID/Death rates from different causes in France over the 20th century", "exists": false}
+{"title": "OWID/Hepatitis b number of deaths", "exists": true}
+{"title": "OWID/hepatitis c number of deaths", "exists": true}
+{"title": "OWID/dengue fever deaths", "exists": true}
+{"title": "OWID/leading cause of death", "exists": true}
+{"title": "OWID/Causes of death, by income group", "exists": false}
+{"title": "OWID/reported rabies deaths", "exists": true}
+{"title": "OWID/Share of deaths from underlying causes", "exists": false}
+{"title": "OWID/Chronic respiratory diseases death rate who mdb", "exists": true}
+{"title": "OWID/Death rate from digestive diseases who mdb", "exists": true}
+{"title": "OWID/tuberculosis death rate", "exists": true}
+{"title": "OWID/tuberculosis deaths. WHO", "exists": true}
+{"title": "OWID/Share of deaths from all causes attributed to cold or heat", "exists": false}

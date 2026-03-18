@@ -50,4 +50,4 @@ def get_list(tags_names, category) -> list[str]:
 
     print(f"get_list: result {len(list_titles)}")
 
-    return list_titles
+    return [x.strip() for x in list_titles]

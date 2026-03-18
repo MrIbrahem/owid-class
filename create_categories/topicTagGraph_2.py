@@ -149,4 +149,7 @@ for n, (category, v) in enumerate(to_create.items(), start=1):
 
     create_category(category_name, text)
 
+    if "noadd" in sys.argv:
+        continue
+
     add_category_to_pages(category_name, titles_exists)
