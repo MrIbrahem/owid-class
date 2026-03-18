@@ -1,17 +1,13 @@
 
-
-import functools
-import sys
-import os
 import json
-import mwclient
 from tqdm import tqdm
 from pathlib import Path
-from dotenv import load_dotenv
 
 from chart_tags_2 import get_list
+from api_client import add_category_to_pages, create_category, get_global_saves
 
-load_dotenv()
+not_exists_pages = []
+exists_pages = []
 
 main_dir = Path(__file__).parent
 file_path = main_dir / "topicTagGraph_2.json"
@@ -24,64 +20,10 @@ ids_slug_data = json.loads(ids_slug_path.read_text(encoding="utf-8"))
 to_save = {}
 
 
-@functools.lru_cache(maxsize=1)
-def initialize_site_connection(username, password):
-    site_mw = mwclient.Site('commons.wikimedia.org')
-    print(f"loging in as {username}")
-
-    site_mw.login(username, password)
-    if site_mw.logged_in:
-        print("Logged in successfully")
-    else:
-        print("Failed to log in")
-    return site_mw
-
-
-class page_mwclient:
-    def __init__(self, title: str):
-        self.title = title
-        self.username = os.environ.get("WIKI_USERNAME")
-        self.password = os.environ.get("WIKI_PASSWORD")
-
-        self.site_mw = initialize_site_connection(self.username, self.password)
-
-        self.page = self.site_mw.pages[title]
-
-    def get_text(self):
-        return self.page.text()
-
-    def exists(self):
-        return self.page.exists
-
-    def ask(self, summary):
-        if "ask" in sys.argv:
-            ask = input(f"Do you want to save the changes? (y/n): {summary=}")
-            yess = ["", "y", "a"]
-            if ask not in yess:
-                return False
-        return True
-
-    def save(self, newtext: str, summary: str):
-        if not self.ask(summary):
-            return False
-
-        result = self.page.save(newtext, summary=summary)
-        print(f"Saved page {self.title} with result: {result}")
-        return result
-
-    def create(self, newtext: str, summary: str):
-        if not self.ask(summary):
-            return False
-
-        result = self.page.save(newtext, summary=summary)
-        print(f"Created page {self.title} with result: {result}")
-        return result
-
-
 def create_category_text(main_categories, category_name, sub_categories) -> str:
     text = []
 
-    main_category_text = creta_main_category_text(main_categories)
+    main_category_text = create_main_category_text(main_categories)
 
     category_title = category_name.replace("Category:Our World in Data - ", "")
     text.append(f"[[:Category:Our World in Data topics|Our World in Data topics]] > {main_category_text} > [[:{category_name}|{category_title}]]:")
@@ -98,7 +40,7 @@ def create_category_text(main_categories, category_name, sub_categories) -> str:
     return "\n".join(text)
 
 
-def creta_main_category_text(main_categories) -> str:
+def create_main_category_text(main_categories) -> str:
     list_cats = []
 
     for main_category in main_categories:
@@ -136,32 +78,14 @@ for x, v in tqdm(data_list.items()):
         if x not in to_create[category]["main"]:
             to_create[category]["main"].append(x)
 
-
-def add_category_to_pages(category_name, titles):
-    category_page = page_mwclient(category_name)
-    if not category_page.exists():
-        print(f"Category {category_name} does not exist")
-        return
-
-    for x in tqdm(titles):
-        page = page_mwclient(x)
-        if page.exists():
-            page_text = page.get_text()
-            if category_name in page_text:
-                print(f"category {category_name} already in page {x}")
-                return
-
-            text = page_text + f"\n[[{category_name}]]"
-            page.save(text, f"Adding [[{category_name}]]")
-            print(f"save page: {x} success.")
-            return
-
-
 with open(main_dir / "to_create.json", "w", encoding="utf-8") as f:
     json.dump(to_create, f, indent=4, ensure_ascii=False)
 
 for n, (category, v) in enumerate(to_create.items(), start=1):
     print(f"{n}/{len(to_create)}: {category=}")
+
+    if get_global_saves() == 10:
+        break
 
     sub_categories = v["sub_categories"]
     main_categories = v["main"]
@@ -173,14 +97,8 @@ for n, (category, v) in enumerate(to_create.items(), start=1):
 
     to_save[category_name] = text
 
-    page = page_mwclient(category_name)
+    create_category(category_name, text)
 
-    if page.exists():
-        print(f"Category [[{category_name}]] exists")
-        page.save(text, "Updating category")
-    else:
-        print(f"Creating Category {category_name}")
-        page.create(text, "Creating category")
-    # ---
     titles = get_list(list(sub_categories))
+
     add_category_to_pages(category_name, titles)
