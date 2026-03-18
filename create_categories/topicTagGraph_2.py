@@ -142,7 +142,12 @@ def add_category_to_pages(category_name, titles):
     for x in tqdm(titles):
         page = page_mwclient(x)
         if page.exists():
-            text = page.get_text() + f"\n[[{category_name}]]"
+            page_text = page.get_text()
+            if category_name in page_text:
+                print(f"category {category_name} already in page {x}")
+                return
+
+            text = page_text + f"\n[[{category_name}]]"
             page.save(text, f"Adding [[{category_name}]]")
             print(f"save page: {x} success.")
             return
