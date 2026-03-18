@@ -96,6 +96,11 @@ def fltten_keys(d)-> list[str]:
     return data
 
 
+simplified_data2_fletten_new = {
+    # x: fltten_keys(v) for x, v in simplified_data2.items()
+    x: list(v.keys()) for x, v in simplified_data2.items()
+}
+
 simplified_data2_fletten = {
     x: fltten_keys(v) for x, v in simplified_data2.items()
 }
@@ -104,9 +109,12 @@ simplified_data2_fletten_reverced = {}
 
 for x, v in simplified_data2_fletten.items():
     for y in v:
+        xx = f"Category:Our World in Data - {x}"
         if y not in simplified_data2_fletten_reverced:
             simplified_data2_fletten_reverced[y] = []
-        simplified_data2_fletten_reverced[y].append(x)
+        simplified_data2_fletten_reverced[y].append(xx)
+        # ---
+        simplified_data2_fletten_reverced[y] = list(set(simplified_data2_fletten_reverced[y]))
 
 simplified_data_id = simplify_node_id(data)
 
@@ -131,6 +139,10 @@ print("Generated topicTagGraph_id.json successfully!")
 # Write the new simplified JSON file
 with open(main_dir / "simplified_data2_fletten.json", "w", encoding="utf-8") as f:
     json.dump(simplified_data2_fletten, f, indent=4, ensure_ascii=False)
+
+# Write the new simplified JSON file
+with open(main_dir / "simplified_data2_fletten_new.json", "w", encoding="utf-8") as f:
+    json.dump(simplified_data2_fletten_new, f, indent=4, ensure_ascii=False)
 
 # Write the new simplified JSON file
 with open(main_dir / "simplified_data2_fletten_reverced.json", "w", encoding="utf-8") as f:

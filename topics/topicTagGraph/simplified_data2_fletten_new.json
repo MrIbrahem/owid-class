@@ -1,0 +1,76 @@
+{
+    "Population and Demographic Change": [
+        "Population Change",
+        "Births & Deaths",
+        "Geography of the World Population"
+    ],
+    "Health": [
+        "Life & Death",
+        "Health Risks",
+        "Infectious Diseases",
+        "Health Institutions & Interventions",
+        "Sexual & Reproductive Health"
+    ],
+    "Energy and Environment": [
+        "Climate & Air",
+        "Energy Systems",
+        "Environment & Ecosystems",
+        "Waste & Pollution",
+        "Clean Water & Sanitation",
+        "Electricity"
+    ],
+    "Food and Agriculture": [
+        "Food Production",
+        "Agricultural Inputs",
+        "Nutrition",
+        "Bioenergy and Biofuels"
+    ],
+    "Poverty and Economic Development": [
+        "Poverty & Prosperity",
+        "Public Sector",
+        "Work & Employment",
+        "Global Connections",
+        "Clean Water & Sanitation"
+    ],
+    "Education and Knowledge": [
+        "Education",
+        "Knowledge"
+    ],
+    "Innovation and Technological Change": [
+        "Technological Change",
+        "Research & Development",
+        "Artificial Intelligence",
+        "Internet",
+        "Space Exploration & Satellites",
+        "Transport",
+        "Medicine & Biotechnology"
+    ],
+    "Living Conditions, Community and Wellbeing": [
+        "Housing & Infrastructure",
+        "Time Use",
+        "Relationships",
+        "Happiness & Wellbeing",
+        "Religion"
+    ],
+    "Human Rights and Democracy": [
+        "Human Rights",
+        "Democracy",
+        "State Capacity",
+        "Women's Rights",
+        "LGBT+ Rights",
+        "Corruption",
+        "Economic Inequality by Gender",
+        "Child Labor",
+        "Violence Against Children & Children's Rights",
+        "Crime"
+    ],
+    "Violence and War": [
+        "War & Peace",
+        "Nuclear Weapons",
+        "Homicides",
+        "Terrorism",
+        "State Capacity",
+        "Military Personnel & Spending",
+        "Violence Against Children & Children's Rights"
+    ]
+}
