@@ -1,4 +1,5 @@
 
+from collections import defaultdict
 import json
 import sys
 from tqdm import tqdm
@@ -110,18 +111,21 @@ for x, v in tqdm(data_list.items()):
         if x not in to_create[category]["main"]:
             to_create[category]["main"].append(x)
 
-slug_data_cats = {}
+slug_data_cats = defaultdict(list)
 for x, v in to_create.copy().items():
     to_create[x]["sub_categories"] = {x: hh for x, hh in v["sub_categories"].items() if x not in to_create}
+    category_name = v["category_name"]
 
-    slug_data_cats[category] = category_name
+    slug_data_cats[x].append(category_name)
     for x, v in to_create[x]["sub_categories"].items():
-        slug_data_cats[x] = category_name
+        slug_data_cats[x].append(category_name)
         for z in v:
-            slug_data_cats[z] = category_name
+            slug_data_cats[z].append(category_name)
 
 with open(main_dir / "to_create.json", "w", encoding="utf-8") as f:
     json.dump(to_create, f, indent=4, ensure_ascii=False)
+
+slug_data_cats = {x : list(set(v)) for x, v in slug_data_cats.items()}
 
 with open(main_dir / "slug_data_cats.json", "w", encoding="utf-8") as f:
     json.dump(slug_data_cats, f, indent=4, ensure_ascii=False)
