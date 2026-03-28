@@ -7,6 +7,8 @@ https://datasette-public.owid.io/owid/charts
 https://api.ourworldindata.org/v1/indicators/930012.metadata.json
 https://api.ourworldindata.org/v1/indicators/930012.data.json
 https://colab.research.google.com/drive/1f84soyHqXfcjcsJ-rxM2-SLdOn5ym3Oe#scrollTo=nFJ7jbHQKpSr
+https://docs.google.com/spreadsheets/d/1kpDYSzJkWUv5Y8GwTcwoGxfZP5MlBoAOmWimtBcrgZ8/edit?gid=1750308480#gid=1750308480
+
 """
 
 import functools
